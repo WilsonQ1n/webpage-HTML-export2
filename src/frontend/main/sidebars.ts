@@ -7,7 +7,7 @@ export class Sidebar
 	public containerEl: HTMLElement;
 	public contentEl: HTMLElement;
 	public topbarEl: HTMLElement;
-	public collapseEl: HTMLElement;
+	public collapseEl: HTMLElement | undefined;
 	public topbarContentEl: HTMLElement;
 	public resizeHandleEl: HTMLElement | undefined;
 	
@@ -98,13 +98,25 @@ export class Sidebar
 		this.containerEl = container;
 		this.contentEl = container.querySelector(".leaf-content") as HTMLElement;
 		this.topbarEl = container.querySelector(".sidebar-topbar") as HTMLElement;
-		this.collapseEl = container.querySelector(".sidebar-collapse-icon") as HTMLElement;
+		this.collapseEl =
+			(document.querySelector(
+				container.id == "left-sidebar" ? "#left-sidebar-toggle-button" : "#right-sidebar-toggle-button"
+			) as HTMLElement | null) ??
+			(container.querySelector(".sidebar-collapse-icon") as HTMLElement | null) ??
+			(document.querySelector(
+				`.global-topbar-sidebar-toggle[data-sidebar="${container.id}"]`
+			) as HTMLElement | null) ??
+			undefined;
 		this.topbarContentEl = container.querySelector(".topbar-content") as HTMLElement;
 		this.resizeHandleEl = container.querySelector(".sidebar-handle") as HTMLElement ?? undefined;
 		this._isLeft = container.id == "left-sidebar";
 		this._sidebarID = container.id;
 
-		this.collapseEl.addEventListener("click", () =>
+		if (!this.collapseEl) {
+			this.collapseEl = this.createGlobalSidebarToggle();
+		}
+
+		this.collapseEl?.addEventListener("click", () =>
 		{
 			this.collapsed = !this.collapsed;
 		});
@@ -116,6 +128,25 @@ export class Sidebar
 		this.collapseWidth = this.minResizeWidth / 4.0;
 
 		this.setupSidebarResize();
+	}
+
+	private createGlobalSidebarToggle(): HTMLElement | undefined
+	{
+		const navbarZoneSelector = this.isLeft
+			? "#navbar .navbar-zone-left"
+			: "#navbar .navbar-zone-right";
+		const navbarZone = document.querySelector(navbarZoneSelector) as HTMLElement | null;
+		if (!navbarZone) return undefined;
+
+		const toggle = document.createElement("div");
+		toggle.className = `clickable-icon sidebar-collapse-icon global-topbar-sidebar-toggle ${this.isLeft ? "sidebar-toggle-left" : "sidebar-toggle-right"}`;
+		toggle.id = this.isLeft ? "left-sidebar-toggle-button" : "right-sidebar-toggle-button";
+		toggle.setAttribute("data-sidebar", this.containerEl.id);
+		toggle.setAttribute("aria-label", this.isLeft ? "Toggle left sidebar" : "Toggle right sidebar");
+		toggle.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-toggle-button-icon"><rect x="1" y="2" width="22" height="20" rx="4"></rect><rect x="4" y="5" width="2" height="14" rx="2" fill="currentColor" class="sidebar-toggle-icon-inner"></rect></svg>`;
+
+		navbarZone.appendChild(toggle);
+		return toggle;
 	}
 
 	private setupSidebarResize()
@@ -179,7 +210,13 @@ export class Sidebar
 	private clickOutsideCollapse(event: MouseEvent)
 	{
 		// If the click target is inside this specific sidebar, do nothing.
-		if ((event.target as HTMLElement)?.closest(`#${this.containerEl.id}`)) {
+		const target = event.target as HTMLElement | null;
+		if (target?.closest(`#${this.containerEl.id}`)) {
+			return;
+		}
+
+		// Keep sidebar open when the user clicks this sidebar's topbar toggle button.
+		if (target?.closest(`.global-topbar-sidebar-toggle[data-sidebar="${this.containerEl.id}"]`)) {
 			return;
 		}
 

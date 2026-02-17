@@ -48,14 +48,22 @@ export class WebpageTemplate
 
 		const main = body.createDiv({attr: {id: "main"}});
 		const navbar = main.createDiv({ attr: { id: "navbar" } });
+			const navbarLeft = navbar.createDiv({ attr: { class: "navbar-zone navbar-zone-left" } });
+				const leftTopbarContent = navbarLeft.createDiv({attr: {id: "global-topbar-left-content", class: "topbar-content"}});
+				const leftCollapseIcon = navbarLeft.createDiv({attr: {id: "left-sidebar-toggle-button", class: "clickable-icon sidebar-collapse-icon global-topbar-sidebar-toggle sidebar-toggle-left", "data-sidebar": "left-sidebar", "aria-label": "Toggle left sidebar"}});
+					leftCollapseIcon.innerHTML = collapseSidebarIcon;
+			const navbarCenter = navbar.createDiv({ attr: { class: "navbar-zone navbar-zone-center" } });
+				navbarCenter.createDiv({ attr: { id: "global-topbar-title" } });
+			const navbarRight = navbar.createDiv({ attr: { class: "navbar-zone navbar-zone-right" } });
+				const rightTopbarContent = navbarRight.createDiv({attr: {id: "global-topbar-right-content", class: "topbar-content"}});
+				const rightCollapseIcon = navbarRight.createDiv({attr: {id: "right-sidebar-toggle-button", class: "clickable-icon sidebar-collapse-icon global-topbar-sidebar-toggle sidebar-toggle-right", "data-sidebar": "right-sidebar", "aria-label": "Toggle right sidebar"}});
+					rightCollapseIcon.innerHTML = collapseSidebarIcon;
 		const mainHorizontal = main.createDiv({ attr: { id: "main-horizontal" } });
 			const leftContent = mainHorizontal.createDiv({attr: {id: "left-content", class: "leaf"}});
 				const leftSidebar = leftContent.createDiv({attr: {id: "left-sidebar", class: "sidebar"}});
 					const leftSidebarHandle = leftSidebar.createDiv({attr: {class: "sidebar-handle"}});
 					const leftTopbar = leftSidebar.createDiv({attr: {class: "sidebar-topbar"}});
-						const leftTopbarContent = leftTopbar.createDiv({attr: {class: "topbar-content"}});
-						const leftCollapseIcon = leftTopbar.createDiv({attr: {class: "clickable-icon sidebar-collapse-icon"}});
-							leftCollapseIcon.innerHTML = collapseSidebarIcon;
+						leftTopbar.createDiv({attr: {class: "topbar-content"}});
 					const leftSidebarContentWrapper = leftSidebar.createDiv({attr: {class: "sidebar-content-wrapper"}});
 						const leftSidebarContent = leftSidebarContentWrapper.createDiv({attr: {id: "left-sidebar-content", class: "leaf-content"}});
 			const centerContent = mainHorizontal.createDiv({attr: {id: "center-content", class: "leaf"}});
@@ -63,9 +71,7 @@ export class WebpageTemplate
 				const rightSidebar = rightContent.createDiv({attr: {id: "right-sidebar", class: "sidebar"}});
 					const rightSidebarHandle = rightSidebar.createDiv({attr: {class: "sidebar-handle"}});
 					const rightTopbar = rightSidebar.createDiv({attr: {class: "sidebar-topbar"}});
-						const rightTopbarContent = rightTopbar.createDiv({attr: {class: "topbar-content"}});
-						const rightCollapseIcon = rightTopbar.createDiv({attr: {class: "clickable-icon sidebar-collapse-icon"}});
-							rightCollapseIcon.innerHTML = collapseSidebarIcon;
+						rightTopbar.createDiv({attr: {class: "topbar-content"}});
 					const rightSidebarContentWrapper = rightSidebar.createDiv({attr: {class: "sidebar-content-wrapper"}});
 						const rightSidebarContent = rightSidebarContentWrapper.createDiv({attr: {id: "right-sidebar-content", class: "leaf-content"}});
 

@@ -10,7 +10,7 @@ export class ThemeToggleOptions extends InsertedFeatureOptionsWithTitle {
 		this.featureId = "theme-toggle";
 		this.displayTitle = "";
 		this.featurePlacement = new FeatureRelation(
-			"#right-sidebar .topbar-content",
+			"#global-topbar-right-content",
 			RelationType.Start
 		);
 	}

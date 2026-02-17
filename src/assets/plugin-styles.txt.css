@@ -49,9 +49,12 @@ a.tree-item-self.is-clickable {
 	display: none;
 }
 
-#outline .tree-item[data-depth="1"]>.tree-item-self {
-	font-weight: 900;
-	font-size: 1.05em;
+#outline .feature-title,
+#outline .tree-item .tree-item-self,
+#outline .tree-item .tree-item-inner,
+#outline .tree-hint-label {
+	font-weight: var(--font-normal);
+	font-size: var(--font-text-size) !important;
 }
 
 .tree-item:not(.mod-collapsible)>.tree-item-self

@@ -46,6 +46,7 @@ export class ObsidianWebsite {
 	public horizontalLayout: HTMLElement;
 	public centerContentEl: HTMLElement;
 	public loadingEl: HTMLElement;
+	public topbarTitleEl: HTMLElement | null = null;
 
 	public isLoaded: boolean = false;
 	public isHttp: boolean = window.location.protocol != "file:";
@@ -106,6 +107,7 @@ export class ObsidianWebsite {
 		this.centerContentEl = document.querySelector(
 			"#center-content"
 		) as HTMLElement;
+		this.topbarTitleEl = document.querySelector("#global-topbar-title");
 
 		const fileTreeEl = document.querySelector(
 			"#file-explorer"
@@ -137,6 +139,7 @@ export class ObsidianWebsite {
 		this.document = await new ObsidianDocument(pathname);
 		await this.document.loadChildDocuments();
 		await this.document.postLoadInit();
+		this.updateTopbarTitle(this.document.title);
 
 		if (
 			!ObsidianSite.metadata.ignoreMetadata &&
@@ -295,6 +298,12 @@ export class ObsidianWebsite {
 		meta.setAttribute('content', content);
 	}
 
+	private updateTopbarTitle(title: string) {
+		if (!this.topbarTitleEl) return;
+		this.topbarTitleEl.textContent = title;
+		this.topbarTitleEl.setAttribute("title", title);
+	}
+
 	public async loadURL(url: string, pushState: boolean = true): Promise<ObsidianDocument | undefined> {
 		const header = LinkHandler.getHashFromURL(url);
 		const query = LinkHandler.getQueryFromURL(url);
@@ -333,6 +342,7 @@ export class ObsidianWebsite {
 
 		// Update meta tags
 		document.title = page.title;
+		this.updateTopbarTitle(page.title);
 		this.updateMetaTag("pathname", page.pathname);
 		this.updateMetaTag("description", page.info?.description || "");
 		this.updateMetaTag("author", page.info?.author || "");
