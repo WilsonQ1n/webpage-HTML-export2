@@ -26,6 +26,8 @@ export class WebpageTemplate
 		this.doc = document.implementation.createHTMLDocument();
 
 		const collapseSidebarIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-toggle-button-icon"><rect x="1" y="2" width="22" height="20" rx="4"></rect><rect x="4" y="5" width="2" height="14" rx="2" fill="currentColor" class="sidebar-toggle-icon-inner"></rect></svg>`;
+		const homeIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon topbar-home-button-icon"><path d="M3 10.5 12 3l9 7.5"></path><path d="M5 9.5V21h14V9.5"></path><path d="M9.5 21v-6h5v6"></path></svg>`;
+		const homePagePath = (this.options.homePagePath ?? "").trim().replace(/\\/g, "/");
 		
 		const head = this.doc.head;
 		head.innerHTML = `<meta charset="UTF-8">` + head.innerHTML;
@@ -56,6 +58,11 @@ export class WebpageTemplate
 				navbarCenter.createDiv({ attr: { id: "global-topbar-title" } });
 			const navbarRight = navbar.createDiv({ attr: { class: "navbar-zone navbar-zone-right" } });
 				const rightTopbarContent = navbarRight.createDiv({attr: {id: "global-topbar-right-content", class: "topbar-content"}});
+				if (homePagePath != "")
+				{
+					const homeLink = navbarRight.createEl("a", {attr: {id: "global-topbar-home-link", href: homePagePath, title: homePagePath, "aria-label": "Go to home page"}, cls: "clickable-icon global-topbar-home-link"});
+					homeLink.innerHTML = homeIcon;
+				}
 				const rightCollapseIcon = navbarRight.createDiv({attr: {id: "right-sidebar-toggle-button", class: "clickable-icon sidebar-collapse-icon global-topbar-sidebar-toggle sidebar-toggle-right", "data-sidebar": "right-sidebar", "aria-label": "Toggle right sidebar"}});
 					rightCollapseIcon.innerHTML = collapseSidebarIcon;
 		const mainHorizontal = main.createDiv({ attr: { id: "main-horizontal" } });

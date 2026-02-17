@@ -194,6 +194,10 @@ export interface i18n
 			title: string;
 			description: string;
 		},
+		homePagePath: {
+			title: string;
+			description: string;
+		},
 		iconEmojiStyle: {
 			title: string;
 			description: string;

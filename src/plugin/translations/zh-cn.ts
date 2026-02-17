@@ -189,6 +189,10 @@ export const language: i18n =
 			title: "站点名称",
 			description: "库/导出站点的名称",
 		},
+		homePagePath: {
+			title: "主页路径",
+			description: "点击顶部主页图标后跳转到的 URL 或路径",
+		},
 		iconEmojiStyle: {
 			title: "图标表情符号样式",
 			description: "用于自定义图标的表情符号样式",

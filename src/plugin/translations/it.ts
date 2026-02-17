@@ -183,6 +183,10 @@ export const language: i18n =
 			title: "Nome del Sito",
 			description: "Il nome del vault / sito esportato",
 		},
+		homePagePath: {
+			title: "Percorso Home",
+			description: "URL o percorso aperto dall'icona home nella barra superiore",
+		},
 		iconEmojiStyle: {
 			title: "Stile emoji per le icone",
 			description: "Lo stile di emoji da utilizzare per le icone personalizzate",

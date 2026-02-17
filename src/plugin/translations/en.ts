@@ -190,6 +190,10 @@ export const language: i18n =
 			title: "Site Name",
 			description: "The name of the vault / exported site",
 		},
+		homePagePath: {
+			title: "Home Page Path",
+			description: "The URL or path opened by the home icon in the top bar",
+		},
 		iconEmojiStyle: {
 			title: "Icon emoji style",
 			description: "The style of emoji to use for custom icons",

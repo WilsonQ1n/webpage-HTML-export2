@@ -190,6 +190,11 @@ export class ExportPipelineOptions extends MarkdownRendererOptions
 	siteName: string = app?.vault?.getName() ?? '';
 
 	/**
+	 * The target path or URL to open when clicking the home button in the topbar.
+	 */
+	homePagePath: string = '';
+
+	/**
 	 * The style of emoji to use for custom icons.
 	 */
 	iconEmojiStyle: EmojiStyle = EmojiStyle.Native;
@@ -239,5 +244,4 @@ export class ExportPipelineOptions extends MarkdownRendererOptions
 		}
 	}
 }
-
 

@@ -223,6 +223,11 @@ export class SettingsPage extends PluginSettingTab
 			(value) => Settings.exportOptions.siteName = value,
 			lang.siteName.description);
 
+		createText(section, lang.homePagePath.title,
+			() => Settings.exportOptions.homePagePath,
+			(value) => Settings.exportOptions.homePagePath = value,
+			lang.homePagePath.description);
+
 		// #endregion
 
 		//#region Style Settings

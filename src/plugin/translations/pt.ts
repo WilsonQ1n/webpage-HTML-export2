@@ -189,6 +189,10 @@ export const language: i18n =
 			title: "Nome do Site",
 			description: "Nome do cofre / site exportado",
 		},
+		homePagePath: {
+			title: "Caminho da Home",
+			description: "URL ou caminho aberto pelo ícone de home na barra superior",
+		},
 		iconEmojiStyle: {
 			title: "Estilo de Emoji para Ícones",
 			description: "Estilo de emoji usado para ícones personalizados",

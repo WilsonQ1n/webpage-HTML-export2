@@ -188,6 +188,10 @@ export const language: i18n =
 			title: "Назва сайту",
 			description: "Назва сховища / експортованого сайту",
 		},
+		homePagePath: {
+			title: "Home path",
+			description: "URL or path opened by the home icon in the top bar",
+		},
 		iconEmojiStyle: {
 			title: "Стиль іконок-емодзі",
 			description: "Стиль емодзі для використання у користувацьких іконках",

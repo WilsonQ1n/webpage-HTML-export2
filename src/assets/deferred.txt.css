@@ -224,6 +224,7 @@ body
 	right: 0;
 	height: var(--global-topbar-height);
 	padding: var(--global-topbar-padding-y) calc(var(--sidebar-margin) + 2.1em);
+	padding-right: calc(var(--sidebar-margin) + 4.4em);
 	z-index: 30;
 	background-color: var(--global-topbar-background);
 	border-bottom: 1px solid var(--global-topbar-border-color);
@@ -279,6 +280,31 @@ body
 
 #global-topbar-left-content #search-container {
 	width: 100%;
+}
+
+#navbar .global-topbar-home-link {
+	position: absolute;
+	top: 50%;
+	right: calc(var(--sidebar-margin) + 2.3em);
+	transform: translateY(-50%);
+	width: 1.8em !important;
+	height: 1.8em !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	text-decoration: none;
+	color: var(--icon-color-focused);
+	overflow: visible;
+	line-height: 0;
+}
+
+#navbar .global-topbar-home-link svg.svg-icon {
+	width: 100%;
+	height: 100%;
+	stroke-width: 2.35;
+	transform: scale(1.18);
+	transform-origin: center;
 }
 
 #navbar .clickable-icon.sidebar-collapse-icon {
