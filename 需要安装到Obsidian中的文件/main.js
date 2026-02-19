@@ -48,9 +48,9 @@ var __toBinary = /* @__PURE__ */ (() => {
   };
 })();
 
-// node_modules/upath/build/code/upath.js
+// ../node_modules/upath/build/code/upath.js
 var require_upath = __commonJS({
-  "node_modules/upath/build/code/upath.js"(exports) {
+  "../node_modules/upath/build/code/upath.js"(exports) {
     var VERSION = "2.0.1";
     var extraFn;
     var extraFunctions;
@@ -230,9 +230,9 @@ var require_upath = __commonJS({
   }
 });
 
-// node_modules/mime/Mime.js
+// ../node_modules/mime/Mime.js
 var require_Mime = __commonJS({
-  "node_modules/mime/Mime.js"(exports, module2) {
+  "../node_modules/mime/Mime.js"(exports, module2) {
     "use strict";
     function Mime() {
       this._types = /* @__PURE__ */ Object.create(null);
@@ -282,32 +282,32 @@ var require_Mime = __commonJS({
   }
 });
 
-// node_modules/mime/types/standard.js
+// ../node_modules/mime/types/standard.js
 var require_standard = __commonJS({
-  "node_modules/mime/types/standard.js"(exports, module2) {
+  "../node_modules/mime/types/standard.js"(exports, module2) {
     module2.exports = { "application/andrew-inset": ["ez"], "application/applixware": ["aw"], "application/atom+xml": ["atom"], "application/atomcat+xml": ["atomcat"], "application/atomdeleted+xml": ["atomdeleted"], "application/atomsvc+xml": ["atomsvc"], "application/atsc-dwd+xml": ["dwd"], "application/atsc-held+xml": ["held"], "application/atsc-rsat+xml": ["rsat"], "application/bdoc": ["bdoc"], "application/calendar+xml": ["xcs"], "application/ccxml+xml": ["ccxml"], "application/cdfx+xml": ["cdfx"], "application/cdmi-capability": ["cdmia"], "application/cdmi-container": ["cdmic"], "application/cdmi-domain": ["cdmid"], "application/cdmi-object": ["cdmio"], "application/cdmi-queue": ["cdmiq"], "application/cu-seeme": ["cu"], "application/dash+xml": ["mpd"], "application/davmount+xml": ["davmount"], "application/docbook+xml": ["dbk"], "application/dssc+der": ["dssc"], "application/dssc+xml": ["xdssc"], "application/ecmascript": ["es", "ecma"], "application/emma+xml": ["emma"], "application/emotionml+xml": ["emotionml"], "application/epub+zip": ["epub"], "application/exi": ["exi"], "application/express": ["exp"], "application/fdt+xml": ["fdt"], "application/font-tdpfr": ["pfr"], "application/geo+json": ["geojson"], "application/gml+xml": ["gml"], "application/gpx+xml": ["gpx"], "application/gxf": ["gxf"], "application/gzip": ["gz"], "application/hjson": ["hjson"], "application/hyperstudio": ["stk"], "application/inkml+xml": ["ink", "inkml"], "application/ipfix": ["ipfix"], "application/its+xml": ["its"], "application/java-archive": ["jar", "war", "ear"], "application/java-serialized-object": ["ser"], "application/java-vm": ["class"], "application/javascript": ["js", "mjs"], "application/json": ["json", "map"], "application/json5": ["json5"], "application/jsonml+json": ["jsonml"], "application/ld+json": ["jsonld"], "application/lgr+xml": ["lgr"], "application/lost+xml": ["lostxml"], "application/mac-binhex40": ["hqx"], "application/mac-compactpro": ["cpt"], "application/mads+xml": ["mads"], "application/manifest+json": ["webmanifest"], "application/marc": ["mrc"], "application/marcxml+xml": ["mrcx"], "application/mathematica": ["ma", "nb", "mb"], "application/mathml+xml": ["mathml"], "application/mbox": ["mbox"], "application/mediaservercontrol+xml": ["mscml"], "application/metalink+xml": ["metalink"], "application/metalink4+xml": ["meta4"], "application/mets+xml": ["mets"], "application/mmt-aei+xml": ["maei"], "application/mmt-usd+xml": ["musd"], "application/mods+xml": ["mods"], "application/mp21": ["m21", "mp21"], "application/mp4": ["mp4s", "m4p"], "application/msword": ["doc", "dot"], "application/mxf": ["mxf"], "application/n-quads": ["nq"], "application/n-triples": ["nt"], "application/node": ["cjs"], "application/octet-stream": ["bin", "dms", "lrf", "mar", "so", "dist", "distz", "pkg", "bpk", "dump", "elc", "deploy", "exe", "dll", "deb", "dmg", "iso", "img", "msi", "msp", "msm", "buffer"], "application/oda": ["oda"], "application/oebps-package+xml": ["opf"], "application/ogg": ["ogx"], "application/omdoc+xml": ["omdoc"], "application/onenote": ["onetoc", "onetoc2", "onetmp", "onepkg"], "application/oxps": ["oxps"], "application/p2p-overlay+xml": ["relo"], "application/patch-ops-error+xml": ["xer"], "application/pdf": ["pdf"], "application/pgp-encrypted": ["pgp"], "application/pgp-signature": ["asc", "sig"], "application/pics-rules": ["prf"], "application/pkcs10": ["p10"], "application/pkcs7-mime": ["p7m", "p7c"], "application/pkcs7-signature": ["p7s"], "application/pkcs8": ["p8"], "application/pkix-attr-cert": ["ac"], "application/pkix-cert": ["cer"], "application/pkix-crl": ["crl"], "application/pkix-pkipath": ["pkipath"], "application/pkixcmp": ["pki"], "application/pls+xml": ["pls"], "application/postscript": ["ai", "eps", "ps"], "application/provenance+xml": ["provx"], "application/pskc+xml": ["pskcxml"], "application/raml+yaml": ["raml"], "application/rdf+xml": ["rdf", "owl"], "application/reginfo+xml": ["rif"], "application/relax-ng-compact-syntax": ["rnc"], "application/resource-lists+xml": ["rl"], "application/resource-lists-diff+xml": ["rld"], "application/rls-services+xml": ["rs"], "application/route-apd+xml": ["rapd"], "application/route-s-tsid+xml": ["sls"], "application/route-usd+xml": ["rusd"], "application/rpki-ghostbusters": ["gbr"], "application/rpki-manifest": ["mft"], "application/rpki-roa": ["roa"], "application/rsd+xml": ["rsd"], "application/rss+xml": ["rss"], "application/rtf": ["rtf"], "application/sbml+xml": ["sbml"], "application/scvp-cv-request": ["scq"], "application/scvp-cv-response": ["scs"], "application/scvp-vp-request": ["spq"], "application/scvp-vp-response": ["spp"], "application/sdp": ["sdp"], "application/senml+xml": ["senmlx"], "application/sensml+xml": ["sensmlx"], "application/set-payment-initiation": ["setpay"], "application/set-registration-initiation": ["setreg"], "application/shf+xml": ["shf"], "application/sieve": ["siv", "sieve"], "application/smil+xml": ["smi", "smil"], "application/sparql-query": ["rq"], "application/sparql-results+xml": ["srx"], "application/srgs": ["gram"], "application/srgs+xml": ["grxml"], "application/sru+xml": ["sru"], "application/ssdl+xml": ["ssdl"], "application/ssml+xml": ["ssml"], "application/swid+xml": ["swidtag"], "application/tei+xml": ["tei", "teicorpus"], "application/thraud+xml": ["tfi"], "application/timestamped-data": ["tsd"], "application/toml": ["toml"], "application/trig": ["trig"], "application/ttml+xml": ["ttml"], "application/ubjson": ["ubj"], "application/urc-ressheet+xml": ["rsheet"], "application/urc-targetdesc+xml": ["td"], "application/voicexml+xml": ["vxml"], "application/wasm": ["wasm"], "application/widget": ["wgt"], "application/winhlp": ["hlp"], "application/wsdl+xml": ["wsdl"], "application/wspolicy+xml": ["wspolicy"], "application/xaml+xml": ["xaml"], "application/xcap-att+xml": ["xav"], "application/xcap-caps+xml": ["xca"], "application/xcap-diff+xml": ["xdf"], "application/xcap-el+xml": ["xel"], "application/xcap-ns+xml": ["xns"], "application/xenc+xml": ["xenc"], "application/xhtml+xml": ["xhtml", "xht"], "application/xliff+xml": ["xlf"], "application/xml": ["xml", "xsl", "xsd", "rng"], "application/xml-dtd": ["dtd"], "application/xop+xml": ["xop"], "application/xproc+xml": ["xpl"], "application/xslt+xml": ["*xsl", "xslt"], "application/xspf+xml": ["xspf"], "application/xv+xml": ["mxml", "xhvml", "xvml", "xvm"], "application/yang": ["yang"], "application/yin+xml": ["yin"], "application/zip": ["zip"], "audio/3gpp": ["*3gpp"], "audio/adpcm": ["adp"], "audio/amr": ["amr"], "audio/basic": ["au", "snd"], "audio/midi": ["mid", "midi", "kar", "rmi"], "audio/mobile-xmf": ["mxmf"], "audio/mp3": ["*mp3"], "audio/mp4": ["m4a", "mp4a"], "audio/mpeg": ["mpga", "mp2", "mp2a", "mp3", "m2a", "m3a"], "audio/ogg": ["oga", "ogg", "spx", "opus"], "audio/s3m": ["s3m"], "audio/silk": ["sil"], "audio/wav": ["wav"], "audio/wave": ["*wav"], "audio/webm": ["weba"], "audio/xm": ["xm"], "font/collection": ["ttc"], "font/otf": ["otf"], "font/ttf": ["ttf"], "font/woff": ["woff"], "font/woff2": ["woff2"], "image/aces": ["exr"], "image/apng": ["apng"], "image/avif": ["avif"], "image/bmp": ["bmp"], "image/cgm": ["cgm"], "image/dicom-rle": ["drle"], "image/emf": ["emf"], "image/fits": ["fits"], "image/g3fax": ["g3"], "image/gif": ["gif"], "image/heic": ["heic"], "image/heic-sequence": ["heics"], "image/heif": ["heif"], "image/heif-sequence": ["heifs"], "image/hej2k": ["hej2"], "image/hsj2": ["hsj2"], "image/ief": ["ief"], "image/jls": ["jls"], "image/jp2": ["jp2", "jpg2"], "image/jpeg": ["jpeg", "jpg", "jpe"], "image/jph": ["jph"], "image/jphc": ["jhc"], "image/jpm": ["jpm"], "image/jpx": ["jpx", "jpf"], "image/jxr": ["jxr"], "image/jxra": ["jxra"], "image/jxrs": ["jxrs"], "image/jxs": ["jxs"], "image/jxsc": ["jxsc"], "image/jxsi": ["jxsi"], "image/jxss": ["jxss"], "image/ktx": ["ktx"], "image/ktx2": ["ktx2"], "image/png": ["png"], "image/sgi": ["sgi"], "image/svg+xml": ["svg", "svgz"], "image/t38": ["t38"], "image/tiff": ["tif", "tiff"], "image/tiff-fx": ["tfx"], "image/webp": ["webp"], "image/wmf": ["wmf"], "message/disposition-notification": ["disposition-notification"], "message/global": ["u8msg"], "message/global-delivery-status": ["u8dsn"], "message/global-disposition-notification": ["u8mdn"], "message/global-headers": ["u8hdr"], "message/rfc822": ["eml", "mime"], "model/3mf": ["3mf"], "model/gltf+json": ["gltf"], "model/gltf-binary": ["glb"], "model/iges": ["igs", "iges"], "model/mesh": ["msh", "mesh", "silo"], "model/mtl": ["mtl"], "model/obj": ["obj"], "model/step+xml": ["stpx"], "model/step+zip": ["stpz"], "model/step-xml+zip": ["stpxz"], "model/stl": ["stl"], "model/vrml": ["wrl", "vrml"], "model/x3d+binary": ["*x3db", "x3dbz"], "model/x3d+fastinfoset": ["x3db"], "model/x3d+vrml": ["*x3dv", "x3dvz"], "model/x3d+xml": ["x3d", "x3dz"], "model/x3d-vrml": ["x3dv"], "text/cache-manifest": ["appcache", "manifest"], "text/calendar": ["ics", "ifb"], "text/coffeescript": ["coffee", "litcoffee"], "text/css": ["css"], "text/csv": ["csv"], "text/html": ["html", "htm", "shtml"], "text/jade": ["jade"], "text/jsx": ["jsx"], "text/less": ["less"], "text/markdown": ["markdown", "md"], "text/mathml": ["mml"], "text/mdx": ["mdx"], "text/n3": ["n3"], "text/plain": ["txt", "text", "conf", "def", "list", "log", "in", "ini"], "text/richtext": ["rtx"], "text/rtf": ["*rtf"], "text/sgml": ["sgml", "sgm"], "text/shex": ["shex"], "text/slim": ["slim", "slm"], "text/spdx": ["spdx"], "text/stylus": ["stylus", "styl"], "text/tab-separated-values": ["tsv"], "text/troff": ["t", "tr", "roff", "man", "me", "ms"], "text/turtle": ["ttl"], "text/uri-list": ["uri", "uris", "urls"], "text/vcard": ["vcard"], "text/vtt": ["vtt"], "text/xml": ["*xml"], "text/yaml": ["yaml", "yml"], "video/3gpp": ["3gp", "3gpp"], "video/3gpp2": ["3g2"], "video/h261": ["h261"], "video/h263": ["h263"], "video/h264": ["h264"], "video/iso.segment": ["m4s"], "video/jpeg": ["jpgv"], "video/jpm": ["*jpm", "jpgm"], "video/mj2": ["mj2", "mjp2"], "video/mp2t": ["ts"], "video/mp4": ["mp4", "mp4v", "mpg4"], "video/mpeg": ["mpeg", "mpg", "mpe", "m1v", "m2v"], "video/ogg": ["ogv"], "video/quicktime": ["qt", "mov"], "video/webm": ["webm"] };
   }
 });
 
-// node_modules/mime/types/other.js
+// ../node_modules/mime/types/other.js
 var require_other = __commonJS({
-  "node_modules/mime/types/other.js"(exports, module2) {
+  "../node_modules/mime/types/other.js"(exports, module2) {
     module2.exports = { "application/prs.cww": ["cww"], "application/vnd.1000minds.decision-model+xml": ["1km"], "application/vnd.3gpp.pic-bw-large": ["plb"], "application/vnd.3gpp.pic-bw-small": ["psb"], "application/vnd.3gpp.pic-bw-var": ["pvb"], "application/vnd.3gpp2.tcap": ["tcap"], "application/vnd.3m.post-it-notes": ["pwn"], "application/vnd.accpac.simply.aso": ["aso"], "application/vnd.accpac.simply.imp": ["imp"], "application/vnd.acucobol": ["acu"], "application/vnd.acucorp": ["atc", "acutc"], "application/vnd.adobe.air-application-installer-package+zip": ["air"], "application/vnd.adobe.formscentral.fcdt": ["fcdt"], "application/vnd.adobe.fxp": ["fxp", "fxpl"], "application/vnd.adobe.xdp+xml": ["xdp"], "application/vnd.adobe.xfdf": ["xfdf"], "application/vnd.ahead.space": ["ahead"], "application/vnd.airzip.filesecure.azf": ["azf"], "application/vnd.airzip.filesecure.azs": ["azs"], "application/vnd.amazon.ebook": ["azw"], "application/vnd.americandynamics.acc": ["acc"], "application/vnd.amiga.ami": ["ami"], "application/vnd.android.package-archive": ["apk"], "application/vnd.anser-web-certificate-issue-initiation": ["cii"], "application/vnd.anser-web-funds-transfer-initiation": ["fti"], "application/vnd.antix.game-component": ["atx"], "application/vnd.apple.installer+xml": ["mpkg"], "application/vnd.apple.keynote": ["key"], "application/vnd.apple.mpegurl": ["m3u8"], "application/vnd.apple.numbers": ["numbers"], "application/vnd.apple.pages": ["pages"], "application/vnd.apple.pkpass": ["pkpass"], "application/vnd.aristanetworks.swi": ["swi"], "application/vnd.astraea-software.iota": ["iota"], "application/vnd.audiograph": ["aep"], "application/vnd.balsamiq.bmml+xml": ["bmml"], "application/vnd.blueice.multipass": ["mpm"], "application/vnd.bmi": ["bmi"], "application/vnd.businessobjects": ["rep"], "application/vnd.chemdraw+xml": ["cdxml"], "application/vnd.chipnuts.karaoke-mmd": ["mmd"], "application/vnd.cinderella": ["cdy"], "application/vnd.citationstyles.style+xml": ["csl"], "application/vnd.claymore": ["cla"], "application/vnd.cloanto.rp9": ["rp9"], "application/vnd.clonk.c4group": ["c4g", "c4d", "c4f", "c4p", "c4u"], "application/vnd.cluetrust.cartomobile-config": ["c11amc"], "application/vnd.cluetrust.cartomobile-config-pkg": ["c11amz"], "application/vnd.commonspace": ["csp"], "application/vnd.contact.cmsg": ["cdbcmsg"], "application/vnd.cosmocaller": ["cmc"], "application/vnd.crick.clicker": ["clkx"], "application/vnd.crick.clicker.keyboard": ["clkk"], "application/vnd.crick.clicker.palette": ["clkp"], "application/vnd.crick.clicker.template": ["clkt"], "application/vnd.crick.clicker.wordbank": ["clkw"], "application/vnd.criticaltools.wbs+xml": ["wbs"], "application/vnd.ctc-posml": ["pml"], "application/vnd.cups-ppd": ["ppd"], "application/vnd.curl.car": ["car"], "application/vnd.curl.pcurl": ["pcurl"], "application/vnd.dart": ["dart"], "application/vnd.data-vision.rdz": ["rdz"], "application/vnd.dbf": ["dbf"], "application/vnd.dece.data": ["uvf", "uvvf", "uvd", "uvvd"], "application/vnd.dece.ttml+xml": ["uvt", "uvvt"], "application/vnd.dece.unspecified": ["uvx", "uvvx"], "application/vnd.dece.zip": ["uvz", "uvvz"], "application/vnd.denovo.fcselayout-link": ["fe_launch"], "application/vnd.dna": ["dna"], "application/vnd.dolby.mlp": ["mlp"], "application/vnd.dpgraph": ["dpg"], "application/vnd.dreamfactory": ["dfac"], "application/vnd.ds-keypoint": ["kpxx"], "application/vnd.dvb.ait": ["ait"], "application/vnd.dvb.service": ["svc"], "application/vnd.dynageo": ["geo"], "application/vnd.ecowin.chart": ["mag"], "application/vnd.enliven": ["nml"], "application/vnd.epson.esf": ["esf"], "application/vnd.epson.msf": ["msf"], "application/vnd.epson.quickanime": ["qam"], "application/vnd.epson.salt": ["slt"], "application/vnd.epson.ssf": ["ssf"], "application/vnd.eszigno3+xml": ["es3", "et3"], "application/vnd.ezpix-album": ["ez2"], "application/vnd.ezpix-package": ["ez3"], "application/vnd.fdf": ["fdf"], "application/vnd.fdsn.mseed": ["mseed"], "application/vnd.fdsn.seed": ["seed", "dataless"], "application/vnd.flographit": ["gph"], "application/vnd.fluxtime.clip": ["ftc"], "application/vnd.framemaker": ["fm", "frame", "maker", "book"], "application/vnd.frogans.fnc": ["fnc"], "application/vnd.frogans.ltf": ["ltf"], "application/vnd.fsc.weblaunch": ["fsc"], "application/vnd.fujitsu.oasys": ["oas"], "application/vnd.fujitsu.oasys2": ["oa2"], "application/vnd.fujitsu.oasys3": ["oa3"], "application/vnd.fujitsu.oasysgp": ["fg5"], "application/vnd.fujitsu.oasysprs": ["bh2"], "application/vnd.fujixerox.ddd": ["ddd"], "application/vnd.fujixerox.docuworks": ["xdw"], "application/vnd.fujixerox.docuworks.binder": ["xbd"], "application/vnd.fuzzysheet": ["fzs"], "application/vnd.genomatix.tuxedo": ["txd"], "application/vnd.geogebra.file": ["ggb"], "application/vnd.geogebra.tool": ["ggt"], "application/vnd.geometry-explorer": ["gex", "gre"], "application/vnd.geonext": ["gxt"], "application/vnd.geoplan": ["g2w"], "application/vnd.geospace": ["g3w"], "application/vnd.gmx": ["gmx"], "application/vnd.google-apps.document": ["gdoc"], "application/vnd.google-apps.presentation": ["gslides"], "application/vnd.google-apps.spreadsheet": ["gsheet"], "application/vnd.google-earth.kml+xml": ["kml"], "application/vnd.google-earth.kmz": ["kmz"], "application/vnd.grafeq": ["gqf", "gqs"], "application/vnd.groove-account": ["gac"], "application/vnd.groove-help": ["ghf"], "application/vnd.groove-identity-message": ["gim"], "application/vnd.groove-injector": ["grv"], "application/vnd.groove-tool-message": ["gtm"], "application/vnd.groove-tool-template": ["tpl"], "application/vnd.groove-vcard": ["vcg"], "application/vnd.hal+xml": ["hal"], "application/vnd.handheld-entertainment+xml": ["zmm"], "application/vnd.hbci": ["hbci"], "application/vnd.hhe.lesson-player": ["les"], "application/vnd.hp-hpgl": ["hpgl"], "application/vnd.hp-hpid": ["hpid"], "application/vnd.hp-hps": ["hps"], "application/vnd.hp-jlyt": ["jlt"], "application/vnd.hp-pcl": ["pcl"], "application/vnd.hp-pclxl": ["pclxl"], "application/vnd.hydrostatix.sof-data": ["sfd-hdstx"], "application/vnd.ibm.minipay": ["mpy"], "application/vnd.ibm.modcap": ["afp", "listafp", "list3820"], "application/vnd.ibm.rights-management": ["irm"], "application/vnd.ibm.secure-container": ["sc"], "application/vnd.iccprofile": ["icc", "icm"], "application/vnd.igloader": ["igl"], "application/vnd.immervision-ivp": ["ivp"], "application/vnd.immervision-ivu": ["ivu"], "application/vnd.insors.igm": ["igm"], "application/vnd.intercon.formnet": ["xpw", "xpx"], "application/vnd.intergeo": ["i2g"], "application/vnd.intu.qbo": ["qbo"], "application/vnd.intu.qfx": ["qfx"], "application/vnd.ipunplugged.rcprofile": ["rcprofile"], "application/vnd.irepository.package+xml": ["irp"], "application/vnd.is-xpr": ["xpr"], "application/vnd.isac.fcs": ["fcs"], "application/vnd.jam": ["jam"], "application/vnd.jcp.javame.midlet-rms": ["rms"], "application/vnd.jisp": ["jisp"], "application/vnd.joost.joda-archive": ["joda"], "application/vnd.kahootz": ["ktz", "ktr"], "application/vnd.kde.karbon": ["karbon"], "application/vnd.kde.kchart": ["chrt"], "application/vnd.kde.kformula": ["kfo"], "application/vnd.kde.kivio": ["flw"], "application/vnd.kde.kontour": ["kon"], "application/vnd.kde.kpresenter": ["kpr", "kpt"], "application/vnd.kde.kspread": ["ksp"], "application/vnd.kde.kword": ["kwd", "kwt"], "application/vnd.kenameaapp": ["htke"], "application/vnd.kidspiration": ["kia"], "application/vnd.kinar": ["kne", "knp"], "application/vnd.koan": ["skp", "skd", "skt", "skm"], "application/vnd.kodak-descriptor": ["sse"], "application/vnd.las.las+xml": ["lasxml"], "application/vnd.llamagraphics.life-balance.desktop": ["lbd"], "application/vnd.llamagraphics.life-balance.exchange+xml": ["lbe"], "application/vnd.lotus-1-2-3": ["123"], "application/vnd.lotus-approach": ["apr"], "application/vnd.lotus-freelance": ["pre"], "application/vnd.lotus-notes": ["nsf"], "application/vnd.lotus-organizer": ["org"], "application/vnd.lotus-screencam": ["scm"], "application/vnd.lotus-wordpro": ["lwp"], "application/vnd.macports.portpkg": ["portpkg"], "application/vnd.mapbox-vector-tile": ["mvt"], "application/vnd.mcd": ["mcd"], "application/vnd.medcalcdata": ["mc1"], "application/vnd.mediastation.cdkey": ["cdkey"], "application/vnd.mfer": ["mwf"], "application/vnd.mfmp": ["mfm"], "application/vnd.micrografx.flo": ["flo"], "application/vnd.micrografx.igx": ["igx"], "application/vnd.mif": ["mif"], "application/vnd.mobius.daf": ["daf"], "application/vnd.mobius.dis": ["dis"], "application/vnd.mobius.mbk": ["mbk"], "application/vnd.mobius.mqy": ["mqy"], "application/vnd.mobius.msl": ["msl"], "application/vnd.mobius.plc": ["plc"], "application/vnd.mobius.txf": ["txf"], "application/vnd.mophun.application": ["mpn"], "application/vnd.mophun.certificate": ["mpc"], "application/vnd.mozilla.xul+xml": ["xul"], "application/vnd.ms-artgalry": ["cil"], "application/vnd.ms-cab-compressed": ["cab"], "application/vnd.ms-excel": ["xls", "xlm", "xla", "xlc", "xlt", "xlw"], "application/vnd.ms-excel.addin.macroenabled.12": ["xlam"], "application/vnd.ms-excel.sheet.binary.macroenabled.12": ["xlsb"], "application/vnd.ms-excel.sheet.macroenabled.12": ["xlsm"], "application/vnd.ms-excel.template.macroenabled.12": ["xltm"], "application/vnd.ms-fontobject": ["eot"], "application/vnd.ms-htmlhelp": ["chm"], "application/vnd.ms-ims": ["ims"], "application/vnd.ms-lrm": ["lrm"], "application/vnd.ms-officetheme": ["thmx"], "application/vnd.ms-outlook": ["msg"], "application/vnd.ms-pki.seccat": ["cat"], "application/vnd.ms-pki.stl": ["*stl"], "application/vnd.ms-powerpoint": ["ppt", "pps", "pot"], "application/vnd.ms-powerpoint.addin.macroenabled.12": ["ppam"], "application/vnd.ms-powerpoint.presentation.macroenabled.12": ["pptm"], "application/vnd.ms-powerpoint.slide.macroenabled.12": ["sldm"], "application/vnd.ms-powerpoint.slideshow.macroenabled.12": ["ppsm"], "application/vnd.ms-powerpoint.template.macroenabled.12": ["potm"], "application/vnd.ms-project": ["mpp", "mpt"], "application/vnd.ms-word.document.macroenabled.12": ["docm"], "application/vnd.ms-word.template.macroenabled.12": ["dotm"], "application/vnd.ms-works": ["wps", "wks", "wcm", "wdb"], "application/vnd.ms-wpl": ["wpl"], "application/vnd.ms-xpsdocument": ["xps"], "application/vnd.mseq": ["mseq"], "application/vnd.musician": ["mus"], "application/vnd.muvee.style": ["msty"], "application/vnd.mynfc": ["taglet"], "application/vnd.neurolanguage.nlu": ["nlu"], "application/vnd.nitf": ["ntf", "nitf"], "application/vnd.noblenet-directory": ["nnd"], "application/vnd.noblenet-sealer": ["nns"], "application/vnd.noblenet-web": ["nnw"], "application/vnd.nokia.n-gage.ac+xml": ["*ac"], "application/vnd.nokia.n-gage.data": ["ngdat"], "application/vnd.nokia.n-gage.symbian.install": ["n-gage"], "application/vnd.nokia.radio-preset": ["rpst"], "application/vnd.nokia.radio-presets": ["rpss"], "application/vnd.novadigm.edm": ["edm"], "application/vnd.novadigm.edx": ["edx"], "application/vnd.novadigm.ext": ["ext"], "application/vnd.oasis.opendocument.chart": ["odc"], "application/vnd.oasis.opendocument.chart-template": ["otc"], "application/vnd.oasis.opendocument.database": ["odb"], "application/vnd.oasis.opendocument.formula": ["odf"], "application/vnd.oasis.opendocument.formula-template": ["odft"], "application/vnd.oasis.opendocument.graphics": ["odg"], "application/vnd.oasis.opendocument.graphics-template": ["otg"], "application/vnd.oasis.opendocument.image": ["odi"], "application/vnd.oasis.opendocument.image-template": ["oti"], "application/vnd.oasis.opendocument.presentation": ["odp"], "application/vnd.oasis.opendocument.presentation-template": ["otp"], "application/vnd.oasis.opendocument.spreadsheet": ["ods"], "application/vnd.oasis.opendocument.spreadsheet-template": ["ots"], "application/vnd.oasis.opendocument.text": ["odt"], "application/vnd.oasis.opendocument.text-master": ["odm"], "application/vnd.oasis.opendocument.text-template": ["ott"], "application/vnd.oasis.opendocument.text-web": ["oth"], "application/vnd.olpc-sugar": ["xo"], "application/vnd.oma.dd2+xml": ["dd2"], "application/vnd.openblox.game+xml": ["obgx"], "application/vnd.openofficeorg.extension": ["oxt"], "application/vnd.openstreetmap.data+xml": ["osm"], "application/vnd.openxmlformats-officedocument.presentationml.presentation": ["pptx"], "application/vnd.openxmlformats-officedocument.presentationml.slide": ["sldx"], "application/vnd.openxmlformats-officedocument.presentationml.slideshow": ["ppsx"], "application/vnd.openxmlformats-officedocument.presentationml.template": ["potx"], "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": ["xlsx"], "application/vnd.openxmlformats-officedocument.spreadsheetml.template": ["xltx"], "application/vnd.openxmlformats-officedocument.wordprocessingml.document": ["docx"], "application/vnd.openxmlformats-officedocument.wordprocessingml.template": ["dotx"], "application/vnd.osgeo.mapguide.package": ["mgp"], "application/vnd.osgi.dp": ["dp"], "application/vnd.osgi.subsystem": ["esa"], "application/vnd.palm": ["pdb", "pqa", "oprc"], "application/vnd.pawaafile": ["paw"], "application/vnd.pg.format": ["str"], "application/vnd.pg.osasli": ["ei6"], "application/vnd.picsel": ["efif"], "application/vnd.pmi.widget": ["wg"], "application/vnd.pocketlearn": ["plf"], "application/vnd.powerbuilder6": ["pbd"], "application/vnd.previewsystems.box": ["box"], "application/vnd.proteus.magazine": ["mgz"], "application/vnd.publishare-delta-tree": ["qps"], "application/vnd.pvi.ptid1": ["ptid"], "application/vnd.quark.quarkxpress": ["qxd", "qxt", "qwd", "qwt", "qxl", "qxb"], "application/vnd.rar": ["rar"], "application/vnd.realvnc.bed": ["bed"], "application/vnd.recordare.musicxml": ["mxl"], "application/vnd.recordare.musicxml+xml": ["musicxml"], "application/vnd.rig.cryptonote": ["cryptonote"], "application/vnd.rim.cod": ["cod"], "application/vnd.rn-realmedia": ["rm"], "application/vnd.rn-realmedia-vbr": ["rmvb"], "application/vnd.route66.link66+xml": ["link66"], "application/vnd.sailingtracker.track": ["st"], "application/vnd.seemail": ["see"], "application/vnd.sema": ["sema"], "application/vnd.semd": ["semd"], "application/vnd.semf": ["semf"], "application/vnd.shana.informed.formdata": ["ifm"], "application/vnd.shana.informed.formtemplate": ["itp"], "application/vnd.shana.informed.interchange": ["iif"], "application/vnd.shana.informed.package": ["ipk"], "application/vnd.simtech-mindmapper": ["twd", "twds"], "application/vnd.smaf": ["mmf"], "application/vnd.smart.teacher": ["teacher"], "application/vnd.software602.filler.form+xml": ["fo"], "application/vnd.solent.sdkm+xml": ["sdkm", "sdkd"], "application/vnd.spotfire.dxp": ["dxp"], "application/vnd.spotfire.sfs": ["sfs"], "application/vnd.stardivision.calc": ["sdc"], "application/vnd.stardivision.draw": ["sda"], "application/vnd.stardivision.impress": ["sdd"], "application/vnd.stardivision.math": ["smf"], "application/vnd.stardivision.writer": ["sdw", "vor"], "application/vnd.stardivision.writer-global": ["sgl"], "application/vnd.stepmania.package": ["smzip"], "application/vnd.stepmania.stepchart": ["sm"], "application/vnd.sun.wadl+xml": ["wadl"], "application/vnd.sun.xml.calc": ["sxc"], "application/vnd.sun.xml.calc.template": ["stc"], "application/vnd.sun.xml.draw": ["sxd"], "application/vnd.sun.xml.draw.template": ["std"], "application/vnd.sun.xml.impress": ["sxi"], "application/vnd.sun.xml.impress.template": ["sti"], "application/vnd.sun.xml.math": ["sxm"], "application/vnd.sun.xml.writer": ["sxw"], "application/vnd.sun.xml.writer.global": ["sxg"], "application/vnd.sun.xml.writer.template": ["stw"], "application/vnd.sus-calendar": ["sus", "susp"], "application/vnd.svd": ["svd"], "application/vnd.symbian.install": ["sis", "sisx"], "application/vnd.syncml+xml": ["xsm"], "application/vnd.syncml.dm+wbxml": ["bdm"], "application/vnd.syncml.dm+xml": ["xdm"], "application/vnd.syncml.dmddf+xml": ["ddf"], "application/vnd.tao.intent-module-archive": ["tao"], "application/vnd.tcpdump.pcap": ["pcap", "cap", "dmp"], "application/vnd.tmobile-livetv": ["tmo"], "application/vnd.trid.tpt": ["tpt"], "application/vnd.triscape.mxs": ["mxs"], "application/vnd.trueapp": ["tra"], "application/vnd.ufdl": ["ufd", "ufdl"], "application/vnd.uiq.theme": ["utz"], "application/vnd.umajin": ["umj"], "application/vnd.unity": ["unityweb"], "application/vnd.uoml+xml": ["uoml"], "application/vnd.vcx": ["vcx"], "application/vnd.visio": ["vsd", "vst", "vss", "vsw"], "application/vnd.visionary": ["vis"], "application/vnd.vsf": ["vsf"], "application/vnd.wap.wbxml": ["wbxml"], "application/vnd.wap.wmlc": ["wmlc"], "application/vnd.wap.wmlscriptc": ["wmlsc"], "application/vnd.webturbo": ["wtb"], "application/vnd.wolfram.player": ["nbp"], "application/vnd.wordperfect": ["wpd"], "application/vnd.wqd": ["wqd"], "application/vnd.wt.stf": ["stf"], "application/vnd.xara": ["xar"], "application/vnd.xfdl": ["xfdl"], "application/vnd.yamaha.hv-dic": ["hvd"], "application/vnd.yamaha.hv-script": ["hvs"], "application/vnd.yamaha.hv-voice": ["hvp"], "application/vnd.yamaha.openscoreformat": ["osf"], "application/vnd.yamaha.openscoreformat.osfpvg+xml": ["osfpvg"], "application/vnd.yamaha.smaf-audio": ["saf"], "application/vnd.yamaha.smaf-phrase": ["spf"], "application/vnd.yellowriver-custom-menu": ["cmp"], "application/vnd.zul": ["zir", "zirz"], "application/vnd.zzazz.deck+xml": ["zaz"], "application/x-7z-compressed": ["7z"], "application/x-abiword": ["abw"], "application/x-ace-compressed": ["ace"], "application/x-apple-diskimage": ["*dmg"], "application/x-arj": ["arj"], "application/x-authorware-bin": ["aab", "x32", "u32", "vox"], "application/x-authorware-map": ["aam"], "application/x-authorware-seg": ["aas"], "application/x-bcpio": ["bcpio"], "application/x-bdoc": ["*bdoc"], "application/x-bittorrent": ["torrent"], "application/x-blorb": ["blb", "blorb"], "application/x-bzip": ["bz"], "application/x-bzip2": ["bz2", "boz"], "application/x-cbr": ["cbr", "cba", "cbt", "cbz", "cb7"], "application/x-cdlink": ["vcd"], "application/x-cfs-compressed": ["cfs"], "application/x-chat": ["chat"], "application/x-chess-pgn": ["pgn"], "application/x-chrome-extension": ["crx"], "application/x-cocoa": ["cco"], "application/x-conference": ["nsc"], "application/x-cpio": ["cpio"], "application/x-csh": ["csh"], "application/x-debian-package": ["*deb", "udeb"], "application/x-dgc-compressed": ["dgc"], "application/x-director": ["dir", "dcr", "dxr", "cst", "cct", "cxt", "w3d", "fgd", "swa"], "application/x-doom": ["wad"], "application/x-dtbncx+xml": ["ncx"], "application/x-dtbook+xml": ["dtb"], "application/x-dtbresource+xml": ["res"], "application/x-dvi": ["dvi"], "application/x-envoy": ["evy"], "application/x-eva": ["eva"], "application/x-font-bdf": ["bdf"], "application/x-font-ghostscript": ["gsf"], "application/x-font-linux-psf": ["psf"], "application/x-font-pcf": ["pcf"], "application/x-font-snf": ["snf"], "application/x-font-type1": ["pfa", "pfb", "pfm", "afm"], "application/x-freearc": ["arc"], "application/x-futuresplash": ["spl"], "application/x-gca-compressed": ["gca"], "application/x-glulx": ["ulx"], "application/x-gnumeric": ["gnumeric"], "application/x-gramps-xml": ["gramps"], "application/x-gtar": ["gtar"], "application/x-hdf": ["hdf"], "application/x-httpd-php": ["php"], "application/x-install-instructions": ["install"], "application/x-iso9660-image": ["*iso"], "application/x-iwork-keynote-sffkey": ["*key"], "application/x-iwork-numbers-sffnumbers": ["*numbers"], "application/x-iwork-pages-sffpages": ["*pages"], "application/x-java-archive-diff": ["jardiff"], "application/x-java-jnlp-file": ["jnlp"], "application/x-keepass2": ["kdbx"], "application/x-latex": ["latex"], "application/x-lua-bytecode": ["luac"], "application/x-lzh-compressed": ["lzh", "lha"], "application/x-makeself": ["run"], "application/x-mie": ["mie"], "application/x-mobipocket-ebook": ["prc", "mobi"], "application/x-ms-application": ["application"], "application/x-ms-shortcut": ["lnk"], "application/x-ms-wmd": ["wmd"], "application/x-ms-wmz": ["wmz"], "application/x-ms-xbap": ["xbap"], "application/x-msaccess": ["mdb"], "application/x-msbinder": ["obd"], "application/x-mscardfile": ["crd"], "application/x-msclip": ["clp"], "application/x-msdos-program": ["*exe"], "application/x-msdownload": ["*exe", "*dll", "com", "bat", "*msi"], "application/x-msmediaview": ["mvb", "m13", "m14"], "application/x-msmetafile": ["*wmf", "*wmz", "*emf", "emz"], "application/x-msmoney": ["mny"], "application/x-mspublisher": ["pub"], "application/x-msschedule": ["scd"], "application/x-msterminal": ["trm"], "application/x-mswrite": ["wri"], "application/x-netcdf": ["nc", "cdf"], "application/x-ns-proxy-autoconfig": ["pac"], "application/x-nzb": ["nzb"], "application/x-perl": ["pl", "pm"], "application/x-pilot": ["*prc", "*pdb"], "application/x-pkcs12": ["p12", "pfx"], "application/x-pkcs7-certificates": ["p7b", "spc"], "application/x-pkcs7-certreqresp": ["p7r"], "application/x-rar-compressed": ["*rar"], "application/x-redhat-package-manager": ["rpm"], "application/x-research-info-systems": ["ris"], "application/x-sea": ["sea"], "application/x-sh": ["sh"], "application/x-shar": ["shar"], "application/x-shockwave-flash": ["swf"], "application/x-silverlight-app": ["xap"], "application/x-sql": ["sql"], "application/x-stuffit": ["sit"], "application/x-stuffitx": ["sitx"], "application/x-subrip": ["srt"], "application/x-sv4cpio": ["sv4cpio"], "application/x-sv4crc": ["sv4crc"], "application/x-t3vm-image": ["t3"], "application/x-tads": ["gam"], "application/x-tar": ["tar"], "application/x-tcl": ["tcl", "tk"], "application/x-tex": ["tex"], "application/x-tex-tfm": ["tfm"], "application/x-texinfo": ["texinfo", "texi"], "application/x-tgif": ["*obj"], "application/x-ustar": ["ustar"], "application/x-virtualbox-hdd": ["hdd"], "application/x-virtualbox-ova": ["ova"], "application/x-virtualbox-ovf": ["ovf"], "application/x-virtualbox-vbox": ["vbox"], "application/x-virtualbox-vbox-extpack": ["vbox-extpack"], "application/x-virtualbox-vdi": ["vdi"], "application/x-virtualbox-vhd": ["vhd"], "application/x-virtualbox-vmdk": ["vmdk"], "application/x-wais-source": ["src"], "application/x-web-app-manifest+json": ["webapp"], "application/x-x509-ca-cert": ["der", "crt", "pem"], "application/x-xfig": ["fig"], "application/x-xliff+xml": ["*xlf"], "application/x-xpinstall": ["xpi"], "application/x-xz": ["xz"], "application/x-zmachine": ["z1", "z2", "z3", "z4", "z5", "z6", "z7", "z8"], "audio/vnd.dece.audio": ["uva", "uvva"], "audio/vnd.digital-winds": ["eol"], "audio/vnd.dra": ["dra"], "audio/vnd.dts": ["dts"], "audio/vnd.dts.hd": ["dtshd"], "audio/vnd.lucent.voice": ["lvp"], "audio/vnd.ms-playready.media.pya": ["pya"], "audio/vnd.nuera.ecelp4800": ["ecelp4800"], "audio/vnd.nuera.ecelp7470": ["ecelp7470"], "audio/vnd.nuera.ecelp9600": ["ecelp9600"], "audio/vnd.rip": ["rip"], "audio/x-aac": ["aac"], "audio/x-aiff": ["aif", "aiff", "aifc"], "audio/x-caf": ["caf"], "audio/x-flac": ["flac"], "audio/x-m4a": ["*m4a"], "audio/x-matroska": ["mka"], "audio/x-mpegurl": ["m3u"], "audio/x-ms-wax": ["wax"], "audio/x-ms-wma": ["wma"], "audio/x-pn-realaudio": ["ram", "ra"], "audio/x-pn-realaudio-plugin": ["rmp"], "audio/x-realaudio": ["*ra"], "audio/x-wav": ["*wav"], "chemical/x-cdx": ["cdx"], "chemical/x-cif": ["cif"], "chemical/x-cmdf": ["cmdf"], "chemical/x-cml": ["cml"], "chemical/x-csml": ["csml"], "chemical/x-xyz": ["xyz"], "image/prs.btif": ["btif"], "image/prs.pti": ["pti"], "image/vnd.adobe.photoshop": ["psd"], "image/vnd.airzip.accelerator.azv": ["azv"], "image/vnd.dece.graphic": ["uvi", "uvvi", "uvg", "uvvg"], "image/vnd.djvu": ["djvu", "djv"], "image/vnd.dvb.subtitle": ["*sub"], "image/vnd.dwg": ["dwg"], "image/vnd.dxf": ["dxf"], "image/vnd.fastbidsheet": ["fbs"], "image/vnd.fpx": ["fpx"], "image/vnd.fst": ["fst"], "image/vnd.fujixerox.edmics-mmr": ["mmr"], "image/vnd.fujixerox.edmics-rlc": ["rlc"], "image/vnd.microsoft.icon": ["ico"], "image/vnd.ms-dds": ["dds"], "image/vnd.ms-modi": ["mdi"], "image/vnd.ms-photo": ["wdp"], "image/vnd.net-fpx": ["npx"], "image/vnd.pco.b16": ["b16"], "image/vnd.tencent.tap": ["tap"], "image/vnd.valve.source.texture": ["vtf"], "image/vnd.wap.wbmp": ["wbmp"], "image/vnd.xiff": ["xif"], "image/vnd.zbrush.pcx": ["pcx"], "image/x-3ds": ["3ds"], "image/x-cmu-raster": ["ras"], "image/x-cmx": ["cmx"], "image/x-freehand": ["fh", "fhc", "fh4", "fh5", "fh7"], "image/x-icon": ["*ico"], "image/x-jng": ["jng"], "image/x-mrsid-image": ["sid"], "image/x-ms-bmp": ["*bmp"], "image/x-pcx": ["*pcx"], "image/x-pict": ["pic", "pct"], "image/x-portable-anymap": ["pnm"], "image/x-portable-bitmap": ["pbm"], "image/x-portable-graymap": ["pgm"], "image/x-portable-pixmap": ["ppm"], "image/x-rgb": ["rgb"], "image/x-tga": ["tga"], "image/x-xbitmap": ["xbm"], "image/x-xpixmap": ["xpm"], "image/x-xwindowdump": ["xwd"], "message/vnd.wfa.wsc": ["wsc"], "model/vnd.collada+xml": ["dae"], "model/vnd.dwf": ["dwf"], "model/vnd.gdl": ["gdl"], "model/vnd.gtw": ["gtw"], "model/vnd.mts": ["mts"], "model/vnd.opengex": ["ogex"], "model/vnd.parasolid.transmit.binary": ["x_b"], "model/vnd.parasolid.transmit.text": ["x_t"], "model/vnd.sap.vds": ["vds"], "model/vnd.usdz+zip": ["usdz"], "model/vnd.valve.source.compiled-map": ["bsp"], "model/vnd.vtu": ["vtu"], "text/prs.lines.tag": ["dsc"], "text/vnd.curl": ["curl"], "text/vnd.curl.dcurl": ["dcurl"], "text/vnd.curl.mcurl": ["mcurl"], "text/vnd.curl.scurl": ["scurl"], "text/vnd.dvb.subtitle": ["sub"], "text/vnd.fly": ["fly"], "text/vnd.fmi.flexstor": ["flx"], "text/vnd.graphviz": ["gv"], "text/vnd.in3d.3dml": ["3dml"], "text/vnd.in3d.spot": ["spot"], "text/vnd.sun.j2me.app-descriptor": ["jad"], "text/vnd.wap.wml": ["wml"], "text/vnd.wap.wmlscript": ["wmls"], "text/x-asm": ["s", "asm"], "text/x-c": ["c", "cc", "cxx", "cpp", "h", "hh", "dic"], "text/x-component": ["htc"], "text/x-fortran": ["f", "for", "f77", "f90"], "text/x-handlebars-template": ["hbs"], "text/x-java-source": ["java"], "text/x-lua": ["lua"], "text/x-markdown": ["mkd"], "text/x-nfo": ["nfo"], "text/x-opml": ["opml"], "text/x-org": ["*org"], "text/x-pascal": ["p", "pas"], "text/x-processing": ["pde"], "text/x-sass": ["sass"], "text/x-scss": ["scss"], "text/x-setext": ["etx"], "text/x-sfv": ["sfv"], "text/x-suse-ymp": ["ymp"], "text/x-uuencode": ["uu"], "text/x-vcalendar": ["vcs"], "text/x-vcard": ["vcf"], "video/vnd.dece.hd": ["uvh", "uvvh"], "video/vnd.dece.mobile": ["uvm", "uvvm"], "video/vnd.dece.pd": ["uvp", "uvvp"], "video/vnd.dece.sd": ["uvs", "uvvs"], "video/vnd.dece.video": ["uvv", "uvvv"], "video/vnd.dvb.file": ["dvb"], "video/vnd.fvt": ["fvt"], "video/vnd.mpegurl": ["mxu", "m4u"], "video/vnd.ms-playready.media.pyv": ["pyv"], "video/vnd.uvvu.mp4": ["uvu", "uvvu"], "video/vnd.vivo": ["viv"], "video/x-f4v": ["f4v"], "video/x-fli": ["fli"], "video/x-flv": ["flv"], "video/x-m4v": ["m4v"], "video/x-matroska": ["mkv", "mk3d", "mks"], "video/x-mng": ["mng"], "video/x-ms-asf": ["asf", "asx"], "video/x-ms-vob": ["vob"], "video/x-ms-wm": ["wm"], "video/x-ms-wmv": ["wmv"], "video/x-ms-wmx": ["wmx"], "video/x-ms-wvx": ["wvx"], "video/x-msvideo": ["avi"], "video/x-sgi-movie": ["movie"], "video/x-smv": ["smv"], "x-conference/x-cooltalk": ["ice"] };
   }
 });
 
-// node_modules/mime/index.js
+// ../node_modules/mime/index.js
 var require_mime = __commonJS({
-  "node_modules/mime/index.js"(exports, module2) {
+  "../node_modules/mime/index.js"(exports, module2) {
     "use strict";
     var Mime = require_Mime();
     module2.exports = new Mime(require_standard(), require_other());
   }
 });
 
-// node_modules/picocolors/picocolors.browser.js
+// ../node_modules/picocolors/picocolors.browser.js
 var require_picocolors_browser = __commonJS({
-  "node_modules/picocolors/picocolors.browser.js"(exports, module2) {
+  "../node_modules/picocolors/picocolors.browser.js"(exports, module2) {
     var x = String;
     var create = function() {
       return { isColorSupported: false, reset: x, bold: x, dim: x, italic: x, underline: x, inverse: x, hidden: x, strikethrough: x, black: x, red: x, green: x, yellow: x, blue: x, magenta: x, cyan: x, white: x, gray: x, bgBlack: x, bgRed: x, bgGreen: x, bgYellow: x, bgBlue: x, bgMagenta: x, bgCyan: x, bgWhite: x, blackBright: x, redBright: x, greenBright: x, yellowBright: x, blueBright: x, magentaBright: x, cyanBright: x, whiteBright: x, bgBlackBright: x, bgRedBright: x, bgGreenBright: x, bgYellowBright: x, bgBlueBright: x, bgMagentaBright: x, bgCyanBright: x, bgWhiteBright: x };
@@ -317,15 +317,15 @@ var require_picocolors_browser = __commonJS({
   }
 });
 
-// (disabled):node_modules/postcss/lib/terminal-highlight
+// (disabled):../node_modules/postcss/lib/terminal-highlight
 var require_terminal_highlight = __commonJS({
-  "(disabled):node_modules/postcss/lib/terminal-highlight"() {
+  "(disabled):../node_modules/postcss/lib/terminal-highlight"() {
   }
 });
 
-// node_modules/postcss/lib/css-syntax-error.js
+// ../node_modules/postcss/lib/css-syntax-error.js
 var require_css_syntax_error = __commonJS({
-  "node_modules/postcss/lib/css-syntax-error.js"(exports, module2) {
+  "../node_modules/postcss/lib/css-syntax-error.js"(exports, module2) {
     "use strict";
     var pico = require_picocolors_browser();
     var terminalHighlight = require_terminal_highlight();
@@ -419,9 +419,9 @@ var require_css_syntax_error = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/stringifier.js
+// ../node_modules/postcss/lib/stringifier.js
 var require_stringifier = __commonJS({
-  "node_modules/postcss/lib/stringifier.js"(exports, module2) {
+  "../node_modules/postcss/lib/stringifier.js"(exports, module2) {
     "use strict";
     var DEFAULT_RAW = {
       after: "\n",
@@ -739,9 +739,9 @@ var require_stringifier = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/stringify.js
+// ../node_modules/postcss/lib/stringify.js
 var require_stringify = __commonJS({
-  "node_modules/postcss/lib/stringify.js"(exports, module2) {
+  "../node_modules/postcss/lib/stringify.js"(exports, module2) {
     "use strict";
     var Stringifier = require_stringifier();
     function stringify2(node, builder) {
@@ -753,18 +753,18 @@ var require_stringify = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/symbols.js
+// ../node_modules/postcss/lib/symbols.js
 var require_symbols = __commonJS({
-  "node_modules/postcss/lib/symbols.js"(exports, module2) {
+  "../node_modules/postcss/lib/symbols.js"(exports, module2) {
     "use strict";
     module2.exports.isClean = Symbol("isClean");
     module2.exports.my = Symbol("my");
   }
 });
 
-// node_modules/postcss/lib/node.js
+// ../node_modules/postcss/lib/node.js
 var require_node = __commonJS({
-  "node_modules/postcss/lib/node.js"(exports, module2) {
+  "../node_modules/postcss/lib/node.js"(exports, module2) {
     "use strict";
     var CssSyntaxError2 = require_css_syntax_error();
     var Stringifier = require_stringifier();
@@ -1094,9 +1094,9 @@ var require_node = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/comment.js
+// ../node_modules/postcss/lib/comment.js
 var require_comment = __commonJS({
-  "node_modules/postcss/lib/comment.js"(exports, module2) {
+  "../node_modules/postcss/lib/comment.js"(exports, module2) {
     "use strict";
     var Node3 = require_node();
     var Comment2 = class extends Node3 {
@@ -1110,9 +1110,9 @@ var require_comment = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/declaration.js
+// ../node_modules/postcss/lib/declaration.js
 var require_declaration = __commonJS({
-  "node_modules/postcss/lib/declaration.js"(exports, module2) {
+  "../node_modules/postcss/lib/declaration.js"(exports, module2) {
     "use strict";
     var Node3 = require_node();
     var Declaration2 = class extends Node3 {
@@ -1132,9 +1132,9 @@ var require_declaration = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/container.js
+// ../node_modules/postcss/lib/container.js
 var require_container = __commonJS({
-  "node_modules/postcss/lib/container.js"(exports, module2) {
+  "../node_modules/postcss/lib/container.js"(exports, module2) {
     "use strict";
     var Comment2 = require_comment();
     var Declaration2 = require_declaration();
@@ -1533,9 +1533,9 @@ var require_container = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/at-rule.js
+// ../node_modules/postcss/lib/at-rule.js
 var require_at_rule = __commonJS({
-  "node_modules/postcss/lib/at-rule.js"(exports, module2) {
+  "../node_modules/postcss/lib/at-rule.js"(exports, module2) {
     "use strict";
     var Container2 = require_container();
     var AtRule2 = class extends Container2 {
@@ -1560,9 +1560,9 @@ var require_at_rule = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/document.js
+// ../node_modules/postcss/lib/document.js
 var require_document = __commonJS({
-  "node_modules/postcss/lib/document.js"(exports, module2) {
+  "../node_modules/postcss/lib/document.js"(exports, module2) {
     "use strict";
     var Container2 = require_container();
     var LazyResult;
@@ -1590,9 +1590,9 @@ var require_document = __commonJS({
   }
 });
 
-// node_modules/nanoid/non-secure/index.cjs
+// ../node_modules/nanoid/non-secure/index.cjs
 var require_non_secure = __commonJS({
-  "node_modules/nanoid/non-secure/index.cjs"(exports, module2) {
+  "../node_modules/nanoid/non-secure/index.cjs"(exports, module2) {
     var urlAlphabet = "useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict";
     var customAlphabet = (alphabet, defaultSize = 21) => {
       return (size = defaultSize) => {
@@ -1616,15 +1616,15 @@ var require_non_secure = __commonJS({
   }
 });
 
-// (disabled):node_modules/source-map-js/source-map.js
+// (disabled):../node_modules/source-map-js/source-map.js
 var require_source_map = __commonJS({
-  "(disabled):node_modules/source-map-js/source-map.js"() {
+  "(disabled):../node_modules/source-map-js/source-map.js"() {
   }
 });
 
-// node_modules/postcss/lib/previous-map.js
+// ../node_modules/postcss/lib/previous-map.js
 var require_previous_map = __commonJS({
-  "node_modules/postcss/lib/previous-map.js"(exports, module2) {
+  "../node_modules/postcss/lib/previous-map.js"(exports, module2) {
     "use strict";
     var { existsSync: existsSync2, readFileSync } = require("fs");
     var { dirname, join } = require("path");
@@ -1746,9 +1746,9 @@ var require_previous_map = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/input.js
+// ../node_modules/postcss/lib/input.js
 var require_input = __commonJS({
-  "node_modules/postcss/lib/input.js"(exports, module2) {
+  "../node_modules/postcss/lib/input.js"(exports, module2) {
     "use strict";
     var { nanoid } = require_non_secure();
     var { isAbsolute, resolve } = require("path");
@@ -1942,9 +1942,9 @@ var require_input = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/root.js
+// ../node_modules/postcss/lib/root.js
 var require_root = __commonJS({
-  "node_modules/postcss/lib/root.js"(exports, module2) {
+  "../node_modules/postcss/lib/root.js"(exports, module2) {
     "use strict";
     var Container2 = require_container();
     var LazyResult;
@@ -1997,9 +1997,9 @@ var require_root = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/list.js
+// ../node_modules/postcss/lib/list.js
 var require_list = __commonJS({
-  "node_modules/postcss/lib/list.js"(exports, module2) {
+  "../node_modules/postcss/lib/list.js"(exports, module2) {
     "use strict";
     var list2 = {
       comma(string) {
@@ -2057,9 +2057,9 @@ var require_list = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/rule.js
+// ../node_modules/postcss/lib/rule.js
 var require_rule = __commonJS({
-  "node_modules/postcss/lib/rule.js"(exports, module2) {
+  "../node_modules/postcss/lib/rule.js"(exports, module2) {
     "use strict";
     var Container2 = require_container();
     var list2 = require_list();
@@ -2085,9 +2085,9 @@ var require_rule = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/fromJSON.js
+// ../node_modules/postcss/lib/fromJSON.js
 var require_fromJSON = __commonJS({
-  "node_modules/postcss/lib/fromJSON.js"(exports, module2) {
+  "../node_modules/postcss/lib/fromJSON.js"(exports, module2) {
     "use strict";
     var AtRule2 = require_at_rule();
     var Comment2 = require_comment();
@@ -2142,9 +2142,9 @@ var require_fromJSON = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/map-generator.js
+// ../node_modules/postcss/lib/map-generator.js
 var require_map_generator = __commonJS({
-  "node_modules/postcss/lib/map-generator.js"(exports, module2) {
+  "../node_modules/postcss/lib/map-generator.js"(exports, module2) {
     "use strict";
     var { dirname, relative, resolve, sep } = require("path");
     var { SourceMapConsumer, SourceMapGenerator } = require_source_map();
@@ -2470,9 +2470,9 @@ var require_map_generator = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/tokenize.js
+// ../node_modules/postcss/lib/tokenize.js
 var require_tokenize = __commonJS({
-  "node_modules/postcss/lib/tokenize.js"(exports, module2) {
+  "../node_modules/postcss/lib/tokenize.js"(exports, module2) {
     "use strict";
     var SINGLE_QUOTE = "'".charCodeAt(0);
     var DOUBLE_QUOTE = '"'.charCodeAt(0);
@@ -2687,9 +2687,9 @@ var require_tokenize = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/parser.js
+// ../node_modules/postcss/lib/parser.js
 var require_parser = __commonJS({
-  "node_modules/postcss/lib/parser.js"(exports, module2) {
+  "../node_modules/postcss/lib/parser.js"(exports, module2) {
     "use strict";
     var AtRule2 = require_at_rule();
     var Comment2 = require_comment();
@@ -3209,9 +3209,9 @@ var require_parser = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/parse.js
+// ../node_modules/postcss/lib/parse.js
 var require_parse = __commonJS({
-  "node_modules/postcss/lib/parse.js"(exports, module2) {
+  "../node_modules/postcss/lib/parse.js"(exports, module2) {
     "use strict";
     var Container2 = require_container();
     var Input2 = require_input();
@@ -3243,9 +3243,9 @@ var require_parse = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/warning.js
+// ../node_modules/postcss/lib/warning.js
 var require_warning = __commonJS({
-  "node_modules/postcss/lib/warning.js"(exports, module2) {
+  "../node_modules/postcss/lib/warning.js"(exports, module2) {
     "use strict";
     var Warning2 = class {
       constructor(text, opts = {}) {
@@ -3280,9 +3280,9 @@ var require_warning = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/result.js
+// ../node_modules/postcss/lib/result.js
 var require_result = __commonJS({
-  "node_modules/postcss/lib/result.js"(exports, module2) {
+  "../node_modules/postcss/lib/result.js"(exports, module2) {
     "use strict";
     var Warning2 = require_warning();
     var Result2 = class {
@@ -3319,9 +3319,9 @@ var require_result = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/warn-once.js
+// ../node_modules/postcss/lib/warn-once.js
 var require_warn_once = __commonJS({
-  "node_modules/postcss/lib/warn-once.js"(exports, module2) {
+  "../node_modules/postcss/lib/warn-once.js"(exports, module2) {
     "use strict";
     var printed = {};
     module2.exports = function warnOnce(message) {
@@ -3335,9 +3335,9 @@ var require_warn_once = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/lazy-result.js
+// ../node_modules/postcss/lib/lazy-result.js
 var require_lazy_result = __commonJS({
-  "node_modules/postcss/lib/lazy-result.js"(exports, module2) {
+  "../node_modules/postcss/lib/lazy-result.js"(exports, module2) {
     "use strict";
     var Container2 = require_container();
     var Document2 = require_document();
@@ -3815,9 +3815,9 @@ var require_lazy_result = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/no-work-result.js
+// ../node_modules/postcss/lib/no-work-result.js
 var require_no_work_result = __commonJS({
-  "node_modules/postcss/lib/no-work-result.js"(exports, module2) {
+  "../node_modules/postcss/lib/no-work-result.js"(exports, module2) {
     "use strict";
     var MapGenerator = require_map_generator();
     var parse2 = require_parse();
@@ -3931,9 +3931,9 @@ var require_no_work_result = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/processor.js
+// ../node_modules/postcss/lib/processor.js
 var require_processor = __commonJS({
-  "node_modules/postcss/lib/processor.js"(exports, module2) {
+  "../node_modules/postcss/lib/processor.js"(exports, module2) {
     "use strict";
     var Document2 = require_document();
     var LazyResult = require_lazy_result();
@@ -3987,9 +3987,9 @@ var require_processor = __commonJS({
   }
 });
 
-// node_modules/postcss/lib/postcss.js
+// ../node_modules/postcss/lib/postcss.js
 var require_postcss = __commonJS({
-  "node_modules/postcss/lib/postcss.js"(exports, module2) {
+  "../node_modules/postcss/lib/postcss.js"(exports, module2) {
     "use strict";
     var AtRule2 = require_at_rule();
     var Comment2 = require_comment();
@@ -4072,9 +4072,9 @@ var require_postcss = __commonJS({
   }
 });
 
-// node_modules/postcss-safe-parser/lib/safe-parser.js
+// ../node_modules/postcss-safe-parser/lib/safe-parser.js
 var require_safe_parser = __commonJS({
-  "node_modules/postcss-safe-parser/lib/safe-parser.js"(exports, module2) {
+  "../node_modules/postcss-safe-parser/lib/safe-parser.js"(exports, module2) {
     var tokenizer = require_tokenize();
     var Comment2 = require_comment();
     var Parser = require_parser();
@@ -4164,9 +4164,9 @@ var require_safe_parser = __commonJS({
   }
 });
 
-// node_modules/postcss-safe-parser/lib/safe-parse.js
+// ../node_modules/postcss-safe-parser/lib/safe-parse.js
 var require_safe_parse = __commonJS({
-  "node_modules/postcss-safe-parser/lib/safe-parse.js"(exports, module2) {
+  "../node_modules/postcss-safe-parser/lib/safe-parse.js"(exports, module2) {
     var { Input: Input2 } = require_postcss();
     var SafeParser = require_safe_parser();
     module2.exports = function safeParse(css, opts) {
@@ -4178,9 +4178,9 @@ var require_safe_parse = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-0/optimize.js
+// ../node_modules/clean-css/lib/optimizer/level-0/optimize.js
 var require_optimize = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-0/optimize.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-0/optimize.js"(exports, module2) {
     function level0Optimize(tokens) {
       return tokens;
     }
@@ -4188,9 +4188,9 @@ var require_optimize = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/natural-compare.js
+// ../node_modules/clean-css/lib/utils/natural-compare.js
 var require_natural_compare = __commonJS({
-  "node_modules/clean-css/lib/utils/natural-compare.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/natural-compare.js"(exports, module2) {
     var NUMBER_PATTERN = /([0-9]+)/;
     function naturalCompare(value1, value2) {
       var keys1 = ("" + value1).split(NUMBER_PATTERN).map(tryParseInt);
@@ -4215,9 +4215,9 @@ var require_natural_compare = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/sort-selectors.js
+// ../node_modules/clean-css/lib/optimizer/level-1/sort-selectors.js
 var require_sort_selectors = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/sort-selectors.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/sort-selectors.js"(exports, module2) {
     var naturalCompare = require_natural_compare();
     function naturalSorter(scope1, scope2) {
       return naturalCompare(scope1[1], scope2[1]);
@@ -4240,9 +4240,9 @@ var require_sort_selectors = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/override.js
+// ../node_modules/clean-css/lib/utils/override.js
 var require_override = __commonJS({
-  "node_modules/clean-css/lib/utils/override.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/override.js"(exports, module2) {
     function override(source1, source2) {
       var target = {};
       var key1;
@@ -4274,9 +4274,9 @@ var require_override = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/format.js
+// ../node_modules/clean-css/lib/options/format.js
 var require_format = __commonJS({
-  "node_modules/clean-css/lib/options/format.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/format.js"(exports, module2) {
     var systemLineBreak = require("os").EOL;
     var override = require_override();
     var Breaks = {
@@ -4467,9 +4467,9 @@ var require_format = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/tokenizer/marker.js
+// ../node_modules/clean-css/lib/tokenizer/marker.js
 var require_marker = __commonJS({
-  "node_modules/clean-css/lib/tokenizer/marker.js"(exports, module2) {
+  "../node_modules/clean-css/lib/tokenizer/marker.js"(exports, module2) {
     var Marker = {
       ASTERISK: "*",
       AT: "@",
@@ -4498,9 +4498,9 @@ var require_marker = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/format-position.js
+// ../node_modules/clean-css/lib/utils/format-position.js
 var require_format_position = __commonJS({
-  "node_modules/clean-css/lib/utils/format-position.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/format-position.js"(exports, module2) {
     function formatPosition(metadata) {
       var line = metadata[0];
       var column = metadata[1];
@@ -4511,9 +4511,9 @@ var require_format_position = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/tidy-rules.js
+// ../node_modules/clean-css/lib/optimizer/level-1/tidy-rules.js
 var require_tidy_rules = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/tidy-rules.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/tidy-rules.js"(exports, module2) {
     var Spaces = require_format().Spaces;
     var Marker = require_marker();
     var formatPosition = require_format_position();
@@ -4712,9 +4712,9 @@ var require_tidy_rules = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/tidy-block.js
+// ../node_modules/clean-css/lib/optimizer/level-1/tidy-block.js
 var require_tidy_block = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/tidy-block.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/tidy-block.js"(exports, module2) {
     var SUPPORTED_COMPACT_BLOCK_MATCHER = /^@media\W/;
     var SUPPORTED_QUOTE_REMOVAL_MATCHER = /^@(?:keyframes|-moz-keyframes|-o-keyframes|-webkit-keyframes)\W/;
     function tidyBlock(values, spaceAfterClosingBrace) {
@@ -4738,9 +4738,9 @@ var require_tidy_block = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/tidy-at-rule.js
+// ../node_modules/clean-css/lib/optimizer/level-1/tidy-at-rule.js
 var require_tidy_at_rule = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/tidy-at-rule.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/tidy-at-rule.js"(exports, module2) {
     function tidyAtRule(value) {
       return value.replace(/\s+/g, " ").replace(/url\(\s+/g, "url(").replace(/\s+\)/g, ")").trim();
     }
@@ -4748,9 +4748,9 @@ var require_tidy_at_rule = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/hack.js
+// ../node_modules/clean-css/lib/optimizer/hack.js
 var require_hack = __commonJS({
-  "node_modules/clean-css/lib/optimizer/hack.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/hack.js"(exports, module2) {
     var Hack = {
       ASTERISK: "asterisk",
       BANG: "bang",
@@ -4761,9 +4761,9 @@ var require_hack = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/remove-unused.js
+// ../node_modules/clean-css/lib/optimizer/remove-unused.js
 var require_remove_unused = __commonJS({
-  "node_modules/clean-css/lib/optimizer/remove-unused.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/remove-unused.js"(exports, module2) {
     function removeUnused(properties) {
       for (var i = properties.length - 1; i >= 0; i--) {
         var property = properties[i];
@@ -4776,9 +4776,9 @@ var require_remove_unused = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/restore-from-optimizing.js
+// ../node_modules/clean-css/lib/optimizer/restore-from-optimizing.js
 var require_restore_from_optimizing = __commonJS({
-  "node_modules/clean-css/lib/optimizer/restore-from-optimizing.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/restore-from-optimizing.js"(exports, module2) {
     var Hack = require_hack();
     var Marker = require_marker();
     var ASTERISK_HACK = "*";
@@ -4844,9 +4844,9 @@ var require_restore_from_optimizing = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/tokenizer/token.js
+// ../node_modules/clean-css/lib/tokenizer/token.js
 var require_token = __commonJS({
-  "node_modules/clean-css/lib/tokenizer/token.js"(exports, module2) {
+  "../node_modules/clean-css/lib/tokenizer/token.js"(exports, module2) {
     var Token = {
       AT_RULE: "at-rule",
       AT_RULE_BLOCK: "at-rule-block",
@@ -4866,9 +4866,9 @@ var require_token = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/wrap-for-optimizing.js
+// ../node_modules/clean-css/lib/optimizer/wrap-for-optimizing.js
 var require_wrap_for_optimizing = __commonJS({
-  "node_modules/clean-css/lib/optimizer/wrap-for-optimizing.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/wrap-for-optimizing.js"(exports, module2) {
     var Hack = require_hack();
     var Marker = require_marker();
     var Token = require_token();
@@ -5025,9 +5025,9 @@ var require_wrap_for_optimizing = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/invalid-property-error.js
+// ../node_modules/clean-css/lib/optimizer/invalid-property-error.js
 var require_invalid_property_error = __commonJS({
-  "node_modules/clean-css/lib/optimizer/invalid-property-error.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/invalid-property-error.js"(exports, module2) {
     function InvalidPropertyError(message) {
       this.name = "InvalidPropertyError";
       this.message = message;
@@ -5039,9 +5039,9 @@ var require_invalid_property_error = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/configuration/break-up.js
+// ../node_modules/clean-css/lib/optimizer/configuration/break-up.js
 var require_break_up = __commonJS({
-  "node_modules/clean-css/lib/optimizer/configuration/break-up.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/configuration/break-up.js"(exports, module2) {
     var InvalidPropertyError = require_invalid_property_error();
     var wrapSingle = require_wrap_for_optimizing().single;
     var Token = require_token();
@@ -5576,9 +5576,9 @@ var require_break_up = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/vendor-prefixes.js
+// ../node_modules/clean-css/lib/optimizer/vendor-prefixes.js
 var require_vendor_prefixes = __commonJS({
-  "node_modules/clean-css/lib/optimizer/vendor-prefixes.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/vendor-prefixes.js"(exports, module2) {
     var VENDOR_PREFIX_PATTERN = /(?:^|\W)(-\w+-)/g;
     function unique(value) {
       var prefixes = [];
@@ -5600,9 +5600,9 @@ var require_vendor_prefixes = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/configuration/properties/understandable.js
+// ../node_modules/clean-css/lib/optimizer/configuration/properties/understandable.js
 var require_understandable = __commonJS({
-  "node_modules/clean-css/lib/optimizer/configuration/properties/understandable.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/configuration/properties/understandable.js"(exports, module2) {
     var sameVendorPrefixes = require_vendor_prefixes().same;
     function understandable(validator, value1, value2, _position, isPaired) {
       if (!sameVendorPrefixes(value1, value2)) {
@@ -5617,9 +5617,9 @@ var require_understandable = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/configuration/can-override.js
+// ../node_modules/clean-css/lib/optimizer/configuration/can-override.js
 var require_can_override = __commonJS({
-  "node_modules/clean-css/lib/optimizer/configuration/can-override.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/configuration/can-override.js"(exports, module2) {
     var understandable = require_understandable();
     function animationIterationCount(validator, value1, value2) {
       if (!understandable(validator, value1, value2, 0, true) && !(validator.isAnimationIterationCountKeyword(value2) || validator.isPositiveNumber(value2))) {
@@ -5907,9 +5907,9 @@ var require_can_override = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/clone.js
+// ../node_modules/clean-css/lib/optimizer/clone.js
 var require_clone = __commonJS({
-  "node_modules/clean-css/lib/optimizer/clone.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/clone.js"(exports, module2) {
     var wrapSingle = require_wrap_for_optimizing().single;
     var Token = require_token();
     function deep(property) {
@@ -5940,9 +5940,9 @@ var require_clone = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/configuration/restore.js
+// ../node_modules/clean-css/lib/optimizer/configuration/restore.js
 var require_restore = __commonJS({
-  "node_modules/clean-css/lib/optimizer/configuration/restore.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/configuration/restore.js"(exports, module2) {
     var shallowClone = require_clone().shallow;
     var Token = require_token();
     var Marker = require_marker();
@@ -6173,9 +6173,9 @@ var require_restore = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/rounding-precision.js
+// ../node_modules/clean-css/lib/options/rounding-precision.js
 var require_rounding_precision = __commonJS({
-  "node_modules/clean-css/lib/options/rounding-precision.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/rounding-precision.js"(exports, module2) {
     var override = require_override();
     var INTEGER_PATTERN = /^\d+$/;
     var ALL_UNITS = ["*", "all"];
@@ -6249,9 +6249,9 @@ var require_rounding_precision = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/optimization-level.js
+// ../node_modules/clean-css/lib/options/optimization-level.js
 var require_optimization_level = __commonJS({
-  "node_modules/clean-css/lib/options/optimization-level.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/optimization-level.js"(exports, module2) {
     var roundingPrecisionFrom = require_rounding_precision().roundingPrecisionFrom;
     var override = require_override();
     var OptimizationLevel = {
@@ -6434,9 +6434,9 @@ var require_optimization_level = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/property-optimizers/background.js
+// ../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/background.js
 var require_background = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/property-optimizers/background.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/background.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var plugin2 = {
       level1: {
@@ -6458,9 +6458,9 @@ var require_background = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/property-optimizers/box-shadow.js
+// ../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/box-shadow.js
 var require_box_shadow = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/property-optimizers/box-shadow.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/box-shadow.js"(exports, module2) {
     var plugin2 = {
       level1: {
         property: function boxShadow(_rule, property) {
@@ -6476,9 +6476,9 @@ var require_box_shadow = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/property-optimizers/border-radius.js
+// ../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/border-radius.js
 var require_border_radius = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/property-optimizers/border-radius.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/border-radius.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var plugin2 = {
       level1: {
@@ -6507,9 +6507,9 @@ var require_border_radius = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/property-optimizers/filter.js
+// ../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/filter.js
 var require_filter = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/property-optimizers/filter.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/filter.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var ALPHA_OR_CHROMA_FILTER_PATTERN = /progid:DXImageTransform\.Microsoft\.(Alpha|Chroma)(\W)/;
     var NO_SPACE_AFTER_COMMA_PATTERN = /,(\S)/g;
@@ -6536,9 +6536,9 @@ var require_filter = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/property-optimizers/font-weight.js
+// ../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/font-weight.js
 var require_font_weight = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/property-optimizers/font-weight.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/font-weight.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var plugin2 = {
       level1: {
@@ -6560,9 +6560,9 @@ var require_font_weight = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/property-optimizers/margin.js
+// ../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/margin.js
 var require_margin = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/property-optimizers/margin.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/margin.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var plugin2 = {
       level1: {
@@ -6582,9 +6582,9 @@ var require_margin = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/property-optimizers/outline.js
+// ../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/outline.js
 var require_outline = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/property-optimizers/outline.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/outline.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var plugin2 = {
       level1: {
@@ -6603,9 +6603,9 @@ var require_outline = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/property-optimizers/padding.js
+// ../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/padding.js
 var require_padding = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/property-optimizers/padding.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/property-optimizers/padding.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     function isNegative(value) {
       return value && value[1][0] == "-" && parseFloat(value[1]) < 0;
@@ -6628,9 +6628,9 @@ var require_padding = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/property-optimizers.js
+// ../node_modules/clean-css/lib/optimizer/level-1/property-optimizers.js
 var require_property_optimizers = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/property-optimizers.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/property-optimizers.js"(exports, module2) {
     module2.exports = {
       background: require_background().level1.property,
       boxShadow: require_box_shadow().level1.property,
@@ -6644,9 +6644,9 @@ var require_property_optimizers = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-hex.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-hex.js
 var require_shorten_hex = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-hex.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-hex.js"(exports, module2) {
     var COLORS = {
       aliceblue: "#f0f8ff",
       antiquewhite: "#faebd7",
@@ -6829,9 +6829,9 @@ var require_shorten_hex = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-hsl.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-hsl.js
 var require_shorten_hsl = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-hsl.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-hsl.js"(exports, module2) {
     function hslToRgb(h, s, l) {
       var r, g, b;
       h %= 360;
@@ -6891,9 +6891,9 @@ var require_shorten_hsl = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-rgb.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-rgb.js
 var require_shorten_rgb = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-rgb.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color/shorten-rgb.js"(exports, module2) {
     function shortenRgb(red, green, blue) {
       var normalizedRed = Math.max(0, Math.min(parseInt(red), 255));
       var normalizedGreen = Math.max(0, Math.min(parseInt(green), 255));
@@ -6904,9 +6904,9 @@ var require_shorten_rgb = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/split.js
+// ../node_modules/clean-css/lib/utils/split.js
 var require_split = __commonJS({
-  "node_modules/clean-css/lib/utils/split.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/split.js"(exports, module2) {
     var Marker = require_marker();
     function is(value, separator, isSeparatorRegex) {
       return isSeparatorRegex ? separator.test(value) : value === separator;
@@ -6957,9 +6957,9 @@ var require_split = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color.js
 var require_color = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/color.js"(exports, module2) {
     var shortenHex = require_shorten_hex();
     var shortenHsl = require_shorten_hsl();
     var shortenRgb = require_shorten_rgb();
@@ -7030,9 +7030,9 @@ var require_color = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/degrees.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/degrees.js
 var require_degrees = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/degrees.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/degrees.js"(exports, module2) {
     var ZERO_DEG_PATTERN = /\(0deg\)/g;
     var plugin2 = {
       level1: {
@@ -7051,9 +7051,9 @@ var require_degrees = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/starts-as-url.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/starts-as-url.js
 var require_starts_as_url = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/starts-as-url.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/starts-as-url.js"(exports, module2) {
     var URL_PREFIX_PATTERN = /^url\(/i;
     function startsAsUrl(value) {
       return URL_PREFIX_PATTERN.test(value);
@@ -7062,9 +7062,9 @@ var require_starts_as_url = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/fraction.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/fraction.js
 var require_fraction = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/fraction.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/fraction.js"(exports, module2) {
     var split = require_split();
     var startsAsUrl = require_starts_as_url();
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
@@ -7119,9 +7119,9 @@ var require_fraction = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/precision.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/precision.js
 var require_precision = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/precision.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/precision.js"(exports, module2) {
     var plugin2 = {
       level1: {
         value: function precision(_name, value, options) {
@@ -7142,9 +7142,9 @@ var require_precision = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/text-quotes.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/text-quotes.js
 var require_text_quotes = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/text-quotes.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/text-quotes.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var LOCAL_PREFIX_PATTERN = /^local\(/i;
     var QUOTED_PATTERN = /^('.*'|".*")$/;
@@ -7170,9 +7170,9 @@ var require_text_quotes = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/time.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/time.js
 var require_time = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/time.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/time.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var TIME_VALUE = /^(-?[\d.]+)(m?s)$/;
     var plugin2 = {
@@ -7200,9 +7200,9 @@ var require_time = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/unit.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/unit.js
 var require_unit = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/unit.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/unit.js"(exports, module2) {
     var WHOLE_PIXEL_VALUE = /(?:^|\s|\()(-?\d+)px/;
     var plugin2 = {
       level1: {
@@ -7237,9 +7237,9 @@ var require_unit = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-prefix.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-prefix.js
 var require_url_prefix = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-prefix.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-prefix.js"(exports, module2) {
     var startsAsUrl = require_starts_as_url();
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var URL_PREFIX_PATTERN = /^url\(/i;
@@ -7260,9 +7260,9 @@ var require_url_prefix = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-quotes.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-quotes.js
 var require_url_quotes = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-quotes.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-quotes.js"(exports, module2) {
     var QUOTED_URL_PATTERN = /^url\(['"].+['"]\)$/;
     var QUOTED_URL_WITH_WHITESPACE_PATTERN = /^url\(['"].*[*\s()'"].*['"]\)$/;
     var QUOTES_PATTERN = /["']/g;
@@ -7281,9 +7281,9 @@ var require_url_quotes = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-whitespace.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-whitespace.js
 var require_url_whitespace = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-whitespace.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/url-whitespace.js"(exports, module2) {
     var startsAsUrl = require_starts_as_url();
     var WHITESPACE_PATTERN = /\\?\n|\\?\r\n/g;
     var WHITESPACE_PREFIX_PATTERN = /(\()\s+/g;
@@ -7302,9 +7302,9 @@ var require_url_whitespace = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/whitespace.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/whitespace.js
 var require_whitespace = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/whitespace.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/whitespace.js"(exports, module2) {
     var OptimizationLevel = require_optimization_level().OptimizationLevel;
     var Marker = require_marker();
     var CALC_DIVISION_WHITESPACE_PATTERN = /\) ?\/ ?/g;
@@ -7343,9 +7343,9 @@ var require_whitespace = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers/zero.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/zero.js
 var require_zero = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers/zero.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers/zero.js"(exports, module2) {
     var split = require_split();
     var ANY_FUNCTION_PATTERN = /^(-(?:moz|ms|o|webkit)-[a-z-]+|[a-z-]+)\((.+)\)$/;
     var SKIP_FUNCTION_PATTERN = /^(?:-moz-calc|-webkit-calc|calc|rgb|hsl|rgba|hsla|min|max|clamp|expression)\(/;
@@ -7385,9 +7385,9 @@ var require_zero = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/value-optimizers.js
+// ../node_modules/clean-css/lib/optimizer/level-1/value-optimizers.js
 var require_value_optimizers = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/value-optimizers.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/value-optimizers.js"(exports, module2) {
     module2.exports = {
       color: require_color().level1.value,
       degrees: require_degrees().level1.value,
@@ -7405,9 +7405,9 @@ var require_value_optimizers = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/configuration.js
+// ../node_modules/clean-css/lib/optimizer/configuration.js
 var require_configuration = __commonJS({
-  "node_modules/clean-css/lib/optimizer/configuration.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/configuration.js"(exports, module2) {
     var breakUp = require_break_up();
     var canOverride = require_can_override();
     var restore = require_restore();
@@ -9004,9 +9004,9 @@ var require_configuration = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/writer/helpers.js
+// ../node_modules/clean-css/lib/writer/helpers.js
 var require_helpers = __commonJS({
-  "node_modules/clean-css/lib/writer/helpers.js"(exports, module2) {
+  "../node_modules/clean-css/lib/writer/helpers.js"(exports, module2) {
     var emptyCharacter = "";
     var Breaks = require_format().Breaks;
     var Spaces = require_format().Spaces;
@@ -9203,9 +9203,9 @@ var require_helpers = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/writer/one-time.js
+// ../node_modules/clean-css/lib/writer/one-time.js
 var require_one_time = __commonJS({
-  "node_modules/clean-css/lib/writer/one-time.js"(exports, module2) {
+  "../node_modules/clean-css/lib/writer/one-time.js"(exports, module2) {
     var helpers = require_helpers();
     function store(serializeContext, token) {
       serializeContext.output.push(typeof token == "string" ? token : token[1]);
@@ -9252,9 +9252,9 @@ var require_one_time = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-1/optimize.js
+// ../node_modules/clean-css/lib/optimizer/level-1/optimize.js
 var require_optimize2 = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-1/optimize.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-1/optimize.js"(exports, module2) {
     var sortSelectors = require_sort_selectors();
     var tidyRules = require_tidy_rules();
     var tidyBlock = require_tidy_block();
@@ -9512,9 +9512,9 @@ var require_optimize2 = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/is-mergeable.js
+// ../node_modules/clean-css/lib/optimizer/level-2/is-mergeable.js
 var require_is_mergeable = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/is-mergeable.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/is-mergeable.js"(exports, module2) {
     var Marker = require_marker();
     var split = require_split();
     var DEEP_SELECTOR_PATTERN = /\/deep\//;
@@ -9729,9 +9729,9 @@ var require_is_mergeable = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/every-values-pair.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/every-values-pair.js
 var require_every_values_pair = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/every-values-pair.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/every-values-pair.js"(exports, module2) {
     var Marker = require_marker();
     function everyValuesPair(fn, left, right) {
       var leftSize = left.value.length;
@@ -9757,9 +9757,9 @@ var require_every_values_pair = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/has-inherit.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/has-inherit.js
 var require_has_inherit = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/has-inherit.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/has-inherit.js"(exports, module2) {
     function hasInherit(property) {
       for (var i = property.value.length - 1; i >= 0; i--) {
         if (property.value[i][1] == "inherit") {
@@ -9772,9 +9772,9 @@ var require_has_inherit = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/has-same-values.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/has-same-values.js
 var require_has_same_values = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/has-same-values.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/has-same-values.js"(exports, module2) {
     function hasSameValues(property) {
       var firstValue = property.value[0][1];
       var i, l;
@@ -9789,9 +9789,9 @@ var require_has_same_values = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/populate-components.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/populate-components.js
 var require_populate_components = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/populate-components.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/populate-components.js"(exports, module2) {
     var configuration = require_configuration();
     var InvalidPropertyError = require_invalid_property_error();
     function populateComponents(properties, validator, warnings) {
@@ -9843,9 +9843,9 @@ var require_populate_components = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/restore-with-components.js
+// ../node_modules/clean-css/lib/optimizer/level-2/restore-with-components.js
 var require_restore_with_components = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/restore-with-components.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/restore-with-components.js"(exports, module2) {
     var configuration = require_configuration();
     function restoreWithComponents(property) {
       var descriptor = configuration[property.name];
@@ -9858,9 +9858,9 @@ var require_restore_with_components = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/merge-into-shorthands.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/merge-into-shorthands.js
 var require_merge_into_shorthands = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/merge-into-shorthands.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/merge-into-shorthands.js"(exports, module2) {
     var everyValuesPair = require_every_values_pair();
     var hasInherit = require_has_inherit();
     var hasSameValues = require_has_same_values();
@@ -10252,9 +10252,9 @@ var require_merge_into_shorthands = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/has-unset.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/has-unset.js
 var require_has_unset = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/has-unset.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/has-unset.js"(exports, module2) {
     function hasUnset(property) {
       for (var i = property.value.length - 1; i >= 0; i--) {
         if (property.value[i][1] == "unset") {
@@ -10267,9 +10267,9 @@ var require_has_unset = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/find-component-in.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/find-component-in.js
 var require_find_component_in = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/find-component-in.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/find-component-in.js"(exports, module2) {
     var configuration = require_configuration();
     function findComponentIn(shorthand, longhand) {
       var comparator = nameComparator(longhand);
@@ -10302,9 +10302,9 @@ var require_find_component_in = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/is-component-of.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/is-component-of.js
 var require_is_component_of = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/is-component-of.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/is-component-of.js"(exports, module2) {
     var configuration = require_configuration();
     function isComponentOf(property1, property2, shallow) {
       return isDirectComponentOf(property1, property2) || !shallow && !!configuration[property1.name].shorthandComponents && isSubComponentOf(property1, property2);
@@ -10322,9 +10322,9 @@ var require_is_component_of = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/is-mergeable-shorthand.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/is-mergeable-shorthand.js
 var require_is_mergeable_shorthand = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/is-mergeable-shorthand.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/is-mergeable-shorthand.js"(exports, module2) {
     var Marker = require_marker();
     function isMergeableShorthand(shorthand) {
       if (shorthand.name != "font") {
@@ -10336,9 +10336,9 @@ var require_is_mergeable_shorthand = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/overrides-non-component-shorthand.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/overrides-non-component-shorthand.js
 var require_overrides_non_component_shorthand = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/overrides-non-component-shorthand.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/overrides-non-component-shorthand.js"(exports, module2) {
     var configuration = require_configuration();
     function overridesNonComponentShorthand(property1, property2) {
       return property1.name in configuration && "overridesShorthands" in configuration[property1.name] && configuration[property1.name].overridesShorthands.indexOf(property2.name) > -1;
@@ -10347,9 +10347,9 @@ var require_overrides_non_component_shorthand = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/override-properties.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/override-properties.js
 var require_override_properties = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/override-properties.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/override-properties.js"(exports, module2) {
     var hasInherit = require_has_inherit();
     var hasUnset = require_has_unset();
     var everyValuesPair = require_every_values_pair();
@@ -10754,9 +10754,9 @@ var require_override_properties = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/properties/optimize.js
+// ../node_modules/clean-css/lib/optimizer/level-2/properties/optimize.js
 var require_optimize3 = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/properties/optimize.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/properties/optimize.js"(exports, module2) {
     var mergeIntoShorthands = require_merge_into_shorthands();
     var overrideProperties = require_override_properties();
     var populateComponents = require_populate_components();
@@ -10790,9 +10790,9 @@ var require_optimize3 = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/merge-adjacent.js
+// ../node_modules/clean-css/lib/optimizer/level-2/merge-adjacent.js
 var require_merge_adjacent = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/merge-adjacent.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/merge-adjacent.js"(exports, module2) {
     var isMergeable = require_is_mergeable();
     var optimizeProperties = require_optimize3();
     var sortSelectors = require_sort_selectors();
@@ -10833,9 +10833,9 @@ var require_merge_adjacent = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/rules-overlap.js
+// ../node_modules/clean-css/lib/optimizer/level-2/rules-overlap.js
 var require_rules_overlap = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/rules-overlap.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/rules-overlap.js"(exports, module2) {
     var MODIFIER_PATTERN = /--.+$/;
     function rulesOverlap(rule1, rule2, bemMode) {
       var scope1;
@@ -10863,9 +10863,9 @@ var require_rules_overlap = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/specificity.js
+// ../node_modules/clean-css/lib/optimizer/level-2/specificity.js
 var require_specificity = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/specificity.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/specificity.js"(exports, module2) {
     var Marker = require_marker();
     var Selector = {
       ADJACENT_SIBLING: "+",
@@ -10935,9 +10935,9 @@ var require_specificity = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/specificities-overlap.js
+// ../node_modules/clean-css/lib/optimizer/level-2/specificities-overlap.js
 var require_specificities_overlap = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/specificities-overlap.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/specificities-overlap.js"(exports, module2) {
     var specificity = require_specificity();
     function specificitiesOverlap(selector1, selector2, cache) {
       var specificity1;
@@ -10966,9 +10966,9 @@ var require_specificities_overlap = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/reorderable.js
+// ../node_modules/clean-css/lib/optimizer/level-2/reorderable.js
 var require_reorderable = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/reorderable.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/reorderable.js"(exports, module2) {
     var rulesOverlap = require_rules_overlap();
     var specificitiesOverlap = require_specificities_overlap();
     var FLEX_PROPERTIES = /align-items|box-align|box-pack|flex|justify/;
@@ -11060,9 +11060,9 @@ var require_reorderable = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/extract-properties.js
+// ../node_modules/clean-css/lib/optimizer/level-2/extract-properties.js
 var require_extract_properties = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/extract-properties.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/extract-properties.js"(exports, module2) {
     var Token = require_token();
     var serializeRules = require_one_time().rules;
     var serializeValue = require_one_time().value;
@@ -11130,9 +11130,9 @@ var require_extract_properties = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/merge-media-queries.js
+// ../node_modules/clean-css/lib/optimizer/level-2/merge-media-queries.js
 var require_merge_media_queries = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/merge-media-queries.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/merge-media-queries.js"(exports, module2) {
     var canReorder = require_reorderable().canReorder;
     var canReorderSingle = require_reorderable().canReorderSingle;
     var extractProperties = require_extract_properties();
@@ -11218,9 +11218,9 @@ var require_merge_media_queries = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-body.js
+// ../node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-body.js
 var require_merge_non_adjacent_by_body = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-body.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-body.js"(exports, module2) {
     var isMergeable = require_is_mergeable();
     var sortSelectors = require_sort_selectors();
     var tidyRules = require_tidy_rules();
@@ -11287,9 +11287,9 @@ var require_merge_non_adjacent_by_body = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-selector.js
+// ../node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-selector.js
 var require_merge_non_adjacent_by_selector = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-selector.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-selector.js"(exports, module2) {
     var canReorder = require_reorderable().canReorder;
     var extractProperties = require_extract_properties();
     var optimizeProperties = require_optimize3();
@@ -11357,9 +11357,9 @@ var require_merge_non_adjacent_by_selector = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/clone-array.js
+// ../node_modules/clean-css/lib/utils/clone-array.js
 var require_clone_array = __commonJS({
-  "node_modules/clean-css/lib/utils/clone-array.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/clone-array.js"(exports, module2) {
     function cloneArray(array) {
       var cloned = array.slice(0);
       for (var i = 0, l = cloned.length; i < l; i++) {
@@ -11373,9 +11373,9 @@ var require_clone_array = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/reduce-non-adjacent.js
+// ../node_modules/clean-css/lib/optimizer/level-2/reduce-non-adjacent.js
 var require_reduce_non_adjacent = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/reduce-non-adjacent.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/reduce-non-adjacent.js"(exports, module2) {
     var isMergeable = require_is_mergeable();
     var optimizeProperties = require_optimize3();
     var cloneArray = require_clone_array();
@@ -11519,9 +11519,9 @@ var require_reduce_non_adjacent = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-font-at-rules.js
+// ../node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-font-at-rules.js
 var require_remove_duplicate_font_at_rules = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-font-at-rules.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-font-at-rules.js"(exports, module2) {
     var Token = require_token();
     var serializeAll = require_one_time().all;
     var FONT_FACE_SCOPE = "@font-face";
@@ -11547,9 +11547,9 @@ var require_remove_duplicate_font_at_rules = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-media-queries.js
+// ../node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-media-queries.js
 var require_remove_duplicate_media_queries = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-media-queries.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-media-queries.js"(exports, module2) {
     var Token = require_token();
     var serializeAll = require_one_time().all;
     var serializeRules = require_one_time().rules;
@@ -11576,9 +11576,9 @@ var require_remove_duplicate_media_queries = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/remove-duplicates.js
+// ../node_modules/clean-css/lib/optimizer/level-2/remove-duplicates.js
 var require_remove_duplicates = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/remove-duplicates.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/remove-duplicates.js"(exports, module2) {
     var Token = require_token();
     var serializeBody = require_one_time().body;
     var serializeRules = require_one_time().rules;
@@ -11618,9 +11618,9 @@ var require_remove_duplicates = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/remove-unused-at-rules.js
+// ../node_modules/clean-css/lib/optimizer/level-2/remove-unused-at-rules.js
 var require_remove_unused_at_rules = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/remove-unused-at-rules.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/remove-unused-at-rules.js"(exports, module2) {
     var populateComponents = require_populate_components();
     var wrapForOptimizing = require_wrap_for_optimizing().single;
     var restoreFromOptimizing = require_restore_from_optimizing();
@@ -11823,9 +11823,9 @@ var require_remove_unused_at_rules = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/tidy-rule-duplicates.js
+// ../node_modules/clean-css/lib/optimizer/level-2/tidy-rule-duplicates.js
 var require_tidy_rule_duplicates = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/tidy-rule-duplicates.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/tidy-rule-duplicates.js"(exports, module2) {
     function ruleSorter(s1, s2) {
       return s1[1] > s2[1] ? 1 : -1;
     }
@@ -11845,9 +11845,9 @@ var require_tidy_rule_duplicates = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/restructure.js
+// ../node_modules/clean-css/lib/optimizer/level-2/restructure.js
 var require_restructure = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/restructure.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/restructure.js"(exports, module2) {
     var canReorderSingle = require_reorderable().canReorderSingle;
     var extractProperties = require_extract_properties();
     var isMergeable = require_is_mergeable();
@@ -12172,9 +12172,9 @@ var require_restructure = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/level-2/optimize.js
+// ../node_modules/clean-css/lib/optimizer/level-2/optimize.js
 var require_optimize4 = __commonJS({
-  "node_modules/clean-css/lib/optimizer/level-2/optimize.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/level-2/optimize.js"(exports, module2) {
     var mergeAdjacent = require_merge_adjacent();
     var mergeMediaQueries = require_merge_media_queries();
     var mergeNonAdjacentByBody = require_merge_non_adjacent_by_body();
@@ -12290,9 +12290,9 @@ var require_optimize4 = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/optimizer/validator.js
+// ../node_modules/clean-css/lib/optimizer/validator.js
 var require_validator = __commonJS({
-  "node_modules/clean-css/lib/optimizer/validator.js"(exports, module2) {
+  "../node_modules/clean-css/lib/optimizer/validator.js"(exports, module2) {
     var functionNoVendorRegexStr = "[A-Z]+(\\-|[A-Z]|[0-9])+\\(.*?\\)";
     var functionVendorRegexStr = "\\-(\\-|[A-Z]|[0-9])+\\(.*?\\)";
     var variableRegexStr = "var\\(\\-\\-[^\\)]+\\)";
@@ -12797,9 +12797,9 @@ var require_validator = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/compatibility.js
+// ../node_modules/clean-css/lib/options/compatibility.js
 var require_compatibility = __commonJS({
-  "node_modules/clean-css/lib/options/compatibility.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/compatibility.js"(exports, module2) {
     var DEFAULTS = {
       "*": {
         colors: {
@@ -12969,9 +12969,9 @@ var require_compatibility = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/is-http-resource.js
+// ../node_modules/clean-css/lib/utils/is-http-resource.js
 var require_is_http_resource = __commonJS({
-  "node_modules/clean-css/lib/utils/is-http-resource.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/is-http-resource.js"(exports, module2) {
     var HTTP_RESOURCE_PATTERN = /^http:\/\//;
     function isHttpResource(uri) {
       return HTTP_RESOURCE_PATTERN.test(uri);
@@ -12980,9 +12980,9 @@ var require_is_http_resource = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/is-https-resource.js
+// ../node_modules/clean-css/lib/utils/is-https-resource.js
 var require_is_https_resource = __commonJS({
-  "node_modules/clean-css/lib/utils/is-https-resource.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/is-https-resource.js"(exports, module2) {
     var HTTPS_RESOURCE_PATTERN = /^https:\/\//;
     function isHttpsResource(uri) {
       return HTTPS_RESOURCE_PATTERN.test(uri);
@@ -12991,9 +12991,9 @@ var require_is_https_resource = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/load-remote-resource.js
+// ../node_modules/clean-css/lib/reader/load-remote-resource.js
 var require_load_remote_resource = __commonJS({
-  "node_modules/clean-css/lib/reader/load-remote-resource.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/load-remote-resource.js"(exports, module2) {
     var http = require("http");
     var https = require("https");
     var url = require("url");
@@ -13050,9 +13050,9 @@ var require_load_remote_resource = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/fetch.js
+// ../node_modules/clean-css/lib/options/fetch.js
 var require_fetch = __commonJS({
-  "node_modules/clean-css/lib/options/fetch.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/fetch.js"(exports, module2) {
     var loadRemoteResource = require_load_remote_resource();
     function fetchFrom(callback) {
       return callback || loadRemoteResource;
@@ -13061,9 +13061,9 @@ var require_fetch = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/inline.js
+// ../node_modules/clean-css/lib/options/inline.js
 var require_inline = __commonJS({
-  "node_modules/clean-css/lib/options/inline.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/inline.js"(exports, module2) {
     function inlineOptionsFrom(rules) {
       if (Array.isArray(rules)) {
         return rules;
@@ -13077,9 +13077,9 @@ var require_inline = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/inline-request.js
+// ../node_modules/clean-css/lib/options/inline-request.js
 var require_inline_request = __commonJS({
-  "node_modules/clean-css/lib/options/inline-request.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/inline-request.js"(exports, module2) {
     var url = require("url");
     var override = require_override();
     function inlineRequestFrom(option) {
@@ -13095,9 +13095,9 @@ var require_inline_request = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/inline-timeout.js
+// ../node_modules/clean-css/lib/options/inline-timeout.js
 var require_inline_timeout = __commonJS({
-  "node_modules/clean-css/lib/options/inline-timeout.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/inline-timeout.js"(exports, module2) {
     var DEFAULT_TIMEOUT = 5e3;
     function inlineTimeoutFrom(option) {
       return option || DEFAULT_TIMEOUT;
@@ -13106,9 +13106,9 @@ var require_inline_timeout = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/plugins.js
+// ../node_modules/clean-css/lib/options/plugins.js
 var require_plugins = __commonJS({
-  "node_modules/clean-css/lib/options/plugins.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/plugins.js"(exports, module2) {
     function pluginsFrom(plugins) {
       var flatPlugins = {
         level1Value: [],
@@ -13137,9 +13137,9 @@ var require_plugins = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/rebase.js
+// ../node_modules/clean-css/lib/options/rebase.js
 var require_rebase = __commonJS({
-  "node_modules/clean-css/lib/options/rebase.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/rebase.js"(exports, module2) {
     function rebaseFrom(rebaseOption, rebaseToOption) {
       if (rebaseToOption !== void 0) {
         return true;
@@ -13153,9 +13153,9 @@ var require_rebase = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/options/rebase-to.js
+// ../node_modules/clean-css/lib/options/rebase-to.js
 var require_rebase_to = __commonJS({
-  "node_modules/clean-css/lib/options/rebase-to.js"(exports, module2) {
+  "../node_modules/clean-css/lib/options/rebase-to.js"(exports, module2) {
     var path2 = require("path");
     function rebaseToFrom(option) {
       return option ? path2.resolve(option) : process.cwd();
@@ -13164,9 +13164,9 @@ var require_rebase_to = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/base64.js
+// ../node_modules/source-map/lib/base64.js
 var require_base64 = __commonJS({
-  "node_modules/source-map/lib/base64.js"(exports) {
+  "../node_modules/source-map/lib/base64.js"(exports) {
     var intToCharMap = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".split("");
     exports.encode = function(number) {
       if (0 <= number && number < intToCharMap.length) {
@@ -13205,9 +13205,9 @@ var require_base64 = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/base64-vlq.js
+// ../node_modules/source-map/lib/base64-vlq.js
 var require_base64_vlq = __commonJS({
-  "node_modules/source-map/lib/base64-vlq.js"(exports) {
+  "../node_modules/source-map/lib/base64-vlq.js"(exports) {
     var base64 = require_base64();
     var VLQ_BASE_SHIFT = 5;
     var VLQ_BASE = 1 << VLQ_BASE_SHIFT;
@@ -13259,9 +13259,9 @@ var require_base64_vlq = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/util.js
+// ../node_modules/source-map/lib/util.js
 var require_util = __commonJS({
-  "node_modules/source-map/lib/util.js"(exports) {
+  "../node_modules/source-map/lib/util.js"(exports) {
     function getArg(aArgs, aName, aDefaultValue) {
       if (aName in aArgs) {
         return aArgs[aName];
@@ -13560,9 +13560,9 @@ var require_util = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/array-set.js
+// ../node_modules/source-map/lib/array-set.js
 var require_array_set = __commonJS({
-  "node_modules/source-map/lib/array-set.js"(exports) {
+  "../node_modules/source-map/lib/array-set.js"(exports) {
     var util = require_util();
     var has = Object.prototype.hasOwnProperty;
     var hasNativeMap = typeof Map !== "undefined";
@@ -13630,9 +13630,9 @@ var require_array_set = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/mapping-list.js
+// ../node_modules/source-map/lib/mapping-list.js
 var require_mapping_list = __commonJS({
-  "node_modules/source-map/lib/mapping-list.js"(exports) {
+  "../node_modules/source-map/lib/mapping-list.js"(exports) {
     var util = require_util();
     function generatedPositionAfter(mappingA, mappingB) {
       var lineA = mappingA.generatedLine;
@@ -13669,9 +13669,9 @@ var require_mapping_list = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/source-map-generator.js
+// ../node_modules/source-map/lib/source-map-generator.js
 var require_source_map_generator = __commonJS({
-  "node_modules/source-map/lib/source-map-generator.js"(exports) {
+  "../node_modules/source-map/lib/source-map-generator.js"(exports) {
     var base64VLQ = require_base64_vlq();
     var util = require_util();
     var ArraySet = require_array_set().ArraySet;
@@ -13941,9 +13941,9 @@ var require_source_map_generator = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/binary-search.js
+// ../node_modules/source-map/lib/binary-search.js
 var require_binary_search = __commonJS({
-  "node_modules/source-map/lib/binary-search.js"(exports) {
+  "../node_modules/source-map/lib/binary-search.js"(exports) {
     exports.GREATEST_LOWER_BOUND = 1;
     exports.LEAST_UPPER_BOUND = 2;
     function recursiveSearch(aLow, aHigh, aNeedle, aHaystack, aCompare, aBias) {
@@ -13990,9 +13990,9 @@ var require_binary_search = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/quick-sort.js
+// ../node_modules/source-map/lib/quick-sort.js
 var require_quick_sort = __commonJS({
-  "node_modules/source-map/lib/quick-sort.js"(exports) {
+  "../node_modules/source-map/lib/quick-sort.js"(exports) {
     function swap(ary, x, y) {
       var temp = ary[x];
       ary[x] = ary[y];
@@ -14025,9 +14025,9 @@ var require_quick_sort = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/source-map-consumer.js
+// ../node_modules/source-map/lib/source-map-consumer.js
 var require_source_map_consumer = __commonJS({
-  "node_modules/source-map/lib/source-map-consumer.js"(exports) {
+  "../node_modules/source-map/lib/source-map-consumer.js"(exports) {
     var util = require_util();
     var binarySearch = require_binary_search();
     var ArraySet = require_array_set().ArraySet;
@@ -14596,9 +14596,9 @@ var require_source_map_consumer = __commonJS({
   }
 });
 
-// node_modules/source-map/lib/source-node.js
+// ../node_modules/source-map/lib/source-node.js
 var require_source_node = __commonJS({
-  "node_modules/source-map/lib/source-node.js"(exports) {
+  "../node_modules/source-map/lib/source-node.js"(exports) {
     var SourceMapGenerator = require_source_map_generator().SourceMapGenerator;
     var util = require_util();
     var REGEX_NEWLINE = /(\r?\n)/;
@@ -14852,18 +14852,18 @@ var require_source_node = __commonJS({
   }
 });
 
-// node_modules/source-map/source-map.js
+// ../node_modules/source-map/source-map.js
 var require_source_map2 = __commonJS({
-  "node_modules/source-map/source-map.js"(exports) {
+  "../node_modules/source-map/source-map.js"(exports) {
     exports.SourceMapGenerator = require_source_map_generator().SourceMapGenerator;
     exports.SourceMapConsumer = require_source_map_consumer().SourceMapConsumer;
     exports.SourceNode = require_source_node().SourceNode;
   }
 });
 
-// node_modules/clean-css/lib/reader/input-source-map-tracker.js
+// ../node_modules/clean-css/lib/reader/input-source-map-tracker.js
 var require_input_source_map_tracker = __commonJS({
-  "node_modules/clean-css/lib/reader/input-source-map-tracker.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/input-source-map-tracker.js"(exports, module2) {
     var SourceMapConsumer = require_source_map2().SourceMapConsumer;
     function inputSourceMapTracker() {
       var maps = {};
@@ -14911,9 +14911,9 @@ var require_input_source_map_tracker = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/is-remote-resource.js
+// ../node_modules/clean-css/lib/utils/is-remote-resource.js
 var require_is_remote_resource = __commonJS({
-  "node_modules/clean-css/lib/utils/is-remote-resource.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/is-remote-resource.js"(exports, module2) {
     var REMOTE_RESOURCE_PATTERN = /^(\w+:\/\/|\/\/)/;
     var FILE_RESOURCE_PATTERN = /^file:\/\//;
     function isRemoteResource(uri) {
@@ -14923,9 +14923,9 @@ var require_is_remote_resource = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/has-protocol.js
+// ../node_modules/clean-css/lib/utils/has-protocol.js
 var require_has_protocol = __commonJS({
-  "node_modules/clean-css/lib/utils/has-protocol.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/has-protocol.js"(exports, module2) {
     var NO_PROTOCOL_RESOURCE_PATTERN = /^\/\//;
     function hasProtocol(uri) {
       return !NO_PROTOCOL_RESOURCE_PATTERN.test(uri);
@@ -14934,9 +14934,9 @@ var require_has_protocol = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/is-allowed-resource.js
+// ../node_modules/clean-css/lib/reader/is-allowed-resource.js
 var require_is_allowed_resource = __commonJS({
-  "node_modules/clean-css/lib/reader/is-allowed-resource.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/is-allowed-resource.js"(exports, module2) {
     var path2 = require("path");
     var url = require("url");
     var isRemoteResource = require_is_remote_resource();
@@ -15001,9 +15001,9 @@ var require_is_allowed_resource = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/match-data-uri.js
+// ../node_modules/clean-css/lib/reader/match-data-uri.js
 var require_match_data_uri = __commonJS({
-  "node_modules/clean-css/lib/reader/match-data-uri.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/match-data-uri.js"(exports, module2) {
     var DATA_URI_PATTERN = /^data:(\S*?)?(;charset=(?:(?!;charset=)[^;])+)?(;[^,]+?)?,(.+)/;
     function matchDataUri(uri) {
       return DATA_URI_PATTERN.exec(uri);
@@ -15012,9 +15012,9 @@ var require_match_data_uri = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/rebase-local-map.js
+// ../node_modules/clean-css/lib/reader/rebase-local-map.js
 var require_rebase_local_map = __commonJS({
-  "node_modules/clean-css/lib/reader/rebase-local-map.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/rebase-local-map.js"(exports, module2) {
     var path2 = require("path");
     function rebaseLocalMap(sourceMap, sourceUri, rebaseTo) {
       var currentPath = path2.resolve("");
@@ -15029,9 +15029,9 @@ var require_rebase_local_map = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/rebase-remote-map.js
+// ../node_modules/clean-css/lib/reader/rebase-remote-map.js
 var require_rebase_remote_map = __commonJS({
-  "node_modules/clean-css/lib/reader/rebase-remote-map.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/rebase-remote-map.js"(exports, module2) {
     var path2 = require("path");
     var url = require("url");
     function rebaseRemoteMap(sourceMap, sourceUri) {
@@ -15045,9 +15045,9 @@ var require_rebase_remote_map = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/is-data-uri-resource.js
+// ../node_modules/clean-css/lib/utils/is-data-uri-resource.js
 var require_is_data_uri_resource = __commonJS({
-  "node_modules/clean-css/lib/utils/is-data-uri-resource.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/is-data-uri-resource.js"(exports, module2) {
     var DATA_URI_PATTERN = /^data:(\S{0,31}?)?(;charset=(?:(?!;charset=)[^;])+)?(;[^,]+?)?,(.+)/;
     function isDataUriResource(uri) {
       return DATA_URI_PATTERN.test(uri);
@@ -15056,9 +15056,9 @@ var require_is_data_uri_resource = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/apply-source-maps.js
+// ../node_modules/clean-css/lib/reader/apply-source-maps.js
 var require_apply_source_maps = __commonJS({
-  "node_modules/clean-css/lib/reader/apply-source-maps.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/apply-source-maps.js"(exports, module2) {
     var fs3 = require("fs");
     var path2 = require("path");
     var isAllowedResource = require_is_allowed_resource();
@@ -15270,9 +15270,9 @@ var require_apply_source_maps = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/extract-import-url-and-media.js
+// ../node_modules/clean-css/lib/reader/extract-import-url-and-media.js
 var require_extract_import_url_and_media = __commonJS({
-  "node_modules/clean-css/lib/reader/extract-import-url-and-media.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/extract-import-url-and-media.js"(exports, module2) {
     var split = require_split();
     var BRACE_PREFIX = /^\(/;
     var BRACE_SUFFIX = /\)$/;
@@ -15296,9 +15296,9 @@ var require_extract_import_url_and_media = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/load-original-sources.js
+// ../node_modules/clean-css/lib/reader/load-original-sources.js
 var require_load_original_sources = __commonJS({
-  "node_modules/clean-css/lib/reader/load-original-sources.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/load-original-sources.js"(exports, module2) {
     var fs3 = require("fs");
     var path2 = require("path");
     var isAllowedResource = require_is_allowed_resource();
@@ -15409,9 +15409,9 @@ var require_load_original_sources = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/normalize-path.js
+// ../node_modules/clean-css/lib/reader/normalize-path.js
 var require_normalize_path = __commonJS({
-  "node_modules/clean-css/lib/reader/normalize-path.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/normalize-path.js"(exports, module2) {
     var UNIX_SEPARATOR = "/";
     var WINDOWS_SEPARATOR_PATTERN = /\\/g;
     function normalizePath(path2) {
@@ -15421,9 +15421,9 @@ var require_normalize_path = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/restore-import.js
+// ../node_modules/clean-css/lib/reader/restore-import.js
 var require_restore_import = __commonJS({
-  "node_modules/clean-css/lib/reader/restore-import.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/restore-import.js"(exports, module2) {
     function restoreImport(uri, mediaQuery) {
       return ("@import " + uri + " " + mediaQuery).trim();
     }
@@ -15431,9 +15431,9 @@ var require_restore_import = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/rewrite-url.js
+// ../node_modules/clean-css/lib/reader/rewrite-url.js
 var require_rewrite_url = __commonJS({
-  "node_modules/clean-css/lib/reader/rewrite-url.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/rewrite-url.js"(exports, module2) {
     var path2 = require("path");
     var url = require("url");
     var isDataUriResource = require_is_data_uri_resource();
@@ -15513,9 +15513,9 @@ var require_rewrite_url = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/utils/is-import.js
+// ../node_modules/clean-css/lib/utils/is-import.js
 var require_is_import = __commonJS({
-  "node_modules/clean-css/lib/utils/is-import.js"(exports, module2) {
+  "../node_modules/clean-css/lib/utils/is-import.js"(exports, module2) {
     var IMPORT_PREFIX_PATTERN = /^@import/i;
     function isImport(value) {
       return IMPORT_PREFIX_PATTERN.test(value);
@@ -15524,9 +15524,9 @@ var require_is_import = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/rebase.js
+// ../node_modules/clean-css/lib/reader/rebase.js
 var require_rebase2 = __commonJS({
-  "node_modules/clean-css/lib/reader/rebase.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/rebase.js"(exports, module2) {
     var extractImportUrlAndMedia = require_extract_import_url_and_media();
     var restoreImport = require_restore_import();
     var rewriteUrl = require_rewrite_url();
@@ -15608,9 +15608,9 @@ var require_rebase2 = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/tokenizer/tokenize.js
+// ../node_modules/clean-css/lib/tokenizer/tokenize.js
 var require_tokenize2 = __commonJS({
-  "node_modules/clean-css/lib/tokenizer/tokenize.js"(exports, module2) {
+  "../node_modules/clean-css/lib/tokenizer/tokenize.js"(exports, module2) {
     var Marker = require_marker();
     var Token = require_token();
     var formatPosition = require_format_position();
@@ -16272,9 +16272,9 @@ var require_tokenize2 = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/reader/read-sources.js
+// ../node_modules/clean-css/lib/reader/read-sources.js
 var require_read_sources = __commonJS({
-  "node_modules/clean-css/lib/reader/read-sources.js"(exports, module2) {
+  "../node_modules/clean-css/lib/reader/read-sources.js"(exports, module2) {
     var fs3 = require("fs");
     var path2 = require("path");
     var applySourceMaps = require_apply_source_maps();
@@ -16557,9 +16557,9 @@ var require_read_sources = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/writer/simple.js
+// ../node_modules/clean-css/lib/writer/simple.js
 var require_simple = __commonJS({
-  "node_modules/clean-css/lib/writer/simple.js"(exports, module2) {
+  "../node_modules/clean-css/lib/writer/simple.js"(exports, module2) {
     var all = require_helpers().all;
     function store(serializeContext, token) {
       var value = typeof token == "string" ? token : token[1];
@@ -16599,9 +16599,9 @@ var require_simple = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/writer/source-maps.js
+// ../node_modules/clean-css/lib/writer/source-maps.js
 var require_source_maps = __commonJS({
-  "node_modules/clean-css/lib/writer/source-maps.js"(exports, module2) {
+  "../node_modules/clean-css/lib/writer/source-maps.js"(exports, module2) {
     var SourceMapGenerator = require_source_map2().SourceMapGenerator;
     var all = require_helpers().all;
     var isRemoteResource = require_is_remote_resource();
@@ -16687,9 +16687,9 @@ var require_source_maps = __commonJS({
   }
 });
 
-// node_modules/clean-css/lib/clean.js
+// ../node_modules/clean-css/lib/clean.js
 var require_clean = __commonJS({
-  "node_modules/clean-css/lib/clean.js"(exports, module2) {
+  "../node_modules/clean-css/lib/clean.js"(exports, module2) {
     var level0Optimize = require_optimize();
     var level1Optimize = require_optimize2();
     var level2Optimize = require_optimize4();
@@ -16867,16 +16867,16 @@ var require_clean = __commonJS({
   }
 });
 
-// node_modules/clean-css/index.js
+// ../node_modules/clean-css/index.js
 var require_clean_css = __commonJS({
-  "node_modules/clean-css/index.js"(exports, module2) {
+  "../node_modules/clean-css/index.js"(exports, module2) {
     module2.exports = require_clean();
   }
 });
 
-// node_modules/entities/lib/generated/decode-data-html.js
+// ../node_modules/entities/lib/generated/decode-data-html.js
 var require_decode_data_html = __commonJS({
-  "node_modules/entities/lib/generated/decode-data-html.js"(exports) {
+  "../node_modules/entities/lib/generated/decode-data-html.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.default = new Uint16Array('\u1D41<\xD5\u0131\u028A\u049D\u057B\u05D0\u0675\u06DE\u07A2\u07D6\u080F\u0A4A\u0A91\u0DA1\u0E6D\u0F09\u0F26\u10CA\u1228\u12E1\u1415\u149D\u14C3\u14DF\u1525\0\0\0\0\0\0\u156B\u16CD\u198D\u1C12\u1DDD\u1F7E\u2060\u21B0\u228D\u23C0\u23FB\u2442\u2824\u2912\u2D08\u2E48\u2FCE\u3016\u32BA\u3639\u37AC\u38FE\u3A28\u3A71\u3AE0\u3B2E\u0800EMabcfglmnoprstu\\bfms\x7F\x84\x8B\x90\x95\x98\xA6\xB3\xB9\xC8\xCFlig\u803B\xC6\u40C6P\u803B&\u4026cute\u803B\xC1\u40C1reve;\u4102\u0100iyx}rc\u803B\xC2\u40C2;\u4410r;\uC000\u{1D504}rave\u803B\xC0\u40C0pha;\u4391acr;\u4100d;\u6A53\u0100gp\x9D\xA1on;\u4104f;\uC000\u{1D538}plyFunction;\u6061ing\u803B\xC5\u40C5\u0100cs\xBE\xC3r;\uC000\u{1D49C}ign;\u6254ilde\u803B\xC3\u40C3ml\u803B\xC4\u40C4\u0400aceforsu\xE5\xFB\xFE\u0117\u011C\u0122\u0127\u012A\u0100cr\xEA\xF2kslash;\u6216\u0176\xF6\xF8;\u6AE7ed;\u6306y;\u4411\u0180crt\u0105\u010B\u0114ause;\u6235noullis;\u612Ca;\u4392r;\uC000\u{1D505}pf;\uC000\u{1D539}eve;\u42D8c\xF2\u0113mpeq;\u624E\u0700HOacdefhilorsu\u014D\u0151\u0156\u0180\u019E\u01A2\u01B5\u01B7\u01BA\u01DC\u0215\u0273\u0278\u027Ecy;\u4427PY\u803B\xA9\u40A9\u0180cpy\u015D\u0162\u017Aute;\u4106\u0100;i\u0167\u0168\u62D2talDifferentialD;\u6145leys;\u612D\u0200aeio\u0189\u018E\u0194\u0198ron;\u410Cdil\u803B\xC7\u40C7rc;\u4108nint;\u6230ot;\u410A\u0100dn\u01A7\u01ADilla;\u40B8terDot;\u40B7\xF2\u017Fi;\u43A7rcle\u0200DMPT\u01C7\u01CB\u01D1\u01D6ot;\u6299inus;\u6296lus;\u6295imes;\u6297o\u0100cs\u01E2\u01F8kwiseContourIntegral;\u6232eCurly\u0100DQ\u0203\u020FoubleQuote;\u601Duote;\u6019\u0200lnpu\u021E\u0228\u0247\u0255on\u0100;e\u0225\u0226\u6237;\u6A74\u0180git\u022F\u0236\u023Aruent;\u6261nt;\u622FourIntegral;\u622E\u0100fr\u024C\u024E;\u6102oduct;\u6210nterClockwiseContourIntegral;\u6233oss;\u6A2Fcr;\uC000\u{1D49E}p\u0100;C\u0284\u0285\u62D3ap;\u624D\u0580DJSZacefios\u02A0\u02AC\u02B0\u02B4\u02B8\u02CB\u02D7\u02E1\u02E6\u0333\u048D\u0100;o\u0179\u02A5trahd;\u6911cy;\u4402cy;\u4405cy;\u440F\u0180grs\u02BF\u02C4\u02C7ger;\u6021r;\u61A1hv;\u6AE4\u0100ay\u02D0\u02D5ron;\u410E;\u4414l\u0100;t\u02DD\u02DE\u6207a;\u4394r;\uC000\u{1D507}\u0100af\u02EB\u0327\u0100cm\u02F0\u0322ritical\u0200ADGT\u0300\u0306\u0316\u031Ccute;\u40B4o\u0174\u030B\u030D;\u42D9bleAcute;\u42DDrave;\u4060ilde;\u42DCond;\u62C4ferentialD;\u6146\u0470\u033D\0\0\0\u0342\u0354\0\u0405f;\uC000\u{1D53B}\u0180;DE\u0348\u0349\u034D\u40A8ot;\u60DCqual;\u6250ble\u0300CDLRUV\u0363\u0372\u0382\u03CF\u03E2\u03F8ontourIntegra\xEC\u0239o\u0274\u0379\0\0\u037B\xBB\u0349nArrow;\u61D3\u0100eo\u0387\u03A4ft\u0180ART\u0390\u0396\u03A1rrow;\u61D0ightArrow;\u61D4e\xE5\u02CAng\u0100LR\u03AB\u03C4eft\u0100AR\u03B3\u03B9rrow;\u67F8ightArrow;\u67FAightArrow;\u67F9ight\u0100AT\u03D8\u03DErrow;\u61D2ee;\u62A8p\u0241\u03E9\0\0\u03EFrrow;\u61D1ownArrow;\u61D5erticalBar;\u6225n\u0300ABLRTa\u0412\u042A\u0430\u045E\u047F\u037Crrow\u0180;BU\u041D\u041E\u0422\u6193ar;\u6913pArrow;\u61F5reve;\u4311eft\u02D2\u043A\0\u0446\0\u0450ightVector;\u6950eeVector;\u695Eector\u0100;B\u0459\u045A\u61BDar;\u6956ight\u01D4\u0467\0\u0471eeVector;\u695Fector\u0100;B\u047A\u047B\u61C1ar;\u6957ee\u0100;A\u0486\u0487\u62A4rrow;\u61A7\u0100ct\u0492\u0497r;\uC000\u{1D49F}rok;\u4110\u0800NTacdfglmopqstux\u04BD\u04C0\u04C4\u04CB\u04DE\u04E2\u04E7\u04EE\u04F5\u0521\u052F\u0536\u0552\u055D\u0560\u0565G;\u414AH\u803B\xD0\u40D0cute\u803B\xC9\u40C9\u0180aiy\u04D2\u04D7\u04DCron;\u411Arc\u803B\xCA\u40CA;\u442Dot;\u4116r;\uC000\u{1D508}rave\u803B\xC8\u40C8ement;\u6208\u0100ap\u04FA\u04FEcr;\u4112ty\u0253\u0506\0\0\u0512mallSquare;\u65FBerySmallSquare;\u65AB\u0100gp\u0526\u052Aon;\u4118f;\uC000\u{1D53C}silon;\u4395u\u0100ai\u053C\u0549l\u0100;T\u0542\u0543\u6A75ilde;\u6242librium;\u61CC\u0100ci\u0557\u055Ar;\u6130m;\u6A73a;\u4397ml\u803B\xCB\u40CB\u0100ip\u056A\u056Fsts;\u6203onentialE;\u6147\u0280cfios\u0585\u0588\u058D\u05B2\u05CCy;\u4424r;\uC000\u{1D509}lled\u0253\u0597\0\0\u05A3mallSquare;\u65FCerySmallSquare;\u65AA\u0370\u05BA\0\u05BF\0\0\u05C4f;\uC000\u{1D53D}All;\u6200riertrf;\u6131c\xF2\u05CB\u0600JTabcdfgorst\u05E8\u05EC\u05EF\u05FA\u0600\u0612\u0616\u061B\u061D\u0623\u066C\u0672cy;\u4403\u803B>\u403Emma\u0100;d\u05F7\u05F8\u4393;\u43DCreve;\u411E\u0180eiy\u0607\u060C\u0610dil;\u4122rc;\u411C;\u4413ot;\u4120r;\uC000\u{1D50A};\u62D9pf;\uC000\u{1D53E}eater\u0300EFGLST\u0635\u0644\u064E\u0656\u065B\u0666qual\u0100;L\u063E\u063F\u6265ess;\u62DBullEqual;\u6267reater;\u6AA2ess;\u6277lantEqual;\u6A7Eilde;\u6273cr;\uC000\u{1D4A2};\u626B\u0400Aacfiosu\u0685\u068B\u0696\u069B\u069E\u06AA\u06BE\u06CARDcy;\u442A\u0100ct\u0690\u0694ek;\u42C7;\u405Eirc;\u4124r;\u610ClbertSpace;\u610B\u01F0\u06AF\0\u06B2f;\u610DizontalLine;\u6500\u0100ct\u06C3\u06C5\xF2\u06A9rok;\u4126mp\u0144\u06D0\u06D8ownHum\xF0\u012Fqual;\u624F\u0700EJOacdfgmnostu\u06FA\u06FE\u0703\u0707\u070E\u071A\u071E\u0721\u0728\u0744\u0778\u078B\u078F\u0795cy;\u4415lig;\u4132cy;\u4401cute\u803B\xCD\u40CD\u0100iy\u0713\u0718rc\u803B\xCE\u40CE;\u4418ot;\u4130r;\u6111rave\u803B\xCC\u40CC\u0180;ap\u0720\u072F\u073F\u0100cg\u0734\u0737r;\u412AinaryI;\u6148lie\xF3\u03DD\u01F4\u0749\0\u0762\u0100;e\u074D\u074E\u622C\u0100gr\u0753\u0758ral;\u622Bsection;\u62C2isible\u0100CT\u076C\u0772omma;\u6063imes;\u6062\u0180gpt\u077F\u0783\u0788on;\u412Ef;\uC000\u{1D540}a;\u4399cr;\u6110ilde;\u4128\u01EB\u079A\0\u079Ecy;\u4406l\u803B\xCF\u40CF\u0280cfosu\u07AC\u07B7\u07BC\u07C2\u07D0\u0100iy\u07B1\u07B5rc;\u4134;\u4419r;\uC000\u{1D50D}pf;\uC000\u{1D541}\u01E3\u07C7\0\u07CCr;\uC000\u{1D4A5}rcy;\u4408kcy;\u4404\u0380HJacfos\u07E4\u07E8\u07EC\u07F1\u07FD\u0802\u0808cy;\u4425cy;\u440Cppa;\u439A\u0100ey\u07F6\u07FBdil;\u4136;\u441Ar;\uC000\u{1D50E}pf;\uC000\u{1D542}cr;\uC000\u{1D4A6}\u0580JTaceflmost\u0825\u0829\u082C\u0850\u0863\u09B3\u09B8\u09C7\u09CD\u0A37\u0A47cy;\u4409\u803B<\u403C\u0280cmnpr\u0837\u083C\u0841\u0844\u084Dute;\u4139bda;\u439Bg;\u67EAlacetrf;\u6112r;\u619E\u0180aey\u0857\u085C\u0861ron;\u413Ddil;\u413B;\u441B\u0100fs\u0868\u0970t\u0500ACDFRTUVar\u087E\u08A9\u08B1\u08E0\u08E6\u08FC\u092F\u095B\u0390\u096A\u0100nr\u0883\u088FgleBracket;\u67E8row\u0180;BR\u0899\u089A\u089E\u6190ar;\u61E4ightArrow;\u61C6eiling;\u6308o\u01F5\u08B7\0\u08C3bleBracket;\u67E6n\u01D4\u08C8\0\u08D2eeVector;\u6961ector\u0100;B\u08DB\u08DC\u61C3ar;\u6959loor;\u630Aight\u0100AV\u08EF\u08F5rrow;\u6194ector;\u694E\u0100er\u0901\u0917e\u0180;AV\u0909\u090A\u0910\u62A3rrow;\u61A4ector;\u695Aiangle\u0180;BE\u0924\u0925\u0929\u62B2ar;\u69CFqual;\u62B4p\u0180DTV\u0937\u0942\u094CownVector;\u6951eeVector;\u6960ector\u0100;B\u0956\u0957\u61BFar;\u6958ector\u0100;B\u0965\u0966\u61BCar;\u6952ight\xE1\u039Cs\u0300EFGLST\u097E\u098B\u0995\u099D\u09A2\u09ADqualGreater;\u62DAullEqual;\u6266reater;\u6276ess;\u6AA1lantEqual;\u6A7Dilde;\u6272r;\uC000\u{1D50F}\u0100;e\u09BD\u09BE\u62D8ftarrow;\u61DAidot;\u413F\u0180npw\u09D4\u0A16\u0A1Bg\u0200LRlr\u09DE\u09F7\u0A02\u0A10eft\u0100AR\u09E6\u09ECrrow;\u67F5ightArrow;\u67F7ightArrow;\u67F6eft\u0100ar\u03B3\u0A0Aight\xE1\u03BFight\xE1\u03CAf;\uC000\u{1D543}er\u0100LR\u0A22\u0A2CeftArrow;\u6199ightArrow;\u6198\u0180cht\u0A3E\u0A40\u0A42\xF2\u084C;\u61B0rok;\u4141;\u626A\u0400acefiosu\u0A5A\u0A5D\u0A60\u0A77\u0A7C\u0A85\u0A8B\u0A8Ep;\u6905y;\u441C\u0100dl\u0A65\u0A6FiumSpace;\u605Flintrf;\u6133r;\uC000\u{1D510}nusPlus;\u6213pf;\uC000\u{1D544}c\xF2\u0A76;\u439C\u0480Jacefostu\u0AA3\u0AA7\u0AAD\u0AC0\u0B14\u0B19\u0D91\u0D97\u0D9Ecy;\u440Acute;\u4143\u0180aey\u0AB4\u0AB9\u0ABEron;\u4147dil;\u4145;\u441D\u0180gsw\u0AC7\u0AF0\u0B0Eative\u0180MTV\u0AD3\u0ADF\u0AE8ediumSpace;\u600Bhi\u0100cn\u0AE6\u0AD8\xEB\u0AD9eryThi\xEE\u0AD9ted\u0100GL\u0AF8\u0B06reaterGreate\xF2\u0673essLes\xF3\u0A48Line;\u400Ar;\uC000\u{1D511}\u0200Bnpt\u0B22\u0B28\u0B37\u0B3Areak;\u6060BreakingSpace;\u40A0f;\u6115\u0680;CDEGHLNPRSTV\u0B55\u0B56\u0B6A\u0B7C\u0BA1\u0BEB\u0C04\u0C5E\u0C84\u0CA6\u0CD8\u0D61\u0D85\u6AEC\u0100ou\u0B5B\u0B64ngruent;\u6262pCap;\u626DoubleVerticalBar;\u6226\u0180lqx\u0B83\u0B8A\u0B9Bement;\u6209ual\u0100;T\u0B92\u0B93\u6260ilde;\uC000\u2242\u0338ists;\u6204reater\u0380;EFGLST\u0BB6\u0BB7\u0BBD\u0BC9\u0BD3\u0BD8\u0BE5\u626Fqual;\u6271ullEqual;\uC000\u2267\u0338reater;\uC000\u226B\u0338ess;\u6279lantEqual;\uC000\u2A7E\u0338ilde;\u6275ump\u0144\u0BF2\u0BFDownHump;\uC000\u224E\u0338qual;\uC000\u224F\u0338e\u0100fs\u0C0A\u0C27tTriangle\u0180;BE\u0C1A\u0C1B\u0C21\u62EAar;\uC000\u29CF\u0338qual;\u62ECs\u0300;EGLST\u0C35\u0C36\u0C3C\u0C44\u0C4B\u0C58\u626Equal;\u6270reater;\u6278ess;\uC000\u226A\u0338lantEqual;\uC000\u2A7D\u0338ilde;\u6274ested\u0100GL\u0C68\u0C79reaterGreater;\uC000\u2AA2\u0338essLess;\uC000\u2AA1\u0338recedes\u0180;ES\u0C92\u0C93\u0C9B\u6280qual;\uC000\u2AAF\u0338lantEqual;\u62E0\u0100ei\u0CAB\u0CB9verseElement;\u620CghtTriangle\u0180;BE\u0CCB\u0CCC\u0CD2\u62EBar;\uC000\u29D0\u0338qual;\u62ED\u0100qu\u0CDD\u0D0CuareSu\u0100bp\u0CE8\u0CF9set\u0100;E\u0CF0\u0CF3\uC000\u228F\u0338qual;\u62E2erset\u0100;E\u0D03\u0D06\uC000\u2290\u0338qual;\u62E3\u0180bcp\u0D13\u0D24\u0D4Eset\u0100;E\u0D1B\u0D1E\uC000\u2282\u20D2qual;\u6288ceeds\u0200;EST\u0D32\u0D33\u0D3B\u0D46\u6281qual;\uC000\u2AB0\u0338lantEqual;\u62E1ilde;\uC000\u227F\u0338erset\u0100;E\u0D58\u0D5B\uC000\u2283\u20D2qual;\u6289ilde\u0200;EFT\u0D6E\u0D6F\u0D75\u0D7F\u6241qual;\u6244ullEqual;\u6247ilde;\u6249erticalBar;\u6224cr;\uC000\u{1D4A9}ilde\u803B\xD1\u40D1;\u439D\u0700Eacdfgmoprstuv\u0DBD\u0DC2\u0DC9\u0DD5\u0DDB\u0DE0\u0DE7\u0DFC\u0E02\u0E20\u0E22\u0E32\u0E3F\u0E44lig;\u4152cute\u803B\xD3\u40D3\u0100iy\u0DCE\u0DD3rc\u803B\xD4\u40D4;\u441Eblac;\u4150r;\uC000\u{1D512}rave\u803B\xD2\u40D2\u0180aei\u0DEE\u0DF2\u0DF6cr;\u414Cga;\u43A9cron;\u439Fpf;\uC000\u{1D546}enCurly\u0100DQ\u0E0E\u0E1AoubleQuote;\u601Cuote;\u6018;\u6A54\u0100cl\u0E27\u0E2Cr;\uC000\u{1D4AA}ash\u803B\xD8\u40D8i\u016C\u0E37\u0E3Cde\u803B\xD5\u40D5es;\u6A37ml\u803B\xD6\u40D6er\u0100BP\u0E4B\u0E60\u0100ar\u0E50\u0E53r;\u603Eac\u0100ek\u0E5A\u0E5C;\u63DEet;\u63B4arenthesis;\u63DC\u0480acfhilors\u0E7F\u0E87\u0E8A\u0E8F\u0E92\u0E94\u0E9D\u0EB0\u0EFCrtialD;\u6202y;\u441Fr;\uC000\u{1D513}i;\u43A6;\u43A0usMinus;\u40B1\u0100ip\u0EA2\u0EADncareplan\xE5\u069Df;\u6119\u0200;eio\u0EB9\u0EBA\u0EE0\u0EE4\u6ABBcedes\u0200;EST\u0EC8\u0EC9\u0ECF\u0EDA\u627Aqual;\u6AAFlantEqual;\u627Cilde;\u627Eme;\u6033\u0100dp\u0EE9\u0EEEuct;\u620Fortion\u0100;a\u0225\u0EF9l;\u621D\u0100ci\u0F01\u0F06r;\uC000\u{1D4AB};\u43A8\u0200Ufos\u0F11\u0F16\u0F1B\u0F1FOT\u803B"\u4022r;\uC000\u{1D514}pf;\u611Acr;\uC000\u{1D4AC}\u0600BEacefhiorsu\u0F3E\u0F43\u0F47\u0F60\u0F73\u0FA7\u0FAA\u0FAD\u1096\u10A9\u10B4\u10BEarr;\u6910G\u803B\xAE\u40AE\u0180cnr\u0F4E\u0F53\u0F56ute;\u4154g;\u67EBr\u0100;t\u0F5C\u0F5D\u61A0l;\u6916\u0180aey\u0F67\u0F6C\u0F71ron;\u4158dil;\u4156;\u4420\u0100;v\u0F78\u0F79\u611Cerse\u0100EU\u0F82\u0F99\u0100lq\u0F87\u0F8Eement;\u620Builibrium;\u61CBpEquilibrium;\u696Fr\xBB\u0F79o;\u43A1ght\u0400ACDFTUVa\u0FC1\u0FEB\u0FF3\u1022\u1028\u105B\u1087\u03D8\u0100nr\u0FC6\u0FD2gleBracket;\u67E9row\u0180;BL\u0FDC\u0FDD\u0FE1\u6192ar;\u61E5eftArrow;\u61C4eiling;\u6309o\u01F5\u0FF9\0\u1005bleBracket;\u67E7n\u01D4\u100A\0\u1014eeVector;\u695Dector\u0100;B\u101D\u101E\u61C2ar;\u6955loor;\u630B\u0100er\u102D\u1043e\u0180;AV\u1035\u1036\u103C\u62A2rrow;\u61A6ector;\u695Biangle\u0180;BE\u1050\u1051\u1055\u62B3ar;\u69D0qual;\u62B5p\u0180DTV\u1063\u106E\u1078ownVector;\u694FeeVector;\u695Cector\u0100;B\u1082\u1083\u61BEar;\u6954ector\u0100;B\u1091\u1092\u61C0ar;\u6953\u0100pu\u109B\u109Ef;\u611DndImplies;\u6970ightarrow;\u61DB\u0100ch\u10B9\u10BCr;\u611B;\u61B1leDelayed;\u69F4\u0680HOacfhimoqstu\u10E4\u10F1\u10F7\u10FD\u1119\u111E\u1151\u1156\u1161\u1167\u11B5\u11BB\u11BF\u0100Cc\u10E9\u10EEHcy;\u4429y;\u4428FTcy;\u442Ccute;\u415A\u0280;aeiy\u1108\u1109\u110E\u1113\u1117\u6ABCron;\u4160dil;\u415Erc;\u415C;\u4421r;\uC000\u{1D516}ort\u0200DLRU\u112A\u1134\u113E\u1149ownArrow\xBB\u041EeftArrow\xBB\u089AightArrow\xBB\u0FDDpArrow;\u6191gma;\u43A3allCircle;\u6218pf;\uC000\u{1D54A}\u0272\u116D\0\0\u1170t;\u621Aare\u0200;ISU\u117B\u117C\u1189\u11AF\u65A1ntersection;\u6293u\u0100bp\u118F\u119Eset\u0100;E\u1197\u1198\u628Fqual;\u6291erset\u0100;E\u11A8\u11A9\u6290qual;\u6292nion;\u6294cr;\uC000\u{1D4AE}ar;\u62C6\u0200bcmp\u11C8\u11DB\u1209\u120B\u0100;s\u11CD\u11CE\u62D0et\u0100;E\u11CD\u11D5qual;\u6286\u0100ch\u11E0\u1205eeds\u0200;EST\u11ED\u11EE\u11F4\u11FF\u627Bqual;\u6AB0lantEqual;\u627Dilde;\u627FTh\xE1\u0F8C;\u6211\u0180;es\u1212\u1213\u1223\u62D1rset\u0100;E\u121C\u121D\u6283qual;\u6287et\xBB\u1213\u0580HRSacfhiors\u123E\u1244\u1249\u1255\u125E\u1271\u1276\u129F\u12C2\u12C8\u12D1ORN\u803B\xDE\u40DEADE;\u6122\u0100Hc\u124E\u1252cy;\u440By;\u4426\u0100bu\u125A\u125C;\u4009;\u43A4\u0180aey\u1265\u126A\u126Fron;\u4164dil;\u4162;\u4422r;\uC000\u{1D517}\u0100ei\u127B\u1289\u01F2\u1280\0\u1287efore;\u6234a;\u4398\u0100cn\u128E\u1298kSpace;\uC000\u205F\u200ASpace;\u6009lde\u0200;EFT\u12AB\u12AC\u12B2\u12BC\u623Cqual;\u6243ullEqual;\u6245ilde;\u6248pf;\uC000\u{1D54B}ipleDot;\u60DB\u0100ct\u12D6\u12DBr;\uC000\u{1D4AF}rok;\u4166\u0AE1\u12F7\u130E\u131A\u1326\0\u132C\u1331\0\0\0\0\0\u1338\u133D\u1377\u1385\0\u13FF\u1404\u140A\u1410\u0100cr\u12FB\u1301ute\u803B\xDA\u40DAr\u0100;o\u1307\u1308\u619Fcir;\u6949r\u01E3\u1313\0\u1316y;\u440Eve;\u416C\u0100iy\u131E\u1323rc\u803B\xDB\u40DB;\u4423blac;\u4170r;\uC000\u{1D518}rave\u803B\xD9\u40D9acr;\u416A\u0100di\u1341\u1369er\u0100BP\u1348\u135D\u0100ar\u134D\u1350r;\u405Fac\u0100ek\u1357\u1359;\u63DFet;\u63B5arenthesis;\u63DDon\u0100;P\u1370\u1371\u62C3lus;\u628E\u0100gp\u137B\u137Fon;\u4172f;\uC000\u{1D54C}\u0400ADETadps\u1395\u13AE\u13B8\u13C4\u03E8\u13D2\u13D7\u13F3rrow\u0180;BD\u1150\u13A0\u13A4ar;\u6912ownArrow;\u61C5ownArrow;\u6195quilibrium;\u696Eee\u0100;A\u13CB\u13CC\u62A5rrow;\u61A5own\xE1\u03F3er\u0100LR\u13DE\u13E8eftArrow;\u6196ightArrow;\u6197i\u0100;l\u13F9\u13FA\u43D2on;\u43A5ing;\u416Ecr;\uC000\u{1D4B0}ilde;\u4168ml\u803B\xDC\u40DC\u0480Dbcdefosv\u1427\u142C\u1430\u1433\u143E\u1485\u148A\u1490\u1496ash;\u62ABar;\u6AEBy;\u4412ash\u0100;l\u143B\u143C\u62A9;\u6AE6\u0100er\u1443\u1445;\u62C1\u0180bty\u144C\u1450\u147Aar;\u6016\u0100;i\u144F\u1455cal\u0200BLST\u1461\u1465\u146A\u1474ar;\u6223ine;\u407Ceparator;\u6758ilde;\u6240ThinSpace;\u600Ar;\uC000\u{1D519}pf;\uC000\u{1D54D}cr;\uC000\u{1D4B1}dash;\u62AA\u0280cefos\u14A7\u14AC\u14B1\u14B6\u14BCirc;\u4174dge;\u62C0r;\uC000\u{1D51A}pf;\uC000\u{1D54E}cr;\uC000\u{1D4B2}\u0200fios\u14CB\u14D0\u14D2\u14D8r;\uC000\u{1D51B};\u439Epf;\uC000\u{1D54F}cr;\uC000\u{1D4B3}\u0480AIUacfosu\u14F1\u14F5\u14F9\u14FD\u1504\u150F\u1514\u151A\u1520cy;\u442Fcy;\u4407cy;\u442Ecute\u803B\xDD\u40DD\u0100iy\u1509\u150Drc;\u4176;\u442Br;\uC000\u{1D51C}pf;\uC000\u{1D550}cr;\uC000\u{1D4B4}ml;\u4178\u0400Hacdefos\u1535\u1539\u153F\u154B\u154F\u155D\u1560\u1564cy;\u4416cute;\u4179\u0100ay\u1544\u1549ron;\u417D;\u4417ot;\u417B\u01F2\u1554\0\u155BoWidt\xE8\u0AD9a;\u4396r;\u6128pf;\u6124cr;\uC000\u{1D4B5}\u0BE1\u1583\u158A\u1590\0\u15B0\u15B6\u15BF\0\0\0\0\u15C6\u15DB\u15EB\u165F\u166D\0\u1695\u169B\u16B2\u16B9\0\u16BEcute\u803B\xE1\u40E1reve;\u4103\u0300;Ediuy\u159C\u159D\u15A1\u15A3\u15A8\u15AD\u623E;\uC000\u223E\u0333;\u623Frc\u803B\xE2\u40E2te\u80BB\xB4\u0306;\u4430lig\u803B\xE6\u40E6\u0100;r\xB2\u15BA;\uC000\u{1D51E}rave\u803B\xE0\u40E0\u0100ep\u15CA\u15D6\u0100fp\u15CF\u15D4sym;\u6135\xE8\u15D3ha;\u43B1\u0100ap\u15DFc\u0100cl\u15E4\u15E7r;\u4101g;\u6A3F\u0264\u15F0\0\0\u160A\u0280;adsv\u15FA\u15FB\u15FF\u1601\u1607\u6227nd;\u6A55;\u6A5Clope;\u6A58;\u6A5A\u0380;elmrsz\u1618\u1619\u161B\u161E\u163F\u164F\u1659\u6220;\u69A4e\xBB\u1619sd\u0100;a\u1625\u1626\u6221\u0461\u1630\u1632\u1634\u1636\u1638\u163A\u163C\u163E;\u69A8;\u69A9;\u69AA;\u69AB;\u69AC;\u69AD;\u69AE;\u69AFt\u0100;v\u1645\u1646\u621Fb\u0100;d\u164C\u164D\u62BE;\u699D\u0100pt\u1654\u1657h;\u6222\xBB\xB9arr;\u637C\u0100gp\u1663\u1667on;\u4105f;\uC000\u{1D552}\u0380;Eaeiop\u12C1\u167B\u167D\u1682\u1684\u1687\u168A;\u6A70cir;\u6A6F;\u624Ad;\u624Bs;\u4027rox\u0100;e\u12C1\u1692\xF1\u1683ing\u803B\xE5\u40E5\u0180cty\u16A1\u16A6\u16A8r;\uC000\u{1D4B6};\u402Amp\u0100;e\u12C1\u16AF\xF1\u0288ilde\u803B\xE3\u40E3ml\u803B\xE4\u40E4\u0100ci\u16C2\u16C8onin\xF4\u0272nt;\u6A11\u0800Nabcdefiklnoprsu\u16ED\u16F1\u1730\u173C\u1743\u1748\u1778\u177D\u17E0\u17E6\u1839\u1850\u170D\u193D\u1948\u1970ot;\u6AED\u0100cr\u16F6\u171Ek\u0200ceps\u1700\u1705\u170D\u1713ong;\u624Cpsilon;\u43F6rime;\u6035im\u0100;e\u171A\u171B\u623Dq;\u62CD\u0176\u1722\u1726ee;\u62BDed\u0100;g\u172C\u172D\u6305e\xBB\u172Drk\u0100;t\u135C\u1737brk;\u63B6\u0100oy\u1701\u1741;\u4431quo;\u601E\u0280cmprt\u1753\u175B\u1761\u1764\u1768aus\u0100;e\u010A\u0109ptyv;\u69B0s\xE9\u170Cno\xF5\u0113\u0180ahw\u176F\u1771\u1773;\u43B2;\u6136een;\u626Cr;\uC000\u{1D51F}g\u0380costuvw\u178D\u179D\u17B3\u17C1\u17D5\u17DB\u17DE\u0180aiu\u1794\u1796\u179A\xF0\u0760rc;\u65EFp\xBB\u1371\u0180dpt\u17A4\u17A8\u17ADot;\u6A00lus;\u6A01imes;\u6A02\u0271\u17B9\0\0\u17BEcup;\u6A06ar;\u6605riangle\u0100du\u17CD\u17D2own;\u65BDp;\u65B3plus;\u6A04e\xE5\u1444\xE5\u14ADarow;\u690D\u0180ako\u17ED\u1826\u1835\u0100cn\u17F2\u1823k\u0180lst\u17FA\u05AB\u1802ozenge;\u69EBriangle\u0200;dlr\u1812\u1813\u1818\u181D\u65B4own;\u65BEeft;\u65C2ight;\u65B8k;\u6423\u01B1\u182B\0\u1833\u01B2\u182F\0\u1831;\u6592;\u65914;\u6593ck;\u6588\u0100eo\u183E\u184D\u0100;q\u1843\u1846\uC000=\u20E5uiv;\uC000\u2261\u20E5t;\u6310\u0200ptwx\u1859\u185E\u1867\u186Cf;\uC000\u{1D553}\u0100;t\u13CB\u1863om\xBB\u13CCtie;\u62C8\u0600DHUVbdhmptuv\u1885\u1896\u18AA\u18BB\u18D7\u18DB\u18EC\u18FF\u1905\u190A\u1910\u1921\u0200LRlr\u188E\u1890\u1892\u1894;\u6557;\u6554;\u6556;\u6553\u0280;DUdu\u18A1\u18A2\u18A4\u18A6\u18A8\u6550;\u6566;\u6569;\u6564;\u6567\u0200LRlr\u18B3\u18B5\u18B7\u18B9;\u655D;\u655A;\u655C;\u6559\u0380;HLRhlr\u18CA\u18CB\u18CD\u18CF\u18D1\u18D3\u18D5\u6551;\u656C;\u6563;\u6560;\u656B;\u6562;\u655Fox;\u69C9\u0200LRlr\u18E4\u18E6\u18E8\u18EA;\u6555;\u6552;\u6510;\u650C\u0280;DUdu\u06BD\u18F7\u18F9\u18FB\u18FD;\u6565;\u6568;\u652C;\u6534inus;\u629Flus;\u629Eimes;\u62A0\u0200LRlr\u1919\u191B\u191D\u191F;\u655B;\u6558;\u6518;\u6514\u0380;HLRhlr\u1930\u1931\u1933\u1935\u1937\u1939\u193B\u6502;\u656A;\u6561;\u655E;\u653C;\u6524;\u651C\u0100ev\u0123\u1942bar\u803B\xA6\u40A6\u0200ceio\u1951\u1956\u195A\u1960r;\uC000\u{1D4B7}mi;\u604Fm\u0100;e\u171A\u171Cl\u0180;bh\u1968\u1969\u196B\u405C;\u69C5sub;\u67C8\u016C\u1974\u197El\u0100;e\u1979\u197A\u6022t\xBB\u197Ap\u0180;Ee\u012F\u1985\u1987;\u6AAE\u0100;q\u06DC\u06DB\u0CE1\u19A7\0\u19E8\u1A11\u1A15\u1A32\0\u1A37\u1A50\0\0\u1AB4\0\0\u1AC1\0\0\u1B21\u1B2E\u1B4D\u1B52\0\u1BFD\0\u1C0C\u0180cpr\u19AD\u19B2\u19DDute;\u4107\u0300;abcds\u19BF\u19C0\u19C4\u19CA\u19D5\u19D9\u6229nd;\u6A44rcup;\u6A49\u0100au\u19CF\u19D2p;\u6A4Bp;\u6A47ot;\u6A40;\uC000\u2229\uFE00\u0100eo\u19E2\u19E5t;\u6041\xEE\u0693\u0200aeiu\u19F0\u19FB\u1A01\u1A05\u01F0\u19F5\0\u19F8s;\u6A4Don;\u410Ddil\u803B\xE7\u40E7rc;\u4109ps\u0100;s\u1A0C\u1A0D\u6A4Cm;\u6A50ot;\u410B\u0180dmn\u1A1B\u1A20\u1A26il\u80BB\xB8\u01ADptyv;\u69B2t\u8100\xA2;e\u1A2D\u1A2E\u40A2r\xE4\u01B2r;\uC000\u{1D520}\u0180cei\u1A3D\u1A40\u1A4Dy;\u4447ck\u0100;m\u1A47\u1A48\u6713ark\xBB\u1A48;\u43C7r\u0380;Ecefms\u1A5F\u1A60\u1A62\u1A6B\u1AA4\u1AAA\u1AAE\u65CB;\u69C3\u0180;el\u1A69\u1A6A\u1A6D\u42C6q;\u6257e\u0261\u1A74\0\0\u1A88rrow\u0100lr\u1A7C\u1A81eft;\u61BAight;\u61BB\u0280RSacd\u1A92\u1A94\u1A96\u1A9A\u1A9F\xBB\u0F47;\u64C8st;\u629Birc;\u629Aash;\u629Dnint;\u6A10id;\u6AEFcir;\u69C2ubs\u0100;u\u1ABB\u1ABC\u6663it\xBB\u1ABC\u02EC\u1AC7\u1AD4\u1AFA\0\u1B0Aon\u0100;e\u1ACD\u1ACE\u403A\u0100;q\xC7\xC6\u026D\u1AD9\0\0\u1AE2a\u0100;t\u1ADE\u1ADF\u402C;\u4040\u0180;fl\u1AE8\u1AE9\u1AEB\u6201\xEE\u1160e\u0100mx\u1AF1\u1AF6ent\xBB\u1AE9e\xF3\u024D\u01E7\u1AFE\0\u1B07\u0100;d\u12BB\u1B02ot;\u6A6Dn\xF4\u0246\u0180fry\u1B10\u1B14\u1B17;\uC000\u{1D554}o\xE4\u0254\u8100\xA9;s\u0155\u1B1Dr;\u6117\u0100ao\u1B25\u1B29rr;\u61B5ss;\u6717\u0100cu\u1B32\u1B37r;\uC000\u{1D4B8}\u0100bp\u1B3C\u1B44\u0100;e\u1B41\u1B42\u6ACF;\u6AD1\u0100;e\u1B49\u1B4A\u6AD0;\u6AD2dot;\u62EF\u0380delprvw\u1B60\u1B6C\u1B77\u1B82\u1BAC\u1BD4\u1BF9arr\u0100lr\u1B68\u1B6A;\u6938;\u6935\u0270\u1B72\0\0\u1B75r;\u62DEc;\u62DFarr\u0100;p\u1B7F\u1B80\u61B6;\u693D\u0300;bcdos\u1B8F\u1B90\u1B96\u1BA1\u1BA5\u1BA8\u622Arcap;\u6A48\u0100au\u1B9B\u1B9Ep;\u6A46p;\u6A4Aot;\u628Dr;\u6A45;\uC000\u222A\uFE00\u0200alrv\u1BB5\u1BBF\u1BDE\u1BE3rr\u0100;m\u1BBC\u1BBD\u61B7;\u693Cy\u0180evw\u1BC7\u1BD4\u1BD8q\u0270\u1BCE\0\0\u1BD2re\xE3\u1B73u\xE3\u1B75ee;\u62CEedge;\u62CFen\u803B\xA4\u40A4earrow\u0100lr\u1BEE\u1BF3eft\xBB\u1B80ight\xBB\u1BBDe\xE4\u1BDD\u0100ci\u1C01\u1C07onin\xF4\u01F7nt;\u6231lcty;\u632D\u0980AHabcdefhijlorstuwz\u1C38\u1C3B\u1C3F\u1C5D\u1C69\u1C75\u1C8A\u1C9E\u1CAC\u1CB7\u1CFB\u1CFF\u1D0D\u1D7B\u1D91\u1DAB\u1DBB\u1DC6\u1DCDr\xF2\u0381ar;\u6965\u0200glrs\u1C48\u1C4D\u1C52\u1C54ger;\u6020eth;\u6138\xF2\u1133h\u0100;v\u1C5A\u1C5B\u6010\xBB\u090A\u016B\u1C61\u1C67arow;\u690Fa\xE3\u0315\u0100ay\u1C6E\u1C73ron;\u410F;\u4434\u0180;ao\u0332\u1C7C\u1C84\u0100gr\u02BF\u1C81r;\u61CAtseq;\u6A77\u0180glm\u1C91\u1C94\u1C98\u803B\xB0\u40B0ta;\u43B4ptyv;\u69B1\u0100ir\u1CA3\u1CA8sht;\u697F;\uC000\u{1D521}ar\u0100lr\u1CB3\u1CB5\xBB\u08DC\xBB\u101E\u0280aegsv\u1CC2\u0378\u1CD6\u1CDC\u1CE0m\u0180;os\u0326\u1CCA\u1CD4nd\u0100;s\u0326\u1CD1uit;\u6666amma;\u43DDin;\u62F2\u0180;io\u1CE7\u1CE8\u1CF8\u40F7de\u8100\xF7;o\u1CE7\u1CF0ntimes;\u62C7n\xF8\u1CF7cy;\u4452c\u026F\u1D06\0\0\u1D0Arn;\u631Eop;\u630D\u0280lptuw\u1D18\u1D1D\u1D22\u1D49\u1D55lar;\u4024f;\uC000\u{1D555}\u0280;emps\u030B\u1D2D\u1D37\u1D3D\u1D42q\u0100;d\u0352\u1D33ot;\u6251inus;\u6238lus;\u6214quare;\u62A1blebarwedg\xE5\xFAn\u0180adh\u112E\u1D5D\u1D67ownarrow\xF3\u1C83arpoon\u0100lr\u1D72\u1D76ef\xF4\u1CB4igh\xF4\u1CB6\u0162\u1D7F\u1D85karo\xF7\u0F42\u026F\u1D8A\0\0\u1D8Ern;\u631Fop;\u630C\u0180cot\u1D98\u1DA3\u1DA6\u0100ry\u1D9D\u1DA1;\uC000\u{1D4B9};\u4455l;\u69F6rok;\u4111\u0100dr\u1DB0\u1DB4ot;\u62F1i\u0100;f\u1DBA\u1816\u65BF\u0100ah\u1DC0\u1DC3r\xF2\u0429a\xF2\u0FA6angle;\u69A6\u0100ci\u1DD2\u1DD5y;\u445Fgrarr;\u67FF\u0900Dacdefglmnopqrstux\u1E01\u1E09\u1E19\u1E38\u0578\u1E3C\u1E49\u1E61\u1E7E\u1EA5\u1EAF\u1EBD\u1EE1\u1F2A\u1F37\u1F44\u1F4E\u1F5A\u0100Do\u1E06\u1D34o\xF4\u1C89\u0100cs\u1E0E\u1E14ute\u803B\xE9\u40E9ter;\u6A6E\u0200aioy\u1E22\u1E27\u1E31\u1E36ron;\u411Br\u0100;c\u1E2D\u1E2E\u6256\u803B\xEA\u40EAlon;\u6255;\u444Dot;\u4117\u0100Dr\u1E41\u1E45ot;\u6252;\uC000\u{1D522}\u0180;rs\u1E50\u1E51\u1E57\u6A9Aave\u803B\xE8\u40E8\u0100;d\u1E5C\u1E5D\u6A96ot;\u6A98\u0200;ils\u1E6A\u1E6B\u1E72\u1E74\u6A99nters;\u63E7;\u6113\u0100;d\u1E79\u1E7A\u6A95ot;\u6A97\u0180aps\u1E85\u1E89\u1E97cr;\u4113ty\u0180;sv\u1E92\u1E93\u1E95\u6205et\xBB\u1E93p\u01001;\u1E9D\u1EA4\u0133\u1EA1\u1EA3;\u6004;\u6005\u6003\u0100gs\u1EAA\u1EAC;\u414Bp;\u6002\u0100gp\u1EB4\u1EB8on;\u4119f;\uC000\u{1D556}\u0180als\u1EC4\u1ECE\u1ED2r\u0100;s\u1ECA\u1ECB\u62D5l;\u69E3us;\u6A71i\u0180;lv\u1EDA\u1EDB\u1EDF\u43B5on\xBB\u1EDB;\u43F5\u0200csuv\u1EEA\u1EF3\u1F0B\u1F23\u0100io\u1EEF\u1E31rc\xBB\u1E2E\u0269\u1EF9\0\0\u1EFB\xED\u0548ant\u0100gl\u1F02\u1F06tr\xBB\u1E5Dess\xBB\u1E7A\u0180aei\u1F12\u1F16\u1F1Als;\u403Dst;\u625Fv\u0100;D\u0235\u1F20D;\u6A78parsl;\u69E5\u0100Da\u1F2F\u1F33ot;\u6253rr;\u6971\u0180cdi\u1F3E\u1F41\u1EF8r;\u612Fo\xF4\u0352\u0100ah\u1F49\u1F4B;\u43B7\u803B\xF0\u40F0\u0100mr\u1F53\u1F57l\u803B\xEB\u40EBo;\u60AC\u0180cip\u1F61\u1F64\u1F67l;\u4021s\xF4\u056E\u0100eo\u1F6C\u1F74ctatio\xEE\u0559nential\xE5\u0579\u09E1\u1F92\0\u1F9E\0\u1FA1\u1FA7\0\0\u1FC6\u1FCC\0\u1FD3\0\u1FE6\u1FEA\u2000\0\u2008\u205Allingdotse\xF1\u1E44y;\u4444male;\u6640\u0180ilr\u1FAD\u1FB3\u1FC1lig;\u8000\uFB03\u0269\u1FB9\0\0\u1FBDg;\u8000\uFB00ig;\u8000\uFB04;\uC000\u{1D523}lig;\u8000\uFB01lig;\uC000fj\u0180alt\u1FD9\u1FDC\u1FE1t;\u666Dig;\u8000\uFB02ns;\u65B1of;\u4192\u01F0\u1FEE\0\u1FF3f;\uC000\u{1D557}\u0100ak\u05BF\u1FF7\u0100;v\u1FFC\u1FFD\u62D4;\u6AD9artint;\u6A0D\u0100ao\u200C\u2055\u0100cs\u2011\u2052\u03B1\u201A\u2030\u2038\u2045\u2048\0\u2050\u03B2\u2022\u2025\u2027\u202A\u202C\0\u202E\u803B\xBD\u40BD;\u6153\u803B\xBC\u40BC;\u6155;\u6159;\u615B\u01B3\u2034\0\u2036;\u6154;\u6156\u02B4\u203E\u2041\0\0\u2043\u803B\xBE\u40BE;\u6157;\u615C5;\u6158\u01B6\u204C\0\u204E;\u615A;\u615D8;\u615El;\u6044wn;\u6322cr;\uC000\u{1D4BB}\u0880Eabcdefgijlnorstv\u2082\u2089\u209F\u20A5\u20B0\u20B4\u20F0\u20F5\u20FA\u20FF\u2103\u2112\u2138\u0317\u213E\u2152\u219E\u0100;l\u064D\u2087;\u6A8C\u0180cmp\u2090\u2095\u209Dute;\u41F5ma\u0100;d\u209C\u1CDA\u43B3;\u6A86reve;\u411F\u0100iy\u20AA\u20AErc;\u411D;\u4433ot;\u4121\u0200;lqs\u063E\u0642\u20BD\u20C9\u0180;qs\u063E\u064C\u20C4lan\xF4\u0665\u0200;cdl\u0665\u20D2\u20D5\u20E5c;\u6AA9ot\u0100;o\u20DC\u20DD\u6A80\u0100;l\u20E2\u20E3\u6A82;\u6A84\u0100;e\u20EA\u20ED\uC000\u22DB\uFE00s;\u6A94r;\uC000\u{1D524}\u0100;g\u0673\u061Bmel;\u6137cy;\u4453\u0200;Eaj\u065A\u210C\u210E\u2110;\u6A92;\u6AA5;\u6AA4\u0200Eaes\u211B\u211D\u2129\u2134;\u6269p\u0100;p\u2123\u2124\u6A8Arox\xBB\u2124\u0100;q\u212E\u212F\u6A88\u0100;q\u212E\u211Bim;\u62E7pf;\uC000\u{1D558}\u0100ci\u2143\u2146r;\u610Am\u0180;el\u066B\u214E\u2150;\u6A8E;\u6A90\u8300>;cdlqr\u05EE\u2160\u216A\u216E\u2173\u2179\u0100ci\u2165\u2167;\u6AA7r;\u6A7Aot;\u62D7Par;\u6995uest;\u6A7C\u0280adels\u2184\u216A\u2190\u0656\u219B\u01F0\u2189\0\u218Epro\xF8\u209Er;\u6978q\u0100lq\u063F\u2196les\xF3\u2088i\xED\u066B\u0100en\u21A3\u21ADrtneqq;\uC000\u2269\uFE00\xC5\u21AA\u0500Aabcefkosy\u21C4\u21C7\u21F1\u21F5\u21FA\u2218\u221D\u222F\u2268\u227Dr\xF2\u03A0\u0200ilmr\u21D0\u21D4\u21D7\u21DBrs\xF0\u1484f\xBB\u2024il\xF4\u06A9\u0100dr\u21E0\u21E4cy;\u444A\u0180;cw\u08F4\u21EB\u21EFir;\u6948;\u61ADar;\u610Firc;\u4125\u0180alr\u2201\u220E\u2213rts\u0100;u\u2209\u220A\u6665it\xBB\u220Alip;\u6026con;\u62B9r;\uC000\u{1D525}s\u0100ew\u2223\u2229arow;\u6925arow;\u6926\u0280amopr\u223A\u223E\u2243\u225E\u2263rr;\u61FFtht;\u623Bk\u0100lr\u2249\u2253eftarrow;\u61A9ightarrow;\u61AAf;\uC000\u{1D559}bar;\u6015\u0180clt\u226F\u2274\u2278r;\uC000\u{1D4BD}as\xE8\u21F4rok;\u4127\u0100bp\u2282\u2287ull;\u6043hen\xBB\u1C5B\u0AE1\u22A3\0\u22AA\0\u22B8\u22C5\u22CE\0\u22D5\u22F3\0\0\u22F8\u2322\u2367\u2362\u237F\0\u2386\u23AA\u23B4cute\u803B\xED\u40ED\u0180;iy\u0771\u22B0\u22B5rc\u803B\xEE\u40EE;\u4438\u0100cx\u22BC\u22BFy;\u4435cl\u803B\xA1\u40A1\u0100fr\u039F\u22C9;\uC000\u{1D526}rave\u803B\xEC\u40EC\u0200;ino\u073E\u22DD\u22E9\u22EE\u0100in\u22E2\u22E6nt;\u6A0Ct;\u622Dfin;\u69DCta;\u6129lig;\u4133\u0180aop\u22FE\u231A\u231D\u0180cgt\u2305\u2308\u2317r;\u412B\u0180elp\u071F\u230F\u2313in\xE5\u078Ear\xF4\u0720h;\u4131f;\u62B7ed;\u41B5\u0280;cfot\u04F4\u232C\u2331\u233D\u2341are;\u6105in\u0100;t\u2338\u2339\u621Eie;\u69DDdo\xF4\u2319\u0280;celp\u0757\u234C\u2350\u235B\u2361al;\u62BA\u0100gr\u2355\u2359er\xF3\u1563\xE3\u234Darhk;\u6A17rod;\u6A3C\u0200cgpt\u236F\u2372\u2376\u237By;\u4451on;\u412Ff;\uC000\u{1D55A}a;\u43B9uest\u803B\xBF\u40BF\u0100ci\u238A\u238Fr;\uC000\u{1D4BE}n\u0280;Edsv\u04F4\u239B\u239D\u23A1\u04F3;\u62F9ot;\u62F5\u0100;v\u23A6\u23A7\u62F4;\u62F3\u0100;i\u0777\u23AElde;\u4129\u01EB\u23B8\0\u23BCcy;\u4456l\u803B\xEF\u40EF\u0300cfmosu\u23CC\u23D7\u23DC\u23E1\u23E7\u23F5\u0100iy\u23D1\u23D5rc;\u4135;\u4439r;\uC000\u{1D527}ath;\u4237pf;\uC000\u{1D55B}\u01E3\u23EC\0\u23F1r;\uC000\u{1D4BF}rcy;\u4458kcy;\u4454\u0400acfghjos\u240B\u2416\u2422\u2427\u242D\u2431\u2435\u243Bppa\u0100;v\u2413\u2414\u43BA;\u43F0\u0100ey\u241B\u2420dil;\u4137;\u443Ar;\uC000\u{1D528}reen;\u4138cy;\u4445cy;\u445Cpf;\uC000\u{1D55C}cr;\uC000\u{1D4C0}\u0B80ABEHabcdefghjlmnoprstuv\u2470\u2481\u2486\u248D\u2491\u250E\u253D\u255A\u2580\u264E\u265E\u2665\u2679\u267D\u269A\u26B2\u26D8\u275D\u2768\u278B\u27C0\u2801\u2812\u0180art\u2477\u247A\u247Cr\xF2\u09C6\xF2\u0395ail;\u691Barr;\u690E\u0100;g\u0994\u248B;\u6A8Bar;\u6962\u0963\u24A5\0\u24AA\0\u24B1\0\0\0\0\0\u24B5\u24BA\0\u24C6\u24C8\u24CD\0\u24F9ute;\u413Amptyv;\u69B4ra\xEE\u084Cbda;\u43BBg\u0180;dl\u088E\u24C1\u24C3;\u6991\xE5\u088E;\u6A85uo\u803B\xAB\u40ABr\u0400;bfhlpst\u0899\u24DE\u24E6\u24E9\u24EB\u24EE\u24F1\u24F5\u0100;f\u089D\u24E3s;\u691Fs;\u691D\xEB\u2252p;\u61ABl;\u6939im;\u6973l;\u61A2\u0180;ae\u24FF\u2500\u2504\u6AABil;\u6919\u0100;s\u2509\u250A\u6AAD;\uC000\u2AAD\uFE00\u0180abr\u2515\u2519\u251Drr;\u690Crk;\u6772\u0100ak\u2522\u252Cc\u0100ek\u2528\u252A;\u407B;\u405B\u0100es\u2531\u2533;\u698Bl\u0100du\u2539\u253B;\u698F;\u698D\u0200aeuy\u2546\u254B\u2556\u2558ron;\u413E\u0100di\u2550\u2554il;\u413C\xEC\u08B0\xE2\u2529;\u443B\u0200cqrs\u2563\u2566\u256D\u257Da;\u6936uo\u0100;r\u0E19\u1746\u0100du\u2572\u2577har;\u6967shar;\u694Bh;\u61B2\u0280;fgqs\u258B\u258C\u0989\u25F3\u25FF\u6264t\u0280ahlrt\u2598\u25A4\u25B7\u25C2\u25E8rrow\u0100;t\u0899\u25A1a\xE9\u24F6arpoon\u0100du\u25AF\u25B4own\xBB\u045Ap\xBB\u0966eftarrows;\u61C7ight\u0180ahs\u25CD\u25D6\u25DErrow\u0100;s\u08F4\u08A7arpoon\xF3\u0F98quigarro\xF7\u21F0hreetimes;\u62CB\u0180;qs\u258B\u0993\u25FAlan\xF4\u09AC\u0280;cdgs\u09AC\u260A\u260D\u261D\u2628c;\u6AA8ot\u0100;o\u2614\u2615\u6A7F\u0100;r\u261A\u261B\u6A81;\u6A83\u0100;e\u2622\u2625\uC000\u22DA\uFE00s;\u6A93\u0280adegs\u2633\u2639\u263D\u2649\u264Bppro\xF8\u24C6ot;\u62D6q\u0100gq\u2643\u2645\xF4\u0989gt\xF2\u248C\xF4\u099Bi\xED\u09B2\u0180ilr\u2655\u08E1\u265Asht;\u697C;\uC000\u{1D529}\u0100;E\u099C\u2663;\u6A91\u0161\u2669\u2676r\u0100du\u25B2\u266E\u0100;l\u0965\u2673;\u696Alk;\u6584cy;\u4459\u0280;acht\u0A48\u2688\u268B\u2691\u2696r\xF2\u25C1orne\xF2\u1D08ard;\u696Bri;\u65FA\u0100io\u269F\u26A4dot;\u4140ust\u0100;a\u26AC\u26AD\u63B0che\xBB\u26AD\u0200Eaes\u26BB\u26BD\u26C9\u26D4;\u6268p\u0100;p\u26C3\u26C4\u6A89rox\xBB\u26C4\u0100;q\u26CE\u26CF\u6A87\u0100;q\u26CE\u26BBim;\u62E6\u0400abnoptwz\u26E9\u26F4\u26F7\u271A\u272F\u2741\u2747\u2750\u0100nr\u26EE\u26F1g;\u67ECr;\u61FDr\xEB\u08C1g\u0180lmr\u26FF\u270D\u2714eft\u0100ar\u09E6\u2707ight\xE1\u09F2apsto;\u67FCight\xE1\u09FDparrow\u0100lr\u2725\u2729ef\xF4\u24EDight;\u61AC\u0180afl\u2736\u2739\u273Dr;\u6985;\uC000\u{1D55D}us;\u6A2Dimes;\u6A34\u0161\u274B\u274Fst;\u6217\xE1\u134E\u0180;ef\u2757\u2758\u1800\u65CAnge\xBB\u2758ar\u0100;l\u2764\u2765\u4028t;\u6993\u0280achmt\u2773\u2776\u277C\u2785\u2787r\xF2\u08A8orne\xF2\u1D8Car\u0100;d\u0F98\u2783;\u696D;\u600Eri;\u62BF\u0300achiqt\u2798\u279D\u0A40\u27A2\u27AE\u27BBquo;\u6039r;\uC000\u{1D4C1}m\u0180;eg\u09B2\u27AA\u27AC;\u6A8D;\u6A8F\u0100bu\u252A\u27B3o\u0100;r\u0E1F\u27B9;\u601Arok;\u4142\u8400<;cdhilqr\u082B\u27D2\u2639\u27DC\u27E0\u27E5\u27EA\u27F0\u0100ci\u27D7\u27D9;\u6AA6r;\u6A79re\xE5\u25F2mes;\u62C9arr;\u6976uest;\u6A7B\u0100Pi\u27F5\u27F9ar;\u6996\u0180;ef\u2800\u092D\u181B\u65C3r\u0100du\u2807\u280Dshar;\u694Ahar;\u6966\u0100en\u2817\u2821rtneqq;\uC000\u2268\uFE00\xC5\u281E\u0700Dacdefhilnopsu\u2840\u2845\u2882\u288E\u2893\u28A0\u28A5\u28A8\u28DA\u28E2\u28E4\u0A83\u28F3\u2902Dot;\u623A\u0200clpr\u284E\u2852\u2863\u287Dr\u803B\xAF\u40AF\u0100et\u2857\u2859;\u6642\u0100;e\u285E\u285F\u6720se\xBB\u285F\u0100;s\u103B\u2868to\u0200;dlu\u103B\u2873\u2877\u287Bow\xEE\u048Cef\xF4\u090F\xF0\u13D1ker;\u65AE\u0100oy\u2887\u288Cmma;\u6A29;\u443Cash;\u6014asuredangle\xBB\u1626r;\uC000\u{1D52A}o;\u6127\u0180cdn\u28AF\u28B4\u28C9ro\u803B\xB5\u40B5\u0200;acd\u1464\u28BD\u28C0\u28C4s\xF4\u16A7ir;\u6AF0ot\u80BB\xB7\u01B5us\u0180;bd\u28D2\u1903\u28D3\u6212\u0100;u\u1D3C\u28D8;\u6A2A\u0163\u28DE\u28E1p;\u6ADB\xF2\u2212\xF0\u0A81\u0100dp\u28E9\u28EEels;\u62A7f;\uC000\u{1D55E}\u0100ct\u28F8\u28FDr;\uC000\u{1D4C2}pos\xBB\u159D\u0180;lm\u2909\u290A\u290D\u43BCtimap;\u62B8\u0C00GLRVabcdefghijlmoprstuvw\u2942\u2953\u297E\u2989\u2998\u29DA\u29E9\u2A15\u2A1A\u2A58\u2A5D\u2A83\u2A95\u2AA4\u2AA8\u2B04\u2B07\u2B44\u2B7F\u2BAE\u2C34\u2C67\u2C7C\u2CE9\u0100gt\u2947\u294B;\uC000\u22D9\u0338\u0100;v\u2950\u0BCF\uC000\u226B\u20D2\u0180elt\u295A\u2972\u2976ft\u0100ar\u2961\u2967rrow;\u61CDightarrow;\u61CE;\uC000\u22D8\u0338\u0100;v\u297B\u0C47\uC000\u226A\u20D2ightarrow;\u61CF\u0100Dd\u298E\u2993ash;\u62AFash;\u62AE\u0280bcnpt\u29A3\u29A7\u29AC\u29B1\u29CCla\xBB\u02DEute;\u4144g;\uC000\u2220\u20D2\u0280;Eiop\u0D84\u29BC\u29C0\u29C5\u29C8;\uC000\u2A70\u0338d;\uC000\u224B\u0338s;\u4149ro\xF8\u0D84ur\u0100;a\u29D3\u29D4\u666El\u0100;s\u29D3\u0B38\u01F3\u29DF\0\u29E3p\u80BB\xA0\u0B37mp\u0100;e\u0BF9\u0C00\u0280aeouy\u29F4\u29FE\u2A03\u2A10\u2A13\u01F0\u29F9\0\u29FB;\u6A43on;\u4148dil;\u4146ng\u0100;d\u0D7E\u2A0Aot;\uC000\u2A6D\u0338p;\u6A42;\u443Dash;\u6013\u0380;Aadqsx\u0B92\u2A29\u2A2D\u2A3B\u2A41\u2A45\u2A50rr;\u61D7r\u0100hr\u2A33\u2A36k;\u6924\u0100;o\u13F2\u13F0ot;\uC000\u2250\u0338ui\xF6\u0B63\u0100ei\u2A4A\u2A4Ear;\u6928\xED\u0B98ist\u0100;s\u0BA0\u0B9Fr;\uC000\u{1D52B}\u0200Eest\u0BC5\u2A66\u2A79\u2A7C\u0180;qs\u0BBC\u2A6D\u0BE1\u0180;qs\u0BBC\u0BC5\u2A74lan\xF4\u0BE2i\xED\u0BEA\u0100;r\u0BB6\u2A81\xBB\u0BB7\u0180Aap\u2A8A\u2A8D\u2A91r\xF2\u2971rr;\u61AEar;\u6AF2\u0180;sv\u0F8D\u2A9C\u0F8C\u0100;d\u2AA1\u2AA2\u62FC;\u62FAcy;\u445A\u0380AEadest\u2AB7\u2ABA\u2ABE\u2AC2\u2AC5\u2AF6\u2AF9r\xF2\u2966;\uC000\u2266\u0338rr;\u619Ar;\u6025\u0200;fqs\u0C3B\u2ACE\u2AE3\u2AEFt\u0100ar\u2AD4\u2AD9rro\xF7\u2AC1ightarro\xF7\u2A90\u0180;qs\u0C3B\u2ABA\u2AEAlan\xF4\u0C55\u0100;s\u0C55\u2AF4\xBB\u0C36i\xED\u0C5D\u0100;r\u0C35\u2AFEi\u0100;e\u0C1A\u0C25i\xE4\u0D90\u0100pt\u2B0C\u2B11f;\uC000\u{1D55F}\u8180\xAC;in\u2B19\u2B1A\u2B36\u40ACn\u0200;Edv\u0B89\u2B24\u2B28\u2B2E;\uC000\u22F9\u0338ot;\uC000\u22F5\u0338\u01E1\u0B89\u2B33\u2B35;\u62F7;\u62F6i\u0100;v\u0CB8\u2B3C\u01E1\u0CB8\u2B41\u2B43;\u62FE;\u62FD\u0180aor\u2B4B\u2B63\u2B69r\u0200;ast\u0B7B\u2B55\u2B5A\u2B5Flle\xEC\u0B7Bl;\uC000\u2AFD\u20E5;\uC000\u2202\u0338lint;\u6A14\u0180;ce\u0C92\u2B70\u2B73u\xE5\u0CA5\u0100;c\u0C98\u2B78\u0100;e\u0C92\u2B7D\xF1\u0C98\u0200Aait\u2B88\u2B8B\u2B9D\u2BA7r\xF2\u2988rr\u0180;cw\u2B94\u2B95\u2B99\u619B;\uC000\u2933\u0338;\uC000\u219D\u0338ghtarrow\xBB\u2B95ri\u0100;e\u0CCB\u0CD6\u0380chimpqu\u2BBD\u2BCD\u2BD9\u2B04\u0B78\u2BE4\u2BEF\u0200;cer\u0D32\u2BC6\u0D37\u2BC9u\xE5\u0D45;\uC000\u{1D4C3}ort\u026D\u2B05\0\0\u2BD6ar\xE1\u2B56m\u0100;e\u0D6E\u2BDF\u0100;q\u0D74\u0D73su\u0100bp\u2BEB\u2BED\xE5\u0CF8\xE5\u0D0B\u0180bcp\u2BF6\u2C11\u2C19\u0200;Ees\u2BFF\u2C00\u0D22\u2C04\u6284;\uC000\u2AC5\u0338et\u0100;e\u0D1B\u2C0Bq\u0100;q\u0D23\u2C00c\u0100;e\u0D32\u2C17\xF1\u0D38\u0200;Ees\u2C22\u2C23\u0D5F\u2C27\u6285;\uC000\u2AC6\u0338et\u0100;e\u0D58\u2C2Eq\u0100;q\u0D60\u2C23\u0200gilr\u2C3D\u2C3F\u2C45\u2C47\xEC\u0BD7lde\u803B\xF1\u40F1\xE7\u0C43iangle\u0100lr\u2C52\u2C5Ceft\u0100;e\u0C1A\u2C5A\xF1\u0C26ight\u0100;e\u0CCB\u2C65\xF1\u0CD7\u0100;m\u2C6C\u2C6D\u43BD\u0180;es\u2C74\u2C75\u2C79\u4023ro;\u6116p;\u6007\u0480DHadgilrs\u2C8F\u2C94\u2C99\u2C9E\u2CA3\u2CB0\u2CB6\u2CD3\u2CE3ash;\u62ADarr;\u6904p;\uC000\u224D\u20D2ash;\u62AC\u0100et\u2CA8\u2CAC;\uC000\u2265\u20D2;\uC000>\u20D2nfin;\u69DE\u0180Aet\u2CBD\u2CC1\u2CC5rr;\u6902;\uC000\u2264\u20D2\u0100;r\u2CCA\u2CCD\uC000<\u20D2ie;\uC000\u22B4\u20D2\u0100At\u2CD8\u2CDCrr;\u6903rie;\uC000\u22B5\u20D2im;\uC000\u223C\u20D2\u0180Aan\u2CF0\u2CF4\u2D02rr;\u61D6r\u0100hr\u2CFA\u2CFDk;\u6923\u0100;o\u13E7\u13E5ear;\u6927\u1253\u1A95\0\0\0\0\0\0\0\0\0\0\0\0\0\u2D2D\0\u2D38\u2D48\u2D60\u2D65\u2D72\u2D84\u1B07\0\0\u2D8D\u2DAB\0\u2DC8\u2DCE\0\u2DDC\u2E19\u2E2B\u2E3E\u2E43\u0100cs\u2D31\u1A97ute\u803B\xF3\u40F3\u0100iy\u2D3C\u2D45r\u0100;c\u1A9E\u2D42\u803B\xF4\u40F4;\u443E\u0280abios\u1AA0\u2D52\u2D57\u01C8\u2D5Alac;\u4151v;\u6A38old;\u69BClig;\u4153\u0100cr\u2D69\u2D6Dir;\u69BF;\uC000\u{1D52C}\u036F\u2D79\0\0\u2D7C\0\u2D82n;\u42DBave\u803B\xF2\u40F2;\u69C1\u0100bm\u2D88\u0DF4ar;\u69B5\u0200acit\u2D95\u2D98\u2DA5\u2DA8r\xF2\u1A80\u0100ir\u2D9D\u2DA0r;\u69BEoss;\u69BBn\xE5\u0E52;\u69C0\u0180aei\u2DB1\u2DB5\u2DB9cr;\u414Dga;\u43C9\u0180cdn\u2DC0\u2DC5\u01CDron;\u43BF;\u69B6pf;\uC000\u{1D560}\u0180ael\u2DD4\u2DD7\u01D2r;\u69B7rp;\u69B9\u0380;adiosv\u2DEA\u2DEB\u2DEE\u2E08\u2E0D\u2E10\u2E16\u6228r\xF2\u1A86\u0200;efm\u2DF7\u2DF8\u2E02\u2E05\u6A5Dr\u0100;o\u2DFE\u2DFF\u6134f\xBB\u2DFF\u803B\xAA\u40AA\u803B\xBA\u40BAgof;\u62B6r;\u6A56lope;\u6A57;\u6A5B\u0180clo\u2E1F\u2E21\u2E27\xF2\u2E01ash\u803B\xF8\u40F8l;\u6298i\u016C\u2E2F\u2E34de\u803B\xF5\u40F5es\u0100;a\u01DB\u2E3As;\u6A36ml\u803B\xF6\u40F6bar;\u633D\u0AE1\u2E5E\0\u2E7D\0\u2E80\u2E9D\0\u2EA2\u2EB9\0\0\u2ECB\u0E9C\0\u2F13\0\0\u2F2B\u2FBC\0\u2FC8r\u0200;ast\u0403\u2E67\u2E72\u0E85\u8100\xB6;l\u2E6D\u2E6E\u40B6le\xEC\u0403\u0269\u2E78\0\0\u2E7Bm;\u6AF3;\u6AFDy;\u443Fr\u0280cimpt\u2E8B\u2E8F\u2E93\u1865\u2E97nt;\u4025od;\u402Eil;\u6030enk;\u6031r;\uC000\u{1D52D}\u0180imo\u2EA8\u2EB0\u2EB4\u0100;v\u2EAD\u2EAE\u43C6;\u43D5ma\xF4\u0A76ne;\u660E\u0180;tv\u2EBF\u2EC0\u2EC8\u43C0chfork\xBB\u1FFD;\u43D6\u0100au\u2ECF\u2EDFn\u0100ck\u2ED5\u2EDDk\u0100;h\u21F4\u2EDB;\u610E\xF6\u21F4s\u0480;abcdemst\u2EF3\u2EF4\u1908\u2EF9\u2EFD\u2F04\u2F06\u2F0A\u2F0E\u402Bcir;\u6A23ir;\u6A22\u0100ou\u1D40\u2F02;\u6A25;\u6A72n\u80BB\xB1\u0E9Dim;\u6A26wo;\u6A27\u0180ipu\u2F19\u2F20\u2F25ntint;\u6A15f;\uC000\u{1D561}nd\u803B\xA3\u40A3\u0500;Eaceinosu\u0EC8\u2F3F\u2F41\u2F44\u2F47\u2F81\u2F89\u2F92\u2F7E\u2FB6;\u6AB3p;\u6AB7u\xE5\u0ED9\u0100;c\u0ECE\u2F4C\u0300;acens\u0EC8\u2F59\u2F5F\u2F66\u2F68\u2F7Eppro\xF8\u2F43urlye\xF1\u0ED9\xF1\u0ECE\u0180aes\u2F6F\u2F76\u2F7Approx;\u6AB9qq;\u6AB5im;\u62E8i\xED\u0EDFme\u0100;s\u2F88\u0EAE\u6032\u0180Eas\u2F78\u2F90\u2F7A\xF0\u2F75\u0180dfp\u0EEC\u2F99\u2FAF\u0180als\u2FA0\u2FA5\u2FAAlar;\u632Eine;\u6312urf;\u6313\u0100;t\u0EFB\u2FB4\xEF\u0EFBrel;\u62B0\u0100ci\u2FC0\u2FC5r;\uC000\u{1D4C5};\u43C8ncsp;\u6008\u0300fiopsu\u2FDA\u22E2\u2FDF\u2FE5\u2FEB\u2FF1r;\uC000\u{1D52E}pf;\uC000\u{1D562}rime;\u6057cr;\uC000\u{1D4C6}\u0180aeo\u2FF8\u3009\u3013t\u0100ei\u2FFE\u3005rnion\xF3\u06B0nt;\u6A16st\u0100;e\u3010\u3011\u403F\xF1\u1F19\xF4\u0F14\u0A80ABHabcdefhilmnoprstux\u3040\u3051\u3055\u3059\u30E0\u310E\u312B\u3147\u3162\u3172\u318E\u3206\u3215\u3224\u3229\u3258\u326E\u3272\u3290\u32B0\u32B7\u0180art\u3047\u304A\u304Cr\xF2\u10B3\xF2\u03DDail;\u691Car\xF2\u1C65ar;\u6964\u0380cdenqrt\u3068\u3075\u3078\u307F\u308F\u3094\u30CC\u0100eu\u306D\u3071;\uC000\u223D\u0331te;\u4155i\xE3\u116Emptyv;\u69B3g\u0200;del\u0FD1\u3089\u308B\u308D;\u6992;\u69A5\xE5\u0FD1uo\u803B\xBB\u40BBr\u0580;abcfhlpstw\u0FDC\u30AC\u30AF\u30B7\u30B9\u30BC\u30BE\u30C0\u30C3\u30C7\u30CAp;\u6975\u0100;f\u0FE0\u30B4s;\u6920;\u6933s;\u691E\xEB\u225D\xF0\u272El;\u6945im;\u6974l;\u61A3;\u619D\u0100ai\u30D1\u30D5il;\u691Ao\u0100;n\u30DB\u30DC\u6236al\xF3\u0F1E\u0180abr\u30E7\u30EA\u30EEr\xF2\u17E5rk;\u6773\u0100ak\u30F3\u30FDc\u0100ek\u30F9\u30FB;\u407D;\u405D\u0100es\u3102\u3104;\u698Cl\u0100du\u310A\u310C;\u698E;\u6990\u0200aeuy\u3117\u311C\u3127\u3129ron;\u4159\u0100di\u3121\u3125il;\u4157\xEC\u0FF2\xE2\u30FA;\u4440\u0200clqs\u3134\u3137\u313D\u3144a;\u6937dhar;\u6969uo\u0100;r\u020E\u020Dh;\u61B3\u0180acg\u314E\u315F\u0F44l\u0200;ips\u0F78\u3158\u315B\u109Cn\xE5\u10BBar\xF4\u0FA9t;\u65AD\u0180ilr\u3169\u1023\u316Esht;\u697D;\uC000\u{1D52F}\u0100ao\u3177\u3186r\u0100du\u317D\u317F\xBB\u047B\u0100;l\u1091\u3184;\u696C\u0100;v\u318B\u318C\u43C1;\u43F1\u0180gns\u3195\u31F9\u31FCht\u0300ahlrst\u31A4\u31B0\u31C2\u31D8\u31E4\u31EErrow\u0100;t\u0FDC\u31ADa\xE9\u30C8arpoon\u0100du\u31BB\u31BFow\xEE\u317Ep\xBB\u1092eft\u0100ah\u31CA\u31D0rrow\xF3\u0FEAarpoon\xF3\u0551ightarrows;\u61C9quigarro\xF7\u30CBhreetimes;\u62CCg;\u42DAingdotse\xF1\u1F32\u0180ahm\u320D\u3210\u3213r\xF2\u0FEAa\xF2\u0551;\u600Foust\u0100;a\u321E\u321F\u63B1che\xBB\u321Fmid;\u6AEE\u0200abpt\u3232\u323D\u3240\u3252\u0100nr\u3237\u323Ag;\u67EDr;\u61FEr\xEB\u1003\u0180afl\u3247\u324A\u324Er;\u6986;\uC000\u{1D563}us;\u6A2Eimes;\u6A35\u0100ap\u325D\u3267r\u0100;g\u3263\u3264\u4029t;\u6994olint;\u6A12ar\xF2\u31E3\u0200achq\u327B\u3280\u10BC\u3285quo;\u603Ar;\uC000\u{1D4C7}\u0100bu\u30FB\u328Ao\u0100;r\u0214\u0213\u0180hir\u3297\u329B\u32A0re\xE5\u31F8mes;\u62CAi\u0200;efl\u32AA\u1059\u1821\u32AB\u65B9tri;\u69CEluhar;\u6968;\u611E\u0D61\u32D5\u32DB\u32DF\u332C\u3338\u3371\0\u337A\u33A4\0\0\u33EC\u33F0\0\u3428\u3448\u345A\u34AD\u34B1\u34CA\u34F1\0\u3616\0\0\u3633cute;\u415Bqu\xEF\u27BA\u0500;Eaceinpsy\u11ED\u32F3\u32F5\u32FF\u3302\u330B\u330F\u331F\u3326\u3329;\u6AB4\u01F0\u32FA\0\u32FC;\u6AB8on;\u4161u\xE5\u11FE\u0100;d\u11F3\u3307il;\u415Frc;\u415D\u0180Eas\u3316\u3318\u331B;\u6AB6p;\u6ABAim;\u62E9olint;\u6A13i\xED\u1204;\u4441ot\u0180;be\u3334\u1D47\u3335\u62C5;\u6A66\u0380Aacmstx\u3346\u334A\u3357\u335B\u335E\u3363\u336Drr;\u61D8r\u0100hr\u3350\u3352\xEB\u2228\u0100;o\u0A36\u0A34t\u803B\xA7\u40A7i;\u403Bwar;\u6929m\u0100in\u3369\xF0nu\xF3\xF1t;\u6736r\u0100;o\u3376\u2055\uC000\u{1D530}\u0200acoy\u3382\u3386\u3391\u33A0rp;\u666F\u0100hy\u338B\u338Fcy;\u4449;\u4448rt\u026D\u3399\0\0\u339Ci\xE4\u1464ara\xEC\u2E6F\u803B\xAD\u40AD\u0100gm\u33A8\u33B4ma\u0180;fv\u33B1\u33B2\u33B2\u43C3;\u43C2\u0400;deglnpr\u12AB\u33C5\u33C9\u33CE\u33D6\u33DE\u33E1\u33E6ot;\u6A6A\u0100;q\u12B1\u12B0\u0100;E\u33D3\u33D4\u6A9E;\u6AA0\u0100;E\u33DB\u33DC\u6A9D;\u6A9Fe;\u6246lus;\u6A24arr;\u6972ar\xF2\u113D\u0200aeit\u33F8\u3408\u340F\u3417\u0100ls\u33FD\u3404lsetm\xE9\u336Ahp;\u6A33parsl;\u69E4\u0100dl\u1463\u3414e;\u6323\u0100;e\u341C\u341D\u6AAA\u0100;s\u3422\u3423\u6AAC;\uC000\u2AAC\uFE00\u0180flp\u342E\u3433\u3442tcy;\u444C\u0100;b\u3438\u3439\u402F\u0100;a\u343E\u343F\u69C4r;\u633Ff;\uC000\u{1D564}a\u0100dr\u344D\u0402es\u0100;u\u3454\u3455\u6660it\xBB\u3455\u0180csu\u3460\u3479\u349F\u0100au\u3465\u346Fp\u0100;s\u1188\u346B;\uC000\u2293\uFE00p\u0100;s\u11B4\u3475;\uC000\u2294\uFE00u\u0100bp\u347F\u348F\u0180;es\u1197\u119C\u3486et\u0100;e\u1197\u348D\xF1\u119D\u0180;es\u11A8\u11AD\u3496et\u0100;e\u11A8\u349D\xF1\u11AE\u0180;af\u117B\u34A6\u05B0r\u0165\u34AB\u05B1\xBB\u117Car\xF2\u1148\u0200cemt\u34B9\u34BE\u34C2\u34C5r;\uC000\u{1D4C8}tm\xEE\xF1i\xEC\u3415ar\xE6\u11BE\u0100ar\u34CE\u34D5r\u0100;f\u34D4\u17BF\u6606\u0100an\u34DA\u34EDight\u0100ep\u34E3\u34EApsilo\xEE\u1EE0h\xE9\u2EAFs\xBB\u2852\u0280bcmnp\u34FB\u355E\u1209\u358B\u358E\u0480;Edemnprs\u350E\u350F\u3511\u3515\u351E\u3523\u352C\u3531\u3536\u6282;\u6AC5ot;\u6ABD\u0100;d\u11DA\u351Aot;\u6AC3ult;\u6AC1\u0100Ee\u3528\u352A;\u6ACB;\u628Alus;\u6ABFarr;\u6979\u0180eiu\u353D\u3552\u3555t\u0180;en\u350E\u3545\u354Bq\u0100;q\u11DA\u350Feq\u0100;q\u352B\u3528m;\u6AC7\u0100bp\u355A\u355C;\u6AD5;\u6AD3c\u0300;acens\u11ED\u356C\u3572\u3579\u357B\u3326ppro\xF8\u32FAurlye\xF1\u11FE\xF1\u11F3\u0180aes\u3582\u3588\u331Bppro\xF8\u331Aq\xF1\u3317g;\u666A\u0680123;Edehlmnps\u35A9\u35AC\u35AF\u121C\u35B2\u35B4\u35C0\u35C9\u35D5\u35DA\u35DF\u35E8\u35ED\u803B\xB9\u40B9\u803B\xB2\u40B2\u803B\xB3\u40B3;\u6AC6\u0100os\u35B9\u35BCt;\u6ABEub;\u6AD8\u0100;d\u1222\u35C5ot;\u6AC4s\u0100ou\u35CF\u35D2l;\u67C9b;\u6AD7arr;\u697Bult;\u6AC2\u0100Ee\u35E4\u35E6;\u6ACC;\u628Blus;\u6AC0\u0180eiu\u35F4\u3609\u360Ct\u0180;en\u121C\u35FC\u3602q\u0100;q\u1222\u35B2eq\u0100;q\u35E7\u35E4m;\u6AC8\u0100bp\u3611\u3613;\u6AD4;\u6AD6\u0180Aan\u361C\u3620\u362Drr;\u61D9r\u0100hr\u3626\u3628\xEB\u222E\u0100;o\u0A2B\u0A29war;\u692Alig\u803B\xDF\u40DF\u0BE1\u3651\u365D\u3660\u12CE\u3673\u3679\0\u367E\u36C2\0\0\0\0\0\u36DB\u3703\0\u3709\u376C\0\0\0\u3787\u0272\u3656\0\0\u365Bget;\u6316;\u43C4r\xEB\u0E5F\u0180aey\u3666\u366B\u3670ron;\u4165dil;\u4163;\u4442lrec;\u6315r;\uC000\u{1D531}\u0200eiko\u3686\u369D\u36B5\u36BC\u01F2\u368B\0\u3691e\u01004f\u1284\u1281a\u0180;sv\u3698\u3699\u369B\u43B8ym;\u43D1\u0100cn\u36A2\u36B2k\u0100as\u36A8\u36AEppro\xF8\u12C1im\xBB\u12ACs\xF0\u129E\u0100as\u36BA\u36AE\xF0\u12C1rn\u803B\xFE\u40FE\u01EC\u031F\u36C6\u22E7es\u8180\xD7;bd\u36CF\u36D0\u36D8\u40D7\u0100;a\u190F\u36D5r;\u6A31;\u6A30\u0180eps\u36E1\u36E3\u3700\xE1\u2A4D\u0200;bcf\u0486\u36EC\u36F0\u36F4ot;\u6336ir;\u6AF1\u0100;o\u36F9\u36FC\uC000\u{1D565}rk;\u6ADA\xE1\u3362rime;\u6034\u0180aip\u370F\u3712\u3764d\xE5\u1248\u0380adempst\u3721\u374D\u3740\u3751\u3757\u375C\u375Fngle\u0280;dlqr\u3730\u3731\u3736\u3740\u3742\u65B5own\xBB\u1DBBeft\u0100;e\u2800\u373E\xF1\u092E;\u625Cight\u0100;e\u32AA\u374B\xF1\u105Aot;\u65ECinus;\u6A3Alus;\u6A39b;\u69CDime;\u6A3Bezium;\u63E2\u0180cht\u3772\u377D\u3781\u0100ry\u3777\u377B;\uC000\u{1D4C9};\u4446cy;\u445Brok;\u4167\u0100io\u378B\u378Ex\xF4\u1777head\u0100lr\u3797\u37A0eftarro\xF7\u084Fightarrow\xBB\u0F5D\u0900AHabcdfghlmoprstuw\u37D0\u37D3\u37D7\u37E4\u37F0\u37FC\u380E\u381C\u3823\u3834\u3851\u385D\u386B\u38A9\u38CC\u38D2\u38EA\u38F6r\xF2\u03EDar;\u6963\u0100cr\u37DC\u37E2ute\u803B\xFA\u40FA\xF2\u1150r\u01E3\u37EA\0\u37EDy;\u445Eve;\u416D\u0100iy\u37F5\u37FArc\u803B\xFB\u40FB;\u4443\u0180abh\u3803\u3806\u380Br\xF2\u13ADlac;\u4171a\xF2\u13C3\u0100ir\u3813\u3818sht;\u697E;\uC000\u{1D532}rave\u803B\xF9\u40F9\u0161\u3827\u3831r\u0100lr\u382C\u382E\xBB\u0957\xBB\u1083lk;\u6580\u0100ct\u3839\u384D\u026F\u383F\0\0\u384Arn\u0100;e\u3845\u3846\u631Cr\xBB\u3846op;\u630Fri;\u65F8\u0100al\u3856\u385Acr;\u416B\u80BB\xA8\u0349\u0100gp\u3862\u3866on;\u4173f;\uC000\u{1D566}\u0300adhlsu\u114B\u3878\u387D\u1372\u3891\u38A0own\xE1\u13B3arpoon\u0100lr\u3888\u388Cef\xF4\u382Digh\xF4\u382Fi\u0180;hl\u3899\u389A\u389C\u43C5\xBB\u13FAon\xBB\u389Aparrows;\u61C8\u0180cit\u38B0\u38C4\u38C8\u026F\u38B6\0\0\u38C1rn\u0100;e\u38BC\u38BD\u631Dr\xBB\u38BDop;\u630Eng;\u416Fri;\u65F9cr;\uC000\u{1D4CA}\u0180dir\u38D9\u38DD\u38E2ot;\u62F0lde;\u4169i\u0100;f\u3730\u38E8\xBB\u1813\u0100am\u38EF\u38F2r\xF2\u38A8l\u803B\xFC\u40FCangle;\u69A7\u0780ABDacdeflnoprsz\u391C\u391F\u3929\u392D\u39B5\u39B8\u39BD\u39DF\u39E4\u39E8\u39F3\u39F9\u39FD\u3A01\u3A20r\xF2\u03F7ar\u0100;v\u3926\u3927\u6AE8;\u6AE9as\xE8\u03E1\u0100nr\u3932\u3937grt;\u699C\u0380eknprst\u34E3\u3946\u394B\u3952\u395D\u3964\u3996app\xE1\u2415othin\xE7\u1E96\u0180hir\u34EB\u2EC8\u3959op\xF4\u2FB5\u0100;h\u13B7\u3962\xEF\u318D\u0100iu\u3969\u396Dgm\xE1\u33B3\u0100bp\u3972\u3984setneq\u0100;q\u397D\u3980\uC000\u228A\uFE00;\uC000\u2ACB\uFE00setneq\u0100;q\u398F\u3992\uC000\u228B\uFE00;\uC000\u2ACC\uFE00\u0100hr\u399B\u399Fet\xE1\u369Ciangle\u0100lr\u39AA\u39AFeft\xBB\u0925ight\xBB\u1051y;\u4432ash\xBB\u1036\u0180elr\u39C4\u39D2\u39D7\u0180;be\u2DEA\u39CB\u39CFar;\u62BBq;\u625Alip;\u62EE\u0100bt\u39DC\u1468a\xF2\u1469r;\uC000\u{1D533}tr\xE9\u39AEsu\u0100bp\u39EF\u39F1\xBB\u0D1C\xBB\u0D59pf;\uC000\u{1D567}ro\xF0\u0EFBtr\xE9\u39B4\u0100cu\u3A06\u3A0Br;\uC000\u{1D4CB}\u0100bp\u3A10\u3A18n\u0100Ee\u3980\u3A16\xBB\u397En\u0100Ee\u3992\u3A1E\xBB\u3990igzag;\u699A\u0380cefoprs\u3A36\u3A3B\u3A56\u3A5B\u3A54\u3A61\u3A6Airc;\u4175\u0100di\u3A40\u3A51\u0100bg\u3A45\u3A49ar;\u6A5Fe\u0100;q\u15FA\u3A4F;\u6259erp;\u6118r;\uC000\u{1D534}pf;\uC000\u{1D568}\u0100;e\u1479\u3A66at\xE8\u1479cr;\uC000\u{1D4CC}\u0AE3\u178E\u3A87\0\u3A8B\0\u3A90\u3A9B\0\0\u3A9D\u3AA8\u3AAB\u3AAF\0\0\u3AC3\u3ACE\0\u3AD8\u17DC\u17DFtr\xE9\u17D1r;\uC000\u{1D535}\u0100Aa\u3A94\u3A97r\xF2\u03C3r\xF2\u09F6;\u43BE\u0100Aa\u3AA1\u3AA4r\xF2\u03B8r\xF2\u09EBa\xF0\u2713is;\u62FB\u0180dpt\u17A4\u3AB5\u3ABE\u0100fl\u3ABA\u17A9;\uC000\u{1D569}im\xE5\u17B2\u0100Aa\u3AC7\u3ACAr\xF2\u03CEr\xF2\u0A01\u0100cq\u3AD2\u17B8r;\uC000\u{1D4CD}\u0100pt\u17D6\u3ADCr\xE9\u17D4\u0400acefiosu\u3AF0\u3AFD\u3B08\u3B0C\u3B11\u3B15\u3B1B\u3B21c\u0100uy\u3AF6\u3AFBte\u803B\xFD\u40FD;\u444F\u0100iy\u3B02\u3B06rc;\u4177;\u444Bn\u803B\xA5\u40A5r;\uC000\u{1D536}cy;\u4457pf;\uC000\u{1D56A}cr;\uC000\u{1D4CE}\u0100cm\u3B26\u3B29y;\u444El\u803B\xFF\u40FF\u0500acdefhiosw\u3B42\u3B48\u3B54\u3B58\u3B64\u3B69\u3B6D\u3B74\u3B7A\u3B80cute;\u417A\u0100ay\u3B4D\u3B52ron;\u417E;\u4437ot;\u417C\u0100et\u3B5D\u3B61tr\xE6\u155Fa;\u43B6r;\uC000\u{1D537}cy;\u4436grarr;\u61DDpf;\uC000\u{1D56B}cr;\uC000\u{1D4CF}\u0100jn\u3B85\u3B87;\u600Dj;\u600C'.split("").map(function(c) {
@@ -16885,9 +16885,9 @@ var require_decode_data_html = __commonJS({
   }
 });
 
-// node_modules/entities/lib/generated/decode-data-xml.js
+// ../node_modules/entities/lib/generated/decode-data-xml.js
 var require_decode_data_xml = __commonJS({
-  "node_modules/entities/lib/generated/decode-data-xml.js"(exports) {
+  "../node_modules/entities/lib/generated/decode-data-xml.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.default = new Uint16Array("\u0200aglq	\x1B\u026D\0\0p;\u4026os;\u4027t;\u403Et;\u403Cuot;\u4022".split("").map(function(c) {
@@ -16896,9 +16896,9 @@ var require_decode_data_xml = __commonJS({
   }
 });
 
-// node_modules/entities/lib/decode_codepoint.js
+// ../node_modules/entities/lib/decode_codepoint.js
 var require_decode_codepoint = __commonJS({
-  "node_modules/entities/lib/decode_codepoint.js"(exports) {
+  "../node_modules/entities/lib/decode_codepoint.js"(exports) {
     "use strict";
     var _a3;
     Object.defineProperty(exports, "__esModule", { value: true });
@@ -16958,9 +16958,9 @@ var require_decode_codepoint = __commonJS({
   }
 });
 
-// node_modules/entities/lib/decode.js
+// ../node_modules/entities/lib/decode.js
 var require_decode = __commonJS({
-  "node_modules/entities/lib/decode.js"(exports) {
+  "../node_modules/entities/lib/decode.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -17311,9 +17311,9 @@ var require_decode = __commonJS({
   }
 });
 
-// node_modules/entities/lib/generated/encode-html.js
+// ../node_modules/entities/lib/generated/encode-html.js
 var require_encode_html = __commonJS({
-  "node_modules/entities/lib/generated/encode-html.js"(exports) {
+  "../node_modules/entities/lib/generated/encode-html.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function restoreDiff(arr) {
@@ -17326,9 +17326,9 @@ var require_encode_html = __commonJS({
   }
 });
 
-// node_modules/entities/lib/escape.js
+// ../node_modules/entities/lib/escape.js
 var require_escape = __commonJS({
-  "node_modules/entities/lib/escape.js"(exports) {
+  "../node_modules/entities/lib/escape.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.escapeText = exports.escapeAttribute = exports.escapeUTF8 = exports.escape = exports.encodeXML = exports.getCodePoint = exports.xmlReplacer = void 0;
@@ -17395,9 +17395,9 @@ var require_escape = __commonJS({
   }
 });
 
-// node_modules/entities/lib/encode.js
+// ../node_modules/entities/lib/encode.js
 var require_encode = __commonJS({
-  "node_modules/entities/lib/encode.js"(exports) {
+  "../node_modules/entities/lib/encode.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -17450,9 +17450,9 @@ var require_encode = __commonJS({
   }
 });
 
-// node_modules/entities/lib/index.js
+// ../node_modules/entities/lib/index.js
 var require_lib = __commonJS({
-  "node_modules/entities/lib/index.js"(exports) {
+  "../node_modules/entities/lib/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.decodeXMLStrict = exports.decodeHTML5Strict = exports.decodeHTML4Strict = exports.decodeHTML5 = exports.decodeHTML4 = exports.decodeHTMLAttribute = exports.decodeHTMLStrict = exports.decodeHTML = exports.decodeXML = exports.DecodingMode = exports.EntityDecoder = exports.encodeHTML5 = exports.encodeHTML4 = exports.encodeNonAsciiHTML = exports.encodeHTML = exports.escapeText = exports.escapeAttribute = exports.escapeUTF8 = exports.escape = exports.encodeXML = exports.encode = exports.decodeStrict = exports.decode = exports.EncodingMode = exports.EntityLevel = void 0;
@@ -17580,9 +17580,9 @@ var require_lib = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/constants.js
+// ../node_modules/relateurl/lib/constants.js
 var require_constants = __commonJS({
-  "node_modules/relateurl/lib/constants.js"(exports, module2) {
+  "../node_modules/relateurl/lib/constants.js"(exports, module2) {
     "use strict";
     module2.exports = {
       ABSOLUTE: "absolute",
@@ -17593,9 +17593,9 @@ var require_constants = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/format.js
+// ../node_modules/relateurl/lib/format.js
 var require_format2 = __commonJS({
-  "node_modules/relateurl/lib/format.js"(exports, module2) {
+  "../node_modules/relateurl/lib/format.js"(exports, module2) {
     "use strict";
     var constants = require_constants();
     function formatAuth(urlObj, options) {
@@ -17689,9 +17689,9 @@ var require_format2 = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/util/object.js
+// ../node_modules/relateurl/lib/util/object.js
 var require_object = __commonJS({
-  "node_modules/relateurl/lib/util/object.js"(exports, module2) {
+  "../node_modules/relateurl/lib/util/object.js"(exports, module2) {
     "use strict";
     function clone(obj) {
       if (obj instanceof Object) {
@@ -17726,9 +17726,9 @@ var require_object = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/options.js
+// ../node_modules/relateurl/lib/options.js
 var require_options = __commonJS({
-  "node_modules/relateurl/lib/options.js"(exports, module2) {
+  "../node_modules/relateurl/lib/options.js"(exports, module2) {
     "use strict";
     var objUtils = require_object();
     function getOptions(options, defaults) {
@@ -17762,9 +17762,9 @@ var require_options = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/parse/hrefInfo.js
+// ../node_modules/relateurl/lib/parse/hrefInfo.js
 var require_hrefInfo = __commonJS({
-  "node_modules/relateurl/lib/parse/hrefInfo.js"(exports, module2) {
+  "../node_modules/relateurl/lib/parse/hrefInfo.js"(exports, module2) {
     "use strict";
     function hrefInfo(urlObj) {
       var minimumPathOnly = !urlObj.scheme && !urlObj.auth && !urlObj.host.full && !urlObj.port;
@@ -17782,9 +17782,9 @@ var require_hrefInfo = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/parse/host.js
+// ../node_modules/relateurl/lib/parse/host.js
 var require_host = __commonJS({
-  "node_modules/relateurl/lib/parse/host.js"(exports, module2) {
+  "../node_modules/relateurl/lib/parse/host.js"(exports, module2) {
     "use strict";
     function parseHost(urlObj, options) {
       if (options.ignore_www) {
@@ -17802,9 +17802,9 @@ var require_host = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/parse/path.js
+// ../node_modules/relateurl/lib/parse/path.js
 var require_path = __commonJS({
-  "node_modules/relateurl/lib/parse/path.js"(exports, module2) {
+  "../node_modules/relateurl/lib/parse/path.js"(exports, module2) {
     "use strict";
     function isDirectoryIndex(resource, options) {
       var verdict = false;
@@ -17861,9 +17861,9 @@ var require_path = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/parse/port.js
+// ../node_modules/relateurl/lib/parse/port.js
 var require_port = __commonJS({
-  "node_modules/relateurl/lib/parse/port.js"(exports, module2) {
+  "../node_modules/relateurl/lib/parse/port.js"(exports, module2) {
     "use strict";
     function parsePort(urlObj, options) {
       var defaultPort = -1;
@@ -17885,9 +17885,9 @@ var require_port = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/parse/query.js
+// ../node_modules/relateurl/lib/parse/query.js
 var require_query = __commonJS({
-  "node_modules/relateurl/lib/parse/query.js"(exports, module2) {
+  "../node_modules/relateurl/lib/parse/query.js"(exports, module2) {
     "use strict";
     var hasOwnProperty = Object.prototype.hasOwnProperty;
     function parseQuery(urlObj, options) {
@@ -17919,9 +17919,9 @@ var require_query = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/parse/urlstring.js
+// ../node_modules/relateurl/lib/parse/urlstring.js
 var require_urlstring = __commonJS({
-  "node_modules/relateurl/lib/parse/urlstring.js"(exports, module2) {
+  "../node_modules/relateurl/lib/parse/urlstring.js"(exports, module2) {
     "use strict";
     var _parseUrl = require("url").parse;
     function clean(urlObj) {
@@ -18012,9 +18012,9 @@ var require_urlstring = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/util/path.js
+// ../node_modules/relateurl/lib/util/path.js
 var require_path2 = __commonJS({
-  "node_modules/relateurl/lib/util/path.js"(exports, module2) {
+  "../node_modules/relateurl/lib/util/path.js"(exports, module2) {
     "use strict";
     function joinPath(pathArray) {
       if (pathArray.length > 0) {
@@ -18045,9 +18045,9 @@ var require_path2 = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/parse/index.js
+// ../node_modules/relateurl/lib/parse/index.js
 var require_parse2 = __commonJS({
-  "node_modules/relateurl/lib/parse/index.js"(exports, module2) {
+  "../node_modules/relateurl/lib/parse/index.js"(exports, module2) {
     "use strict";
     var hrefInfo = require_hrefInfo();
     var parseHost = require_host();
@@ -18085,9 +18085,9 @@ var require_parse2 = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/relate/findRelation.js
+// ../node_modules/relateurl/lib/relate/findRelation.js
 var require_findRelation = __commonJS({
-  "node_modules/relateurl/lib/relate/findRelation.js"(exports, module2) {
+  "../node_modules/relateurl/lib/relate/findRelation.js"(exports, module2) {
     "use strict";
     function findRelation_upToPath(urlObj, siteUrlObj, options) {
       var pathOnly = urlObj.extra.hrefInfo.minimumPathOnly;
@@ -18136,9 +18136,9 @@ var require_findRelation = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/relate/absolutize.js
+// ../node_modules/relateurl/lib/relate/absolutize.js
 var require_absolutize = __commonJS({
-  "node_modules/relateurl/lib/relate/absolutize.js"(exports, module2) {
+  "../node_modules/relateurl/lib/relate/absolutize.js"(exports, module2) {
     "use strict";
     var findRelation = require_findRelation();
     var objUtils = require_object();
@@ -18194,9 +18194,9 @@ var require_absolutize = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/relate/relativize.js
+// ../node_modules/relateurl/lib/relate/relativize.js
 var require_relativize = __commonJS({
-  "node_modules/relateurl/lib/relate/relativize.js"(exports, module2) {
+  "../node_modules/relateurl/lib/relate/relativize.js"(exports, module2) {
     "use strict";
     var pathUtils = require_path2();
     function relatePath(absolutePath, siteAbsolutePath) {
@@ -18233,9 +18233,9 @@ var require_relativize = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/relate/index.js
+// ../node_modules/relateurl/lib/relate/index.js
 var require_relate = __commonJS({
-  "node_modules/relateurl/lib/relate/index.js"(exports, module2) {
+  "../node_modules/relateurl/lib/relate/index.js"(exports, module2) {
     "use strict";
     var absolutize = require_absolutize();
     var relativize = require_relativize();
@@ -18248,9 +18248,9 @@ var require_relate = __commonJS({
   }
 });
 
-// node_modules/relateurl/lib/index.js
+// ../node_modules/relateurl/lib/index.js
 var require_lib2 = __commonJS({
-  "node_modules/relateurl/lib/index.js"(exports, module2) {
+  "../node_modules/relateurl/lib/index.js"(exports, module2) {
     "use strict";
     var constants = require_constants();
     var formatUrl = require_format2();
@@ -18307,9 +18307,9 @@ var require_lib2 = __commonJS({
   }
 });
 
-// node_modules/@jridgewell/source-map/dist/source-map.umd.js
+// ../node_modules/@jridgewell/source-map/dist/source-map.umd.js
 var require_source_map_umd = __commonJS({
-  "node_modules/@jridgewell/source-map/dist/source-map.umd.js"(exports, module2) {
+  "../node_modules/@jridgewell/source-map/dist/source-map.umd.js"(exports, module2) {
     (function(global2, factory) {
       typeof exports === "object" && typeof module2 !== "undefined" ? factory(exports) : typeof define === "function" && define.amd ? define(["exports"], factory) : (global2 = typeof globalThis !== "undefined" ? globalThis : global2 || self, factory(global2.sourceMap = {}));
     })(exports, function(exports2) {
@@ -19053,9 +19053,9 @@ var require_source_map_umd = __commonJS({
   }
 });
 
-// node_modules/acorn/dist/acorn.js
+// ../node_modules/acorn/dist/acorn.js
 var require_acorn = __commonJS({
-  "node_modules/acorn/dist/acorn.js"(exports, module2) {
+  "../node_modules/acorn/dist/acorn.js"(exports, module2) {
     (function(global2, factory) {
       typeof exports === "object" && typeof module2 !== "undefined" ? factory(exports) : typeof define === "function" && define.amd ? define(["exports"], factory) : (global2 = typeof globalThis !== "undefined" ? globalThis : global2 || self, factory(global2.acorn = {}));
     })(exports, function(exports2) {
@@ -24077,9 +24077,9 @@ var require_acorn = __commonJS({
   }
 });
 
-// node_modules/terser/dist/bundle.min.js
+// ../node_modules/terser/dist/bundle.min.js
 var require_bundle_min = __commonJS({
-  "node_modules/terser/dist/bundle.min.js"(exports, module2) {
+  "../node_modules/terser/dist/bundle.min.js"(exports, module2) {
     (function(global2, factory) {
       typeof exports === "object" && typeof module2 !== "undefined" ? factory(exports, require_source_map_umd()) : typeof define === "function" && define.amd ? define(["exports", "@jridgewell/source-map"], factory) : (global2 = typeof globalThis !== "undefined" ? globalThis : global2 || self, factory(global2.Terser = {}, global2.sourceMap));
     })(exports, function(exports2, sourceMap) {
@@ -51438,9 +51438,9 @@ var require_bundle_min = __commonJS({
   }
 });
 
-// node_modules/html-minifier-terser/dist/htmlminifier.cjs
+// ../node_modules/html-minifier-terser/dist/htmlminifier.cjs
 var require_htmlminifier = __commonJS({
-  "node_modules/html-minifier-terser/dist/htmlminifier.cjs"(exports) {
+  "../node_modules/html-minifier-terser/dist/htmlminifier.cjs"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var CleanCSS = require_clean_css();
@@ -52947,9 +52947,9 @@ var require_htmlminifier = __commonJS({
   }
 });
 
-// node_modules/obsidian-dataview/lib/index.js
+// ../node_modules/obsidian-dataview/lib/index.js
 var require_lib3 = __commonJS({
-  "node_modules/obsidian-dataview/lib/index.js"(exports) {
+  "../node_modules/obsidian-dataview/lib/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     require("obsidian");
@@ -58669,16 +58669,16 @@ var require_lib3 = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/internal/streams/stream-browser.js
+// ../node_modules/readable-stream/lib/internal/streams/stream-browser.js
 var require_stream_browser = __commonJS({
-  "node_modules/readable-stream/lib/internal/streams/stream-browser.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/internal/streams/stream-browser.js"(exports, module2) {
     module2.exports = require("events").EventEmitter;
   }
 });
 
-// node_modules/readable-stream/lib/internal/streams/buffer_list.js
+// ../node_modules/readable-stream/lib/internal/streams/buffer_list.js
 var require_buffer_list = __commonJS({
-  "node_modules/readable-stream/lib/internal/streams/buffer_list.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/internal/streams/buffer_list.js"(exports, module2) {
     "use strict";
     function ownKeys(object, enumerableOnly) {
       var keys = Object.keys(object);
@@ -58932,9 +58932,9 @@ var require_buffer_list = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/internal/streams/destroy.js
+// ../node_modules/readable-stream/lib/internal/streams/destroy.js
 var require_destroy = __commonJS({
-  "node_modules/readable-stream/lib/internal/streams/destroy.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/internal/streams/destroy.js"(exports, module2) {
     "use strict";
     function destroy(err, cb) {
       var _this = this;
@@ -59025,9 +59025,9 @@ var require_destroy = __commonJS({
   }
 });
 
-// node_modules/readable-stream/errors-browser.js
+// ../node_modules/readable-stream/errors-browser.js
 var require_errors_browser = __commonJS({
-  "node_modules/readable-stream/errors-browser.js"(exports, module2) {
+  "../node_modules/readable-stream/errors-browser.js"(exports, module2) {
     "use strict";
     function _inheritsLoose(subClass, superClass) {
       subClass.prototype = Object.create(superClass.prototype);
@@ -59134,9 +59134,9 @@ var require_errors_browser = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/internal/streams/state.js
+// ../node_modules/readable-stream/lib/internal/streams/state.js
 var require_state = __commonJS({
-  "node_modules/readable-stream/lib/internal/streams/state.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/internal/streams/state.js"(exports, module2) {
     "use strict";
     var ERR_INVALID_OPT_VALUE = require_errors_browser().codes.ERR_INVALID_OPT_VALUE;
     function highWaterMarkFrom(options, isDuplex, duplexKey) {
@@ -59159,9 +59159,9 @@ var require_state = __commonJS({
   }
 });
 
-// node_modules/inherits/inherits_browser.js
+// ../node_modules/inherits/inherits_browser.js
 var require_inherits_browser = __commonJS({
-  "node_modules/inherits/inherits_browser.js"(exports, module2) {
+  "../node_modules/inherits/inherits_browser.js"(exports, module2) {
     if (typeof Object.create === "function") {
       module2.exports = function inherits(ctor, superCtor) {
         if (superCtor) {
@@ -59191,9 +59191,9 @@ var require_inherits_browser = __commonJS({
   }
 });
 
-// node_modules/util-deprecate/browser.js
+// ../node_modules/util-deprecate/browser.js
 var require_browser = __commonJS({
-  "node_modules/util-deprecate/browser.js"(exports, module2) {
+  "../node_modules/util-deprecate/browser.js"(exports, module2) {
     module2.exports = deprecate;
     function deprecate(fn, msg) {
       if (config("noDeprecation")) {
@@ -59230,9 +59230,9 @@ var require_browser = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/_stream_writable.js
+// ../node_modules/readable-stream/lib/_stream_writable.js
 var require_stream_writable = __commonJS({
-  "node_modules/readable-stream/lib/_stream_writable.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/_stream_writable.js"(exports, module2) {
     "use strict";
     module2.exports = Writable;
     function CorkedRequest(state) {
@@ -59718,9 +59718,9 @@ var require_stream_writable = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/_stream_duplex.js
+// ../node_modules/readable-stream/lib/_stream_duplex.js
 var require_stream_duplex = __commonJS({
-  "node_modules/readable-stream/lib/_stream_duplex.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/_stream_duplex.js"(exports, module2) {
     "use strict";
     var objectKeys = Object.keys || function(obj) {
       var keys2 = [];
@@ -59805,9 +59805,9 @@ var require_stream_duplex = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/internal/streams/end-of-stream.js
+// ../node_modules/readable-stream/lib/internal/streams/end-of-stream.js
 var require_end_of_stream = __commonJS({
-  "node_modules/readable-stream/lib/internal/streams/end-of-stream.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/internal/streams/end-of-stream.js"(exports, module2) {
     "use strict";
     var ERR_STREAM_PREMATURE_CLOSE = require_errors_browser().codes.ERR_STREAM_PREMATURE_CLOSE;
     function once(callback) {
@@ -59906,9 +59906,9 @@ var require_end_of_stream = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/internal/streams/async_iterator.js
+// ../node_modules/readable-stream/lib/internal/streams/async_iterator.js
 var require_async_iterator = __commonJS({
-  "node_modules/readable-stream/lib/internal/streams/async_iterator.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/internal/streams/async_iterator.js"(exports, module2) {
     "use strict";
     var _Object$setPrototypeO;
     function _defineProperty(obj, key, value) {
@@ -60091,18 +60091,18 @@ var require_async_iterator = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/internal/streams/from-browser.js
+// ../node_modules/readable-stream/lib/internal/streams/from-browser.js
 var require_from_browser = __commonJS({
-  "node_modules/readable-stream/lib/internal/streams/from-browser.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/internal/streams/from-browser.js"(exports, module2) {
     module2.exports = function() {
       throw new Error("Readable.from is not available in the browser");
     };
   }
 });
 
-// node_modules/readable-stream/lib/_stream_readable.js
+// ../node_modules/readable-stream/lib/_stream_readable.js
 var require_stream_readable = __commonJS({
-  "node_modules/readable-stream/lib/_stream_readable.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/_stream_readable.js"(exports, module2) {
     "use strict";
     module2.exports = Readable;
     var Duplex;
@@ -60881,9 +60881,9 @@ var require_stream_readable = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/_stream_transform.js
+// ../node_modules/readable-stream/lib/_stream_transform.js
 var require_stream_transform = __commonJS({
-  "node_modules/readable-stream/lib/_stream_transform.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/_stream_transform.js"(exports, module2) {
     "use strict";
     module2.exports = Transform;
     var _require$codes = require_errors_browser().codes;
@@ -60989,9 +60989,9 @@ var require_stream_transform = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/_stream_passthrough.js
+// ../node_modules/readable-stream/lib/_stream_passthrough.js
 var require_stream_passthrough = __commonJS({
-  "node_modules/readable-stream/lib/_stream_passthrough.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/_stream_passthrough.js"(exports, module2) {
     "use strict";
     module2.exports = PassThrough;
     var Transform = require_stream_transform();
@@ -61007,9 +61007,9 @@ var require_stream_passthrough = __commonJS({
   }
 });
 
-// node_modules/readable-stream/lib/internal/streams/pipeline.js
+// ../node_modules/readable-stream/lib/internal/streams/pipeline.js
 var require_pipeline = __commonJS({
-  "node_modules/readable-stream/lib/internal/streams/pipeline.js"(exports, module2) {
+  "../node_modules/readable-stream/lib/internal/streams/pipeline.js"(exports, module2) {
     "use strict";
     var eos;
     function once(callback) {
@@ -61106,9 +61106,9 @@ var require_pipeline = __commonJS({
   }
 });
 
-// node_modules/readable-stream/readable-browser.js
+// ../node_modules/readable-stream/readable-browser.js
 var require_readable_browser = __commonJS({
-  "node_modules/readable-stream/readable-browser.js"(exports, module2) {
+  "../node_modules/readable-stream/readable-browser.js"(exports, module2) {
     exports = module2.exports = require_stream_readable();
     exports.Stream = exports;
     exports.Readable = exports;
@@ -61121,9 +61121,9 @@ var require_readable_browser = __commonJS({
   }
 });
 
-// node_modules/readable-web-to-node-stream/lib/index.js
+// ../node_modules/readable-web-to-node-stream/lib/index.js
 var require_lib4 = __commonJS({
-  "node_modules/readable-web-to-node-stream/lib/index.js"(exports) {
+  "../node_modules/readable-web-to-node-stream/lib/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ReadableWebToNodeStream = void 0;
@@ -61168,9 +61168,9 @@ var require_lib4 = __commonJS({
   }
 });
 
-// node_modules/ieee754/index.js
+// ../node_modules/ieee754/index.js
 var require_ieee754 = __commonJS({
-  "node_modules/ieee754/index.js"(exports) {
+  "../node_modules/ieee754/index.js"(exports) {
     exports.read = function(buffer, offset, isLE, mLen, nBytes) {
       var e, m;
       var eLen = nBytes * 8 - mLen - 1;
@@ -61251,9 +61251,9 @@ var require_ieee754 = __commonJS({
   }
 });
 
-// node_modules/mime-db/db.json
+// ../node_modules/mime-db/db.json
 var require_db = __commonJS({
-  "node_modules/mime-db/db.json"(exports, module2) {
+  "../node_modules/mime-db/db.json"(exports, module2) {
     module2.exports = {
       "application/1d-interleaved-parityfec": {
         source: "iana"
@@ -67969,16 +67969,16 @@ var require_db = __commonJS({
   }
 });
 
-// node_modules/mime-db/index.js
+// ../node_modules/mime-db/index.js
 var require_mime_db = __commonJS({
-  "node_modules/mime-db/index.js"(exports, module2) {
+  "../node_modules/mime-db/index.js"(exports, module2) {
     module2.exports = require_db();
   }
 });
 
-// node_modules/mime-types/index.js
+// ../node_modules/mime-types/index.js
 var require_mime_types = __commonJS({
-  "node_modules/mime-types/index.js"(exports) {
+  "../node_modules/mime-types/index.js"(exports) {
     "use strict";
     var db = require_mime_db();
     var extname = require("path").extname;
@@ -68067,9 +68067,9 @@ var require_mime_types = __commonJS({
   }
 });
 
-// node_modules/xml/lib/escapeForXML.js
+// ../node_modules/xml/lib/escapeForXML.js
 var require_escapeForXML = __commonJS({
-  "node_modules/xml/lib/escapeForXML.js"(exports, module2) {
+  "../node_modules/xml/lib/escapeForXML.js"(exports, module2) {
     var XML_CHARACTER_MAP = {
       "&": "&amp;",
       '"': "&quot;",
@@ -68086,9 +68086,9 @@ var require_escapeForXML = __commonJS({
   }
 });
 
-// node_modules/xml/lib/xml.js
+// ../node_modules/xml/lib/xml.js
 var require_xml = __commonJS({
-  "node_modules/xml/lib/xml.js"(exports, module2) {
+  "../node_modules/xml/lib/xml.js"(exports, module2) {
     var escapeForXML = require_escapeForXML();
     var Stream = require("stream").Stream;
     var DEFAULT_INDENT = "    ";
@@ -68310,9 +68310,9 @@ var require_xml = __commonJS({
   }
 });
 
-// node_modules/rss/lib/index.js
+// ../node_modules/rss/lib/index.js
 var require_lib5 = __commonJS({
-  "node_modules/rss/lib/index.js"(exports, module2) {
+  "../node_modules/rss/lib/index.js"(exports, module2) {
     "use strict";
     var mime3 = require_mime_types();
     var xml = require_xml();
@@ -68479,421 +68479,421 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian13 = require("obsidian");
 
 // src/frontend/graph-view/graph-wasm.txt.js
-var graph_wasm_txt_default = 'var Module = typeof Module != "undefined" ? Module : {};\nvar ENVIRONMENT_IS_WEB = typeof window == "object";\nvar ENVIRONMENT_IS_WORKER = typeof importScripts == "function";\nvar ENVIRONMENT_IS_NODE = typeof process == "object" && typeof process.versions == "object" && typeof process.versions.node == "string";\nif (ENVIRONMENT_IS_NODE) {}\nvar moduleOverrides = Object.assign({}, Module);\nvar arguments_ = [];\nvar thisProgram = "./this.program";\nvar quit_ = (status, toThrow) => {\n    throw toThrow\n};\nvar scriptDirectory = "";\n\nfunction locateFile(path) {\n    if (Module["locateFile"]) {\n        return Module["locateFile"](path, scriptDirectory)\n    }\n    return scriptDirectory + path\n}\nvar read_, readAsync, readBinary;\nif (ENVIRONMENT_IS_NODE) {\n    var fs = require("fs");\n    var nodePath = require("path");\n    if (ENVIRONMENT_IS_WORKER) {\n        scriptDirectory = nodePath.dirname(scriptDirectory) + "/"\n    } else {\n        scriptDirectory = __dirname + "/"\n    }\n    read_ = (filename, binary) => {\n        filename = isFileURI(filename) ? new URL(filename) : nodePath.normalize(filename);\n        return fs.readFileSync(filename, binary ? undefined : "utf8")\n    };\n    readBinary = filename => {\n        var ret = read_(filename, true);\n        if (!ret.buffer) {\n            ret = new Uint8Array(ret)\n        }\n        return ret\n    };\n    readAsync = (filename, onload, onerror, binary = true) => {\n        filename = isFileURI(filename) ? new URL(filename) : nodePath.normalize(filename);\n        fs.readFile(filename, binary ? undefined : "utf8", (err, data) => {\n            if (err) onerror(err);\n            else onload(binary ? data.buffer : data)\n        })\n    };\n    if (!Module["thisProgram"] && process.argv.length > 1) {\n        thisProgram = process.argv[1].replace(/\\\\/g, "/")\n    }\n    arguments_ = process.argv.slice(2);\n    if (typeof module != "undefined") {\n        module["exports"] = Module\n    }\n    process.on("uncaughtException", ex => {\n        if (ex !== "unwind" && !(ex instanceof ExitStatus) && !(ex.context instanceof ExitStatus)) {\n            throw ex\n        }\n    });\n    quit_ = (status, toThrow) => {\n        process.exitCode = status;\n        throw toThrow\n    }\n} else if (ENVIRONMENT_IS_WEB || ENVIRONMENT_IS_WORKER) {\n    if (ENVIRONMENT_IS_WORKER) {\n        scriptDirectory = self.location.href\n    } else if (typeof document != "undefined" && document.currentScript) {\n        scriptDirectory = document.currentScript.src\n    }\n    if (scriptDirectory.startsWith("blob:")) {\n        scriptDirectory = ""\n    } else {\n        scriptDirectory = scriptDirectory.substr(0, scriptDirectory.replace(/[?#].*/, "").lastIndexOf("/") + 1)\n    } {\n        read_ = url => {\n            var xhr = new XMLHttpRequest;\n            xhr.open("GET", url, false);\n            xhr.send(null);\n            return xhr.responseText\n        };\n        if (ENVIRONMENT_IS_WORKER) {\n            readBinary = url => {\n                var xhr = new XMLHttpRequest;\n                xhr.open("GET", url, false);\n                xhr.responseType = "arraybuffer";\n                xhr.send(null);\n                return new Uint8Array(xhr.response)\n            }\n        }\n        readAsync = (url, onload, onerror) => {\n            var xhr = new XMLHttpRequest;\n            xhr.open("GET", url, true);\n            xhr.responseType = "arraybuffer";\n            xhr.onload = () => {\n                if (xhr.status == 200 || xhr.status == 0 && xhr.response) {\n                    onload(xhr.response);\n                    return\n                }\n                onerror()\n            };\n            xhr.onerror = onerror;\n            xhr.send(null)\n        }\n    }\n} else {}\nvar out = Module["print"] || console.log.bind(console);\nvar err = Module["printErr"] || console.error.bind(console);\nObject.assign(Module, moduleOverrides);\nmoduleOverrides = null;\nif (Module["arguments"]) arguments_ = Module["arguments"];\nif (Module["thisProgram"]) thisProgram = Module["thisProgram"];\nif (Module["quit"]) quit_ = Module["quit"];\nvar wasmBinary;\nif (Module["wasmBinary"]) wasmBinary = Module["wasmBinary"];\nvar wasmMemory;\nvar ABORT = false;\nvar EXITSTATUS;\nvar HEAP8, HEAPU8, HEAP16, HEAPU16, HEAP32, HEAPU32, HEAPF32, HEAPF64;\n\nfunction updateMemoryViews() {\n    var b = wasmMemory.buffer;\n    Module["HEAP8"] = HEAP8 = new Int8Array(b);\n    Module["HEAP16"] = HEAP16 = new Int16Array(b);\n    Module["HEAPU8"] = HEAPU8 = new Uint8Array(b);\n    Module["HEAPU16"] = HEAPU16 = new Uint16Array(b);\n    Module["HEAP32"] = HEAP32 = new Int32Array(b);\n    Module["HEAPU32"] = HEAPU32 = new Uint32Array(b);\n    Module["HEAPF32"] = HEAPF32 = new Float32Array(b);\n    Module["HEAPF64"] = HEAPF64 = new Float64Array(b)\n}\nvar __ATPRERUN__ = [];\nvar __ATINIT__ = [];\nvar __ATPOSTRUN__ = [];\nvar runtimeInitialized = false;\n\nfunction preRun() {\n    if (Module["preRun"]) {\n        if (typeof Module["preRun"] == "function") Module["preRun"] = [Module["preRun"]];\n        while (Module["preRun"].length) {\n            addOnPreRun(Module["preRun"].shift())\n        }\n    }\n    callRuntimeCallbacks(__ATPRERUN__)\n}\n\nfunction initRuntime() {\n    runtimeInitialized = true;\n    callRuntimeCallbacks(__ATINIT__)\n}\n\nfunction postRun() {\n    if (Module["postRun"]) {\n        if (typeof Module["postRun"] == "function") Module["postRun"] = [Module["postRun"]];\n        while (Module["postRun"].length) {\n            addOnPostRun(Module["postRun"].shift())\n        }\n    }\n    callRuntimeCallbacks(__ATPOSTRUN__)\n}\n\nfunction addOnPreRun(cb) {\n    __ATPRERUN__.unshift(cb)\n}\n\nfunction addOnInit(cb) {\n    __ATINIT__.unshift(cb)\n}\n\nfunction addOnPostRun(cb) {\n    __ATPOSTRUN__.unshift(cb)\n}\nvar runDependencies = 0;\nvar runDependencyWatcher = null;\nvar dependenciesFulfilled = null;\n\nfunction addRunDependency(id) {\n    runDependencies++;\n    Module["monitorRunDependencies"]?.(runDependencies)\n}\n\nfunction removeRunDependency(id) {\n    runDependencies--;\n    Module["monitorRunDependencies"]?.(runDependencies);\n    if (runDependencies == 0) {\n        if (runDependencyWatcher !== null) {\n            clearInterval(runDependencyWatcher);\n            runDependencyWatcher = null\n        }\n        if (dependenciesFulfilled) {\n            var callback = dependenciesFulfilled;\n            dependenciesFulfilled = null;\n            callback()\n        }\n    }\n}\n\nfunction abort(what) {\n    Module["onAbort"]?.(what);\n    what = "Aborted(" + what + ")";\n    err(what);\n    ABORT = true;\n    EXITSTATUS = 1;\n    what += ". Build with -sASSERTIONS for more info.";\n    var e = new WebAssembly.RuntimeError(what);\n    throw e\n}\nvar dataURIPrefix = "data:application/octet-stream;base64,";\nvar isDataURI = filename => filename.startsWith(dataURIPrefix);\nvar isFileURI = filename => filename.startsWith("file://");\nvar wasmBinaryFile;\nwasmBinaryFile = "graph-wasm.wasm";\nif (!isDataURI(wasmBinaryFile)) {\n    wasmBinaryFile = locateFile(wasmBinaryFile)\n}\n\nfunction getBinarySync(file) {\n    if (file == wasmBinaryFile && wasmBinary) {\n        return new Uint8Array(wasmBinary)\n    }\n    if (readBinary) {\n        return readBinary(file)\n    }\n    throw "both async and sync fetching of the wasm failed"\n}\n\nfunction getBinaryPromise(binaryFile) \n{\n	if (window.location.protocol === \'file:\')\n	{\n		return new Promise((resolve, reject) =>\n		{\n			let id = btoa(encodeURI(`site-lib/scripts/${binaryFile}`));\n			window.addEventListener(\'DOMContentLoaded\', () => \n			{\n				const dataEl = document.getElementById(id);\n				if (dataEl)\n				{\n					const data = Uint8Array.from(Array.from(atob(JSON.parse(decodeURI(atob(dataEl.value))).data)).map(s => s.charCodeAt(0)));\n					resolve(data);\n				}\n			});\n		});\n	}\n\n    if (!wasmBinary && (ENVIRONMENT_IS_WEB || ENVIRONMENT_IS_WORKER)) {\n        if (typeof fetch == "function" && !isFileURI(binaryFile)) {\n            return fetch(binaryFile, {\n                credentials: "same-origin"\n            }).then(response => {\n                if (!response["ok"]) {\n                    throw `failed to load wasm binary file at \'${binaryFile}\'`\n                }\n                return response["arrayBuffer"]()\n            }).catch(() => getBinarySync(binaryFile))\n        } else if (readAsync) {\n            return new Promise((resolve, reject) => {\n                readAsync(binaryFile, response => resolve(new Uint8Array(response)), reject)\n            })\n        }\n    }\n    return Promise.resolve().then(() => getBinarySync(binaryFile))\n}\n\nfunction instantiateArrayBuffer(binaryFile, imports, receiver) \n{\n	return getBinaryPromise(binaryFile).then(binary => \n		{\n			console.log("loaded wasm from", binary);\n			return WebAssembly.instantiate(binary, imports)\n		}).then(receiver, reason => {\n		err(`failed to asynchronously prepare wasm: ${reason}`);\n		abort(reason)\n	})\n}\n\nfunction instantiateAsync(binary, binaryFile, imports, callback) {\n    // if (!binary && typeof WebAssembly.instantiateStreaming == "function" && !isDataURI(binaryFile) && !isFileURI(binaryFile) && !ENVIRONMENT_IS_NODE && typeof fetch == "function") {\n    //     return fetch(binaryFile, {\n    //         credentials: "same-origin"\n    //     }).then(response => {\n	// 		response.headers.set(\'Content-Type\', \'application/wasm\');\n    //         var result = WebAssembly.instantiateStreaming(response, imports);\n    //         return result.then(callback, function(reason) {\n    //             err(`wasm streaming compile failed: ${reason}`);\n    //             err("falling back to ArrayBuffer instantiation");\n    //             return instantiateArrayBuffer(binaryFile, imports, callback)\n    //         })\n    //     })\n    // }\n    return instantiateArrayBuffer(binaryFile, imports, callback)\n}\n\nfunction getWasmImports() {\n    return {\n        "a": wasmImports\n    }\n}\n\nfunction createWasm() {\n    var info = getWasmImports();\n\n    function receiveInstance(instance, module) {\n        wasmExports = instance.exports;\n        wasmMemory = wasmExports["f"];\n        updateMemoryViews();\n        addOnInit(wasmExports["g"]);\n        removeRunDependency("wasm-instantiate");\n        return wasmExports\n    }\n    addRunDependency("wasm-instantiate");\n\n    function receiveInstantiationResult(result) {\n        receiveInstance(result["instance"])\n    }\n    if (Module["instantiateWasm"]) {\n        try {\n            return Module["instantiateWasm"](info, receiveInstance)\n        } catch (e) {\n            err(`Module.instantiateWasm callback failed with error: ${e}`);\n            return false\n        }\n    }\n    instantiateAsync(wasmBinary, wasmBinaryFile, info, receiveInstantiationResult);\n    return {}\n}\nvar ASM_CONSTS = {\n    2408: $0 => {\n        console.log(UTF8ToString($0))\n    }\n};\n\nfunction ExitStatus(status) {\n    this.name = "ExitStatus";\n    this.message = `Program terminated with exit(${status})`;\n    this.status = status\n}\nvar callRuntimeCallbacks = callbacks => {\n    while (callbacks.length > 0) {\n        callbacks.shift()(Module)\n    }\n};\n\nfunction getValue(ptr, type = "i8") {\n    if (type.endsWith("*")) type = "*";\n    switch (type) {\n        case "i1":\n            return HEAP8[ptr];\n        case "i8":\n            return HEAP8[ptr];\n        case "i16":\n            return HEAP16[ptr >> 1];\n        case "i32":\n            return HEAP32[ptr >> 2];\n        case "i64":\n            abort("to do getValue(i64) use WASM_BIGINT");\n        case "float":\n            return HEAPF32[ptr >> 2];\n        case "double":\n            return HEAPF64[ptr >> 3];\n        case "*":\n            return HEAPU32[ptr >> 2];\n        default:\n            abort(`invalid type for getValue: ${type}`)\n    }\n}\nvar noExitRuntime = Module["noExitRuntime"] || true;\n\nfunction setValue(ptr, value, type = "i8") {\n    if (type.endsWith("*")) type = "*";\n    switch (type) {\n        case "i1":\n            HEAP8[ptr] = value;\n            break;\n        case "i8":\n            HEAP8[ptr] = value;\n            break;\n        case "i16":\n            HEAP16[ptr >> 1] = value;\n            break;\n        case "i32":\n            HEAP32[ptr >> 2] = value;\n            break;\n        case "i64":\n            abort("to do setValue(i64) use WASM_BIGINT");\n        case "float":\n            HEAPF32[ptr >> 2] = value;\n            break;\n        case "double":\n            HEAPF64[ptr >> 3] = value;\n            break;\n        case "*":\n            HEAPU32[ptr >> 2] = value;\n            break;\n        default:\n            abort(`invalid type for setValue: ${type}`)\n    }\n}\nvar stackRestore = val => __emscripten_stack_restore(val);\nvar stackSave = () => _emscripten_stack_get_current();\nvar __emscripten_memcpy_js = (dest, src, num) => HEAPU8.copyWithin(dest, src, src + num);\nvar _abort = () => {\n    abort("")\n};\nvar readEmAsmArgsArray = [];\nvar readEmAsmArgs = (sigPtr, buf) => {\n    readEmAsmArgsArray.length = 0;\n    var ch;\n    while (ch = HEAPU8[sigPtr++]) {\n        var wide = ch != 105;\n        wide &= ch != 112;\n        buf += wide && buf % 8 ? 4 : 0;\n        readEmAsmArgsArray.push(ch == 112 ? HEAPU32[buf >> 2] : ch == 105 ? HEAP32[buf >> 2] : HEAPF64[buf >> 3]);\n        buf += wide ? 8 : 4\n    }\n    return readEmAsmArgsArray\n};\nvar runEmAsmFunction = (code, sigPtr, argbuf) => {\n    var args = readEmAsmArgs(sigPtr, argbuf);\n    return ASM_CONSTS[code](...args)\n};\nvar _emscripten_asm_const_int = (code, sigPtr, argbuf) => runEmAsmFunction(code, sigPtr, argbuf);\nvar _emscripten_date_now = () => Date.now();\nvar getHeapMax = () => 2147483648;\nvar growMemory = size => {\n    var b = wasmMemory.buffer;\n    var pages = (size - b.byteLength + 65535) / 65536;\n    try {\n        wasmMemory.grow(pages);\n        updateMemoryViews();\n        return 1\n    } catch (e) {}\n};\nvar _emscripten_resize_heap = requestedSize => {\n    var oldSize = HEAPU8.length;\n    requestedSize >>>= 0;\n    var maxHeapSize = getHeapMax();\n    if (requestedSize > maxHeapSize) {\n        return false\n    }\n    var alignUp = (x, multiple) => x + (multiple - x % multiple) % multiple;\n    for (var cutDown = 1; cutDown <= 4; cutDown *= 2) {\n        var overGrownHeapSize = oldSize * (1 + .2 / cutDown);\n        overGrownHeapSize = Math.min(overGrownHeapSize, requestedSize + 100663296);\n        var newSize = Math.min(maxHeapSize, alignUp(Math.max(requestedSize, overGrownHeapSize), 65536));\n        var replacement = growMemory(newSize);\n        if (replacement) {\n            return true\n        }\n    }\n    return false\n};\nvar getCFunc = ident => {\n    var func = Module["_" + ident];\n    return func\n};\nvar writeArrayToMemory = (array, buffer) => {\n    HEAP8.set(array, buffer)\n};\nvar lengthBytesUTF8 = str => {\n    var len = 0;\n    for (var i = 0; i < str.length; ++i) {\n        var c = str.charCodeAt(i);\n        if (c <= 127) {\n            len++\n        } else if (c <= 2047) {\n            len += 2\n        } else if (c >= 55296 && c <= 57343) {\n            len += 4;\n            ++i\n        } else {\n            len += 3\n        }\n    }\n    return len\n};\nvar stringToUTF8Array = (str, heap, outIdx, maxBytesToWrite) => {\n    if (!(maxBytesToWrite > 0)) return 0;\n    var startIdx = outIdx;\n    var endIdx = outIdx + maxBytesToWrite - 1;\n    for (var i = 0; i < str.length; ++i) {\n        var u = str.charCodeAt(i);\n        if (u >= 55296 && u <= 57343) {\n            var u1 = str.charCodeAt(++i);\n            u = 65536 + ((u & 1023) << 10) | u1 & 1023\n        }\n        if (u <= 127) {\n            if (outIdx >= endIdx) break;\n            heap[outIdx++] = u\n        } else if (u <= 2047) {\n            if (outIdx + 1 >= endIdx) break;\n            heap[outIdx++] = 192 | u >> 6;\n            heap[outIdx++] = 128 | u & 63\n        } else if (u <= 65535) {\n            if (outIdx + 2 >= endIdx) break;\n            heap[outIdx++] = 224 | u >> 12;\n            heap[outIdx++] = 128 | u >> 6 & 63;\n            heap[outIdx++] = 128 | u & 63\n        } else {\n            if (outIdx + 3 >= endIdx) break;\n            heap[outIdx++] = 240 | u >> 18;\n            heap[outIdx++] = 128 | u >> 12 & 63;\n            heap[outIdx++] = 128 | u >> 6 & 63;\n            heap[outIdx++] = 128 | u & 63\n        }\n    }\n    heap[outIdx] = 0;\n    return outIdx - startIdx\n};\nvar stringToUTF8 = (str, outPtr, maxBytesToWrite) => stringToUTF8Array(str, HEAPU8, outPtr, maxBytesToWrite);\nvar stackAlloc = sz => __emscripten_stack_alloc(sz);\nvar stringToUTF8OnStack = str => {\n    var size = lengthBytesUTF8(str) + 1;\n    var ret = stackAlloc(size);\n    stringToUTF8(str, ret, size);\n    return ret\n};\nvar UTF8Decoder = typeof TextDecoder != "undefined" ? new TextDecoder("utf8") : undefined;\nvar UTF8ArrayToString = (heapOrArray, idx, maxBytesToRead) => {\n    var endIdx = idx + maxBytesToRead;\n    var endPtr = idx;\n    while (heapOrArray[endPtr] && !(endPtr >= endIdx)) ++endPtr;\n    if (endPtr - idx > 16 && heapOrArray.buffer && UTF8Decoder) {\n        return UTF8Decoder.decode(heapOrArray.subarray(idx, endPtr))\n    }\n    var str = "";\n    while (idx < endPtr) {\n        var u0 = heapOrArray[idx++];\n        if (!(u0 & 128)) {\n            str += String.fromCharCode(u0);\n            continue\n        }\n        var u1 = heapOrArray[idx++] & 63;\n        if ((u0 & 224) == 192) {\n            str += String.fromCharCode((u0 & 31) << 6 | u1);\n            continue\n        }\n        var u2 = heapOrArray[idx++] & 63;\n        if ((u0 & 240) == 224) {\n            u0 = (u0 & 15) << 12 | u1 << 6 | u2\n        } else {\n            u0 = (u0 & 7) << 18 | u1 << 12 | u2 << 6 | heapOrArray[idx++] & 63\n        }\n        if (u0 < 65536) {\n            str += String.fromCharCode(u0)\n        } else {\n            var ch = u0 - 65536;\n            str += String.fromCharCode(55296 | ch >> 10, 56320 | ch & 1023)\n        }\n    }\n    return str\n};\nvar UTF8ToString = (ptr, maxBytesToRead) => ptr ? UTF8ArrayToString(HEAPU8, ptr, maxBytesToRead) : "";\nvar ccall = (ident, returnType, argTypes, args, opts) => {\n    var toC = {\n        "string": str => {\n            var ret = 0;\n            if (str !== null && str !== undefined && str !== 0) {\n                ret = stringToUTF8OnStack(str)\n            }\n            return ret\n        },\n        "array": arr => {\n            var ret = stackAlloc(arr.length);\n            writeArrayToMemory(arr, ret);\n            return ret\n        }\n    };\n\n    function convertReturnValue(ret) {\n        if (returnType === "string") {\n            return UTF8ToString(ret)\n        }\n        if (returnType === "boolean") return Boolean(ret);\n        return ret\n    }\n    var func = getCFunc(ident);\n    var cArgs = [];\n    var stack = 0;\n    if (args) {\n        for (var i = 0; i < args.length; i++) {\n            var converter = toC[argTypes[i]];\n            if (converter) {\n                if (stack === 0) stack = stackSave();\n                cArgs[i] = converter(args[i])\n            } else {\n                cArgs[i] = args[i]\n            }\n        }\n    }\n    var ret = func(...cArgs);\n\n    function onDone(ret) {\n        if (stack !== 0) stackRestore(stack);\n        return convertReturnValue(ret)\n    }\n    ret = onDone(ret);\n    return ret\n};\nvar cwrap = (ident, returnType, argTypes, opts) => {\n    var numericArgs = !argTypes || argTypes.every(type => type === "number" || type === "boolean");\n    var numericRet = returnType !== "string";\n    if (numericRet && numericArgs && !opts) {\n        return getCFunc(ident)\n    }\n    return (...args) => ccall(ident, returnType, argTypes, args, opts)\n};\nvar wasmImports = {\n    c: __emscripten_memcpy_js,\n    a: _abort,\n    e: _emscripten_asm_const_int,\n    d: _emscripten_date_now,\n    b: _emscripten_resize_heap\n};\nvar wasmExports = createWasm();\nvar ___wasm_call_ctors = () => (___wasm_call_ctors = wasmExports["g"])();\nvar _SetBatchFractionSize = Module["_SetBatchFractionSize"] = a0 => (_SetBatchFractionSize = Module["_SetBatchFractionSize"] = wasmExports["h"])(a0);\nvar _SetAttractionForce = Module["_SetAttractionForce"] = a0 => (_SetAttractionForce = Module["_SetAttractionForce"] = wasmExports["i"])(a0);\nvar _SetLinkLength = Module["_SetLinkLength"] = a0 => (_SetLinkLength = Module["_SetLinkLength"] = wasmExports["j"])(a0);\nvar _SetRepulsionForce = Module["_SetRepulsionForce"] = a0 => (_SetRepulsionForce = Module["_SetRepulsionForce"] = wasmExports["k"])(a0);\nvar _SetCentralForce = Module["_SetCentralForce"] = a0 => (_SetCentralForce = Module["_SetCentralForce"] = wasmExports["l"])(a0);\nvar _SetDt = Module["_SetDt"] = a0 => (_SetDt = Module["_SetDt"] = wasmExports["m"])(a0);\nvar _Init = Module["_Init"] = (a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11) => (_Init = Module["_Init"] = wasmExports["n"])(a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);\nvar _Update = Module["_Update"] = (a0, a1, a2, a3) => (_Update = Module["_Update"] = wasmExports["o"])(a0, a1, a2, a3);\nvar _SetPosition = Module["_SetPosition"] = (a0, a1, a2) => (_SetPosition = Module["_SetPosition"] = wasmExports["p"])(a0, a1, a2);\nvar _SetSettleness = Module["_SetSettleness"] = a0 => (_SetSettleness = Module["_SetSettleness"] = wasmExports["q"])(a0);\nvar _FreeMemory = Module["_FreeMemory"] = () => (_FreeMemory = Module["_FreeMemory"] = wasmExports["r"])();\nvar _malloc = Module["_malloc"] = a0 => (_malloc = Module["_malloc"] = wasmExports["t"])(a0);\nvar _free = Module["_free"] = a0 => (_free = Module["_free"] = wasmExports["u"])(a0);\nvar __emscripten_stack_restore = a0 => (__emscripten_stack_restore = wasmExports["v"])(a0);\nvar __emscripten_stack_alloc = a0 => (__emscripten_stack_alloc = wasmExports["w"])(a0);\nvar _emscripten_stack_get_current = () => (_emscripten_stack_get_current = wasmExports["x"])();\nvar ___cxa_increment_exception_refcount = a0 => (___cxa_increment_exception_refcount = wasmExports["__cxa_increment_exception_refcount"])(a0);\nvar ___cxa_is_pointer_type = a0 => (___cxa_is_pointer_type = wasmExports["__cxa_is_pointer_type"])(a0);\nModule["cwrap"] = cwrap;\nModule["setValue"] = setValue;\nModule["getValue"] = getValue;\nvar calledRun;\ndependenciesFulfilled = function runCaller() {\n    // if (!calledRun) run();\n    // if (!calledRun) dependenciesFulfilled = runCaller\n};\n\nfunction run() \n{\n    if (runDependencies > 0) {\n        return\n    }\n    preRun();\n    if (runDependencies > 0) {\n        return\n    }\n\n    function doRun() {\n        if (calledRun) return;\n        calledRun = true;\n        Module["calledRun"] = true;\n        if (ABORT) return;\n        initRuntime();\n		console.log("wasm loaded");\n        if (Module["onRuntimeInitialized"]) Module["onRuntimeInitialized"]();\n		console.log("wasm initialized");\n        postRun()\n    }\n    if (Module["setStatus"]) {\n        Module["setStatus"]("Running...");\n        setTimeout(function() {\n            setTimeout(function() {\n                Module["setStatus"]("")\n            }, 1);\n            doRun()\n        }, 1)\n    } else {\n        doRun()\n    }\n}\nif (Module["preInit"]) {\n    if (typeof Module["preInit"] == "function") Module["preInit"] = [Module["preInit"]];\n    while (Module["preInit"].length > 0) {\n        Module["preInit"].pop()()\n    }\n}\n';
+var graph_wasm_txt_default = 'var Module = typeof Module != "undefined" ? Module : {};\r\nvar ENVIRONMENT_IS_WEB = typeof window == "object";\r\nvar ENVIRONMENT_IS_WORKER = typeof importScripts == "function";\r\nvar ENVIRONMENT_IS_NODE = typeof process == "object" && typeof process.versions == "object" && typeof process.versions.node == "string";\r\nif (ENVIRONMENT_IS_NODE) {}\r\nvar moduleOverrides = Object.assign({}, Module);\r\nvar arguments_ = [];\r\nvar thisProgram = "./this.program";\r\nvar quit_ = (status, toThrow) => {\r\n    throw toThrow\r\n};\r\nvar scriptDirectory = "";\r\n\r\nfunction locateFile(path) {\r\n    if (Module["locateFile"]) {\r\n        return Module["locateFile"](path, scriptDirectory)\r\n    }\r\n    return scriptDirectory + path\r\n}\r\nvar read_, readAsync, readBinary;\r\nif (ENVIRONMENT_IS_NODE) {\r\n    var fs = require("fs");\r\n    var nodePath = require("path");\r\n    if (ENVIRONMENT_IS_WORKER) {\r\n        scriptDirectory = nodePath.dirname(scriptDirectory) + "/"\r\n    } else {\r\n        scriptDirectory = __dirname + "/"\r\n    }\r\n    read_ = (filename, binary) => {\r\n        filename = isFileURI(filename) ? new URL(filename) : nodePath.normalize(filename);\r\n        return fs.readFileSync(filename, binary ? undefined : "utf8")\r\n    };\r\n    readBinary = filename => {\r\n        var ret = read_(filename, true);\r\n        if (!ret.buffer) {\r\n            ret = new Uint8Array(ret)\r\n        }\r\n        return ret\r\n    };\r\n    readAsync = (filename, onload, onerror, binary = true) => {\r\n        filename = isFileURI(filename) ? new URL(filename) : nodePath.normalize(filename);\r\n        fs.readFile(filename, binary ? undefined : "utf8", (err, data) => {\r\n            if (err) onerror(err);\r\n            else onload(binary ? data.buffer : data)\r\n        })\r\n    };\r\n    if (!Module["thisProgram"] && process.argv.length > 1) {\r\n        thisProgram = process.argv[1].replace(/\\\\/g, "/")\r\n    }\r\n    arguments_ = process.argv.slice(2);\r\n    if (typeof module != "undefined") {\r\n        module["exports"] = Module\r\n    }\r\n    process.on("uncaughtException", ex => {\r\n        if (ex !== "unwind" && !(ex instanceof ExitStatus) && !(ex.context instanceof ExitStatus)) {\r\n            throw ex\r\n        }\r\n    });\r\n    quit_ = (status, toThrow) => {\r\n        process.exitCode = status;\r\n        throw toThrow\r\n    }\r\n} else if (ENVIRONMENT_IS_WEB || ENVIRONMENT_IS_WORKER) {\r\n    if (ENVIRONMENT_IS_WORKER) {\r\n        scriptDirectory = self.location.href\r\n    } else if (typeof document != "undefined" && document.currentScript) {\r\n        scriptDirectory = document.currentScript.src\r\n    }\r\n    if (scriptDirectory.startsWith("blob:")) {\r\n        scriptDirectory = ""\r\n    } else {\r\n        scriptDirectory = scriptDirectory.substr(0, scriptDirectory.replace(/[?#].*/, "").lastIndexOf("/") + 1)\r\n    } {\r\n        read_ = url => {\r\n            var xhr = new XMLHttpRequest;\r\n            xhr.open("GET", url, false);\r\n            xhr.send(null);\r\n            return xhr.responseText\r\n        };\r\n        if (ENVIRONMENT_IS_WORKER) {\r\n            readBinary = url => {\r\n                var xhr = new XMLHttpRequest;\r\n                xhr.open("GET", url, false);\r\n                xhr.responseType = "arraybuffer";\r\n                xhr.send(null);\r\n                return new Uint8Array(xhr.response)\r\n            }\r\n        }\r\n        readAsync = (url, onload, onerror) => {\r\n            var xhr = new XMLHttpRequest;\r\n            xhr.open("GET", url, true);\r\n            xhr.responseType = "arraybuffer";\r\n            xhr.onload = () => {\r\n                if (xhr.status == 200 || xhr.status == 0 && xhr.response) {\r\n                    onload(xhr.response);\r\n                    return\r\n                }\r\n                onerror()\r\n            };\r\n            xhr.onerror = onerror;\r\n            xhr.send(null)\r\n        }\r\n    }\r\n} else {}\r\nvar out = Module["print"] || console.log.bind(console);\r\nvar err = Module["printErr"] || console.error.bind(console);\r\nObject.assign(Module, moduleOverrides);\r\nmoduleOverrides = null;\r\nif (Module["arguments"]) arguments_ = Module["arguments"];\r\nif (Module["thisProgram"]) thisProgram = Module["thisProgram"];\r\nif (Module["quit"]) quit_ = Module["quit"];\r\nvar wasmBinary;\r\nif (Module["wasmBinary"]) wasmBinary = Module["wasmBinary"];\r\nvar wasmMemory;\r\nvar ABORT = false;\r\nvar EXITSTATUS;\r\nvar HEAP8, HEAPU8, HEAP16, HEAPU16, HEAP32, HEAPU32, HEAPF32, HEAPF64;\r\n\r\nfunction updateMemoryViews() {\r\n    var b = wasmMemory.buffer;\r\n    Module["HEAP8"] = HEAP8 = new Int8Array(b);\r\n    Module["HEAP16"] = HEAP16 = new Int16Array(b);\r\n    Module["HEAPU8"] = HEAPU8 = new Uint8Array(b);\r\n    Module["HEAPU16"] = HEAPU16 = new Uint16Array(b);\r\n    Module["HEAP32"] = HEAP32 = new Int32Array(b);\r\n    Module["HEAPU32"] = HEAPU32 = new Uint32Array(b);\r\n    Module["HEAPF32"] = HEAPF32 = new Float32Array(b);\r\n    Module["HEAPF64"] = HEAPF64 = new Float64Array(b)\r\n}\r\nvar __ATPRERUN__ = [];\r\nvar __ATINIT__ = [];\r\nvar __ATPOSTRUN__ = [];\r\nvar runtimeInitialized = false;\r\n\r\nfunction preRun() {\r\n    if (Module["preRun"]) {\r\n        if (typeof Module["preRun"] == "function") Module["preRun"] = [Module["preRun"]];\r\n        while (Module["preRun"].length) {\r\n            addOnPreRun(Module["preRun"].shift())\r\n        }\r\n    }\r\n    callRuntimeCallbacks(__ATPRERUN__)\r\n}\r\n\r\nfunction initRuntime() {\r\n    runtimeInitialized = true;\r\n    callRuntimeCallbacks(__ATINIT__)\r\n}\r\n\r\nfunction postRun() {\r\n    if (Module["postRun"]) {\r\n        if (typeof Module["postRun"] == "function") Module["postRun"] = [Module["postRun"]];\r\n        while (Module["postRun"].length) {\r\n            addOnPostRun(Module["postRun"].shift())\r\n        }\r\n    }\r\n    callRuntimeCallbacks(__ATPOSTRUN__)\r\n}\r\n\r\nfunction addOnPreRun(cb) {\r\n    __ATPRERUN__.unshift(cb)\r\n}\r\n\r\nfunction addOnInit(cb) {\r\n    __ATINIT__.unshift(cb)\r\n}\r\n\r\nfunction addOnPostRun(cb) {\r\n    __ATPOSTRUN__.unshift(cb)\r\n}\r\nvar runDependencies = 0;\r\nvar runDependencyWatcher = null;\r\nvar dependenciesFulfilled = null;\r\n\r\nfunction addRunDependency(id) {\r\n    runDependencies++;\r\n    Module["monitorRunDependencies"]?.(runDependencies)\r\n}\r\n\r\nfunction removeRunDependency(id) {\r\n    runDependencies--;\r\n    Module["monitorRunDependencies"]?.(runDependencies);\r\n    if (runDependencies == 0) {\r\n        if (runDependencyWatcher !== null) {\r\n            clearInterval(runDependencyWatcher);\r\n            runDependencyWatcher = null\r\n        }\r\n        if (dependenciesFulfilled) {\r\n            var callback = dependenciesFulfilled;\r\n            dependenciesFulfilled = null;\r\n            callback()\r\n        }\r\n    }\r\n}\r\n\r\nfunction abort(what) {\r\n    Module["onAbort"]?.(what);\r\n    what = "Aborted(" + what + ")";\r\n    err(what);\r\n    ABORT = true;\r\n    EXITSTATUS = 1;\r\n    what += ". Build with -sASSERTIONS for more info.";\r\n    var e = new WebAssembly.RuntimeError(what);\r\n    throw e\r\n}\r\nvar dataURIPrefix = "data:application/octet-stream;base64,";\r\nvar isDataURI = filename => filename.startsWith(dataURIPrefix);\r\nvar isFileURI = filename => filename.startsWith("file://");\r\nvar wasmBinaryFile;\r\nwasmBinaryFile = "graph-wasm.wasm";\r\nif (!isDataURI(wasmBinaryFile)) {\r\n    wasmBinaryFile = locateFile(wasmBinaryFile)\r\n}\r\n\r\nfunction getBinarySync(file) {\r\n    if (file == wasmBinaryFile && wasmBinary) {\r\n        return new Uint8Array(wasmBinary)\r\n    }\r\n    if (readBinary) {\r\n        return readBinary(file)\r\n    }\r\n    throw "both async and sync fetching of the wasm failed"\r\n}\r\n\r\nfunction getBinaryPromise(binaryFile) \r\n{\r\n	if (window.location.protocol === \'file:\')\r\n	{\r\n		return new Promise((resolve, reject) =>\r\n		{\r\n			let id = btoa(encodeURI(`site-lib/scripts/${binaryFile}`));\r\n			window.addEventListener(\'DOMContentLoaded\', () => \r\n			{\r\n				const dataEl = document.getElementById(id);\r\n				if (dataEl)\r\n				{\r\n					const data = Uint8Array.from(Array.from(atob(JSON.parse(decodeURI(atob(dataEl.value))).data)).map(s => s.charCodeAt(0)));\r\n					resolve(data);\r\n				}\r\n			});\r\n		});\r\n	}\r\n\r\n    if (!wasmBinary && (ENVIRONMENT_IS_WEB || ENVIRONMENT_IS_WORKER)) {\r\n        if (typeof fetch == "function" && !isFileURI(binaryFile)) {\r\n            return fetch(binaryFile, {\r\n                credentials: "same-origin"\r\n            }).then(response => {\r\n                if (!response["ok"]) {\r\n                    throw `failed to load wasm binary file at \'${binaryFile}\'`\r\n                }\r\n                return response["arrayBuffer"]()\r\n            }).catch(() => getBinarySync(binaryFile))\r\n        } else if (readAsync) {\r\n            return new Promise((resolve, reject) => {\r\n                readAsync(binaryFile, response => resolve(new Uint8Array(response)), reject)\r\n            })\r\n        }\r\n    }\r\n    return Promise.resolve().then(() => getBinarySync(binaryFile))\r\n}\r\n\r\nfunction instantiateArrayBuffer(binaryFile, imports, receiver) \r\n{\r\n	return getBinaryPromise(binaryFile).then(binary => \r\n		{\r\n			console.log("loaded wasm from", binary);\r\n			return WebAssembly.instantiate(binary, imports)\r\n		}).then(receiver, reason => {\r\n		err(`failed to asynchronously prepare wasm: ${reason}`);\r\n		abort(reason)\r\n	})\r\n}\r\n\r\nfunction instantiateAsync(binary, binaryFile, imports, callback) {\r\n    // if (!binary && typeof WebAssembly.instantiateStreaming == "function" && !isDataURI(binaryFile) && !isFileURI(binaryFile) && !ENVIRONMENT_IS_NODE && typeof fetch == "function") {\r\n    //     return fetch(binaryFile, {\r\n    //         credentials: "same-origin"\r\n    //     }).then(response => {\r\n	// 		response.headers.set(\'Content-Type\', \'application/wasm\');\r\n    //         var result = WebAssembly.instantiateStreaming(response, imports);\r\n    //         return result.then(callback, function(reason) {\r\n    //             err(`wasm streaming compile failed: ${reason}`);\r\n    //             err("falling back to ArrayBuffer instantiation");\r\n    //             return instantiateArrayBuffer(binaryFile, imports, callback)\r\n    //         })\r\n    //     })\r\n    // }\r\n    return instantiateArrayBuffer(binaryFile, imports, callback)\r\n}\r\n\r\nfunction getWasmImports() {\r\n    return {\r\n        "a": wasmImports\r\n    }\r\n}\r\n\r\nfunction createWasm() {\r\n    var info = getWasmImports();\r\n\r\n    function receiveInstance(instance, module) {\r\n        wasmExports = instance.exports;\r\n        wasmMemory = wasmExports["f"];\r\n        updateMemoryViews();\r\n        addOnInit(wasmExports["g"]);\r\n        removeRunDependency("wasm-instantiate");\r\n        return wasmExports\r\n    }\r\n    addRunDependency("wasm-instantiate");\r\n\r\n    function receiveInstantiationResult(result) {\r\n        receiveInstance(result["instance"])\r\n    }\r\n    if (Module["instantiateWasm"]) {\r\n        try {\r\n            return Module["instantiateWasm"](info, receiveInstance)\r\n        } catch (e) {\r\n            err(`Module.instantiateWasm callback failed with error: ${e}`);\r\n            return false\r\n        }\r\n    }\r\n    instantiateAsync(wasmBinary, wasmBinaryFile, info, receiveInstantiationResult);\r\n    return {}\r\n}\r\nvar ASM_CONSTS = {\r\n    2408: $0 => {\r\n        console.log(UTF8ToString($0))\r\n    }\r\n};\r\n\r\nfunction ExitStatus(status) {\r\n    this.name = "ExitStatus";\r\n    this.message = `Program terminated with exit(${status})`;\r\n    this.status = status\r\n}\r\nvar callRuntimeCallbacks = callbacks => {\r\n    while (callbacks.length > 0) {\r\n        callbacks.shift()(Module)\r\n    }\r\n};\r\n\r\nfunction getValue(ptr, type = "i8") {\r\n    if (type.endsWith("*")) type = "*";\r\n    switch (type) {\r\n        case "i1":\r\n            return HEAP8[ptr];\r\n        case "i8":\r\n            return HEAP8[ptr];\r\n        case "i16":\r\n            return HEAP16[ptr >> 1];\r\n        case "i32":\r\n            return HEAP32[ptr >> 2];\r\n        case "i64":\r\n            abort("to do getValue(i64) use WASM_BIGINT");\r\n        case "float":\r\n            return HEAPF32[ptr >> 2];\r\n        case "double":\r\n            return HEAPF64[ptr >> 3];\r\n        case "*":\r\n            return HEAPU32[ptr >> 2];\r\n        default:\r\n            abort(`invalid type for getValue: ${type}`)\r\n    }\r\n}\r\nvar noExitRuntime = Module["noExitRuntime"] || true;\r\n\r\nfunction setValue(ptr, value, type = "i8") {\r\n    if (type.endsWith("*")) type = "*";\r\n    switch (type) {\r\n        case "i1":\r\n            HEAP8[ptr] = value;\r\n            break;\r\n        case "i8":\r\n            HEAP8[ptr] = value;\r\n            break;\r\n        case "i16":\r\n            HEAP16[ptr >> 1] = value;\r\n            break;\r\n        case "i32":\r\n            HEAP32[ptr >> 2] = value;\r\n            break;\r\n        case "i64":\r\n            abort("to do setValue(i64) use WASM_BIGINT");\r\n        case "float":\r\n            HEAPF32[ptr >> 2] = value;\r\n            break;\r\n        case "double":\r\n            HEAPF64[ptr >> 3] = value;\r\n            break;\r\n        case "*":\r\n            HEAPU32[ptr >> 2] = value;\r\n            break;\r\n        default:\r\n            abort(`invalid type for setValue: ${type}`)\r\n    }\r\n}\r\nvar stackRestore = val => __emscripten_stack_restore(val);\r\nvar stackSave = () => _emscripten_stack_get_current();\r\nvar __emscripten_memcpy_js = (dest, src, num) => HEAPU8.copyWithin(dest, src, src + num);\r\nvar _abort = () => {\r\n    abort("")\r\n};\r\nvar readEmAsmArgsArray = [];\r\nvar readEmAsmArgs = (sigPtr, buf) => {\r\n    readEmAsmArgsArray.length = 0;\r\n    var ch;\r\n    while (ch = HEAPU8[sigPtr++]) {\r\n        var wide = ch != 105;\r\n        wide &= ch != 112;\r\n        buf += wide && buf % 8 ? 4 : 0;\r\n        readEmAsmArgsArray.push(ch == 112 ? HEAPU32[buf >> 2] : ch == 105 ? HEAP32[buf >> 2] : HEAPF64[buf >> 3]);\r\n        buf += wide ? 8 : 4\r\n    }\r\n    return readEmAsmArgsArray\r\n};\r\nvar runEmAsmFunction = (code, sigPtr, argbuf) => {\r\n    var args = readEmAsmArgs(sigPtr, argbuf);\r\n    return ASM_CONSTS[code](...args)\r\n};\r\nvar _emscripten_asm_const_int = (code, sigPtr, argbuf) => runEmAsmFunction(code, sigPtr, argbuf);\r\nvar _emscripten_date_now = () => Date.now();\r\nvar getHeapMax = () => 2147483648;\r\nvar growMemory = size => {\r\n    var b = wasmMemory.buffer;\r\n    var pages = (size - b.byteLength + 65535) / 65536;\r\n    try {\r\n        wasmMemory.grow(pages);\r\n        updateMemoryViews();\r\n        return 1\r\n    } catch (e) {}\r\n};\r\nvar _emscripten_resize_heap = requestedSize => {\r\n    var oldSize = HEAPU8.length;\r\n    requestedSize >>>= 0;\r\n    var maxHeapSize = getHeapMax();\r\n    if (requestedSize > maxHeapSize) {\r\n        return false\r\n    }\r\n    var alignUp = (x, multiple) => x + (multiple - x % multiple) % multiple;\r\n    for (var cutDown = 1; cutDown <= 4; cutDown *= 2) {\r\n        var overGrownHeapSize = oldSize * (1 + .2 / cutDown);\r\n        overGrownHeapSize = Math.min(overGrownHeapSize, requestedSize + 100663296);\r\n        var newSize = Math.min(maxHeapSize, alignUp(Math.max(requestedSize, overGrownHeapSize), 65536));\r\n        var replacement = growMemory(newSize);\r\n        if (replacement) {\r\n            return true\r\n        }\r\n    }\r\n    return false\r\n};\r\nvar getCFunc = ident => {\r\n    var func = Module["_" + ident];\r\n    return func\r\n};\r\nvar writeArrayToMemory = (array, buffer) => {\r\n    HEAP8.set(array, buffer)\r\n};\r\nvar lengthBytesUTF8 = str => {\r\n    var len = 0;\r\n    for (var i = 0; i < str.length; ++i) {\r\n        var c = str.charCodeAt(i);\r\n        if (c <= 127) {\r\n            len++\r\n        } else if (c <= 2047) {\r\n            len += 2\r\n        } else if (c >= 55296 && c <= 57343) {\r\n            len += 4;\r\n            ++i\r\n        } else {\r\n            len += 3\r\n        }\r\n    }\r\n    return len\r\n};\r\nvar stringToUTF8Array = (str, heap, outIdx, maxBytesToWrite) => {\r\n    if (!(maxBytesToWrite > 0)) return 0;\r\n    var startIdx = outIdx;\r\n    var endIdx = outIdx + maxBytesToWrite - 1;\r\n    for (var i = 0; i < str.length; ++i) {\r\n        var u = str.charCodeAt(i);\r\n        if (u >= 55296 && u <= 57343) {\r\n            var u1 = str.charCodeAt(++i);\r\n            u = 65536 + ((u & 1023) << 10) | u1 & 1023\r\n        }\r\n        if (u <= 127) {\r\n            if (outIdx >= endIdx) break;\r\n            heap[outIdx++] = u\r\n        } else if (u <= 2047) {\r\n            if (outIdx + 1 >= endIdx) break;\r\n            heap[outIdx++] = 192 | u >> 6;\r\n            heap[outIdx++] = 128 | u & 63\r\n        } else if (u <= 65535) {\r\n            if (outIdx + 2 >= endIdx) break;\r\n            heap[outIdx++] = 224 | u >> 12;\r\n            heap[outIdx++] = 128 | u >> 6 & 63;\r\n            heap[outIdx++] = 128 | u & 63\r\n        } else {\r\n            if (outIdx + 3 >= endIdx) break;\r\n            heap[outIdx++] = 240 | u >> 18;\r\n            heap[outIdx++] = 128 | u >> 12 & 63;\r\n            heap[outIdx++] = 128 | u >> 6 & 63;\r\n            heap[outIdx++] = 128 | u & 63\r\n        }\r\n    }\r\n    heap[outIdx] = 0;\r\n    return outIdx - startIdx\r\n};\r\nvar stringToUTF8 = (str, outPtr, maxBytesToWrite) => stringToUTF8Array(str, HEAPU8, outPtr, maxBytesToWrite);\r\nvar stackAlloc = sz => __emscripten_stack_alloc(sz);\r\nvar stringToUTF8OnStack = str => {\r\n    var size = lengthBytesUTF8(str) + 1;\r\n    var ret = stackAlloc(size);\r\n    stringToUTF8(str, ret, size);\r\n    return ret\r\n};\r\nvar UTF8Decoder = typeof TextDecoder != "undefined" ? new TextDecoder("utf8") : undefined;\r\nvar UTF8ArrayToString = (heapOrArray, idx, maxBytesToRead) => {\r\n    var endIdx = idx + maxBytesToRead;\r\n    var endPtr = idx;\r\n    while (heapOrArray[endPtr] && !(endPtr >= endIdx)) ++endPtr;\r\n    if (endPtr - idx > 16 && heapOrArray.buffer && UTF8Decoder) {\r\n        return UTF8Decoder.decode(heapOrArray.subarray(idx, endPtr))\r\n    }\r\n    var str = "";\r\n    while (idx < endPtr) {\r\n        var u0 = heapOrArray[idx++];\r\n        if (!(u0 & 128)) {\r\n            str += String.fromCharCode(u0);\r\n            continue\r\n        }\r\n        var u1 = heapOrArray[idx++] & 63;\r\n        if ((u0 & 224) == 192) {\r\n            str += String.fromCharCode((u0 & 31) << 6 | u1);\r\n            continue\r\n        }\r\n        var u2 = heapOrArray[idx++] & 63;\r\n        if ((u0 & 240) == 224) {\r\n            u0 = (u0 & 15) << 12 | u1 << 6 | u2\r\n        } else {\r\n            u0 = (u0 & 7) << 18 | u1 << 12 | u2 << 6 | heapOrArray[idx++] & 63\r\n        }\r\n        if (u0 < 65536) {\r\n            str += String.fromCharCode(u0)\r\n        } else {\r\n            var ch = u0 - 65536;\r\n            str += String.fromCharCode(55296 | ch >> 10, 56320 | ch & 1023)\r\n        }\r\n    }\r\n    return str\r\n};\r\nvar UTF8ToString = (ptr, maxBytesToRead) => ptr ? UTF8ArrayToString(HEAPU8, ptr, maxBytesToRead) : "";\r\nvar ccall = (ident, returnType, argTypes, args, opts) => {\r\n    var toC = {\r\n        "string": str => {\r\n            var ret = 0;\r\n            if (str !== null && str !== undefined && str !== 0) {\r\n                ret = stringToUTF8OnStack(str)\r\n            }\r\n            return ret\r\n        },\r\n        "array": arr => {\r\n            var ret = stackAlloc(arr.length);\r\n            writeArrayToMemory(arr, ret);\r\n            return ret\r\n        }\r\n    };\r\n\r\n    function convertReturnValue(ret) {\r\n        if (returnType === "string") {\r\n            return UTF8ToString(ret)\r\n        }\r\n        if (returnType === "boolean") return Boolean(ret);\r\n        return ret\r\n    }\r\n    var func = getCFunc(ident);\r\n    var cArgs = [];\r\n    var stack = 0;\r\n    if (args) {\r\n        for (var i = 0; i < args.length; i++) {\r\n            var converter = toC[argTypes[i]];\r\n            if (converter) {\r\n                if (stack === 0) stack = stackSave();\r\n                cArgs[i] = converter(args[i])\r\n            } else {\r\n                cArgs[i] = args[i]\r\n            }\r\n        }\r\n    }\r\n    var ret = func(...cArgs);\r\n\r\n    function onDone(ret) {\r\n        if (stack !== 0) stackRestore(stack);\r\n        return convertReturnValue(ret)\r\n    }\r\n    ret = onDone(ret);\r\n    return ret\r\n};\r\nvar cwrap = (ident, returnType, argTypes, opts) => {\r\n    var numericArgs = !argTypes || argTypes.every(type => type === "number" || type === "boolean");\r\n    var numericRet = returnType !== "string";\r\n    if (numericRet && numericArgs && !opts) {\r\n        return getCFunc(ident)\r\n    }\r\n    return (...args) => ccall(ident, returnType, argTypes, args, opts)\r\n};\r\nvar wasmImports = {\r\n    c: __emscripten_memcpy_js,\r\n    a: _abort,\r\n    e: _emscripten_asm_const_int,\r\n    d: _emscripten_date_now,\r\n    b: _emscripten_resize_heap\r\n};\r\nvar wasmExports = createWasm();\r\nvar ___wasm_call_ctors = () => (___wasm_call_ctors = wasmExports["g"])();\r\nvar _SetBatchFractionSize = Module["_SetBatchFractionSize"] = a0 => (_SetBatchFractionSize = Module["_SetBatchFractionSize"] = wasmExports["h"])(a0);\r\nvar _SetAttractionForce = Module["_SetAttractionForce"] = a0 => (_SetAttractionForce = Module["_SetAttractionForce"] = wasmExports["i"])(a0);\r\nvar _SetLinkLength = Module["_SetLinkLength"] = a0 => (_SetLinkLength = Module["_SetLinkLength"] = wasmExports["j"])(a0);\r\nvar _SetRepulsionForce = Module["_SetRepulsionForce"] = a0 => (_SetRepulsionForce = Module["_SetRepulsionForce"] = wasmExports["k"])(a0);\r\nvar _SetCentralForce = Module["_SetCentralForce"] = a0 => (_SetCentralForce = Module["_SetCentralForce"] = wasmExports["l"])(a0);\r\nvar _SetDt = Module["_SetDt"] = a0 => (_SetDt = Module["_SetDt"] = wasmExports["m"])(a0);\r\nvar _Init = Module["_Init"] = (a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11) => (_Init = Module["_Init"] = wasmExports["n"])(a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);\r\nvar _Update = Module["_Update"] = (a0, a1, a2, a3) => (_Update = Module["_Update"] = wasmExports["o"])(a0, a1, a2, a3);\r\nvar _SetPosition = Module["_SetPosition"] = (a0, a1, a2) => (_SetPosition = Module["_SetPosition"] = wasmExports["p"])(a0, a1, a2);\r\nvar _SetSettleness = Module["_SetSettleness"] = a0 => (_SetSettleness = Module["_SetSettleness"] = wasmExports["q"])(a0);\r\nvar _FreeMemory = Module["_FreeMemory"] = () => (_FreeMemory = Module["_FreeMemory"] = wasmExports["r"])();\r\nvar _malloc = Module["_malloc"] = a0 => (_malloc = Module["_malloc"] = wasmExports["t"])(a0);\r\nvar _free = Module["_free"] = a0 => (_free = Module["_free"] = wasmExports["u"])(a0);\r\nvar __emscripten_stack_restore = a0 => (__emscripten_stack_restore = wasmExports["v"])(a0);\r\nvar __emscripten_stack_alloc = a0 => (__emscripten_stack_alloc = wasmExports["w"])(a0);\r\nvar _emscripten_stack_get_current = () => (_emscripten_stack_get_current = wasmExports["x"])();\r\nvar ___cxa_increment_exception_refcount = a0 => (___cxa_increment_exception_refcount = wasmExports["__cxa_increment_exception_refcount"])(a0);\r\nvar ___cxa_is_pointer_type = a0 => (___cxa_is_pointer_type = wasmExports["__cxa_is_pointer_type"])(a0);\r\nModule["cwrap"] = cwrap;\r\nModule["setValue"] = setValue;\r\nModule["getValue"] = getValue;\r\nvar calledRun;\r\ndependenciesFulfilled = function runCaller() {\r\n    // if (!calledRun) run();\r\n    // if (!calledRun) dependenciesFulfilled = runCaller\r\n};\r\n\r\nfunction run() \r\n{\r\n    if (runDependencies > 0) {\r\n        return\r\n    }\r\n    preRun();\r\n    if (runDependencies > 0) {\r\n        return\r\n    }\r\n\r\n    function doRun() {\r\n        if (calledRun) return;\r\n        calledRun = true;\r\n        Module["calledRun"] = true;\r\n        if (ABORT) return;\r\n        initRuntime();\r\n		console.log("wasm loaded");\r\n        if (Module["onRuntimeInitialized"]) Module["onRuntimeInitialized"]();\r\n		console.log("wasm initialized");\r\n        postRun()\r\n    }\r\n    if (Module["setStatus"]) {\r\n        Module["setStatus"]("Running...");\r\n        setTimeout(function() {\r\n            setTimeout(function() {\r\n                Module["setStatus"]("")\r\n            }, 1);\r\n            doRun()\r\n        }, 1)\r\n    } else {\r\n        doRun()\r\n    }\r\n}\r\nif (Module["preInit"]) {\r\n    if (typeof Module["preInit"] == "function") Module["preInit"] = [Module["preInit"]];\r\n    while (Module["preInit"].length > 0) {\r\n        Module["preInit"].pop()()\r\n    }\r\n}\r\n';
 
 // src/frontend/graph-view/graph-render-worker.txt.js
-var graph_render_worker_txt_default = `if ('function' === typeof importScripts) {
-	importScripts('https://d157l7jdn8e5sf.cloudfront.net/v7.2.0/webworker.js');
-
-	addEventListener('message', onMessage);
-
-	self.WebGLRenderingContext = self.WebGL2RenderingContext || self.WebGLRenderingContext;
-
-	let app = null;
-	let container = null;
-	let graphics = null;
-
-	isDrawing = false;
-
-	let linkCount = 0;
-	let linkSources = [];
-	let linkTargets = [];
-	let nodeCount = 0;
-	let radii = [];
-	let labels = [];
-	let labelFade = [];
-	let labelWidths = [];
-	let pixiLabels = [];
-	let cameraOffset = { x: 0, y: 0 };
-	let positions = new Float32Array(0);
-	let linkLength = 0;
-	let edgePruning = 0;
-	let colors =
-	{
-		background: 0x232323,
-		link: 0xAAAAAA,
-		node: 0xCCCCCC,
-		outline: 0xAAAAAA,
-		text: 0xFFFFFF,
-		accent: 0x4023AA
-	}
-
-	let hoveredNode = -1;
-	let lastHoveredNode = -1;
-	let grabbedNode = -1;
-	let updateAttached = false;
-	let attachedToGrabbed = [];
-	let activeNode = -1;
-	let attachedToActive = [];
-
-	let cameraScale = 1;
-	let cameraScaleRoot = 1;
-
-	function toScreenSpace(x, y, floor = true) {
-		if (floor) {
-			return { x: Math.floor((x * cameraScale) + cameraOffset.x), y: Math.floor((y * cameraScale) + cameraOffset.y) };
-		}
-		else {
-			return { x: (x * cameraScale) + cameraOffset.x, y: (y * cameraScale) + cameraOffset.y };
-		}
-	}
-
-	function vecToScreenSpace({ x, y }, floor = true) {
-		return toScreenSpace(x, y, floor);
-	}
-
-	function toWorldspace(x, y) {
-		return { x: (x - cameraOffset.x) / cameraScale, y: (y - cameraOffset.y) / cameraScale };
-	}
-
-	function vecToWorldspace({ x, y }) {
-		return toWorldspace(x, y);
-	}
-
-	function setCameraCenterWorldspace({ x, y }) {
-		cameraOffset.x = (canvas.width / 2) - (x * cameraScale);
-		cameraOffset.y = (canvas.height / 2) - (y * cameraScale);
-	}
-
-	function getCameraCenterWorldspace() {
-		return toWorldspace(canvas.width / 2, canvas.height / 2);
-	}
-
-	function getNodeScreenRadius(radius) {
-		return radius * cameraScaleRoot;
-	}
-
-	function getNodeWorldspaceRadius(radius) {
-		return radius / cameraScaleRoot;
-	}
-
-	function getPosition(index) {
-		return { x: positions[index * 2], y: positions[index * 2 + 1] };
-	}
-	
-	function parseHex(hex) 
-	{
-		if (typeof hex === 'number') {
-			return hex;
-		} else if (typeof hex === 'string') {
-			// Remove '#' if present
-			hex = hex.replace(/^#/, '');
-			// Parse the string as a hexadecimal number
-			return parseInt(hex, 16);
-		} else {
-			throw new Error('Invalid hex color. Must be a string or number.');
-		}
-	}
-	
-	function hexToRgb(hex) 
-	{
-		const parsed = parseHex(hex);
-		return {
-			r: (parsed >> 16) & 255,
-			g: (parsed >> 8) & 255,
-			b: parsed & 255
-		};
-	}
-	
-	function rgbToHex(r, g, b) {
-		return (clamp(r, 0, 255) << 16) | (clamp(g, 0, 255) << 8) | clamp(b, 0, 255);
-	}
-	
-	function mixColors(hexStart, hexEnd, factor) {
-		const start = hexToRgb(hexStart);
-		const end = hexToRgb(hexEnd);
-		const safeFactor = clamp(factor, 0, 1);
-		return rgbToHex(
-			Math.round(start.r + (end.r - start.r) * safeFactor),
-			Math.round(start.g + (end.g - start.g) * safeFactor),
-			Math.round(start.b + (end.b - start.b) * safeFactor)
-		);
-	}
-	
-	function toHexString(hexNumber) {
-		return '#' + hexNumber.toString(16).padStart(6, '0');
-	}
-
-	
-	
-
-	function invertColor(hex, bw) {
-		hex = hex.toString(16); // force conversion
-		// fill extra space up to 6 characters with 0
-		while (hex.length < 6) hex = "0" + hex;
-
-		if (hex.indexOf('#') === 0) {
-			hex = hex.slice(1);
-		}
-		// convert 3-digit hex to 6-digits.
-		if (hex.length === 3) {
-			hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
-		}
-		if (hex.length !== 6) {
-			throw new Error('Invalid HEX color:' + hex);
-		}
-		var r = parseInt(hex.slice(0, 2), 16),
-			g = parseInt(hex.slice(2, 4), 16),
-			b = parseInt(hex.slice(4, 6), 16);
-		if (bw) {
-			// https://stackoverflow.com/a/3943023/112731
-			return (r * 0.299 + g * 0.587 + b * 0.114) > 186
-				? '#000000'
-				: '#FFFFFF';
-		}
-		// invert color components
-		r = (255 - r).toString(16);
-		g = (255 - g).toString(16);
-		b = (255 - b).toString(16);
-		// pad each with zeros and return
-		return "#" + padZero(r) + padZero(g) + padZero(b);
-	}
-
-	function clamp(value, min, max) {
-		return Math.min(Math.max(value, min), max);
-	}
-
-	function lerp(a, b, t) {
-		return a + (b - a) * t;
-	}
-
-	let hoverFade = 0;
-	let hoverFadeSpeed = 0.04;
-	let hoverFadeSecondary = 0;
-	let hoverFadeSecondarySpeed = 0.08;
-	let hoverFontSize = 15;
-	let normalFontSize = 12;
-	let fontRatio = hoverFontSize / normalFontSize;
-
-	function showLabel(index, fade, hoverFade = 0) {
-		let label = pixiLabels[index];
-		if (!label) return;
-		labelFade[index] = fade;
-
-		if (fade > 0.01) label.visible = true;
-		else {
-			hideLabel(index);
-			return;
-		}
-
-		label.style.fontSize = lerp(normalFontSize, hoverFontSize, hoverFade);
-
-		let nodePos = vecToScreenSpace(getPosition(index));
-		let width = labelWidths[index] * lerp(1, fontRatio, hoverFade) / 2;
-		label.x = nodePos.x - width;
-		label.y = nodePos.y + getNodeScreenRadius(radii[index]) + 9;
-		label.alpha = fade;
-	}
-
-	function hideLabel(index) {
-		let label = pixiLabels[index];
-		label.visible = false;
-	}
-
-	function draw() {
-		graphics.clear();
-
-		let topLines = [];
-		if (updateAttached) {
-			attachedToGrabbed = [];
-			// hoverFade = 0;
-		}
-
-		if (hoveredNode != -1 || grabbedNode != -1) {
-			hoverFade = Math.min(1, hoverFade + hoverFadeSpeed);
-			hoverFadeSecondary = Math.min(1, hoverFadeSecondary + hoverFadeSecondarySpeed);
-		}
-		else {
-			hoverFade = Math.max(0, hoverFade - hoverFadeSpeed);
-			hoverFadeSecondary = Math.max(0, hoverFadeSecondary - hoverFadeSecondarySpeed);
-		}
-
-		graphics.lineStyle(1, mixColors(colors.link, colors.background, hoverFade * 0.5), 0.7);
-
-		for (let i = 0; i < linkCount; i++) {
-			let target = linkTargets[i];
-			let source = linkSources[i];
-
-			if (hoveredNode == source || hoveredNode == target || ((lastHoveredNode == source || lastHoveredNode == target) && hoverFade != 0)) {
-				if (updateAttached && hoveredNode == source)
-					attachedToGrabbed.push(target);
-
-				else if (updateAttached && hoveredNode == target)
-					attachedToGrabbed.push(source);
-
-				topLines.push(i);
-			}
-
-			let startWorld = getPosition(source);
-			let endWorld = getPosition(target);
-
-			let start = vecToScreenSpace(startWorld);
-			let end = vecToScreenSpace(endWorld);
-
-			let dist = Math.sqrt(Math.pow(startWorld.x - endWorld.x, 2) + Math.pow(startWorld.y - endWorld.y, 2));
-
-			if (dist < (radii[source] + radii[target]) * edgePruning) {
-				graphics.moveTo(start.x, start.y);
-				graphics.lineTo(end.x, end.y);
-			}
-		}
-
-		let opacity = 1 - (hoverFade * 0.5);
-		graphics.beginFill(mixColors(colors.node, colors.background, hoverFade * 0.5), opacity);
-		graphics.lineStyle(0, 0xffffff);
-		for (let i = 0; i < nodeCount; i++) {
-			let screenRadius = getNodeScreenRadius(radii[i]);
-
-			if (hoveredNode != i) {
-				if (screenRadius > 2) {
-
-					let labelFade = lerp(0, (screenRadius - 4) / 8 - (1 / cameraScaleRoot) / 6 * 0.9, Math.max(1 - hoverFade, 0.2));
-					showLabel(i, labelFade);
-				}
-				else {
-					hideLabel(i);
-				}
-			}
-
-			if (hoveredNode == i || (lastHoveredNode == i && hoverFade != 0) || (hoveredNode != -1 && attachedToGrabbed.includes(i))) continue;
-
-			let pos = vecToScreenSpace(getPosition(i));
-			graphics.drawCircle(pos.x, pos.y, screenRadius);
-		}
-
-		graphics.endFill();
-
-
-		opacity = hoverFade * 0.7;
-		graphics.lineStyle(1, mixColors(mixColors(colors.link, colors.accent, hoverFade), colors.background, 0.2), opacity);
-
-		for (let i = 0; i < topLines.length; i++) {
-			let target = linkTargets[topLines[i]];
-			let source = linkSources[topLines[i]];
-
-			// draw lines on top when hovered
-			let start = vecToScreenSpace(getPosition(source));
-			let end = vecToScreenSpace(getPosition(target));
-
-
-			graphics.moveTo(start.x, start.y);
-			graphics.lineTo(end.x, end.y);
-		}
-
-		if (hoveredNode != -1 || (lastHoveredNode != -1 && hoverFade != 0)) {
-			graphics.beginFill(mixColors(colors.node, colors.accent, hoverFade * 0.2), 0.9);
-			graphics.lineStyle(0, 0xffffff);
-			for (let i = 0; i < attachedToGrabbed.length; i++) {
-				let point = attachedToGrabbed[i];
-
-				let pos = vecToScreenSpace(getPosition(point));
-
-				graphics.drawCircle(pos.x, pos.y, getNodeScreenRadius(radii[point]));
-				showLabel(point, Math.max(hoverFade * 0.6, labelFade[point]));
-			}
-			graphics.endFill();
-
-			let index = hoveredNode != -1 ? hoveredNode : lastHoveredNode;
-
-			let pos = vecToScreenSpace(getPosition(index));
-			graphics.beginFill(mixColors(colors.node, colors.accent, hoverFade), 1);
-			graphics.lineStyle(hoverFade, mixColors(invertColor(colors.background, true), colors.accent, 0.5));
-			graphics.drawCircle(pos.x, pos.y, getNodeScreenRadius(radii[index]));
-			graphics.endFill();
-
-			showLabel(index, Math.max(hoverFade, labelFade[index]), hoverFadeSecondary);
-		}
-
-
-
-		updateAttached = false;
-
-		graphics.lineStyle(2, colors.accent);
-		// draw the active node
-		if (activeNode != -1) {
-			let pos = vecToScreenSpace(getPosition(activeNode));
-			graphics.drawCircle(pos.x, pos.y, getNodeScreenRadius(radii[activeNode]) + 4);
-
-		}
-	}
-
-	function onMessage(event) {
-		if (event.data.type == "draw") {
-			positions = new Float32Array(event.data.positions);
-			draw();
-		}
-		else if (event.data.type == "update_camera") {
-			cameraOffset = event.data.cameraOffset;
-			cameraScale = event.data.cameraScale;
-			cameraScaleRoot = Math.sqrt(cameraScale);
-		}
-		else if (event.data.type == "update_interaction") {
-			if (hoveredNode != event.data.hoveredNode && event.data.hoveredNode != -1) updateAttached = true;
-			if (grabbedNode != event.data.grabbedNode && event.data.hoveredNode != -1) updateAttached = true;
-
-			if (event.data.hoveredNode == -1) lastHoveredNode = hoveredNode;
-			else lastHoveredNode = -1;
-
-			hoveredNode = event.data.hoveredNode;
-			grabbedNode = event.data.grabbedNode;
-		}
-		else if (event.data.type == "resize") {
-			app.renderer.resize(event.data.width, event.data.height);
-		}
-		else if (event.data.type == "set_active") {
-			activeNode = event.data.active;
-		}
-		else if (event.data.type == "update_colors") {
-			colors = event.data.colors;
-
-			for (let label of pixiLabels) {
-				label.style.fill = invertColor(colors.background, true);
-			}
-		}
-		else if (event.data.type == "init") {
-			// Extract data from message
-			linkCount = event.data.linkCount;
-			linkSources = event.data.linkSources;
-			linkTargets = event.data.linkTargets;
-			nodeCount = event.data.nodeCount;
-			radii = event.data.radii;
-			labels = event.data.labels;
-			linkLength = event.data.linkLength;
-			edgePruning = event.data.edgePruning;
-			positions = new Float32Array(nodeCount);
-
-			if (!app) {
-				app = new PIXI.Application({ ...event.data.options, antialias: true, resolution: 2, backgroundAlpha: 0, transparent: true });
-				container = new PIXI.Container();
-				graphics = new PIXI.Graphics();
-				app.stage.addChild(container);
-				container.addChild(graphics);
-			}
-
-			// destroy old labels
-			for (let label of pixiLabels) {
-				label.destroy();
-			}
-
-			pixiLabels = [];
-			labelWidths = [];
-			labelFade = [];
-			for (let i = 0; i < nodeCount; i++) {
-				let label = new PIXI.Text(labels[i], { fontFamily: 'Arial', fontSize: 12, fontWeight: "normal", fill: invertColor(colors.background, true), align: 'center', anchor: 0.5 });
-				pixiLabels.push(label);
-				labelWidths.push(label.width);
-				labelFade.push(0);
-				app.stage.addChild(label);
-			}
-
-		}
-		else {
-			console.log("Unknown message type sent to graph worker: " + event.data.type);
-		}
-	}
-}
-
-
+var graph_render_worker_txt_default = `if ('function' === typeof importScripts) {\r
+	importScripts('https://d157l7jdn8e5sf.cloudfront.net/v7.2.0/webworker.js');\r
+\r
+	addEventListener('message', onMessage);\r
+\r
+	self.WebGLRenderingContext = self.WebGL2RenderingContext || self.WebGLRenderingContext;\r
+\r
+	let app = null;\r
+	let container = null;\r
+	let graphics = null;\r
+\r
+	isDrawing = false;\r
+\r
+	let linkCount = 0;\r
+	let linkSources = [];\r
+	let linkTargets = [];\r
+	let nodeCount = 0;\r
+	let radii = [];\r
+	let labels = [];\r
+	let labelFade = [];\r
+	let labelWidths = [];\r
+	let pixiLabels = [];\r
+	let cameraOffset = { x: 0, y: 0 };\r
+	let positions = new Float32Array(0);\r
+	let linkLength = 0;\r
+	let edgePruning = 0;\r
+	let colors =\r
+	{\r
+		background: 0x232323,\r
+		link: 0xAAAAAA,\r
+		node: 0xCCCCCC,\r
+		outline: 0xAAAAAA,\r
+		text: 0xFFFFFF,\r
+		accent: 0x4023AA\r
+	}\r
+\r
+	let hoveredNode = -1;\r
+	let lastHoveredNode = -1;\r
+	let grabbedNode = -1;\r
+	let updateAttached = false;\r
+	let attachedToGrabbed = [];\r
+	let activeNode = -1;\r
+	let attachedToActive = [];\r
+\r
+	let cameraScale = 1;\r
+	let cameraScaleRoot = 1;\r
+\r
+	function toScreenSpace(x, y, floor = true) {\r
+		if (floor) {\r
+			return { x: Math.floor((x * cameraScale) + cameraOffset.x), y: Math.floor((y * cameraScale) + cameraOffset.y) };\r
+		}\r
+		else {\r
+			return { x: (x * cameraScale) + cameraOffset.x, y: (y * cameraScale) + cameraOffset.y };\r
+		}\r
+	}\r
+\r
+	function vecToScreenSpace({ x, y }, floor = true) {\r
+		return toScreenSpace(x, y, floor);\r
+	}\r
+\r
+	function toWorldspace(x, y) {\r
+		return { x: (x - cameraOffset.x) / cameraScale, y: (y - cameraOffset.y) / cameraScale };\r
+	}\r
+\r
+	function vecToWorldspace({ x, y }) {\r
+		return toWorldspace(x, y);\r
+	}\r
+\r
+	function setCameraCenterWorldspace({ x, y }) {\r
+		cameraOffset.x = (canvas.width / 2) - (x * cameraScale);\r
+		cameraOffset.y = (canvas.height / 2) - (y * cameraScale);\r
+	}\r
+\r
+	function getCameraCenterWorldspace() {\r
+		return toWorldspace(canvas.width / 2, canvas.height / 2);\r
+	}\r
+\r
+	function getNodeScreenRadius(radius) {\r
+		return radius * cameraScaleRoot;\r
+	}\r
+\r
+	function getNodeWorldspaceRadius(radius) {\r
+		return radius / cameraScaleRoot;\r
+	}\r
+\r
+	function getPosition(index) {\r
+		return { x: positions[index * 2], y: positions[index * 2 + 1] };\r
+	}\r
+	\r
+	function parseHex(hex) \r
+	{\r
+		if (typeof hex === 'number') {\r
+			return hex;\r
+		} else if (typeof hex === 'string') {\r
+			// Remove '#' if present\r
+			hex = hex.replace(/^#/, '');\r
+			// Parse the string as a hexadecimal number\r
+			return parseInt(hex, 16);\r
+		} else {\r
+			throw new Error('Invalid hex color. Must be a string or number.');\r
+		}\r
+	}\r
+	\r
+	function hexToRgb(hex) \r
+	{\r
+		const parsed = parseHex(hex);\r
+		return {\r
+			r: (parsed >> 16) & 255,\r
+			g: (parsed >> 8) & 255,\r
+			b: parsed & 255\r
+		};\r
+	}\r
+	\r
+	function rgbToHex(r, g, b) {\r
+		return (clamp(r, 0, 255) << 16) | (clamp(g, 0, 255) << 8) | clamp(b, 0, 255);\r
+	}\r
+	\r
+	function mixColors(hexStart, hexEnd, factor) {\r
+		const start = hexToRgb(hexStart);\r
+		const end = hexToRgb(hexEnd);\r
+		const safeFactor = clamp(factor, 0, 1);\r
+		return rgbToHex(\r
+			Math.round(start.r + (end.r - start.r) * safeFactor),\r
+			Math.round(start.g + (end.g - start.g) * safeFactor),\r
+			Math.round(start.b + (end.b - start.b) * safeFactor)\r
+		);\r
+	}\r
+	\r
+	function toHexString(hexNumber) {\r
+		return '#' + hexNumber.toString(16).padStart(6, '0');\r
+	}\r
+\r
+	\r
+	\r
+\r
+	function invertColor(hex, bw) {\r
+		hex = hex.toString(16); // force conversion\r
+		// fill extra space up to 6 characters with 0\r
+		while (hex.length < 6) hex = "0" + hex;\r
+\r
+		if (hex.indexOf('#') === 0) {\r
+			hex = hex.slice(1);\r
+		}\r
+		// convert 3-digit hex to 6-digits.\r
+		if (hex.length === 3) {\r
+			hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];\r
+		}\r
+		if (hex.length !== 6) {\r
+			throw new Error('Invalid HEX color:' + hex);\r
+		}\r
+		var r = parseInt(hex.slice(0, 2), 16),\r
+			g = parseInt(hex.slice(2, 4), 16),\r
+			b = parseInt(hex.slice(4, 6), 16);\r
+		if (bw) {\r
+			// https://stackoverflow.com/a/3943023/112731\r
+			return (r * 0.299 + g * 0.587 + b * 0.114) > 186\r
+				? '#000000'\r
+				: '#FFFFFF';\r
+		}\r
+		// invert color components\r
+		r = (255 - r).toString(16);\r
+		g = (255 - g).toString(16);\r
+		b = (255 - b).toString(16);\r
+		// pad each with zeros and return\r
+		return "#" + padZero(r) + padZero(g) + padZero(b);\r
+	}\r
+\r
+	function clamp(value, min, max) {\r
+		return Math.min(Math.max(value, min), max);\r
+	}\r
+\r
+	function lerp(a, b, t) {\r
+		return a + (b - a) * t;\r
+	}\r
+\r
+	let hoverFade = 0;\r
+	let hoverFadeSpeed = 0.04;\r
+	let hoverFadeSecondary = 0;\r
+	let hoverFadeSecondarySpeed = 0.08;\r
+	let hoverFontSize = 15;\r
+	let normalFontSize = 12;\r
+	let fontRatio = hoverFontSize / normalFontSize;\r
+\r
+	function showLabel(index, fade, hoverFade = 0) {\r
+		let label = pixiLabels[index];\r
+		if (!label) return;\r
+		labelFade[index] = fade;\r
+\r
+		if (fade > 0.01) label.visible = true;\r
+		else {\r
+			hideLabel(index);\r
+			return;\r
+		}\r
+\r
+		label.style.fontSize = lerp(normalFontSize, hoverFontSize, hoverFade);\r
+\r
+		let nodePos = vecToScreenSpace(getPosition(index));\r
+		let width = labelWidths[index] * lerp(1, fontRatio, hoverFade) / 2;\r
+		label.x = nodePos.x - width;\r
+		label.y = nodePos.y + getNodeScreenRadius(radii[index]) + 9;\r
+		label.alpha = fade;\r
+	}\r
+\r
+	function hideLabel(index) {\r
+		let label = pixiLabels[index];\r
+		label.visible = false;\r
+	}\r
+\r
+	function draw() {\r
+		graphics.clear();\r
+\r
+		let topLines = [];\r
+		if (updateAttached) {\r
+			attachedToGrabbed = [];\r
+			// hoverFade = 0;\r
+		}\r
+\r
+		if (hoveredNode != -1 || grabbedNode != -1) {\r
+			hoverFade = Math.min(1, hoverFade + hoverFadeSpeed);\r
+			hoverFadeSecondary = Math.min(1, hoverFadeSecondary + hoverFadeSecondarySpeed);\r
+		}\r
+		else {\r
+			hoverFade = Math.max(0, hoverFade - hoverFadeSpeed);\r
+			hoverFadeSecondary = Math.max(0, hoverFadeSecondary - hoverFadeSecondarySpeed);\r
+		}\r
+\r
+		graphics.lineStyle(1, mixColors(colors.link, colors.background, hoverFade * 0.5), 0.7);\r
+\r
+		for (let i = 0; i < linkCount; i++) {\r
+			let target = linkTargets[i];\r
+			let source = linkSources[i];\r
+\r
+			if (hoveredNode == source || hoveredNode == target || ((lastHoveredNode == source || lastHoveredNode == target) && hoverFade != 0)) {\r
+				if (updateAttached && hoveredNode == source)\r
+					attachedToGrabbed.push(target);\r
+\r
+				else if (updateAttached && hoveredNode == target)\r
+					attachedToGrabbed.push(source);\r
+\r
+				topLines.push(i);\r
+			}\r
+\r
+			let startWorld = getPosition(source);\r
+			let endWorld = getPosition(target);\r
+\r
+			let start = vecToScreenSpace(startWorld);\r
+			let end = vecToScreenSpace(endWorld);\r
+\r
+			let dist = Math.sqrt(Math.pow(startWorld.x - endWorld.x, 2) + Math.pow(startWorld.y - endWorld.y, 2));\r
+\r
+			if (dist < (radii[source] + radii[target]) * edgePruning) {\r
+				graphics.moveTo(start.x, start.y);\r
+				graphics.lineTo(end.x, end.y);\r
+			}\r
+		}\r
+\r
+		let opacity = 1 - (hoverFade * 0.5);\r
+		graphics.beginFill(mixColors(colors.node, colors.background, hoverFade * 0.5), opacity);\r
+		graphics.lineStyle(0, 0xffffff);\r
+		for (let i = 0; i < nodeCount; i++) {\r
+			let screenRadius = getNodeScreenRadius(radii[i]);\r
+\r
+			if (hoveredNode != i) {\r
+				if (screenRadius > 2) {\r
+\r
+					let labelFade = lerp(0, (screenRadius - 4) / 8 - (1 / cameraScaleRoot) / 6 * 0.9, Math.max(1 - hoverFade, 0.2));\r
+					showLabel(i, labelFade);\r
+				}\r
+				else {\r
+					hideLabel(i);\r
+				}\r
+			}\r
+\r
+			if (hoveredNode == i || (lastHoveredNode == i && hoverFade != 0) || (hoveredNode != -1 && attachedToGrabbed.includes(i))) continue;\r
+\r
+			let pos = vecToScreenSpace(getPosition(i));\r
+			graphics.drawCircle(pos.x, pos.y, screenRadius);\r
+		}\r
+\r
+		graphics.endFill();\r
+\r
+\r
+		opacity = hoverFade * 0.7;\r
+		graphics.lineStyle(1, mixColors(mixColors(colors.link, colors.accent, hoverFade), colors.background, 0.2), opacity);\r
+\r
+		for (let i = 0; i < topLines.length; i++) {\r
+			let target = linkTargets[topLines[i]];\r
+			let source = linkSources[topLines[i]];\r
+\r
+			// draw lines on top when hovered\r
+			let start = vecToScreenSpace(getPosition(source));\r
+			let end = vecToScreenSpace(getPosition(target));\r
+\r
+\r
+			graphics.moveTo(start.x, start.y);\r
+			graphics.lineTo(end.x, end.y);\r
+		}\r
+\r
+		if (hoveredNode != -1 || (lastHoveredNode != -1 && hoverFade != 0)) {\r
+			graphics.beginFill(mixColors(colors.node, colors.accent, hoverFade * 0.2), 0.9);\r
+			graphics.lineStyle(0, 0xffffff);\r
+			for (let i = 0; i < attachedToGrabbed.length; i++) {\r
+				let point = attachedToGrabbed[i];\r
+\r
+				let pos = vecToScreenSpace(getPosition(point));\r
+\r
+				graphics.drawCircle(pos.x, pos.y, getNodeScreenRadius(radii[point]));\r
+				showLabel(point, Math.max(hoverFade * 0.6, labelFade[point]));\r
+			}\r
+			graphics.endFill();\r
+\r
+			let index = hoveredNode != -1 ? hoveredNode : lastHoveredNode;\r
+\r
+			let pos = vecToScreenSpace(getPosition(index));\r
+			graphics.beginFill(mixColors(colors.node, colors.accent, hoverFade), 1);\r
+			graphics.lineStyle(hoverFade, mixColors(invertColor(colors.background, true), colors.accent, 0.5));\r
+			graphics.drawCircle(pos.x, pos.y, getNodeScreenRadius(radii[index]));\r
+			graphics.endFill();\r
+\r
+			showLabel(index, Math.max(hoverFade, labelFade[index]), hoverFadeSecondary);\r
+		}\r
+\r
+\r
+\r
+		updateAttached = false;\r
+\r
+		graphics.lineStyle(2, colors.accent);\r
+		// draw the active node\r
+		if (activeNode != -1) {\r
+			let pos = vecToScreenSpace(getPosition(activeNode));\r
+			graphics.drawCircle(pos.x, pos.y, getNodeScreenRadius(radii[activeNode]) + 4);\r
+\r
+		}\r
+	}\r
+\r
+	function onMessage(event) {\r
+		if (event.data.type == "draw") {\r
+			positions = new Float32Array(event.data.positions);\r
+			draw();\r
+		}\r
+		else if (event.data.type == "update_camera") {\r
+			cameraOffset = event.data.cameraOffset;\r
+			cameraScale = event.data.cameraScale;\r
+			cameraScaleRoot = Math.sqrt(cameraScale);\r
+		}\r
+		else if (event.data.type == "update_interaction") {\r
+			if (hoveredNode != event.data.hoveredNode && event.data.hoveredNode != -1) updateAttached = true;\r
+			if (grabbedNode != event.data.grabbedNode && event.data.hoveredNode != -1) updateAttached = true;\r
+\r
+			if (event.data.hoveredNode == -1) lastHoveredNode = hoveredNode;\r
+			else lastHoveredNode = -1;\r
+\r
+			hoveredNode = event.data.hoveredNode;\r
+			grabbedNode = event.data.grabbedNode;\r
+		}\r
+		else if (event.data.type == "resize") {\r
+			app.renderer.resize(event.data.width, event.data.height);\r
+		}\r
+		else if (event.data.type == "set_active") {\r
+			activeNode = event.data.active;\r
+		}\r
+		else if (event.data.type == "update_colors") {\r
+			colors = event.data.colors;\r
+\r
+			for (let label of pixiLabels) {\r
+				label.style.fill = invertColor(colors.background, true);\r
+			}\r
+		}\r
+		else if (event.data.type == "init") {\r
+			// Extract data from message\r
+			linkCount = event.data.linkCount;\r
+			linkSources = event.data.linkSources;\r
+			linkTargets = event.data.linkTargets;\r
+			nodeCount = event.data.nodeCount;\r
+			radii = event.data.radii;\r
+			labels = event.data.labels;\r
+			linkLength = event.data.linkLength;\r
+			edgePruning = event.data.edgePruning;\r
+			positions = new Float32Array(nodeCount);\r
+\r
+			if (!app) {\r
+				app = new PIXI.Application({ ...event.data.options, antialias: true, resolution: 2, backgroundAlpha: 0, transparent: true });\r
+				container = new PIXI.Container();\r
+				graphics = new PIXI.Graphics();\r
+				app.stage.addChild(container);\r
+				container.addChild(graphics);\r
+			}\r
+\r
+			// destroy old labels\r
+			for (let label of pixiLabels) {\r
+				label.destroy();\r
+			}\r
+\r
+			pixiLabels = [];\r
+			labelWidths = [];\r
+			labelFade = [];\r
+			for (let i = 0; i < nodeCount; i++) {\r
+				let label = new PIXI.Text(labels[i], { fontFamily: 'Arial', fontSize: 12, fontWeight: "normal", fill: invertColor(colors.background, true), align: 'center', anchor: 0.5 });\r
+				pixiLabels.push(label);\r
+				labelWidths.push(label.width);\r
+				labelFade.push(0);\r
+				app.stage.addChild(label);\r
+			}\r
+\r
+		}\r
+		else {\r
+			console.log("Unknown message type sent to graph worker: " + event.data.type);\r
+		}\r
+	}\r
+}\r
+\r
+\r
 `;
 
 // src/frontend/graph-view/graph-wasm.wasm
@@ -69036,10 +69036,10 @@ h1 li {\r
 }\r
 \r
 /* high specificity in order to override other style */\r
-html>body>#main-horizontal>#center-content>.obsidian-document>.markdown-preview-sizer>div:not(:is(.footer, .header)) {
-	margin-inline: 0 !important;
-	padding: 0 !important;
-}
+html>body>#main-horizontal>#center-content>.obsidian-document>.markdown-preview-sizer>div:not(:is(.footer, .header)) {\r
+	margin-inline: 0 !important;\r
+	padding: 0 !important;\r
+}\r
 \r
 html>body>#main-horizontal>#center-content>.obsidian-document>.markdown-preview-sizer>div {\r
 	width: 100%;\r
@@ -69270,20 +69270,20 @@ html>body>#main-horizontal>#center-content>.obsidian-document>.markdown-preview-
 	transition: opacity 0.2s ease-in-out;\r
 }\r
 \r
-.graph-view-container.expanded {
-	position: fixed;
-	width: 90%;
-	height: 90%;
-	max-height: unset;
-	right: 5%;
-	top: 5%;
-	background-color: var(--background-secondary);
-	z-index: 120;
-}
-
-.sidebar:has(.graph-view-container.expanded) {
-	z-index: 120;
-}
+.graph-view-container.expanded {\r
+	position: fixed;\r
+	width: 90%;\r
+	height: 90%;\r
+	max-height: unset;\r
+	right: 5%;\r
+	top: 5%;\r
+	background-color: var(--background-secondary);\r
+	z-index: 120;\r
+}\r
+\r
+.sidebar:has(.graph-view-container.expanded) {\r
+	z-index: 120;\r
+}\r
 \r
 body:is(.is-phone, .is-tablet) .graph-view-container.expanded {\r
 	width: 95%;\r
@@ -70027,117 +70027,117 @@ body.theme-light .excalidraw-plugin svg.light {\r
 `;
 
 // src/assets/deferred.txt.js
-var deferred_txt_default = `async function loadIncludes()
-{
-	// replace include tags with the contents of the file
-	let includeTags = document.querySelectorAll("link[itemprop='include']");
-	for (const includeTag of includeTags)
-	{
-		let includePath = includeTag.getAttribute("href");
-
-		try
-		{
-			let includeText = "";
-			
-			if (includePath.startsWith("https:") || includePath.startsWith("http:") || window.location.protocol != "file:")
-			{
-				const request = await fetch(includePath);
-				if (!request.ok) 
-				{
-					console.log("Could not include file: " + includePath);
-					includeTag?.remove();
-					continue;
-				}
-				
-				includeText = await request.text();
-			}
-			else
-			{
-				const dataEl = document.getElementById(btoa(encodeURI(includePath)));
-				if (dataEl)
-				{
-					const data = JSON.parse(decodeURI(atob(dataEl.getAttribute("value") ?? "")));
-					includeText = data?.data ?? "";
-				}
-			}
-
-
-			let docFrag = document.createRange().createContextualFragment(includeText);
-			includeTag.before(docFrag);
-			includeTag.remove();
-
-			console.log("Included text: " + includeText);
-
-			console.log("Included file: " + includePath);
-		}
-		catch (e)
-		{
-			includeTag?.remove();
-			console.log("Could not include file: " + includePath, e);
-			continue;
-		}
-	}
-}
-
-document.addEventListener("DOMContentLoaded", () => 
-{
-	loadIncludes();
-});
-
-let isFileProtocol = location.protocol == "file:";
-
-function waitLoadScripts(scriptNames, callback)
-{
-	let scripts = scriptNames.map(name => document.getElementById(name + "-script"));
-
-	function loadNext(index)
-	{
-		let script = scripts[index];
-		let nextIndex = index + 1;
-		if (!script)
-		{
-			if (index < scripts.length)
-				loadNext(nextIndex);
-			else
-			{
-				callback();
-			}
-			return;
-		}
-
-		if (!script || script.getAttribute('loaded') == "true") // if already loaded 
-		{
-			if (index < scripts.length)
-				loadNext(nextIndex);
-		}
-		
-		if (index < scripts.length) 
-		{
-			script.addEventListener("load", () => loadNext(nextIndex));
-		}
-	}
-
-	loadNext(0);
-}
+var deferred_txt_default = `async function loadIncludes()\r
+{\r
+	// replace include tags with the contents of the file\r
+	let includeTags = document.querySelectorAll("link[itemprop='include']");\r
+	for (const includeTag of includeTags)\r
+	{\r
+		let includePath = includeTag.getAttribute("href");\r
+\r
+		try\r
+		{\r
+			let includeText = "";\r
+			\r
+			if (includePath.startsWith("https:") || includePath.startsWith("http:") || window.location.protocol != "file:")\r
+			{\r
+				const request = await fetch(includePath);\r
+				if (!request.ok) \r
+				{\r
+					console.log("Could not include file: " + includePath);\r
+					includeTag?.remove();\r
+					continue;\r
+				}\r
+				\r
+				includeText = await request.text();\r
+			}\r
+			else\r
+			{\r
+				const dataEl = document.getElementById(btoa(encodeURI(includePath)));\r
+				if (dataEl)\r
+				{\r
+					const data = JSON.parse(decodeURI(atob(dataEl.getAttribute("value") ?? "")));\r
+					includeText = data?.data ?? "";\r
+				}\r
+			}\r
+\r
+\r
+			let docFrag = document.createRange().createContextualFragment(includeText);\r
+			includeTag.before(docFrag);\r
+			includeTag.remove();\r
+\r
+			console.log("Included text: " + includeText);\r
+\r
+			console.log("Included file: " + includePath);\r
+		}\r
+		catch (e)\r
+		{\r
+			includeTag?.remove();\r
+			console.log("Could not include file: " + includePath, e);\r
+			continue;\r
+		}\r
+	}\r
+}\r
+\r
+document.addEventListener("DOMContentLoaded", () => \r
+{\r
+	loadIncludes();\r
+});\r
+\r
+let isFileProtocol = location.protocol == "file:";\r
+\r
+function waitLoadScripts(scriptNames, callback)\r
+{\r
+	let scripts = scriptNames.map(name => document.getElementById(name + "-script"));\r
+\r
+	function loadNext(index)\r
+	{\r
+		let script = scripts[index];\r
+		let nextIndex = index + 1;\r
+		if (!script)\r
+		{\r
+			if (index < scripts.length)\r
+				loadNext(nextIndex);\r
+			else\r
+			{\r
+				callback();\r
+			}\r
+			return;\r
+		}\r
+\r
+		if (!script || script.getAttribute('loaded') == "true") // if already loaded \r
+		{\r
+			if (index < scripts.length)\r
+				loadNext(nextIndex);\r
+		}\r
+		\r
+		if (index < scripts.length) \r
+		{\r
+			script.addEventListener("load", () => loadNext(nextIndex));\r
+		}\r
+	}\r
+\r
+	loadNext(0);\r
+}\r
 `;
 
 // src/assets/deferred.txt.css
 var deferred_txt_default2 = `/* Define default values for variables */\r
-body
-{
-    --line-width: 40em;
-    --line-width-adaptive: 40em;
-    --file-line-width: 40em;
+body\r
+{\r
+    --line-width: 40em;\r
+    --line-width-adaptive: 40em;\r
+    --file-line-width: 40em;\r
     --sidebar-width: min(20em, 80vw);\r
     --collapse-arrow-size: 11px;\r
     --tree-vertical-spacing: 1.3em;\r
-    --sidebar-margin: 12px;
-    --global-topbar-height: 2em;
-    --global-topbar-padding-y: calc(var(--sidebar-margin) * 0.25);
-    --main-top-offset: calc(var(--global-topbar-height) + (2 * var(--global-topbar-padding-y)) + 1px);
-    --global-topbar-background: var(--background-primary);
-    --global-topbar-border-color: var(--background-modifier-border);
-}
+    --sidebar-margin: 12px;\r
+    --global-topbar-height: 2em;\r
+    --global-topbar-padding-y: calc(var(--sidebar-margin) * 0.25);\r
+    --main-top-offset: calc(var(--global-topbar-height) + (2 * var(--global-topbar-padding-y)) + 1px);\r
+    --global-topbar-background: var(--background-primary);\r
+    --global-topbar-border-color: var(--background-modifier-border);\r
+}\r
 \r
 :root\r
 {\r
@@ -70146,11 +70146,11 @@ body
 \r
 /*#region Sidebars */\r
 \r
-.sidebar {
-    height: calc(100% + var(--main-top-offset));
-    margin-top: calc(-1 * var(--main-top-offset));
-    font-size: 14px;
-    z-index: 10;
+.sidebar {\r
+    height: calc(100% + var(--main-top-offset));\r
+    margin-top: calc(-1 * var(--main-top-offset));\r
+    font-size: 14px;\r
+    z-index: 10;\r
     min-width: calc(var(--sidebar-width) + var(--divider-width-hover));\r
     max-width: calc(var(--sidebar-width) + var(--divider-width-hover));\r
     position: relative;\r
@@ -70186,12 +70186,14 @@ body
     padding: 0;
     padding-top: var(--main-top-offset);
     box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
     line-height: var(--line-height-tight);
     background-color: var(--background-secondary);
     border-radius: 0;
-    transition: background-color,border-right,border-left,box-shadow;
-    transition-duration: var(--color-fade-speed);
-    transition-timing-function: ease-in-out;
+    transition: background-color,border-right,border-left,box-shadow;\r
+    transition-duration: var(--color-fade-speed);\r
+    transition-timing-function: ease-in-out;\r
     position: absolute;\r
     display: flex;\r
     flex-direction: column;\r
@@ -70203,26 +70205,35 @@ body
     max-width: calc(max(100%,var(--sidebar-width)) - 3px);\r
 }\r
 \r
-#left-sidebar-content
-{
-    left: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-\r
-#right-sidebar-content
-{
-    right: 0;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-\r
-.sidebar #right-sidebar-content, .sidebar #left-sidebar-content\r
+#left-sidebar-content\r
 {\r
-    contain: none !important;\r
-    container-type: normal !important;\r
-    animation: none !important;\r
+    left: 0;\r
+    border-top-right-radius: 0;\r
+    border-bottom-right-radius: 0;\r
 }\r
+\r
+#right-sidebar-content\r
+{\r
+    right: 0;\r
+    border-top-left-radius: 0;\r
+    border-bottom-left-radius: 0;\r
+}\r
+\r
+.sidebar #right-sidebar-content, .sidebar #left-sidebar-content
+{
+    contain: none !important;
+    container-type: normal !important;
+    animation: none !important;
+}
+
+/* Let sidebar content scroll as one full column instead of trapping scroll inside tree widgets */
+#left-sidebar-content .tree-container,
+#right-sidebar-content .tree-container
+{
+    height: auto;
+    overflow: visible;
+    flex: 0 0 auto;
+}
 \r
 /* Hide empty sidebars */\r
 .sidebar:has(.leaf-content:empty):has(.topbar-content:empty)\r
@@ -70243,17 +70254,17 @@ body
     width: 0;\r
 }\r
 \r
-#left-sidebar .sidebar-topbar {
-    left: 0;
-    flex-direction: row;
-	border-top-right-radius: 0;
-}
+#left-sidebar .sidebar-topbar {\r
+    left: 0;\r
+    flex-direction: row;\r
+	border-top-right-radius: 0;\r
+}\r
 \r
-#right-sidebar .sidebar-topbar {
-    right: 0;
-    flex-direction: row-reverse;
-	border-top-left-radius: 0;
-}
+#right-sidebar .sidebar-topbar {\r
+    right: 0;\r
+    flex-direction: row-reverse;\r
+	border-top-left-radius: 0;\r
+}\r
 \r
 #left-sidebar .topbar-content {\r
     margin-right: calc(2.3em + var(--sidebar-margin));\r
@@ -70347,17 +70358,17 @@ body\r
 	align-items: center;\r
 	justify-content: space-between;\r
 	position: fixed;\r
-	top: 0;
-	left: 0;
-	right: 0;
-	height: var(--global-topbar-height);
-	padding: var(--global-topbar-padding-y) calc(var(--sidebar-margin) + 2.1em);
-	padding-right: calc(var(--sidebar-margin) + 4.4em);
-	z-index: 30;
-	background-color: var(--global-topbar-background);
-	border-bottom: 1px solid var(--global-topbar-border-color);
-	gap: 0.8em;
-}
+	top: 0;\r
+	left: 0;\r
+	right: 0;\r
+	height: var(--global-topbar-height);\r
+	padding: var(--global-topbar-padding-y) calc(var(--sidebar-margin) + 2.1em);\r
+	padding-right: calc(var(--sidebar-margin) + 4.4em);\r
+	z-index: 30;\r
+	background-color: var(--global-topbar-background);\r
+	border-bottom: 1px solid var(--global-topbar-border-color);\r
+	gap: 0.8em;\r
+}\r
 \r
 #navbar .navbar-zone {\r
 	display: flex;\r
@@ -70406,39 +70417,39 @@ body\r
 	width: min(22em, 42vw);\r
 }\r
 \r
-#global-topbar-left-content #search-container {
-	width: 100%;
-}
-
-#navbar .global-topbar-home-link {
-	position: absolute;
-	top: 50%;
-	right: calc(var(--sidebar-margin) + 2.3em);
-	transform: translateY(-50%);
-	width: 1.8em !important;
-	height: 1.8em !important;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-shrink: 0;
-	text-decoration: none;
-	color: var(--icon-color-focused);
-	overflow: visible;
-	line-height: 0;
-}
-
-#navbar .global-topbar-home-link svg.svg-icon {
-	width: 100%;
-	height: 100%;
-	stroke-width: 2.35;
-	transform: scale(1.18);
-	transform-origin: center;
-}
-
-#navbar .clickable-icon.sidebar-collapse-icon {
-	position: absolute;
-	top: 50%;
-	width: 1.8em !important;
+#global-topbar-left-content #search-container {\r
+	width: 100%;\r
+}\r
+\r
+#navbar .global-topbar-home-link {\r
+	position: absolute;\r
+	top: 50%;\r
+	right: calc(var(--sidebar-margin) + 2.3em);\r
+	transform: translateY(-50%);\r
+	width: 1.8em !important;\r
+	height: 1.8em !important;\r
+	display: flex;\r
+	align-items: center;\r
+	justify-content: center;\r
+	flex-shrink: 0;\r
+	text-decoration: none;\r
+	color: var(--icon-color-focused);\r
+	overflow: visible;\r
+	line-height: 0;\r
+}\r
+\r
+#navbar .global-topbar-home-link svg.svg-icon {\r
+	width: 100%;\r
+	height: 100%;\r
+	stroke-width: 2.35;\r
+	transform: scale(1.18);\r
+	transform-origin: center;\r
+}\r
+\r
+#navbar .clickable-icon.sidebar-collapse-icon {\r
+	position: absolute;\r
+	top: 50%;\r
+	width: 1.8em !important;\r
 	height: 1.8em !important;\r
 	display: flex;\r
 	align-items: center;\r
@@ -70470,16 +70481,16 @@ body\r
 	justify-content: center;\r
 }\r
 \r
-#main-horizontal {
-    display: flex;
-    flex-direction: row;
-	flex-grow: 1;
-    box-sizing: border-box;
-    padding-top: var(--main-top-offset);
-    width: 100%;
-    align-items: stretch;
-    justify-content: center;
-}
+#main-horizontal {\r
+    display: flex;\r
+    flex-direction: row;\r
+	flex-grow: 1;\r
+    box-sizing: border-box;\r
+    padding-top: var(--main-top-offset);\r
+    width: 100%;\r
+    align-items: stretch;\r
+    justify-content: center;\r
+}\r
 \r
 #center-content \r
 {\r
@@ -70643,7 +70654,7 @@ body #center-content>.obsidian-document>.markdown-preview-sizer \r
 `;
 
 // src/assets/theme-load.txt.js
-var theme_load_txt_default = 'let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");\nif (theme == "dark")\n{\n	document.body.classList.add("theme-dark");\n	document.body.classList.remove("theme-light");\n}\nelse\n{\n	document.body.classList.add("theme-light");\n	document.body.classList.remove("theme-dark");\n}\n\nif (window.innerWidth < 480) document.body.classList.add("is-phone");\nelse if (window.innerWidth < 768) document.body.classList.add("is-tablet");\nelse if (window.innerWidth < 1024) document.body.classList.add("is-small-screen");\nelse document.body.classList.add("is-large-screen");\n';
+var theme_load_txt_default = 'let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");\r\nif (theme == "dark")\r\n{\r\n	document.body.classList.add("theme-dark");\r\n	document.body.classList.remove("theme-light");\r\n}\r\nelse\r\n{\r\n	document.body.classList.add("theme-light");\r\n	document.body.classList.remove("theme-dark");\r\n}\r\n\r\nif (window.innerWidth < 480) document.body.classList.add("is-phone");\r\nelse if (window.innerWidth < 768) document.body.classList.add("is-tablet");\r\nelse if (window.innerWidth < 1024) document.body.classList.add("is-small-screen");\r\nelse document.body.classList.add("is-large-screen");\r\n';
 
 // src/plugin/utils/path.ts
 var import_fs = require("fs");
@@ -72511,7 +72522,7 @@ var IncludeGenerator = class {
 var import_obsidian3 = require("obsidian");
 
 // src/assets/third-party-styles-blacklist.txt
-var third_party_styles_blacklist_default = "advanced-pdf-export\ncustom-classes\nfile-tree-alternative\nhomepage\nOA-file-hider\nobsidian-asciimath\nobsidian-discordrpc\nobsidian-dynamic-background\nobsidian-dynamic-toc\nobsidian-excel-to-markdown-table\nobsidian-full-calendar\nobsidian-graphviz\nobsidian-latex\nobsidian-latex-suite\nobsidian-minimal-settings\nobsidian-plantuml\nobsidian-prozen\nobsidian-statusbar-pomo\nobsidian-style-settings\nobsidian-underline\nsettings-search\nsurfing\ntable-editor-obsidian\ntext-snippets-obsidian\nwebpage-html-export2-wilson\nlapel\nobsidian-regex-replace\ntemplater-obsidian\nediting-toolbar\nobsidian-admonition\nobsidian-banners\nobsidian-charts\nobsidian-excalidraw-plugin\nobsidian42-brat\nobsidian-icon-folder\nvscode-editor\n";
+var third_party_styles_blacklist_default = "advanced-pdf-export\r\ncustom-classes\r\nfile-tree-alternative\r\nhomepage\r\nOA-file-hider\r\nobsidian-asciimath\r\nobsidian-discordrpc\r\nobsidian-dynamic-background\r\nobsidian-dynamic-toc\r\nobsidian-excel-to-markdown-table\r\nobsidian-full-calendar\r\nobsidian-graphviz\r\nobsidian-latex\r\nobsidian-latex-suite\r\nobsidian-minimal-settings\r\nobsidian-plantuml\r\nobsidian-prozen\r\nobsidian-statusbar-pomo\r\nobsidian-style-settings\r\nobsidian-underline\r\nsettings-search\r\nsurfing\r\ntable-editor-obsidian\r\ntext-snippets-obsidian\r\nwebpage-html-export2-wilson\r\nlapel\r\nobsidian-regex-replace\r\ntemplater-obsidian\r\nediting-toolbar\r\nobsidian-admonition\r\nobsidian-banners\r\nobsidian-charts\r\nobsidian-excalidraw-plugin\r\nobsidian42-brat\r\nobsidian-icon-folder\r\nvscode-editor\r\n";
 
 // src/plugin/settings/settings-components.ts
 var import_obsidian2 = require("obsidian");
@@ -74088,7 +74099,7 @@ AssetLoader.replacements = {
 };
 
 // src/assets/obsidian-styles.txt.css
-var obsidian_styles_txt_default = ".obsidian-document .heading-collapse-indicator \n{\n    margin-left: calc( 0px - var(--collapse-arrow-size) - 10px) !important;\n    padding: 0px 0px !important;\n}\n\n.node-insert-event \n{\n    animation-duration: unset !important;\n    animation-name: none !important;\n}\n\nhr\n{\n    border: none;\n	border-top: var(--hr-thickness) solid;\n    border-color: var(--hr-color);\n}\n\nh1:hover .collapse-indicator, h2:hover .collapse-indicator, h3:hover .collapse-indicator, h4:hover .collapse-indicator, h5:hover .collapse-indicator, h6:hover .collapse-indicator, .collapse-indicator:hover, .is-collapsed .collapse-indicator, .cm-fold-indicator.is-collapsed .collapse-indicator, .cm-gutterElement:hover .collapse-indicator, .cm-gutterElement .is-collapsed .collapse-indicator, .cm-line:hover .cm-fold-indicator .collapse-indicator, .fold-gutter.is-collapsed, .fold-gutter:hover, .metadata-properties-heading:hover .collapse-indicator {\n    opacity: 1;\n	transition: opacity 0.15s ease-in-out;\n}\n\n.collapse-indicator, .fold-gutter\n{\n	opacity: 0;\n	transition: opacity 0.15s ease-in-out;\n}\n\n@media print \n{\n    html body > :not(.print) \n    {\n        display: unset !important;\n    }\n\n    .collapse-indicator\n    {\n        display: none !important;\n    }\n\n    .is-collapsed > element > .collapse-indicator\n    {\n        display: unset !important;\n    }\n}\n\n/*#region Misc Hiding */\n\n.mod-header .metadata-container\n{\n	display: none !important;\n}\n\n.canvas-empty-embed-action-list\n{\n	display: none !important;\n}\n\n/*#endregion */\n\n/*#region Transclusions */\n\n.markdown-embed .heading-collapse-indicator {\n    translate: -1em 0;\n}\n\n.markdown-embed.internal-embed.inline-embed .markdown-embed-content,\n.markdown-embed.internal-embed.inline-embed .markdown-embed-content .obsidian-document\n{\n	overflow: visible !important;\n}\n\n.markdown-embed-link\n{\n	display: none !important;\n}\n\n/*#endregion  */\n\n/*#region Canvas */\n\n.canvas-wrapper:not(.mod-readonly) .canvas-node-content.markdown-embed>.markdown-embed-content>.obsidian-document\n{\n	user-select: text !important;\n}\n\n.canvas-card-menu {\n	display: none;\n	cursor: default !important;\n\n}\n\n.canvas-controls {\n	display: none;\n	cursor: default !important;\n\n}\n\n.canvas-background\n{\n	pointer-events: visible !important;\n	cursor: grab !important;\n}\n\n.canvas-background:active\n{\n	cursor: grabbing !important;\n}\n\n.canvas-node-connection-point \n{\n	display: none;\n	cursor: default !important;\n\n}\n\n.canvas-node-content\n{\n	backface-visibility: visible !important;\n}\n\n.canvas-menu-container {\n	display: none;\n}\n\n.canvas-node-content-blocker\n{\n	cursor: pointer !important;\n}\n\n.canvas-wrapper\n{\n	position: relative;\n	cursor: default !important;\n}\n\n.canvas-node-resizer\n{\n	cursor: default !important;\n}\n\n.canvas-node-container\n{\n	cursor: default !important;\n}\n\n.canvas-node .obsidian-document.is-readable-line-width .markdown-preview-sizer {\n    max-width: 100%;\n    margin-left: unset;\n    margin-right: unset;\n}\n\n/*#endregion */\n\n/*#region Code Copy */\n\n/* Make code block copy button fade in and out */\n.markdown-rendered pre:not(:hover) > button.copy-code-button\n{\n	display: unset;\n	opacity: 0;\n}\n\n.markdown-rendered pre:hover > button.copy-code-button\n{\n	opacity: 1;\n}\n\n.markdown-rendered pre button.copy-code-button\n{\n	transition: opacity 0.2s ease-in-out, width 0.3s ease-in-out, background-color 0.2s ease-in-out;\n	text-overflow: clip;\n}\n\n.markdown-rendered pre > button.copy-code-button:hover\n{\n	background-color: var(--interactive-normal);\n}\n\n.markdown-rendered pre > button.copy-code-button:active\n{\n	background-color: var(--interactive-hover);\n	box-shadow: var(--input-shadow);\n	transition: none;\n}\n\n/*#endregion */\n\n/*#region Lists */\n\n#main-horizontal .is-collapsed .list-collapse-indicator svg.svg-icon, \n#main-horizontal .is-collapsed .collapse-indicator svg.svg-icon\n{\n	color: var(--collapse-icon-color-collapsed);\n}\n\n/*#endregion */\n";
+var obsidian_styles_txt_default = ".obsidian-document .heading-collapse-indicator \r\n{\r\n    margin-left: calc( 0px - var(--collapse-arrow-size) - 10px) !important;\r\n    padding: 0px 0px !important;\r\n}\r\n\r\n.node-insert-event \r\n{\r\n    animation-duration: unset !important;\r\n    animation-name: none !important;\r\n}\r\n\r\nhr\r\n{\r\n    border: none;\r\n	border-top: var(--hr-thickness) solid;\r\n    border-color: var(--hr-color);\r\n}\r\n\r\nh1:hover .collapse-indicator, h2:hover .collapse-indicator, h3:hover .collapse-indicator, h4:hover .collapse-indicator, h5:hover .collapse-indicator, h6:hover .collapse-indicator, .collapse-indicator:hover, .is-collapsed .collapse-indicator, .cm-fold-indicator.is-collapsed .collapse-indicator, .cm-gutterElement:hover .collapse-indicator, .cm-gutterElement .is-collapsed .collapse-indicator, .cm-line:hover .cm-fold-indicator .collapse-indicator, .fold-gutter.is-collapsed, .fold-gutter:hover, .metadata-properties-heading:hover .collapse-indicator {\r\n    opacity: 1;\r\n	transition: opacity 0.15s ease-in-out;\r\n}\r\n\r\n.collapse-indicator, .fold-gutter\r\n{\r\n	opacity: 0;\r\n	transition: opacity 0.15s ease-in-out;\r\n}\r\n\r\n@media print \r\n{\r\n    html body > :not(.print) \r\n    {\r\n        display: unset !important;\r\n    }\r\n\r\n    .collapse-indicator\r\n    {\r\n        display: none !important;\r\n    }\r\n\r\n    .is-collapsed > element > .collapse-indicator\r\n    {\r\n        display: unset !important;\r\n    }\r\n}\r\n\r\n/*#region Misc Hiding */\r\n\r\n.mod-header .metadata-container\r\n{\r\n	display: none !important;\r\n}\r\n\r\n.canvas-empty-embed-action-list\r\n{\r\n	display: none !important;\r\n}\r\n\r\n/*#endregion */\r\n\r\n/*#region Transclusions */\r\n\r\n.markdown-embed .heading-collapse-indicator {\r\n    translate: -1em 0;\r\n}\r\n\r\n.markdown-embed.internal-embed.inline-embed .markdown-embed-content,\r\n.markdown-embed.internal-embed.inline-embed .markdown-embed-content .obsidian-document\r\n{\r\n	overflow: visible !important;\r\n}\r\n\r\n.markdown-embed-link\r\n{\r\n	display: none !important;\r\n}\r\n\r\n/*#endregion  */\r\n\r\n/*#region Canvas */\r\n\r\n.canvas-wrapper:not(.mod-readonly) .canvas-node-content.markdown-embed>.markdown-embed-content>.obsidian-document\r\n{\r\n	user-select: text !important;\r\n}\r\n\r\n.canvas-card-menu {\r\n	display: none;\r\n	cursor: default !important;\r\n\r\n}\r\n\r\n.canvas-controls {\r\n	display: none;\r\n	cursor: default !important;\r\n\r\n}\r\n\r\n.canvas-background\r\n{\r\n	pointer-events: visible !important;\r\n	cursor: grab !important;\r\n}\r\n\r\n.canvas-background:active\r\n{\r\n	cursor: grabbing !important;\r\n}\r\n\r\n.canvas-node-connection-point \r\n{\r\n	display: none;\r\n	cursor: default !important;\r\n\r\n}\r\n\r\n.canvas-node-content\r\n{\r\n	backface-visibility: visible !important;\r\n}\r\n\r\n.canvas-menu-container {\r\n	display: none;\r\n}\r\n\r\n.canvas-node-content-blocker\r\n{\r\n	cursor: pointer !important;\r\n}\r\n\r\n.canvas-wrapper\r\n{\r\n	position: relative;\r\n	cursor: default !important;\r\n}\r\n\r\n.canvas-node-resizer\r\n{\r\n	cursor: default !important;\r\n}\r\n\r\n.canvas-node-container\r\n{\r\n	cursor: default !important;\r\n}\r\n\r\n.canvas-node .obsidian-document.is-readable-line-width .markdown-preview-sizer {\r\n    max-width: 100%;\r\n    margin-left: unset;\r\n    margin-right: unset;\r\n}\r\n\r\n/*#endregion */\r\n\r\n/*#region Code Copy */\r\n\r\n/* Make code block copy button fade in and out */\r\n.markdown-rendered pre:not(:hover) > button.copy-code-button\r\n{\r\n	display: unset;\r\n	opacity: 0;\r\n}\r\n\r\n.markdown-rendered pre:hover > button.copy-code-button\r\n{\r\n	opacity: 1;\r\n}\r\n\r\n.markdown-rendered pre button.copy-code-button\r\n{\r\n	transition: opacity 0.2s ease-in-out, width 0.3s ease-in-out, background-color 0.2s ease-in-out;\r\n	text-overflow: clip;\r\n}\r\n\r\n.markdown-rendered pre > button.copy-code-button:hover\r\n{\r\n	background-color: var(--interactive-normal);\r\n}\r\n\r\n.markdown-rendered pre > button.copy-code-button:active\r\n{\r\n	background-color: var(--interactive-hover);\r\n	box-shadow: var(--input-shadow);\r\n	transition: none;\r\n}\r\n\r\n/*#endregion */\r\n\r\n/*#region Lists */\r\n\r\n#main-horizontal .is-collapsed .list-collapse-indicator svg.svg-icon, \r\n#main-horizontal .is-collapsed .collapse-indicator svg.svg-icon\r\n{\r\n	color: var(--collapse-icon-color-collapsed);\r\n}\r\n\r\n/*#endregion */\r\n";
 
 // src/plugin/asset-loaders/obsidian-styles.ts
 var _ObsidianStyles = class extends AssetLoader {
@@ -76071,13 +76082,13 @@ var Favicon = class extends AssetLoader {
 // src/plugin/asset-loaders/local-fetch-buffer.ts
 var import_obsidian8 = require("obsidian");
 
-// node_modules/file-type/browser.js
+// ../node_modules/file-type/browser.js
 var import_readable_web_to_node_stream = __toESM(require_lib4(), 1);
 
-// node_modules/file-type/core.js
+// ../node_modules/file-type/core.js
 var import_node_buffer3 = require("node:buffer");
 
-// node_modules/token-types/lib/index.js
+// ../node_modules/token-types/lib/index.js
 var ieee754 = __toESM(require_ieee754(), 1);
 var import_node_buffer = require("node:buffer");
 function dv(array) {
@@ -76329,7 +76340,7 @@ AnsiStringType.windows1252 = [
   255
 ];
 
-// node_modules/peek-readable/lib/EndOfFileStream.js
+// ../node_modules/peek-readable/lib/EndOfFileStream.js
 var defaultMessages = "End-Of-Stream";
 var EndOfStreamError = class extends Error {
   constructor() {
@@ -76337,7 +76348,7 @@ var EndOfStreamError = class extends Error {
   }
 };
 
-// node_modules/peek-readable/lib/Deferred.js
+// ../node_modules/peek-readable/lib/Deferred.js
 var Deferred = class {
   constructor() {
     this.resolve = () => null;
@@ -76349,7 +76360,7 @@ var Deferred = class {
   }
 };
 
-// node_modules/peek-readable/lib/StreamReader.js
+// ../node_modules/peek-readable/lib/StreamReader.js
 var maxStreamReadSize = 1 * 1024 * 1024;
 var StreamReader = class {
   constructor(s) {
@@ -76440,7 +76451,7 @@ var StreamReader = class {
   }
 };
 
-// node_modules/strtok3/lib/AbstractTokenizer.js
+// ../node_modules/strtok3/lib/AbstractTokenizer.js
 var import_node_buffer2 = require("node:buffer");
 var AbstractTokenizer = class {
   constructor(fileInfo) {
@@ -76508,7 +76519,7 @@ var AbstractTokenizer = class {
   }
 };
 
-// node_modules/strtok3/lib/ReadStreamTokenizer.js
+// ../node_modules/strtok3/lib/ReadStreamTokenizer.js
 var maxBufferSize = 256e3;
 var ReadStreamTokenizer = class extends AbstractTokenizer {
   constructor(stream, fileInfo) {
@@ -76582,7 +76593,7 @@ var ReadStreamTokenizer = class extends AbstractTokenizer {
   }
 };
 
-// node_modules/strtok3/lib/BufferTokenizer.js
+// ../node_modules/strtok3/lib/BufferTokenizer.js
 var BufferTokenizer = class extends AbstractTokenizer {
   constructor(uint8Array, fileInfo) {
     super(fileInfo);
@@ -76614,7 +76625,7 @@ var BufferTokenizer = class extends AbstractTokenizer {
   }
 };
 
-// node_modules/strtok3/lib/core.js
+// ../node_modules/strtok3/lib/core.js
 function fromStream(stream, fileInfo) {
   fileInfo = fileInfo ? fileInfo : {};
   return new ReadStreamTokenizer(stream, fileInfo);
@@ -76623,7 +76634,7 @@ function fromBuffer(uint8Array, fileInfo) {
   return new BufferTokenizer(uint8Array, fileInfo);
 }
 
-// node_modules/file-type/util.js
+// ../node_modules/file-type/util.js
 function stringToBytes(string) {
   return [...string].map((character) => character.charCodeAt(0));
 }
@@ -76646,7 +76657,7 @@ var uint32SyncSafeToken = {
   len: 4
 };
 
-// node_modules/file-type/supported.js
+// ../node_modules/file-type/supported.js
 var extensions = [
   "jpg",
   "png",
@@ -76951,7 +76962,7 @@ var mimeTypes = [
   "application/x.autodesk.fbx"
 ];
 
-// node_modules/file-type/core.js
+// ../node_modules/file-type/core.js
 var minimumBytes = 4100;
 async function fileTypeFromBuffer(input) {
   return new FileTypeParser().fromBuffer(input);
@@ -78353,7 +78364,7 @@ var SupportedPluginStyles = class extends AssetLoader {
 };
 
 // src/frontend/dist/index.txt.js
-var index_txt_default = '/*\nTHIS IS A GENERATED/BUNDLED FILE BY ESBUILD\nif you want to view the source, please visit the github repository of this plugin\n*/\n\n"use strict";\n(() => {\n  var __require = /* @__PURE__ */ ((x) => typeof require !== "undefined" ? require : typeof Proxy !== "undefined" ? new Proxy(x, {\n    get: (a, b) => (typeof require !== "undefined" ? require : a)[b]\n  }) : x)(function(x) {\n    if (typeof require !== "undefined")\n      return require.apply(this, arguments);\n    throw new Error(\'Dynamic require of "\' + x + \'" is not supported\');\n  });\n  var __accessCheck = (obj, member, msg) => {\n    if (!member.has(obj))\n      throw TypeError("Cannot " + msg);\n  };\n  var __privateGet = (obj, member, getter) => {\n    __accessCheck(obj, member, "read from private field");\n    return getter ? getter.call(obj) : member.get(obj);\n  };\n  var __privateAdd = (obj, member, value) => {\n    if (member.has(obj))\n      throw TypeError("Cannot add the same private member more than once");\n    member instanceof WeakSet ? member.add(obj) : member.set(obj, value);\n  };\n  var __privateSet = (obj, member, value, setter) => {\n    __accessCheck(obj, member, "write to private field");\n    setter ? setter.call(obj, value) : member.set(obj, value);\n    return value;\n  };\n  var __privateMethod = (obj, member, method) => {\n    __accessCheck(obj, member, "access private method");\n    return method;\n  };\n\n  // src/frontend/main/utils.ts\n  async function delay(ms) {\n    return new Promise((resolve) => setTimeout(resolve, ms));\n  }\n  async function waitUntil(predicate, interval = 100) {\n    while (!predicate())\n      await delay(interval);\n  }\n  function getTextNodes(element) {\n    const textNodes = [];\n    const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, null);\n    let node;\n    while (node = walker.nextNode()) {\n      textNodes.push(node);\n    }\n    return textNodes;\n  }\n  function getLengthInPixels(cssString, contextElement) {\n    const tempElement = document.createElement("div");\n    tempElement.style.position = "absolute";\n    tempElement.style.visibility = "hidden";\n    tempElement.style.width = cssString;\n    contextElement.appendChild(tempElement);\n    const lengthInPixels = tempElement.offsetWidth;\n    contextElement.removeChild(tempElement);\n    return lengthInPixels;\n  }\n  var Bounds = class {\n    get width() {\n      return this.right - this.left;\n    }\n    set width(value) {\n      this.right = this.left + value;\n    }\n    get height() {\n      return this.bottom - this.top;\n    }\n    set height(value) {\n      this.bottom = this.top + value;\n    }\n    get center() {\n      return new Vector2(this.left + this.width / 2, this.top + this.height / 2);\n    }\n    get min() {\n      return new Vector2(this.left, this.top);\n    }\n    set min(value) {\n      this.left = value.x;\n      this.top = value.y;\n    }\n    set position(value) {\n      this.min = value;\n    }\n    get max() {\n      return new Vector2(this.right, this.bottom);\n    }\n    set max(value) {\n      this.right = value.x;\n      this.bottom = value.y;\n    }\n    get size() {\n      return new Vector2(this.width, this.height);\n    }\n    set size(value) {\n      this.width = value.x;\n      this.height = value.y;\n    }\n    constructor(left, top, width, height) {\n      this.left = left;\n      this.top = top;\n      this.right = left + width;\n      this.bottom = top + height;\n    }\n    containsPoint(point) {\n      return point.x >= this.left && point.x <= this.right && point.y >= this.top && point.y <= this.bottom;\n    }\n    containsBounds(bounds) {\n      return bounds.left >= this.left && bounds.right <= this.right && bounds.top >= this.top && bounds.bottom <= this.bottom;\n    }\n    encapsulate(bounds) {\n      this.left = Math.min(this.left, bounds.left);\n      this.top = Math.min(this.top, bounds.top);\n      this.right = Math.max(this.right, bounds.right);\n      this.bottom = Math.max(this.bottom, bounds.bottom);\n      return this;\n    }\n    encapsulatePoint(point) {\n      if (point.isUndefined)\n        return;\n      this.left = Math.min(this.left, point.x);\n      this.top = Math.min(this.top, point.y);\n      this.right = Math.max(this.right, point.x);\n      this.bottom = Math.max(this.bottom, point.y);\n      return this;\n    }\n    expand(by) {\n      this.left -= by;\n      this.right += by;\n      this.top -= by;\n      this.bottom += by;\n      return this;\n    }\n    translate(by) {\n      this.left += by.x;\n      this.right += by.x;\n      this.top += by.y;\n      this.bottom += by.y;\n      return this;\n    }\n    scale(by) {\n      let width = this.width;\n      let height = this.height;\n      this.left += width * (1 - by) / 2;\n      this.right -= width * (1 - by) / 2;\n      this.top += height * (1 - by) / 2;\n      this.bottom -= height * (1 - by) / 2;\n      return this;\n    }\n    overlaps(bounds) {\n      return this.left < bounds.right && this.right > bounds.left && this.top < bounds.bottom && this.bottom > bounds.top;\n    }\n    static fromElement(el) {\n      const rect = el.getBoundingClientRect();\n      return new Bounds(rect.x, rect.y, rect.width, rect.height);\n    }\n    static get screenBounds() {\n      return new Bounds(0, 0, window.innerWidth, window.innerHeight);\n    }\n  };\n  var _Vector2 = class {\n    constructor(x, y) {\n      this.x = x;\n      this.y = y;\n    }\n    add(point) {\n      return new _Vector2(this.x + point.x, this.y + point.y);\n    }\n    sub(point) {\n      return new _Vector2(this.x - point.x, this.y - point.y);\n    }\n    scale(scalar) {\n      return new _Vector2(this.x * scalar, this.y * scalar);\n    }\n    divide(scalar) {\n      return new _Vector2(this.x / scalar, this.y / scalar);\n    }\n    get isUndefined() {\n      return isNaN(this.x) || isNaN(this.y);\n    }\n    get magnitude() {\n      return Math.sqrt(this.sqrMagnitude);\n    }\n    get sqrMagnitude() {\n      return this.x * this.x + this.y * this.y;\n    }\n    get normalized() {\n      const mag = this.magnitude;\n      return new _Vector2(this.x / mag, this.y / mag);\n    }\n    get inverse() {\n      return new _Vector2(-this.x, -this.y);\n    }\n    static distance(a, b) {\n      return a.sub(b).magnitude;\n    }\n    static dot(a, b) {\n      return a.x * b.x + a.y * b.y;\n    }\n  };\n  var Vector2 = _Vector2;\n  Vector2.Undefined = new _Vector2(NaN, NaN);\n  var Ticker = class {\n    constructor(targetFPS) {\n      this.callbacks = [];\n      this.targetFPS = targetFPS;\n      this.measuredFPS = targetFPS;\n      this._lastTime = performance.now();\n      this._deltaTime = 1 / targetFPS;\n      this._time = this._lastTime;\n    }\n    get deltaTime() {\n      return this._deltaTime / 1e3;\n    }\n    get time() {\n      return this._time;\n    }\n    async start() {\n      while (true) {\n        this._time = performance.now();\n        requestAnimationFrame(() => {\n          for (let callback of this.callbacks) {\n            callback(this.deltaTime);\n          }\n        });\n        const dt = this._time - this._lastTime;\n        let deltaDiff = dt - 1e3 / this.targetFPS;\n        this._lastTime = this._time + Math.max(deltaDiff, 0);\n        await delay(Math.max(0, deltaDiff));\n        this._deltaTime = Math.min(dt + Math.max(deltaDiff, 0), 1e3 / this.targetFPS * 3);\n        this.measuredFPS = 1 / this.deltaTime * 0.1 + this.measuredFPS * 0.9;\n      }\n    }\n    add(callback) {\n      this.callbacks.push(callback);\n    }\n  };\n  function slideUp(target, duration = 500) {\n    if (target.style.display === "none")\n      return;\n    target.style.transitionProperty = "height, margin, padding";\n    target.style.transitionTimingFunction = "ease-in-out";\n    target.style.transitionDuration = duration + "ms";\n    target.style.boxSizing = "border-box";\n    target.style.height = target.offsetHeight + "px";\n    target.offsetHeight;\n    target.style.overflow = "hidden";\n    target.style.height = "0";\n    target.style.paddingTop = "0";\n    target.style.paddingBottom = "0";\n    target.style.marginTop = "0";\n    target.style.marginBottom = "0";\n    window.setTimeout(async () => {\n      target.style.display = "none";\n      target.style.removeProperty("height");\n      target.style.removeProperty("padding-top");\n      target.style.removeProperty("padding-bottom");\n      target.style.removeProperty("margin-top");\n      target.style.removeProperty("margin-bottom");\n      target.style.removeProperty("overflow");\n      target.style.removeProperty("transition-duration");\n      target.style.removeProperty("transition-property");\n    }, duration);\n  }\n  function slideDown(target, duration = 500) {\n    if (window.getComputedStyle(target).display !== "none")\n      return;\n    target.style.removeProperty("display");\n    let display = window.getComputedStyle(target).display;\n    if (display === "none")\n      display = "block";\n    target.style.display = display;\n    const height = target.offsetHeight;\n    target.style.overflow = "hidden";\n    target.style.height = "0";\n    target.style.paddingTop = "0";\n    target.style.paddingBottom = "0";\n    target.style.marginTop = "0";\n    target.style.marginBottom = "0";\n    target.offsetHeight;\n    target.style.boxSizing = "border-box";\n    target.style.transitionProperty = "height, margin, padding";\n    target.style.transitionTimingFunction = "ease-in-out";\n    target.style.transitionDuration = duration + "ms";\n    target.style.height = height + "px";\n    target.style.removeProperty("padding-top");\n    target.style.removeProperty("padding-bottom");\n    target.style.removeProperty("margin-top");\n    target.style.removeProperty("margin-bottom");\n    window.setTimeout(async () => {\n      target.style.removeProperty("height");\n      target.style.removeProperty("overflow");\n      target.style.removeProperty("transition-duration");\n      target.style.removeProperty("transition-property");\n    }, duration);\n  }\n  function getTouchPosition(event) {\n    const touches = Array.from(event.touches);\n    const x = touches.reduce((acc, cur) => acc + cur.clientX, 0) / touches.length;\n    const y = touches.reduce((acc, cur) => acc + cur.clientY, 0) / touches.length;\n    return new Vector2(x, y);\n  }\n  function getPointerPosition(event) {\n    return new Vector2(event.clientX, event.clientY);\n  }\n  function getTouchPositionVector(touch) {\n    return { x: touch.clientX, y: touch.clientY };\n  }\n  function inOutQuadBlend(start, end, t) {\n    t /= 2;\n    let t2 = 2 * t * (1 - t) + 0.5;\n    t2 -= 0.5;\n    t2 *= 2;\n    return start + (end - start) * t2;\n  }\n  function inOutQuadBlendv(start, end, t) {\n    return new Vector2(inOutQuadBlend(start.x, end.x, t), inOutQuadBlend(start.y, end.y, t));\n  }\n  function clamp(value, min, max) {\n    return Math.max(min, Math.min(value, max));\n  }\n  function mapRange(value, low1, high1, low2, high2) {\n    return low2 + (high2 - low2) * (value - low1) / (high1 - low1);\n  }\n  function mapRangeClamped(value, low1, high1, low2, high2) {\n    return clamp(mapRange(value, low1, high1, low2, high2), low2, high2);\n  }\n\n  // src/frontend/main/canvas.ts\n  var CanvasNode = class {\n    constructor(canvas, nodeEl) {\n      this.isFocused = false;\n      this.canvas = canvas;\n      this.nodeEl = nodeEl;\n      this.nodeEl.nodeObj = this;\n      this.labelEl = nodeEl.querySelector(".canvas-node-label");\n      this.containerEl = nodeEl.querySelector(".canvas-node-container");\n      this.contentEl = nodeEl.querySelector(".canvas-node-content");\n      if (!this.labelEl || !this.containerEl || !this.contentEl) {\n        console.error("Failed to find all required elements for canvas node", this);\n        return;\n      }\n      const contentClasses = this.contentEl.classList;\n      if (contentClasses.contains("image-embed"))\n        this.type = "image" /* Image */;\n      else if (contentClasses.contains("video-embed"))\n        this.type = "video" /* Video */;\n      else if (contentClasses.contains("audio-embed"))\n        this.type = "audio" /* Audio */;\n      else if (contentClasses.contains("markdown-embed") && contentClasses.contains("external-markdown-embed"))\n        this.type = "external-markdown" /* ExternalMarkdown */;\n      else if (contentClasses.contains("markdown-embed"))\n        this.type = "markdown" /* Markdown */;\n      else if (contentClasses.contains("canvas-embed"))\n        this.type = "canvas" /* Canvas */;\n      else if (this.contentEl.firstElementChild?.tagName === "IFRAME")\n        this.type = "website" /* Website */;\n      else if (this.nodeEl.classList.contains("canvas-node-group"))\n        this.type = "group" /* Group */;\n      else\n        this.type = "none" /* None */;\n      if (this.type == "external-markdown" /* ExternalMarkdown */) {\n        const documentEl = this.contentEl.querySelector(".obsidian-document");\n        console.log(documentEl);\n        const documentObj = canvas.document.children.find((doc) => doc.documentEl == documentEl);\n        if (documentObj)\n          this.document = documentObj;\n        else\n          console.error("Failed to find document object for external markdown node", this);\n      }\n      this.initEvents();\n    }\n    get size() {\n      return new Vector2(parseFloat(this.nodeEl.style.width.replace("px", "")), parseFloat(this.nodeEl.style.height.replace("px", "")));\n    }\n    set size(newSize) {\n      this.nodeEl.style.width = newSize.x + "px";\n      this.nodeEl.style.height = newSize.y + "px";\n      this.nodeEl.style.setProperty("--canvas-node-width", newSize.x + "px");\n      this.nodeEl.style.setProperty("--canvas-node-height", newSize.y + "px");\n    }\n    get position() {\n      const transform = this.nodeEl.style.transform;\n      const match = transform.match(/translate\\(([^,]+)px, ([^,]+)px\\)/);\n      const translate = this.nodeEl.style.translate;\n      const match2 = translate.match(/([^,]+)px ([^,]+)px/);\n      let x = 0;\n      let y = 0;\n      if (match) {\n        x += parseFloat(match[1]);\n        y += parseFloat(match[2]);\n      }\n      if (match2) {\n        x += parseFloat(match2[1]);\n        y += parseFloat(match2[2]);\n      }\n      return new Vector2(x, y);\n    }\n    set position(newPos) {\n      this.nodeEl.style.transform = `translate(${newPos.x}px, ${newPos.y}px)`;\n    }\n    get bounds() {\n      let bounds = new Bounds(0, 0, 0, 0);\n      let size = this.size.scale(this.canvas.scale);\n      let position = this.position.scale(this.canvas.scale).add(this.canvas.position);\n      bounds.position = position;\n      bounds.size = size;\n      return bounds;\n    }\n    get label() {\n      return this.labelEl.textContent ?? "";\n    }\n    set label(newLabel) {\n      this.labelEl.textContent = newLabel;\n    }\n    get isScrollable() {\n      if (!this.document)\n        return false;\n      return this.document?.documentEl.scrollHeight > this.document?.documentEl.clientHeight;\n    }\n    get scrollContainer() {\n      return this.document?.documentEl;\n    }\n    focus(force = true) {\n      if (this.isFocused && force)\n        return;\n      if (this.canvas.focusedNode != this)\n        this.canvas.focusedNode?.focus(false);\n      this.nodeEl.classList.toggle("is-focused", force);\n      this.canvas.focusedNode = force ? this : null;\n      this.isFocused = force;\n    }\n    initEvents() {\n      const node = this;\n      this.nodeEl.addEventListener("dblclick", (e) => {\n        node.fitToView(false);\n      });\n      function onEnter(event) {\n        node.focus(true);\n        node.nodeEl.addEventListener("mouseleave", onLeave);\n        node.nodeEl.addEventListener("touchend", onLeave);\n        event.stopPropagation();\n      }\n      function onLeave() {\n        console.log("leave");\n        node.focus(false);\n        node.nodeEl.removeEventListener("mouseleave", onLeave);\n        node.nodeEl.removeEventListener("touchend", onLeave);\n      }\n      this.nodeEl.addEventListener("pointerenter", onEnter);\n    }\n    fitToView(instant = false) {\n      this.canvas.fitToBounds(this.bounds, 0.9, instant);\n    }\n  };\n  var Canvas = class {\n    constructor(document2) {\n      this.hiddenNodes = [];\n      this.focusedNode = null;\n      this._renderScale = 1;\n      this._minScale = 0.1;\n      this._maxScale = 5;\n      this._targetScale = 1;\n      this._scale = 1;\n      this._targetPosition = new Vector2(0, 0);\n      this._position = new Vector2(0, 0);\n      this._backgroundBaseScale = 20;\n      this._invisibleBackgroundScale = 2;\n      this._backgroundScale = this._backgroundBaseScale;\n      this._backgroundDotSize = 1;\n      this._backgroundPosition = new Vector2(0, 0);\n      this.lastTime = 0;\n      this.document = document2;\n      this.nodes = Array.from(document2.documentEl.querySelectorAll(".canvas-node")).map((nodeEl) => new CanvasNode(this, nodeEl));\n      this.document.documentEl.style.position = "absolute";\n      this.document.documentEl.style.width = "100%";\n      this.document.documentEl.style.height = "100%";\n      this.document.documentEl.style.overflow = "hidden";\n      this.document.documentEl.style.top = "0";\n      this.document.documentEl.style.left = "0";\n      this.canvasEl = document2.documentEl.querySelector(".canvas");\n      this.wrapperEl = document2.documentEl.querySelector(".canvas-wrapper");\n      this.backgroundEl = document2.documentEl.querySelector(".canvas-background pattern");\n      this.backgroundDotEl = this.backgroundEl?.querySelector("circle");\n      this.canvasEl.setAttribute("style", `translate: 0px 1px; scale: 1;`);\n      this.backgroundScale = this._backgroundScale;\n      this.backgroundDotSize = this._backgroundDotSize;\n      this.renderScale = this._renderScale;\n      const nodespaceOffset = Bounds.fromElement(this.canvasEl).min.sub(this.nodeBounds.min);\n      Array.from(this.canvasEl.children).forEach((el) => {\n        el.style.translate = `${nodespaceOffset.x}px ${nodespaceOffset.y}px`;\n      });\n      this.forcePosition = this.nodeBounds.min.sub(this.wrapperBounds.min);\n      requestAnimationFrame(this.updateScale.bind(this));\n      this.initEvents();\n      this.wrapperEl.style.transition = "opacity 0.0s";\n      this.wrapperEl.classList.add("hide");\n      this.wrapperEl.style.transition = "opacity 3s";\n      this.wrapperEl.classList.remove("hide");\n      this.fitToBounds(this.nodeBounds, 3, true);\n      setTimeout(() => {\n        this.fitToBounds(this.nodeBounds, 0.9, false);\n      }, 100);\n    }\n    get renderScale() {\n      return this._renderScale;\n    }\n    set renderScale(scale) {\n      this._renderScale = scale;\n      this.canvasEl.style.zoom = scale * 100 + "%";\n      this.scale = this._scale;\n      this.position = this._position;\n    }\n    get nodeBounds() {\n      if (this.nodes.length == 0)\n        return new Bounds(0, 0, 0, 0);\n      const bounds = this.nodes[0].bounds;\n      for (const node of this.nodes) {\n        bounds.encapsulate(node.bounds);\n      }\n      ;\n      return bounds;\n    }\n    get wrapperBounds() {\n      return Bounds.fromElement(this.wrapperEl);\n    }\n    get minScale() {\n      return this._minScale;\n    }\n    get maxScale() {\n      return this._maxScale;\n    }\n    get targetScale() {\n      return this._targetScale;\n    }\n    set targetScale(newScale) {\n      newScale = Math.min(Math.max(newScale, this.minScale), this.maxScale);\n      this._targetScale = newScale;\n    }\n    get scale() {\n      return this._scale;\n    }\n    set scale(newScale) {\n      let ratio = newScale / this._scale;\n      this._scale = newScale;\n      let scaled = newScale / this.renderScale;\n      const scaleStr = scaled.toString() ?? "1";\n      this.canvasEl.style.scale = scaleStr;\n      const zoomStr = (1 / Math.sqrt(newScale)).toString() ?? "1";\n      this.wrapperEl.style.setProperty("--zoom-multiplier", zoomStr);\n      this.canvasEl.classList.toggle("small-scale", this.scale < 0.15);\n      this.backgroundScale = this.backgroundScale * ratio;\n    }\n    get targetPosition() {\n      return this._targetPosition;\n    }\n    set targetPosition(screenPos) {\n      this._targetPosition = screenPos;\n    }\n    get position() {\n      return this._position;\n    }\n    set position(screenPos) {\n      this._position = screenPos;\n      let scaled = screenPos.divide(this.renderScale);\n      this.canvasEl.style.translate = `${scaled.x}px ${scaled.y}px`;\n      this.backgroundPosition = this.position;\n    }\n    set forcePosition(screenPos) {\n      this.targetPosition = screenPos;\n      this.position = screenPos;\n    }\n    get forcePosition() {\n      return this.position;\n    }\n    get backgroundScale() {\n      return this._backgroundScale;\n    }\n    set backgroundScale(newScale) {\n      const scaleStr = newScale.toString() ?? "20";\n      this.backgroundEl?.setAttribute("width", scaleStr);\n      this.backgroundEl?.setAttribute("height", scaleStr);\n      this._backgroundScale = newScale;\n      if (this.backgroundEl?.parentElement)\n        this.backgroundEl.parentElement.style.opacity = (1 - mapRangeClamped(this._backgroundScale, this._backgroundBaseScale / 2, this._invisibleBackgroundScale, 0, 1)).toString();\n    }\n    get backgroundDotSize() {\n      return this._backgroundDotSize;\n    }\n    set backgroundDotSize(newSize) {\n      const sizeStr = newSize.toString() ?? "0.7";\n      this.backgroundDotEl?.setAttribute("r", sizeStr);\n      this.backgroundDotEl?.setAttribute("cx", sizeStr);\n      this.backgroundDotEl?.setAttribute("cy", sizeStr);\n      this._backgroundDotSize = newSize;\n    }\n    get backgroundPosition() {\n      return this._backgroundPosition;\n    }\n    set backgroundPosition(newPosition) {\n      if (!this.backgroundEl)\n        return;\n      this.backgroundEl?.setAttribute("x", newPosition.x.toString());\n      this.backgroundEl?.setAttribute("y", newPosition.y.toString());\n      this._backgroundPosition = newPosition;\n    }\n    updateScale(time) {\n      if (this.lastTime == 0)\n        this.lastTime = time;\n      const deltaTime = (time - this.lastTime) / 1e3;\n      this.lastTime = time;\n      if (Math.abs(this.targetScale - this.scale) > 1e-4)\n        this.scale = inOutQuadBlend(this.scale, this.targetScale, 6 * deltaTime);\n      if (this.targetPosition.sub(this.position).magnitude > 1e-3)\n        this.position = inOutQuadBlendv(this.position, this.targetPosition, 6 * deltaTime);\n      let screenBounds = Bounds.screenBounds;\n      this.hiddenNodes.sort((a, b) => {\n        const aCenter = a.bounds.center;\n        const bCenter = b.bounds.center;\n        const aDist = aCenter.sub(screenBounds.center).magnitude;\n        const bDist = bCenter.sub(screenBounds.center).magnitude;\n        return aDist - bDist;\n      });\n      for (let i = 0; i < 50; i++) {\n        if (i >= this.hiddenNodes.length)\n          break;\n        const node = this.hiddenNodes[i];\n        if (!node) {\n          this.hiddenNodes.splice(i, 1);\n          continue;\n        }\n        const bounds = node.bounds.expand(100);\n        const isVisible = bounds.overlaps(screenBounds);\n        node.nodeEl.style.display = isVisible ? "" : "none";\n        if (isVisible)\n          this.hiddenNodes.splice(i, 1);\n      }\n      requestAnimationFrame(this.updateScale.bind(this));\n    }\n    initEvents() {\n      const observer = new IntersectionObserver((entries) => {\n        entries.forEach((entry) => {\n          entry.target.style.display = entry.isIntersecting ? "" : "none";\n          if (!entry.isIntersecting)\n            this.hiddenNodes.push(entry.target.nodeObj);\n        });\n      }, { root: null, rootMargin: "0px", threshold: 0 });\n      this.nodes.forEach((node) => observer.observe(node.nodeEl));\n      const localThis = this;\n      const isWindows = navigator.userAgent.includes("Windows");\n      function getRelativePointerPosition(event) {\n        const rect = localThis.wrapperEl.getBoundingClientRect();\n        const x = event.clientX - rect.left;\n        const y = event.clientY - rect.top;\n        return new Vector2(x, y);\n      }\n      function dragStart(event) {\n        if (event.pointerType != "mouse" && event.pointerType != "pen")\n          return;\n        const startPointerPos = getRelativePointerPosition(event);\n        const startCanvasPos = localThis.position;\n        const startingNode = localThis.focusedNode;\n        function drag(dragEvent) {\n          if (isWindows && startingNode?.isScrollable && dragEvent.buttons == 4)\n            return;\n          dragEvent.preventDefault();\n          const pointer = getRelativePointerPosition(dragEvent);\n          const delta = pointer.sub(startPointerPos);\n          localThis.forcePosition = startCanvasPos.add(delta);\n        }\n        function dragEnd(e) {\n          document.removeEventListener("mousemove", drag);\n          document.removeEventListener("mouseup", dragEnd);\n        }\n        document.addEventListener("mousemove", drag);\n        document.addEventListener("mouseup", dragEnd);\n      }\n      this.wrapperEl.addEventListener("pointerdown", dragStart);\n      function shouldOverrideScroll(deltaY, deltaX, node) {\n        const scrollContainer = node?.scrollContainer;\n        if (scrollContainer) {\n          if (scrollContainer.scrollTop != 0 && deltaY < 0 && Math.abs(deltaY / (deltaX + 0.01)) > 2)\n            return false;\n          if (scrollContainer.scrollHeight - scrollContainer.scrollTop > scrollContainer.clientHeight + 1 && deltaY > 0 && Math.abs(deltaY / (deltaX + 0.01)) > 2)\n            return false;\n          if (scrollContainer.scrollLeft != 0 && deltaX < 0 && Math.abs(deltaX / (deltaY + 0.01)) > 2)\n            return false;\n          if (scrollContainer.scrollWidth - scrollContainer.scrollLeft > scrollContainer.clientWidth + 1 && deltaX > 0 && Math.abs(deltaX / (deltaY + 0.01)) > 2)\n            return false;\n        }\n        return true;\n      }\n      this.wrapperEl.addEventListener("wheel", function(event) {\n        if (!shouldOverrideScroll(event.deltaY, event.deltaX, localThis.focusedNode))\n          return;\n        let scale = 1;\n        scale -= event.deltaY / 700 * scale;\n        localThis.scaleAround(scale, getRelativePointerPosition(event));\n      }, { passive: true });\n      let touching = false;\n      this.wrapperEl.addEventListener("touchstart", function(event) {\n        if (touching)\n          return;\n        touching = true;\n        const touches = event.touches;\n        function getTouchData(touches2) {\n          const touch1 = getRelativePointerPosition(touches2[0]);\n          const touch2 = touches2.length == 2 ? getRelativePointerPosition(touches2[1]) : null;\n          const center = touch2 ? touch1.add(touch2).scale(0.5) : touch1;\n          const distance = touch2 ? Vector2.distance(touch1, touch2) : 0;\n          return { touch1, touch2, center, distance };\n        }\n        let lastTouchData = getTouchData(touches);\n        let isTwoFingerDrag = touches.length == 2;\n        const startingNode = localThis.focusedNode;\n        function touchMove(event2) {\n          const touches2 = event2.touches;\n          const touchData = getTouchData(touches2);\n          if (touches2.length == 2) {\n            if (!isTwoFingerDrag) {\n              lastTouchData = getTouchData(touches2);\n              isTwoFingerDrag = true;\n            }\n            const scaleDelta = (touchData.distance - lastTouchData.distance) / lastTouchData.distance;\n            localThis.scaleAround(1 + scaleDelta, touchData.center);\n          }\n          const delta = touchData.center.sub(lastTouchData.center);\n          if (!isTwoFingerDrag && !shouldOverrideScroll(-delta.y, delta.x, startingNode)) {\n            lastTouchData = getTouchData(touches2);\n            return;\n          }\n          event2.preventDefault();\n          localThis.targetPosition = localThis.targetPosition.add(delta);\n          lastTouchData = getTouchData(touches2);\n        }\n        function touchEnd(event2) {\n          document.removeEventListener("touchmove", touchMove);\n          document.removeEventListener("touchend", touchEnd);\n          touching = false;\n        }\n        document.addEventListener("touchmove", touchMove);\n        document.addEventListener("touchend", touchEnd);\n      });\n    }\n    scaleAround(scaleBy, point, instantScale = false) {\n      const currentScale = this.targetScale;\n      let newScale = currentScale * scaleBy;\n      newScale = Math.min(Math.max(newScale, this.minScale), this.maxScale);\n      scaleBy = newScale / currentScale;\n      const centerToPoint = point.sub(this.targetPosition);\n      const centerPin = centerToPoint.scale(scaleBy).add(this.targetPosition);\n      const offset = point.sub(centerPin);\n      if (instantScale) {\n        this.scale *= scaleBy;\n        this.targetScale = this.scale;\n        this.forcePosition = this.forcePosition.add(offset);\n      } else {\n        this.targetScale *= scaleBy;\n        this.targetPosition = this.targetPosition.add(offset);\n      }\n      return offset;\n    }\n    setScaleAround(scale, point, instant = false) {\n      this.scaleAround(scale / this.targetScale, point, instant);\n    }\n    fitToBounds(bounds = this.nodeBounds, scaleMultiplier = 0.9, instant = false) {\n      this.hideNodesOutsideBounds(bounds.scale(2));\n      const documentWidth = this.document.containerEl.clientWidth;\n      const documentHeight = this.document.containerEl.clientHeight;\n      const xRatio = documentWidth / bounds.width;\n      const yRatio = documentHeight / bounds.height;\n      const scale = scaleMultiplier * Math.min(xRatio, yRatio);\n      this.scaleAround(scale, bounds.center, instant);\n      this.centerView(bounds.center, instant);\n    }\n    hideNodesOutsideBounds(bounds) {\n      for (const node of this.nodes) {\n        if (!bounds.overlaps(node.bounds)) {\n          node.nodeEl.style.display = "none";\n          this.hiddenNodes.push(node);\n        }\n      }\n    }\n    centerView(center, instant = false) {\n      const offset = this.wrapperBounds.center.sub(center);\n      if (instant)\n        this.forcePosition = this.forcePosition.add(offset);\n      else\n        this.targetPosition = this.targetPosition.add(offset);\n    }\n  };\n\n  // src/shared/features/feature-options-base.ts\n  \n  var RelationType = /* @__PURE__ */ ((RelationType2) => {\n    RelationType2["Before"] = "before";\n    RelationType2["After"] = "after";\n    RelationType2["Start"] = "start";\n    RelationType2["End"] = "end";\n    return RelationType2;\n  })(RelationType || {});\n  var FeatureRelation = class {\n    constructor(selector = "#right-sidebar-content", type = "start" /* Start */) {\n      this.selector = "#right-sidebar-content";\n      this.type = "start" /* Start */;\n      \n      \n      this.selector = selector;\n      this.type = type;\n    }\n  };\n  var FeatureSettingInfo = class {\n    constructor(options) {\n      this.show = true;\n      this.name = "";\n      this.description = "";\n      this.placeholder = "";\n      this.fileInputOptions = void 0;\n      this.dropdownOptions = void 0;\n      if (options) {\n        this.show = options.show ?? this.show;\n        this.name = options.name ?? this.name;\n        this.description = options.description ?? this.description;\n        this.placeholder = options.placeholder ?? this.placeholder;\n        this.fileInputOptions = options.fileInputOptions ?? this.fileInputOptions;\n        this.dropdownOptions = options.dropdownTypes ?? this.dropdownOptions;\n      }\n    }\n  };\n  var FeatureOptions = class {\n    constructor() {\n      this.featureId = "feature";\n      this.enabled = true;\n      this.unavailable = false;\n      this.alwaysEnabled = false;\n      this.hideSettingsButton = false;\n    }\n    setAvailable(value) {\n      this.unavailable = !value;\n      this.enabled = value;\n    }\n  };\n  var InsertedFeatureOptions = class extends FeatureOptions {\n    constructor(featureId, featurePlacement) {\n      super();\n      this.featurePlacement = new FeatureRelation();\n      \n      this.featureId = featureId ?? "inserted-feature";\n      this.featurePlacement = featurePlacement ?? new FeatureRelation();\n    }\n    insertFeature(container, feature) {\n      if (!container)\n        return false;\n      let relation = container.querySelector(this.featurePlacement.selector);\n      if (relation) {\n        switch (this.featurePlacement.type) {\n          case "before" /* Before */:\n            relation.before(feature);\n            return true;\n          case "after" /* After */:\n            relation.after(feature);\n            return true;\n          case "start" /* Start */:\n            relation.prepend(feature);\n            return true;\n          case "end" /* End */:\n            relation.append(feature);\n            return true;\n          default:\n            return false;\n        }\n      }\n      return false;\n    }\n  };\n  var InsertedFeatureOptionsWithTitle = class extends InsertedFeatureOptions {\n    constructor() {\n      super(...arguments);\n      this.displayTitle = "Feature";\n      \n    }\n  };\n  var FetchedFeatureOptions = class extends InsertedFeatureOptions {\n    constructor() {\n      super(...arguments);\n      \n    }\n  };\n\n  // src/shared/features/aliases.ts\n  var AliasesOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.featureId = "aliases";\n      this.displayTitle = "Aliases";\n      this.featurePlacement = new FeatureRelation(".header .data-bar", "start" /* Start */);\n    }\n  };\n\n  // src/shared/features/backlinks.ts\n  \n  var BacklinksOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.featureId = "backlinks";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation(".footer", "start" /* Start */);\n    }\n  };\n\n  // src/shared/shared.ts\n  var Shared = class {\n  };\n  Shared.libFolderName = "site-lib";\n  Shared.mediaFolderName = "media";\n  Shared.scriptsFolderName = "scripts";\n  Shared.cssFolderName = "styles";\n  Shared.fontFolderName = "fonts";\n  Shared.htmlFolderName = "html";\n  Shared.metadataFileName = "metadata.json";\n  Shared.searchIndexFileName = "search-index.json";\n\n  // src/shared/features/custom-head.ts\n  \n  var CustomHeadOptions = class extends FetchedFeatureOptions {\n    constructor() {\n      super();\n      this.sourcePath = "";\n      \n      this.featureId = "custom-head";\n      this.featurePlacement = new FeatureRelation("head", "end" /* End */);\n      this.includePath = `${Shared.libFolderName}/${Shared.htmlFolderName}/custom-head.html`;\n    }\n  };\n\n  // src/shared/features/document.ts\n  \n  var DocumentOptions = class extends FeatureOptions {\n    constructor() {\n      super();\n      this.allowFoldingLists = true;\n      this.allowFoldingHeadings = true;\n      this.documentWidth = "40em";\n      \n      \n      \n      this.featureId = "obsidian-document";\n      this.alwaysEnabled = true;\n    }\n  };\n\n  // src/shared/features/file-navigation.ts\n  \n  var FileNavigationOptions = class extends FetchedFeatureOptions {\n    constructor() {\n      super();\n      this.showCustomIcons = false;\n      this.showDefaultFolderIcons = false;\n      this.showDefaultFileIcons = false;\n      this.defaultFolderIcon = "lucide//folder";\n      this.defaultFileIcon = "lucide//file";\n      this.defaultMediaIcon = "lucide//file-image";\n      this.exposeStartingPath = true;\n      \n      \n      \n      \n      \n      \n      \n      this.featureId = "file-navigation";\n      this.featurePlacement = new FeatureRelation("#left-sidebar-content", "end" /* End */);\n      this.includePath = `${Shared.libFolderName}/${Shared.htmlFolderName}/file-tree.html`;\n    }\n  };\n\n  // src/shared/features/graph-view.ts\n  \n  var GraphViewOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.showOrphanNodes = true;\n      this.showAttachments = false;\n      this.allowGlobalGraph = true;\n      this.allowExpand = true;\n      this.attractionForce = 1;\n      this.linkLength = 15;\n      this.repulsionForce = 80;\n      this.centralForce = 2;\n      this.edgePruning = 100;\n      this.minNodeRadius = 3;\n      this.maxNodeRadius = 7;\n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      this.featureId = "graph-view";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation("#right-sidebar-content", "start" /* Start */);\n    }\n  };\n\n  // src/shared/features/link-preview.ts\n  var LinkPreviewOptions = class extends FeatureOptions {\n    constructor() {\n      super();\n      this.featureId = "link-preview";\n      this.hideSettingsButton = true;\n    }\n  };\n\n  // src/shared/features/outline.ts\n  \n  var OutlineOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.startCollapsed = false;\n      this.minCollapseDepth = 0;\n      \n      \n      this.featureId = "outline";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation("#right-sidebar-content", "end" /* End */);\n    }\n  };\n\n  // src/shared/features/properties.ts\n  \n  var PropertiesOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      \n      this.featureId = "properties";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation(".header", "start" /* Start */);\n    }\n  };\n\n  // src/shared/features/rss.ts\n  \n  var RssOptions = class extends FeatureOptions {\n    constructor() {\n      super();\n      this.siteUrl = "";\n      this.authorName = "";\n      \n      \n      this.featureId = "rss";\n    }\n  };\n\n  // src/shared/features/search.ts\n  \n  var SearchOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.featureId = "search";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation("#global-topbar-left-content", "start" /* Start */);\n    }\n  };\n\n  // src/shared/features/sidebar.ts\n  \n  var SidebarOptions = class extends FeatureOptions {\n    constructor() {\n      super();\n      this.allowResizing = true;\n      this.allowCollapsing = true;\n      this.rightDefaultWidth = "20em";\n      this.leftDefaultWidth = "20em";\n      \n      \n      \n      \n      this.featureId = "sidebar";\n    }\n  };\n\n  // src/shared/features/tags.ts\n  \n  var TagsOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.showInlineTags = true;\n      this.showFrontmatterTags = true;\n      \n      \n      this.featureId = "tags";\n      this.displayTitle = "";\n      this.featurePlacement = new FeatureRelation(".header .data-bar", "end" /* End */);\n    }\n  };\n\n  // src/shared/features/theme-toggle.ts\n  var ThemeToggleOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.featureId = "theme-toggle";\n      this.displayTitle = "";\n      this.featurePlacement = new FeatureRelation("#global-topbar-right-content", "start" /* Start */);\n    }\n  };\n\n  // src/shared/website-data.ts\n  var WebsiteOptions = class {\n    static fromJSON(json) {\n      let data = Object.assign(new WebsiteOptions(), JSON.parse(json));\n      data.backlinks = Object.assign(new BacklinksOptions(), data.backlinks);\n      data.tags = Object.assign(new TagsOptions(), data.tags);\n      data.alias = Object.assign(new AliasesOptions(), data.alias);\n      data.properties = Object.assign(new PropertiesOptions(), data.properties);\n      data.fileNavigation = Object.assign(new FileNavigationOptions(), data.fileNavigation);\n      data.search = Object.assign(new SearchOptions(), data.search);\n      data.outline = Object.assign(new OutlineOptions(), data.outline);\n      data.themeToggle = Object.assign(new ThemeToggleOptions(), data.themeToggle);\n      data.graphView = Object.assign(new GraphViewOptions(), data.graphView);\n      data.sidebar = Object.assign(new SidebarOptions(), data.sidebar);\n      data.customHead = Object.assign(new CustomHeadOptions(), data.customHead);\n      data.document = Object.assign(new DocumentOptions(), data.document);\n      data.rss = Object.assign(new RssOptions(), data.rss);\n      data.linkPreview = Object.assign(new LinkPreviewOptions(), data.linkPreview);\n      return data;\n    }\n  };\n  var WebsiteData = class {\n    constructor() {\n      this.ignoreMetadata = false;\n      this.webpages = {};\n      this.fileInfo = {};\n      this.sourceToTarget = {};\n      this.attachments = [];\n      this.shownInTree = [];\n      this.allFiles = [];\n      this.siteName = "";\n      this.vaultName = "";\n      this.createdTime = 0;\n      this.modifiedTime = 0;\n      this.pluginVersion = "";\n      this.exportRoot = "";\n      this.baseURL = "";\n      this.themeName = "";\n      this.bodyClasses = "";\n      this.hasFavicon = false;\n      this.featureOptions = new WebsiteOptions();\n    }\n    static fromJSON(json) {\n      let data = Object.assign(new WebsiteData(), JSON.parse(json));\n      data.featureOptions = WebsiteOptions.fromJSON(JSON.stringify(data.featureOptions));\n      return data;\n    }\n  };\n\n  // src/frontend/main/callouts.ts\n  var Callout = class {\n    constructor(calloutEl, initEvents = true) {\n      this._collapsed = false;\n      this.calloutEl = calloutEl;\n      this.titleEl = calloutEl.querySelector(".callout-title-inner");\n      this.contentEl = calloutEl.querySelector(".callout-content");\n      this.iconEl = calloutEl.querySelector(".callout-icon");\n      this.foldIconEl = calloutEl.querySelector(".callout-fold");\n      const fold = calloutEl.getAttribute("data-callout-fold");\n      switch (fold) {\n        case "+":\n          this.foldType = 0 /* StartOpen */;\n          this._collapsed = false;\n          break;\n        case "-":\n          this.foldType = 1 /* StartClosed */;\n          this._collapsed = true;\n          break;\n        default:\n          this.foldType = 2 /* Static */;\n          this._collapsed = false;\n          break;\n      }\n      this.type = calloutEl.getAttribute("data-callout") ?? "";\n      this.metadata = calloutEl.getAttribute("data-callout-metadata") ?? "";\n      if (initEvents)\n        this.init();\n    }\n    get title() {\n      return this.titleEl?.textContent ?? "";\n    }\n    set title(title) {\n      this.titleEl.textContent = title;\n    }\n    get collapsed() {\n      return this._collapsed;\n    }\n    set collapsed(collapse) {\n      this.toggle(collapse);\n    }\n    toggle(force) {\n      if (this.foldType == 2 /* Static */)\n        return;\n      if (force === void 0)\n        force = !this._collapsed;\n      this.calloutEl?.classList.toggle("is-collapsed", force);\n      this.foldIconEl?.classList.toggle("is-collapsed", force);\n      if (force)\n        slideUp(this.contentEl, 150);\n      else\n        slideDown(this.contentEl, 150);\n      this._collapsed = force;\n    }\n    collapse() {\n      this.toggle(true);\n    }\n    expand() {\n      this.toggle(false);\n    }\n    init() {\n      if (this.foldIconEl) {\n        this.foldIconEl.addEventListener("click", () => {\n          this.toggle();\n        });\n      }\n    }\n  };\n\n  // src/frontend/main/headers.ts\n  var _Header = class {\n    constructor(element) {\n      this._children = [];\n      this._isCollapsed = false;\n      this._content = [];\n      this._divParent = element.parentElement;\n      this._headerElement = element;\n      this._collapseIndicatorElement = this._headerElement.querySelector(".heading-collapse-indicator");\n      this._id = element.id;\n      this._level = parseInt(element.tagName.replace("H", ""));\n      _Header.headerMap.set(element, this);\n      if (this._collapseIndicatorElement) {\n        this._collapseIndicatorElement.addEventListener("click", () => {\n          this.toggleCollapse();\n        });\n      }\n    }\n    get id() {\n      return this._id;\n    }\n    get text() {\n      return this._headerElement.textContent ?? "";\n    }\n    set text(value) {\n      this._headerElement.textContent = value;\n    }\n    get level() {\n      return this._level;\n    }\n    get headerElement() {\n      return this._headerElement;\n    }\n    get collapseIndicatorElement() {\n      return this._collapseIndicatorElement;\n    }\n    get children() {\n      return this._children;\n    }\n    get isCollapsed() {\n      return this._isCollapsed;\n    }\n    scrollTo(options = { behavior: "smooth", block: "start" }) {\n      this._headerElement.scrollIntoView(options);\n    }\n    find(predicate) {\n      if (predicate(this)) {\n        return this;\n      }\n      for (const child of this.children) {\n        const result = child.find(predicate);\n        if (result) {\n          return result;\n        }\n      }\n      return void 0;\n    }\n    findByID(id) {\n      if (id.startsWith("#")) {\n        id = id.substring(1);\n      }\n      return this.find((header) => header.id === id);\n    }\n    getFlatChildren() {\n      let headers = [this];\n      for (const child of this._children) {\n        headers = headers.concat(child.getFlatChildren());\n      }\n      return headers;\n    }\n    toggleCollapse() {\n      this._isCollapsed = !this._isCollapsed;\n      this._collapseIndicatorElement?.classList.toggle("is-collapsed", this._isCollapsed);\n      this._headerElement.classList.toggle("is-collapsed", this._isCollapsed);\n      this.updateVisibility(this._isCollapsed);\n    }\n    updateVisibility(collapse) {\n      this._collapseIndicatorElement?.classList.toggle("is-collapsed", collapse);\n      this._headerElement.classList.toggle("is-collapsed", collapse);\n      for (const element of this._content) {\n        element.style.display = collapse ? "none" : "";\n      }\n      for (const child of this._children) {\n        child.headerElement.style.display = collapse ? "none" : "";\n        if (collapse) {\n          child.updateVisibility(true);\n        } else {\n          child.updateVisibility(child._isCollapsed);\n        }\n      }\n    }\n    getHeaderWithContentRecursive() {\n      let content = [];\n      content.push(this._divParent);\n      for (const element of this._content) {\n        content.push(element);\n      }\n      for (const child of this._children) {\n        content = content.concat(child.getHeaderWithContentRecursive());\n      }\n      return content;\n    }\n    static createHeaderTree(html) {\n      const headers = Array.from(html.querySelectorAll("h1, h2, h3, h4, h5, h6"));\n      const headerObjects = headers.map((el) => new _Header(el));\n      const rootHeaders = [];\n      const stack = [];\n      for (let i = 0; i < headerObjects.length; i++) {\n        const currentHeader = headerObjects[i];\n        while (stack.length > 0 && stack[stack.length - 1].level >= currentHeader.level) {\n          stack.pop();\n        }\n        if (stack.length > 0) {\n          stack[stack.length - 1].children.push(currentHeader);\n        } else {\n          rootHeaders.push(currentHeader);\n        }\n        stack.push(currentHeader);\n        let nextElement = currentHeader.headerElement.nextElementSibling;\n        while (nextElement && !(nextElement instanceof HTMLHeadingElement)) {\n          if (nextElement instanceof HTMLElement) {\n            currentHeader._content.push(nextElement);\n          }\n          nextElement = nextElement.nextElementSibling;\n        }\n        nextElement = currentHeader.headerElement.parentElement?.nextElementSibling ?? null;\n        while (nextElement && !nextElement.querySelector("h1, h2, h3, h4, h5, h6")) {\n          if (nextElement instanceof HTMLElement && !nextElement.classList.contains("footer")) {\n            currentHeader._content.push(nextElement);\n          }\n          nextElement = nextElement.nextElementSibling;\n        }\n      }\n      return rootHeaders;\n    }\n  };\n  var Header = _Header;\n  Header.headerMap = /* @__PURE__ */ new WeakMap();\n\n  // src/frontend/main/link-preview.ts\n  var _FilePreviewPopover = class {\n    constructor(link, target, onRemove) {\n      this.isPinned = false;\n      this.resizeObserver = null;\n      this.hoverTimeout = null;\n      this.showTimeout = null;\n      this.link = link;\n      this.target = target;\n      this.onRemove = onRemove;\n      this.createPreviewElements();\n      this.setupEventListeners();\n      this.positionPreview();\n      this.setupOutsideClickListener();\n    }\n    static savePinnedPreviews() {\n      const previewDatas = _FilePreviewPopover.pinnedPreviews.map((preview) => {\n        return {\n          target: preview.target,\n          top: preview.filePreviewPopover.style.top,\n          left: preview.filePreviewPopover.style.left,\n          width: preview.filePreviewPopover.style.width,\n          height: preview.filePreviewPopover.style.height,\n          zIndex: preview.filePreviewPopover.style.zIndex\n        };\n      });\n      localStorage.setItem("pinnedPreviews", JSON.stringify(previewDatas));\n    }\n    static loadPinnedPreviews() {\n      const previewDatas = JSON.parse(localStorage.getItem("pinnedPreviews") ?? "[]");\n      previewDatas.forEach(async (previewData) => {\n        const preview = new _FilePreviewPopover(null, previewData.target, () => {\n        });\n        preview.setPinned(true);\n        preview.filePreviewPopover.style.top = previewData.top;\n        preview.filePreviewPopover.style.left = previewData.left;\n        preview.filePreviewPopover.style.width = previewData.width;\n        preview.filePreviewPopover.style.height = previewData.height;\n        preview.filePreviewPopover.style.zIndex = previewData.zIndex || _FilePreviewPopover.baseZIndex.toString();\n        preview.show();\n      });\n    }\n    static create(target, x, y, pinned = true) {\n      const preview = new _FilePreviewPopover(null, target, () => {\n      });\n      preview.setPinned(pinned);\n      preview.filePreviewPopover.style.top = y + "px";\n      preview.filePreviewPopover.style.left = x + "px";\n      preview.show();\n    }\n    static initializeLink(link, target) {\n      let preview = null;\n      link.addEventListener("pointerenter", function() {\n        if (!preview) {\n          preview = new _FilePreviewPopover(link, target, () => {\n            preview = null;\n          });\n          preview.startShowTimeout();\n        }\n      });\n      link.addEventListener("pointerleave", function() {\n        if (preview) {\n          if (!preview.isPinned) {\n            preview.startRemoveTimeout();\n          }\n          preview.clearShowTimeout();\n        }\n      });\n      link.addEventListener("click", function(event) {\n        if (preview) {\n          if (!preview.isPinned) {\n            preview.startRemoveTimeout();\n          }\n          preview.clearShowTimeout();\n        }\n      });\n    }\n    createPreviewElements() {\n      this.filePreviewPopover = document.createElement("div");\n      this.filePreviewPopover.className = "file-preview popover hover-popover hide";\n      document.body.appendChild(this.filePreviewPopover);\n      this.markdownEmbed = document.createElement("div");\n      this.markdownEmbed.className = "markdown-embed";\n      this.filePreviewPopover.appendChild(this.markdownEmbed);\n      this.markdownEmbedContent = document.createElement("div");\n      this.markdownEmbedContent.className = "markdown-embed-content";\n      this.markdownEmbed.appendChild(this.markdownEmbedContent);\n      this.actionContainer = document.createElement("div");\n      this.actionContainer.className = "preview-action-container";\n      this.filePreviewPopover.appendChild(this.actionContainer);\n      this.dragHandle = document.createElement("div");\n      this.dragHandle.className = "drag-handle clickable-icon popover-action";\n      this.actionContainer.appendChild(this.dragHandle);\n      this.pinButton = document.createElement("button");\n      this.pinButton.className = "pin-button clickable-icon popover-action";\n      this.actionContainer.appendChild(this.pinButton);\n      this.goToButton = document.createElement("button");\n      this.goToButton.className = "go-to-button clickable-icon popover-action";\n      this.actionContainer.appendChild(this.goToButton);\n      this.filePreviewPopover.style.zIndex = _FilePreviewPopover.baseZIndex.toString();\n      this.bringToFront();\n    }\n    setPinned(pinned) {\n      this.isPinned = pinned;\n      this.pinButton.classList.toggle("pinned", this.isPinned);\n      this.filePreviewPopover.classList.toggle("pinned", this.isPinned);\n      if (this.isPinned) {\n        _FilePreviewPopover.pinnedPreviews.push(this);\n      } else {\n        _FilePreviewPopover.pinnedPreviews = _FilePreviewPopover.pinnedPreviews.filter((preview) => preview !== this);\n      }\n    }\n    setupEventListeners() {\n      this.pinButton.addEventListener("click", () => {\n        this.setPinned(!this.isPinned);\n        _FilePreviewPopover.savePinnedPreviews();\n      });\n      this.goToButton.addEventListener("click", () => {\n        ObsidianSite.loadURL(this.target);\n      });\n      this.setupDragHandleListeners();\n      this.filePreviewPopover.addEventListener("pointerenter", () => {\n        this.clearRemoveTimeout();\n      });\n      this.filePreviewPopover.addEventListener("pointerleave", () => {\n        if (!this.isPinned) {\n          this.startRemoveTimeout();\n        }\n      });\n      this.setupResizeObserver();\n    }\n    updateMaxSize() {\n      const viewportWidth = window.innerWidth;\n      const viewportHeight = window.innerHeight;\n      const rect = this.filePreviewPopover.getBoundingClientRect();\n      const margin = 10;\n      const maxWidth = viewportWidth - rect.left - margin;\n      const maxHeight = viewportHeight - rect.top - margin;\n      this.filePreviewPopover.style.maxWidth = `${maxWidth}px`;\n      this.filePreviewPopover.style.maxHeight = `${maxHeight}px`;\n      const newLeft = Math.max(margin, rect.left);\n      const newTop = Math.max(margin, rect.top);\n      if (newLeft !== rect.left) {\n        this.filePreviewPopover.style.left = `${newLeft}px`;\n      }\n      if (newTop !== rect.top) {\n        this.filePreviewPopover.style.top = `${newTop}px`;\n      }\n      _FilePreviewPopover.savePinnedPreviews();\n    }\n    setupResizeObserver() {\n      this.updateMaxSize();\n      this.resizeObserver = new ResizeObserver(() => {\n        this.updateMaxSize();\n      });\n      this.resizeObserver.observe(this.filePreviewPopover);\n      window.addEventListener("resize", this.updateMaxSize);\n    }\n    dragPreviewCallback(event) {\n      event.stopPropagation();\n      this.bringToFront();\n      const offsetX = event.clientX - this.filePreviewPopover.getBoundingClientRect().left;\n      const offsetY = event.clientY - this.filePreviewPopover.getBoundingClientRect().top;\n      const onPointerMove = (event2) => {\n        let newLeft = event2.clientX - offsetX;\n        let newTop = event2.clientY - offsetY;\n        const viewportWidth = window.innerWidth;\n        const viewportHeight = window.innerHeight;\n        const previewRect = this.filePreviewPopover.getBoundingClientRect();\n        newLeft = Math.max(0, Math.min(newLeft, viewportWidth - previewRect.width));\n        newTop = Math.max(0, Math.min(newTop, viewportHeight - previewRect.height));\n        this.filePreviewPopover.style.left = newLeft + "px";\n        this.filePreviewPopover.style.top = newTop + "px";\n        this.updateMaxSize();\n      };\n      const onPointerUp = () => {\n        if (this.isPinned) {\n          _FilePreviewPopover.savePinnedPreviews();\n        }\n        document.removeEventListener("pointermove", onPointerMove);\n        document.removeEventListener("pointerup", onPointerUp);\n      };\n      document.addEventListener("pointermove", onPointerMove);\n      document.addEventListener("pointerup", onPointerUp);\n    }\n    setupDragHandleListeners() {\n      this.dragHandle.addEventListener("pointerdown", this.dragPreviewCallback.bind(this));\n      this.actionContainer.addEventListener("pointerdown", this.dragPreviewCallback.bind(this));\n    }\n    positionPreview() {\n      if (!this.link)\n        return;\n      const linkRect = this.link.getBoundingClientRect();\n      const previewRect = this.filePreviewPopover.getBoundingClientRect();\n      const viewportWidth = window.innerWidth;\n      const viewportHeight = window.innerHeight;\n      this.filePreviewPopover.style.top = "";\n      this.filePreviewPopover.style.left = "";\n      const margin = 10;\n      let top, left;\n      if (viewportHeight - linkRect.bottom >= previewRect.height + margin) {\n        top = linkRect.bottom + margin;\n      } else {\n        top = Math.max(margin, linkRect.top - previewRect.height - margin);\n      }\n      left = linkRect.left;\n      if (left + previewRect.width > viewportWidth - margin) {\n        left = Math.max(margin, linkRect.right - previewRect.width);\n      }\n      top = Math.min(Math.max(margin, top), viewportHeight - previewRect.height - margin);\n      left = Math.min(Math.max(margin, left), viewportWidth - previewRect.width - margin);\n      this.filePreviewPopover.style.top = `${top}px`;\n      this.filePreviewPopover.style.left = `${left}px`;\n    }\n    setupOutsideClickListener() {\n      this.outsideClickListener = (event) => {\n        if (!this.isPinned && !this.filePreviewPopover.contains(event.target) && !this.link?.contains(event.target)) {\n          this.remove();\n        }\n      };\n      document.addEventListener("pointerdown", this.outsideClickListener);\n    }\n    startShowTimeout() {\n      this.clearShowTimeout();\n      this.showTimeout = window.setTimeout(() => this.show(), 350);\n    }\n    clearShowTimeout() {\n      if (this.showTimeout !== null) {\n        clearTimeout(this.showTimeout);\n        this.showTimeout = null;\n      }\n    }\n    async show() {\n      this.filePreviewDocument = new WebpageDocument(this.target);\n      await (await this.filePreviewDocument.load(null, this.markdownEmbedContent, true, true))?.show();\n      this.positionPreview();\n      this.filePreviewPopover.classList.remove("hide");\n    }\n    bringToFront() {\n      let maxZIndex = Math.max(_FilePreviewPopover.baseZIndex, ..._FilePreviewPopover.pinnedPreviews.map((p) => parseInt(p.filePreviewPopover.style.zIndex) || _FilePreviewPopover.baseZIndex));\n      if (maxZIndex >= _FilePreviewPopover.maxZIndex) {\n        _FilePreviewPopover.pinnedPreviews.forEach((p, index) => {\n          p.filePreviewPopover.style.zIndex = (_FilePreviewPopover.baseZIndex + index).toString();\n        });\n        maxZIndex = _FilePreviewPopover.baseZIndex + _FilePreviewPopover.pinnedPreviews.length - 1;\n      }\n      this.filePreviewPopover.style.zIndex = (maxZIndex + 1).toString();\n    }\n    startRemoveTimeout() {\n      this.clearRemoveTimeout();\n      this.hoverTimeout = window.setTimeout(() => this.remove(), 300);\n    }\n    clearRemoveTimeout() {\n      if (this.hoverTimeout !== null) {\n        clearTimeout(this.hoverTimeout);\n        this.hoverTimeout = null;\n      }\n    }\n    remove() {\n      this.clearRemoveTimeout();\n      this.clearShowTimeout();\n      if (this.filePreviewPopover && this.filePreviewPopover.parentNode) {\n        this.filePreviewPopover.parentNode.removeChild(this.filePreviewPopover);\n      }\n      if (this.resizeObserver) {\n        this.resizeObserver.disconnect();\n      }\n      window.removeEventListener("resize", this.updateMaxSize);\n      document.removeEventListener("pointerdown", this.outsideClickListener);\n      this.onRemove();\n    }\n  };\n  var FilePreviewPopover = _FilePreviewPopover;\n  FilePreviewPopover.baseZIndex = 100;\n  FilePreviewPopover.maxZIndex = 1e3;\n  FilePreviewPopover.pinnedPreviews = [];\n\n  // src/frontend/main/links.ts\n  var LinkHandler = class {\n    static initializeLinks(onElement) {\n      console.log("Initializing links on element", onElement);\n      onElement?.querySelectorAll(".internal-link, a.tag, a.tree-item-self, a.footnote-link").forEach(function(link) {\n        const target = link.getAttribute("href") ?? "null";\n        if (target == "null") {\n          console.log("No target found for link");\n          return;\n        }\n        link.addEventListener("click", function(event) {\n          event.preventDefault();\n          event.stopPropagation();\n          ObsidianSite.loadURL(target);\n          if (ObsidianSite.deviceSize === "phone") {\n            const leftSidebar = link.closest("#left-sidebar");\n            const rightSidebar = link.closest("#right-sidebar");\n            if (leftSidebar && ObsidianSite.leftSidebar?.collapsed === false) {\n              ObsidianSite.leftSidebar.collapsed = true;\n            } else if (rightSidebar && ObsidianSite.rightSidebar?.collapsed === false) {\n              ObsidianSite.rightSidebar.collapsed = true;\n            }\n          }\n        });\n        if (target && !target.startsWith("http") && !ObsidianSite.documentExists(target)) {\n          link.classList.add("is-unresolved");\n        } else if (link.classList.contains("internal-link")) {\n          if (!ObsidianSite.metadata?.ignoreMetadata && ObsidianSite.metadata?.featureOptions?.linkPreview?.enabled) {\n            FilePreviewPopover.initializeLink(link, target);\n          }\n        }\n      });\n    }\n    static getPathnameFromURL(url) {\n      if (url == "" || url == "/" || url == "\\\\")\n        return "index.html";\n      if (url?.startsWith("#") || url?.startsWith("?"))\n        return (ObsidianSite.document?.pathname?.split("#")[0]?.split("?")[0] ?? "") + (url ?? "");\n      return url?.split("?")[0]?.split("#")[0]?.trim() ?? "";\n    }\n    static getHashFromURL(url) {\n      return (url.split("#")[1] ?? "").split("?")[0]?.trim() ?? "";\n    }\n    static getQueryFromURL(url) {\n      return url.split("?")[1]?.trim() ?? "";\n    }\n    static getFileDataIdFromURL(url) {\n      url = this.getPathnameFromURL(url);\n      if (url.startsWith("./"))\n        url = url.substring(2);\n      while (url.startsWith("../")) {\n        url = url.substring(3);\n      }\n      return btoa(encodeURI(url));\n    }\n  };\n\n  // src/frontend/main/lists.ts\n  var ListItem = class {\n    constructor(element, parent) {\n      this.parent = void 0;\n      this.collapsible = false;\n      this.collapseEl = void 0;\n      this.line = 0;\n      this.itemEl = element;\n      this.parent = parent;\n      this.line = parseInt(this.itemEl.getAttribute("data-line") ?? "0");\n      this.collapseEl = Array.from(this.itemEl.children).find((el) => el.classList.contains("list-collapse-indicator"));\n      const child = this.itemEl.querySelector("ol, ul");\n      if (child) {\n        this.child = new List(child, this);\n        if (this.collapseEl) {\n          this.collapsible = true;\n          const localThis = this;\n          this.collapseEl.addEventListener("click", function(event) {\n            localThis.isCollapsed = !localThis.isCollapsed;\n            event.stopPropagation();\n          });\n        }\n      }\n    }\n    get isChecked() {\n      return this.itemEl.classList.contains("is-checked");\n    }\n    get isCollapsed() {\n      return this.itemEl.classList.contains("is-collapsed");\n    }\n    set isCollapsed(collapse) {\n      this.itemEl.classList.toggle("is-collapsed", collapse);\n      if (this.collapseEl)\n        this.collapseEl.classList.toggle("is-collapsed", collapse);\n    }\n    get textContent() {\n      return Array.prototype.filter.call(this.itemEl.childNodes, (child) => child.nodeType === Node.TEXT_NODE).map((child) => child.textContent).join("").trim();\n    }\n    get htmlContent() {\n      return this.itemEl.innerHTML;\n    }\n  };\n  var List = class {\n    constructor(element, parent) {\n      this.children = [];\n      this.parent = void 0;\n      if (element.tagName != "OL" && element.tagName != "UL")\n        throw new Error("Invalid list element");\n      this.listType = element.tagName == "OL" ? "ordered" /* Ordered */ : element.classList.contains("contains-task-list") ? "checklist" /* Checklist */ : "unordered" /* Unordered */;\n      this.listEl = element;\n      this.parent = parent;\n      const childItems = Array.from(this.listEl.children).filter((el) => el.tagName == "LI");\n      childItems.forEach((child) => {\n        this.children.push(new ListItem(child, this));\n      });\n    }\n    get linearList() {\n      let list = [];\n      this.children.forEach((child) => {\n        list.push(child);\n        if (child.child)\n          list = list.concat(child.child.linearList);\n      });\n      return list;\n    }\n  };\n\n  // src/frontend/main/notifications.ts\n  var Notice = class {\n    constructor(message, duration = 5e3) {\n      this.message = message;\n      this.duration = duration;\n      this.show();\n    }\n    show() {\n      if (!Notice.container) {\n        Notice.container = document.createElement("div");\n        Notice.container.classList.add("notice-container");\n        Notice.container.style.top = "0";\n        Notice.container.style.right = "0";\n        document.body.appendChild(Notice.container);\n      }\n      this.notification = document.createElement("div");\n      this.notification.classList.add("notice");\n      this.notification.innerHTML = this.message;\n      Notice.container.appendChild(this.notification);\n      this.notification.style.opacity = "0";\n      this.notification.style.transform = "translateX(350px)";\n      this.notification.style.transition = "all 0.5s";\n      setTimeout(() => {\n        this.notification.style.opacity = "1";\n        this.notification.style.transform = "translateX(0)";\n        this.notification.style.height = this.notification.scrollHeight + "px";\n      }, 100);\n      setTimeout(() => {\n        this.dismiss();\n      }, this.duration);\n      this.notification.addEventListener("click", () => {\n        this.dismiss();\n      }, { once: true });\n    }\n    dismiss() {\n      if (!this.notification)\n        return;\n      this.notification.style.opacity = "0";\n      this.notification.style.height = "0";\n      this.notification.style.margin = "0";\n      this.notification.style.padding = "0";\n      setTimeout(() => {\n        this.notification.remove();\n      }, 500);\n    }\n  };\n\n  // src/frontend/main/document.ts\n  var WebpageDocument = class {\n    constructor(url) {\n      this.title = "";\n      this.headers = [];\n      this.callouts = [];\n      this.lists = [];\n      this.children = [];\n      this.isPreview = false;\n      this.initialized = false;\n      this._exists = false;\n      if (!window?.location)\n        return;\n      url = url.trim();\n      if (url.startsWith("http") || url.startsWith("www") || url.startsWith("/") || url.startsWith("\\\\")) {\n        console.error("Please use a relative path from the root of the wesite to load a webpage");\n        return;\n      }\n      this.pathname = LinkHandler.getPathnameFromURL(url);\n      this.hash = LinkHandler.getHashFromURL(url);\n      this.query = LinkHandler.getQueryFromURL(url);\n      let origin = window?.location?.origin;\n      if (origin == "null")\n        origin = "file://";\n      this.info = ObsidianSite.getWebpageData(this.pathname);\n      if (!this.info && !ObsidianSite.metadata.ignoreMetadata) {\n        new Notice("This page does not exist yet.");\n        console.warn("This page does not exist yet.", this.pathname);\n        return;\n      }\n      this._exists = true;\n      this.documentType = this.info?.type ?? "markdown" /* Markdown */;\n      this.title = this.info?.title ?? this.pathname;\n    }\n    get isMainDocument() {\n      return this.parent == null && !this.isPreview;\n    }\n    get bounds() {\n      return Bounds.fromElement(this.documentEl);\n    }\n    get exists() {\n      return this._exists;\n    }\n    findHeader(predicate) {\n      for (const header of this.headers) {\n        let result = header.find(predicate);\n        if (result)\n          return result;\n      }\n      return null;\n    }\n    getFlatHeaders() {\n      return this.headers.flatMap((h) => h.getFlatChildren());\n    }\n    scrollToHeader(headerId) {\n      console.log("Scrolling to header", headerId);\n      const header = this.findHeader((h) => h.id == headerId);\n      if (header)\n        header.scrollTo();\n    }\n    findElements() {\n      if (!this.containerEl)\n        this.containerEl = ObsidianSite.centerContentEl;\n      this.sizerEl = this.documentType == "markdown" /* Markdown */ ? this.containerEl.querySelector(".markdown-preview-sizer") : void 0;\n      this.documentEl = this.containerEl.querySelector(".obsidian-document");\n      this.headerEl = this.containerEl.querySelector(".header");\n      this.footerEl = this.containerEl.querySelector(".footer");\n    }\n    async load(parent = null, containerEl = ObsidianSite.centerContentEl, isPreview = false, headerOnly = false) {\n      this.parent = parent;\n      this.isPreview = isPreview;\n      if (!this.pathname || !this.exists)\n        return this;\n      let oldDocument = ObsidianSite.document;\n      await ObsidianSite.showLoading(true, containerEl);\n      this.containerEl = containerEl;\n      const documentReq = await ObsidianSite.fetch(this.pathname);\n      if (documentReq?.ok) {\n        const documentText = await documentReq.text();\n        this.sourceHtml = new DOMParser().parseFromString(documentText, "text/html");\n        let newDocumentEl = this.sourceHtml.querySelector(".obsidian-document");\n        if (newDocumentEl) {\n          newDocumentEl = document.adoptNode(newDocumentEl);\n          const docEl = containerEl.querySelector(".obsidian-document");\n          if (docEl) {\n            docEl.before(newDocumentEl);\n            docEl.remove();\n          } else\n            containerEl.appendChild(newDocumentEl);\n        }\n        await this.loadChildDocuments();\n        await this.postLoadInit();\n        if (this.sizerEl && headerOnly && this.hash && this.hash != "") {\n          var header = this.headers.find((h) => h.findByID(this.hash))?.findByID(this.hash);\n          if (header) {\n            this.sizerEl.innerHTML = header.getHeaderWithContentRecursive().map((e) => e.outerHTML).join("");\n          }\n        }\n        this.initialized = false;\n      } else {\n        new Notice("This document could not be loaded.");\n        console.error("Failed to load document", this.pathname);\n        return void 0;\n      }\n      return this;\n    }\n    async show() {\n      await ObsidianSite.showLoading(false, this.containerEl);\n    }\n    async postLoadInit() {\n      this.findElements();\n      this.postProcess();\n      if (this.isMainDocument || this.isPreview) {\n        this.processHeaders();\n        this.processCallouts();\n        this.processLists();\n      }\n      if (this.documentType == "canvas" /* Canvas */) {\n        this.canvas = new Canvas(this);\n      }\n      if (this.isMainDocument || this.isPreview)\n        LinkHandler.initializeLinks(this.documentEl ?? this.containerEl);\n      return this;\n    }\n    processHeaders() {\n      this.headers = Header.createHeaderTree(this.documentEl);\n    }\n    processCallouts() {\n      const calloutEls = Array.from(this.documentEl.querySelectorAll(".callout"));\n      this.callouts = [];\n      for (const calloutEl of calloutEls) {\n        this.callouts.push(new Callout(calloutEl));\n      }\n    }\n    processLists() {\n      const listEls = Array.from(this.documentEl.querySelectorAll(":is(ul, ol):not(:is(ul, ol) :is(ul, ol))"));\n      this.lists = [];\n      for (const listEl of listEls) {\n        this.lists.push(new List(listEl, void 0));\n      }\n    }\n    postProcess() {\n      this.documentEl?.querySelectorAll(".kanban-plugin__item.is-complete input[type=\'checkbox\']").forEach((el) => el.checked = true);\n      if (!ObsidianSite.metadata.ignoreMetadata) {\n        this.documentEl?.classList.toggle("allow-fold-headings", ObsidianSite.metadata.featureOptions.document.allowFoldingHeadings);\n        this.documentEl?.classList.toggle("allow-fold-lists", ObsidianSite.metadata.featureOptions.document.allowFoldingLists);\n      }\n    }\n    async loadChildDocuments() {\n      this.findElements();\n      let parentTemp = this;\n      let parentCount = 0;\n      while (parentTemp) {\n        parentTemp = parentTemp.parent;\n        parentCount++;\n      }\n      if (parentCount > 4)\n        return;\n      const childRefs = Array.from(this.documentEl.querySelectorAll("link[itemprop=\'include-document\']"));\n      const promises = [];\n      for (const ref of childRefs) {\n        const url = ref.getAttribute("href");\n        if (!url)\n          continue;\n        const childPromise = new WebpageDocument(url).load(this, ref.parentElement);\n        promises.push(childPromise);\n        console.log("Loading child", url);\n        ref.remove();\n      }\n      const childrenTemp = await Promise.all(promises);\n      console.log("Loaded child documents", childrenTemp);\n      this.children.push(...childrenTemp.filter((c) => c != void 0));\n    }\n    async loadChild(url, containerEl) {\n      let child = new WebpageDocument(url);\n      let loaded = await child.load(this, containerEl);\n      if (loaded)\n        this.children.push(loaded);\n      return loaded;\n    }\n    async unloadChild(child) {\n      this.children = this.children.filter((c) => c != child);\n      child.documentEl?.remove();\n    }\n    getMinReadableWidth() {\n      const fontSize = parseFloat(getComputedStyle(this.sizerEl ?? this.documentEl).fontSize);\n      return fontSize * 30;\n    }\n  };\n\n  // node_modules/minisearch/dist/es/index.js\n  function __awaiter(thisArg, _arguments, P, generator) {\n    function adopt(value) {\n      return value instanceof P ? value : new P(function(resolve) {\n        resolve(value);\n      });\n    }\n    return new (P || (P = Promise))(function(resolve, reject) {\n      function fulfilled(value) {\n        try {\n          step(generator.next(value));\n        } catch (e) {\n          reject(e);\n        }\n      }\n      function rejected(value) {\n        try {\n          step(generator["throw"](value));\n        } catch (e) {\n          reject(e);\n        }\n      }\n      function step(result) {\n        result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);\n      }\n      step((generator = generator.apply(thisArg, _arguments || [])).next());\n    });\n  }\n  var ENTRIES = "ENTRIES";\n  var KEYS = "KEYS";\n  var VALUES = "VALUES";\n  var LEAF = "";\n  var TreeIterator = class {\n    constructor(set, type) {\n      const node = set._tree;\n      const keys = Array.from(node.keys());\n      this.set = set;\n      this._type = type;\n      this._path = keys.length > 0 ? [{ node, keys }] : [];\n    }\n    next() {\n      const value = this.dive();\n      this.backtrack();\n      return value;\n    }\n    dive() {\n      if (this._path.length === 0) {\n        return { done: true, value: void 0 };\n      }\n      const { node, keys } = last$1(this._path);\n      if (last$1(keys) === LEAF) {\n        return { done: false, value: this.result() };\n      }\n      const child = node.get(last$1(keys));\n      this._path.push({ node: child, keys: Array.from(child.keys()) });\n      return this.dive();\n    }\n    backtrack() {\n      if (this._path.length === 0) {\n        return;\n      }\n      const keys = last$1(this._path).keys;\n      keys.pop();\n      if (keys.length > 0) {\n        return;\n      }\n      this._path.pop();\n      this.backtrack();\n    }\n    key() {\n      return this.set._prefix + this._path.map(({ keys }) => last$1(keys)).filter((key) => key !== LEAF).join("");\n    }\n    value() {\n      return last$1(this._path).node.get(LEAF);\n    }\n    result() {\n      switch (this._type) {\n        case VALUES:\n          return this.value();\n        case KEYS:\n          return this.key();\n        default:\n          return [this.key(), this.value()];\n      }\n    }\n    [Symbol.iterator]() {\n      return this;\n    }\n  };\n  var last$1 = (array) => {\n    return array[array.length - 1];\n  };\n  var fuzzySearch = (node, query, maxDistance) => {\n    const results = /* @__PURE__ */ new Map();\n    if (query === void 0)\n      return results;\n    const n = query.length + 1;\n    const m = n + maxDistance;\n    const matrix = new Uint8Array(m * n).fill(maxDistance + 1);\n    for (let j = 0; j < n; ++j)\n      matrix[j] = j;\n    for (let i = 1; i < m; ++i)\n      matrix[i * n] = i;\n    recurse(node, query, maxDistance, results, matrix, 1, n, "");\n    return results;\n  };\n  var recurse = (node, query, maxDistance, results, matrix, m, n, prefix) => {\n    const offset = m * n;\n    key:\n      for (const key of node.keys()) {\n        if (key === LEAF) {\n          const distance = matrix[offset - 1];\n          if (distance <= maxDistance) {\n            results.set(prefix, [node.get(key), distance]);\n          }\n        } else {\n          let i = m;\n          for (let pos = 0; pos < key.length; ++pos, ++i) {\n            const char = key[pos];\n            const thisRowOffset = n * i;\n            const prevRowOffset = thisRowOffset - n;\n            let minDistance = matrix[thisRowOffset];\n            const jmin = Math.max(0, i - maxDistance - 1);\n            const jmax = Math.min(n - 1, i + maxDistance);\n            for (let j = jmin; j < jmax; ++j) {\n              const different = char !== query[j];\n              const rpl = matrix[prevRowOffset + j] + +different;\n              const del = matrix[prevRowOffset + j + 1] + 1;\n              const ins = matrix[thisRowOffset + j] + 1;\n              const dist = matrix[thisRowOffset + j + 1] = Math.min(rpl, del, ins);\n              if (dist < minDistance)\n                minDistance = dist;\n            }\n            if (minDistance > maxDistance) {\n              continue key;\n            }\n          }\n          recurse(node.get(key), query, maxDistance, results, matrix, i, n, prefix + key);\n        }\n      }\n  };\n  var SearchableMap = class {\n    constructor(tree = /* @__PURE__ */ new Map(), prefix = "") {\n      this._size = void 0;\n      this._tree = tree;\n      this._prefix = prefix;\n    }\n    atPrefix(prefix) {\n      if (!prefix.startsWith(this._prefix)) {\n        throw new Error("Mismatched prefix");\n      }\n      const [node, path] = trackDown(this._tree, prefix.slice(this._prefix.length));\n      if (node === void 0) {\n        const [parentNode, key] = last(path);\n        for (const k of parentNode.keys()) {\n          if (k !== LEAF && k.startsWith(key)) {\n            const node2 = /* @__PURE__ */ new Map();\n            node2.set(k.slice(key.length), parentNode.get(k));\n            return new SearchableMap(node2, prefix);\n          }\n        }\n      }\n      return new SearchableMap(node, prefix);\n    }\n    clear() {\n      this._size = void 0;\n      this._tree.clear();\n    }\n    delete(key) {\n      this._size = void 0;\n      return remove(this._tree, key);\n    }\n    entries() {\n      return new TreeIterator(this, ENTRIES);\n    }\n    forEach(fn) {\n      for (const [key, value] of this) {\n        fn(key, value, this);\n      }\n    }\n    fuzzyGet(key, maxEditDistance) {\n      return fuzzySearch(this._tree, key, maxEditDistance);\n    }\n    get(key) {\n      const node = lookup(this._tree, key);\n      return node !== void 0 ? node.get(LEAF) : void 0;\n    }\n    has(key) {\n      const node = lookup(this._tree, key);\n      return node !== void 0 && node.has(LEAF);\n    }\n    keys() {\n      return new TreeIterator(this, KEYS);\n    }\n    set(key, value) {\n      if (typeof key !== "string") {\n        throw new Error("key must be a string");\n      }\n      this._size = void 0;\n      const node = createPath(this._tree, key);\n      node.set(LEAF, value);\n      return this;\n    }\n    get size() {\n      if (this._size) {\n        return this._size;\n      }\n      this._size = 0;\n      const iter = this.entries();\n      while (!iter.next().done)\n        this._size += 1;\n      return this._size;\n    }\n    update(key, fn) {\n      if (typeof key !== "string") {\n        throw new Error("key must be a string");\n      }\n      this._size = void 0;\n      const node = createPath(this._tree, key);\n      node.set(LEAF, fn(node.get(LEAF)));\n      return this;\n    }\n    fetch(key, initial) {\n      if (typeof key !== "string") {\n        throw new Error("key must be a string");\n      }\n      this._size = void 0;\n      const node = createPath(this._tree, key);\n      let value = node.get(LEAF);\n      if (value === void 0) {\n        node.set(LEAF, value = initial());\n      }\n      return value;\n    }\n    values() {\n      return new TreeIterator(this, VALUES);\n    }\n    [Symbol.iterator]() {\n      return this.entries();\n    }\n    static from(entries) {\n      const tree = new SearchableMap();\n      for (const [key, value] of entries) {\n        tree.set(key, value);\n      }\n      return tree;\n    }\n    static fromObject(object) {\n      return SearchableMap.from(Object.entries(object));\n    }\n  };\n  var trackDown = (tree, key, path = []) => {\n    if (key.length === 0 || tree == null) {\n      return [tree, path];\n    }\n    for (const k of tree.keys()) {\n      if (k !== LEAF && key.startsWith(k)) {\n        path.push([tree, k]);\n        return trackDown(tree.get(k), key.slice(k.length), path);\n      }\n    }\n    path.push([tree, key]);\n    return trackDown(void 0, "", path);\n  };\n  var lookup = (tree, key) => {\n    if (key.length === 0 || tree == null) {\n      return tree;\n    }\n    for (const k of tree.keys()) {\n      if (k !== LEAF && key.startsWith(k)) {\n        return lookup(tree.get(k), key.slice(k.length));\n      }\n    }\n  };\n  var createPath = (node, key) => {\n    const keyLength = key.length;\n    outer:\n      for (let pos = 0; node && pos < keyLength; ) {\n        for (const k of node.keys()) {\n          if (k !== LEAF && key[pos] === k[0]) {\n            const len = Math.min(keyLength - pos, k.length);\n            let offset = 1;\n            while (offset < len && key[pos + offset] === k[offset])\n              ++offset;\n            const child2 = node.get(k);\n            if (offset === k.length) {\n              node = child2;\n            } else {\n              const intermediate = /* @__PURE__ */ new Map();\n              intermediate.set(k.slice(offset), child2);\n              node.set(key.slice(pos, pos + offset), intermediate);\n              node.delete(k);\n              node = intermediate;\n            }\n            pos += offset;\n            continue outer;\n          }\n        }\n        const child = /* @__PURE__ */ new Map();\n        node.set(key.slice(pos), child);\n        return child;\n      }\n    return node;\n  };\n  var remove = (tree, key) => {\n    const [node, path] = trackDown(tree, key);\n    if (node === void 0) {\n      return;\n    }\n    node.delete(LEAF);\n    if (node.size === 0) {\n      cleanup(path);\n    } else if (node.size === 1) {\n      const [key2, value] = node.entries().next().value;\n      merge(path, key2, value);\n    }\n  };\n  var cleanup = (path) => {\n    if (path.length === 0) {\n      return;\n    }\n    const [node, key] = last(path);\n    node.delete(key);\n    if (node.size === 0) {\n      cleanup(path.slice(0, -1));\n    } else if (node.size === 1) {\n      const [key2, value] = node.entries().next().value;\n      if (key2 !== LEAF) {\n        merge(path.slice(0, -1), key2, value);\n      }\n    }\n  };\n  var merge = (path, key, value) => {\n    if (path.length === 0) {\n      return;\n    }\n    const [node, nodeKey] = last(path);\n    node.set(nodeKey + key, value);\n    node.delete(nodeKey);\n  };\n  var last = (array) => {\n    return array[array.length - 1];\n  };\n  var OR = "or";\n  var AND = "and";\n  var AND_NOT = "and_not";\n  var MiniSearch = class {\n    constructor(options) {\n      if ((options === null || options === void 0 ? void 0 : options.fields) == null) {\n        throw new Error(\'MiniSearch: option "fields" must be provided\');\n      }\n      const autoVacuum = options.autoVacuum == null || options.autoVacuum === true ? defaultAutoVacuumOptions : options.autoVacuum;\n      this._options = Object.assign(Object.assign(Object.assign({}, defaultOptions), options), { autoVacuum, searchOptions: Object.assign(Object.assign({}, defaultSearchOptions), options.searchOptions || {}), autoSuggestOptions: Object.assign(Object.assign({}, defaultAutoSuggestOptions), options.autoSuggestOptions || {}) });\n      this._index = new SearchableMap();\n      this._documentCount = 0;\n      this._documentIds = /* @__PURE__ */ new Map();\n      this._idToShortId = /* @__PURE__ */ new Map();\n      this._fieldIds = {};\n      this._fieldLength = /* @__PURE__ */ new Map();\n      this._avgFieldLength = [];\n      this._nextId = 0;\n      this._storedFields = /* @__PURE__ */ new Map();\n      this._dirtCount = 0;\n      this._currentVacuum = null;\n      this._enqueuedVacuum = null;\n      this._enqueuedVacuumConditions = defaultVacuumConditions;\n      this.addFields(this._options.fields);\n    }\n    add(document2) {\n      const { extractField, tokenize, processTerm, fields, idField } = this._options;\n      const id = extractField(document2, idField);\n      if (id == null) {\n        throw new Error(`MiniSearch: document does not have ID field "${idField}"`);\n      }\n      if (this._idToShortId.has(id)) {\n        throw new Error(`MiniSearch: duplicate ID ${id}`);\n      }\n      const shortDocumentId = this.addDocumentId(id);\n      this.saveStoredFields(shortDocumentId, document2);\n      for (const field of fields) {\n        const fieldValue = extractField(document2, field);\n        if (fieldValue == null)\n          continue;\n        const tokens = tokenize(fieldValue.toString(), field);\n        const fieldId = this._fieldIds[field];\n        const uniqueTerms = new Set(tokens).size;\n        this.addFieldLength(shortDocumentId, fieldId, this._documentCount - 1, uniqueTerms);\n        for (const term of tokens) {\n          const processedTerm = processTerm(term, field);\n          if (Array.isArray(processedTerm)) {\n            for (const t of processedTerm) {\n              this.addTerm(fieldId, shortDocumentId, t);\n            }\n          } else if (processedTerm) {\n            this.addTerm(fieldId, shortDocumentId, processedTerm);\n          }\n        }\n      }\n    }\n    addAll(documents) {\n      for (const document2 of documents)\n        this.add(document2);\n    }\n    addAllAsync(documents, options = {}) {\n      const { chunkSize = 10 } = options;\n      const acc = { chunk: [], promise: Promise.resolve() };\n      const { chunk, promise } = documents.reduce(({ chunk: chunk2, promise: promise2 }, document2, i) => {\n        chunk2.push(document2);\n        if ((i + 1) % chunkSize === 0) {\n          return {\n            chunk: [],\n            promise: promise2.then(() => new Promise((resolve) => setTimeout(resolve, 0))).then(() => this.addAll(chunk2))\n          };\n        } else {\n          return { chunk: chunk2, promise: promise2 };\n        }\n      }, acc);\n      return promise.then(() => this.addAll(chunk));\n    }\n    remove(document2) {\n      const { tokenize, processTerm, extractField, fields, idField } = this._options;\n      const id = extractField(document2, idField);\n      if (id == null) {\n        throw new Error(`MiniSearch: document does not have ID field "${idField}"`);\n      }\n      const shortId = this._idToShortId.get(id);\n      if (shortId == null) {\n        throw new Error(`MiniSearch: cannot remove document with ID ${id}: it is not in the index`);\n      }\n      for (const field of fields) {\n        const fieldValue = extractField(document2, field);\n        if (fieldValue == null)\n          continue;\n        const tokens = tokenize(fieldValue.toString(), field);\n        const fieldId = this._fieldIds[field];\n        const uniqueTerms = new Set(tokens).size;\n        this.removeFieldLength(shortId, fieldId, this._documentCount, uniqueTerms);\n        for (const term of tokens) {\n          const processedTerm = processTerm(term, field);\n          if (Array.isArray(processedTerm)) {\n            for (const t of processedTerm) {\n              this.removeTerm(fieldId, shortId, t);\n            }\n          } else if (processedTerm) {\n            this.removeTerm(fieldId, shortId, processedTerm);\n          }\n        }\n      }\n      this._storedFields.delete(shortId);\n      this._documentIds.delete(shortId);\n      this._idToShortId.delete(id);\n      this._fieldLength.delete(shortId);\n      this._documentCount -= 1;\n    }\n    removeAll(documents) {\n      if (documents) {\n        for (const document2 of documents)\n          this.remove(document2);\n      } else if (arguments.length > 0) {\n        throw new Error("Expected documents to be present. Omit the argument to remove all documents.");\n      } else {\n        this._index = new SearchableMap();\n        this._documentCount = 0;\n        this._documentIds = /* @__PURE__ */ new Map();\n        this._idToShortId = /* @__PURE__ */ new Map();\n        this._fieldLength = /* @__PURE__ */ new Map();\n        this._avgFieldLength = [];\n        this._storedFields = /* @__PURE__ */ new Map();\n        this._nextId = 0;\n      }\n    }\n    discard(id) {\n      const shortId = this._idToShortId.get(id);\n      if (shortId == null) {\n        throw new Error(`MiniSearch: cannot discard document with ID ${id}: it is not in the index`);\n      }\n      this._idToShortId.delete(id);\n      this._documentIds.delete(shortId);\n      this._storedFields.delete(shortId);\n      (this._fieldLength.get(shortId) || []).forEach((fieldLength, fieldId) => {\n        this.removeFieldLength(shortId, fieldId, this._documentCount, fieldLength);\n      });\n      this._fieldLength.delete(shortId);\n      this._documentCount -= 1;\n      this._dirtCount += 1;\n      this.maybeAutoVacuum();\n    }\n    maybeAutoVacuum() {\n      if (this._options.autoVacuum === false) {\n        return;\n      }\n      const { minDirtFactor, minDirtCount, batchSize, batchWait } = this._options.autoVacuum;\n      this.conditionalVacuum({ batchSize, batchWait }, { minDirtCount, minDirtFactor });\n    }\n    discardAll(ids) {\n      const autoVacuum = this._options.autoVacuum;\n      try {\n        this._options.autoVacuum = false;\n        for (const id of ids) {\n          this.discard(id);\n        }\n      } finally {\n        this._options.autoVacuum = autoVacuum;\n      }\n      this.maybeAutoVacuum();\n    }\n    replace(updatedDocument) {\n      const { idField, extractField } = this._options;\n      const id = extractField(updatedDocument, idField);\n      this.discard(id);\n      this.add(updatedDocument);\n    }\n    vacuum(options = {}) {\n      return this.conditionalVacuum(options);\n    }\n    conditionalVacuum(options, conditions) {\n      if (this._currentVacuum) {\n        this._enqueuedVacuumConditions = this._enqueuedVacuumConditions && conditions;\n        if (this._enqueuedVacuum != null) {\n          return this._enqueuedVacuum;\n        }\n        this._enqueuedVacuum = this._currentVacuum.then(() => {\n          const conditions2 = this._enqueuedVacuumConditions;\n          this._enqueuedVacuumConditions = defaultVacuumConditions;\n          return this.performVacuuming(options, conditions2);\n        });\n        return this._enqueuedVacuum;\n      }\n      if (this.vacuumConditionsMet(conditions) === false) {\n        return Promise.resolve();\n      }\n      this._currentVacuum = this.performVacuuming(options);\n      return this._currentVacuum;\n    }\n    performVacuuming(options, conditions) {\n      return __awaiter(this, void 0, void 0, function* () {\n        const initialDirtCount = this._dirtCount;\n        if (this.vacuumConditionsMet(conditions)) {\n          const batchSize = options.batchSize || defaultVacuumOptions.batchSize;\n          const batchWait = options.batchWait || defaultVacuumOptions.batchWait;\n          let i = 1;\n          for (const [term, fieldsData] of this._index) {\n            for (const [fieldId, fieldIndex] of fieldsData) {\n              for (const [shortId] of fieldIndex) {\n                if (this._documentIds.has(shortId)) {\n                  continue;\n                }\n                if (fieldIndex.size <= 1) {\n                  fieldsData.delete(fieldId);\n                } else {\n                  fieldIndex.delete(shortId);\n                }\n              }\n            }\n            if (this._index.get(term).size === 0) {\n              this._index.delete(term);\n            }\n            if (i % batchSize === 0) {\n              yield new Promise((resolve) => setTimeout(resolve, batchWait));\n            }\n            i += 1;\n          }\n          this._dirtCount -= initialDirtCount;\n        }\n        yield null;\n        this._currentVacuum = this._enqueuedVacuum;\n        this._enqueuedVacuum = null;\n      });\n    }\n    vacuumConditionsMet(conditions) {\n      if (conditions == null) {\n        return true;\n      }\n      let { minDirtCount, minDirtFactor } = conditions;\n      minDirtCount = minDirtCount || defaultAutoVacuumOptions.minDirtCount;\n      minDirtFactor = minDirtFactor || defaultAutoVacuumOptions.minDirtFactor;\n      return this.dirtCount >= minDirtCount && this.dirtFactor >= minDirtFactor;\n    }\n    get isVacuuming() {\n      return this._currentVacuum != null;\n    }\n    get dirtCount() {\n      return this._dirtCount;\n    }\n    get dirtFactor() {\n      return this._dirtCount / (1 + this._documentCount + this._dirtCount);\n    }\n    has(id) {\n      return this._idToShortId.has(id);\n    }\n    getStoredFields(id) {\n      const shortId = this._idToShortId.get(id);\n      if (shortId == null) {\n        return void 0;\n      }\n      return this._storedFields.get(shortId);\n    }\n    search(query, searchOptions = {}) {\n      const rawResults = this.executeQuery(query, searchOptions);\n      const results = [];\n      for (const [docId, { score, terms, match }] of rawResults) {\n        const quality = terms.length || 1;\n        const result = {\n          id: this._documentIds.get(docId),\n          score: score * quality,\n          terms: Object.keys(match),\n          queryTerms: terms,\n          match\n        };\n        Object.assign(result, this._storedFields.get(docId));\n        if (searchOptions.filter == null || searchOptions.filter(result)) {\n          results.push(result);\n        }\n      }\n      if (query === MiniSearch.wildcard && searchOptions.boostDocument == null && this._options.searchOptions.boostDocument == null) {\n        return results;\n      }\n      results.sort(byScore);\n      return results;\n    }\n    autoSuggest(queryString, options = {}) {\n      options = Object.assign(Object.assign({}, this._options.autoSuggestOptions), options);\n      const suggestions = /* @__PURE__ */ new Map();\n      for (const { score, terms } of this.search(queryString, options)) {\n        const phrase = terms.join(" ");\n        const suggestion = suggestions.get(phrase);\n        if (suggestion != null) {\n          suggestion.score += score;\n          suggestion.count += 1;\n        } else {\n          suggestions.set(phrase, { score, terms, count: 1 });\n        }\n      }\n      const results = [];\n      for (const [suggestion, { score, terms, count }] of suggestions) {\n        results.push({ suggestion, terms, score: score / count });\n      }\n      results.sort(byScore);\n      return results;\n    }\n    get documentCount() {\n      return this._documentCount;\n    }\n    get termCount() {\n      return this._index.size;\n    }\n    static loadJSON(json, options) {\n      if (options == null) {\n        throw new Error("MiniSearch: loadJSON should be given the same options used when serializing the index");\n      }\n      return this.loadJS(JSON.parse(json), options);\n    }\n    static loadJSONAsync(json, options) {\n      return __awaiter(this, void 0, void 0, function* () {\n        if (options == null) {\n          throw new Error("MiniSearch: loadJSON should be given the same options used when serializing the index");\n        }\n        return this.loadJSAsync(JSON.parse(json), options);\n      });\n    }\n    static getDefault(optionName) {\n      if (defaultOptions.hasOwnProperty(optionName)) {\n        return getOwnProperty(defaultOptions, optionName);\n      } else {\n        throw new Error(`MiniSearch: unknown option "${optionName}"`);\n      }\n    }\n    static loadJS(js, options) {\n      const { index, documentIds, fieldLength, storedFields, serializationVersion } = js;\n      const miniSearch = this.instantiateMiniSearch(js, options);\n      miniSearch._documentIds = objectToNumericMap(documentIds);\n      miniSearch._fieldLength = objectToNumericMap(fieldLength);\n      miniSearch._storedFields = objectToNumericMap(storedFields);\n      for (const [shortId, id] of miniSearch._documentIds) {\n        miniSearch._idToShortId.set(id, shortId);\n      }\n      for (const [term, data] of index) {\n        const dataMap = /* @__PURE__ */ new Map();\n        for (const fieldId of Object.keys(data)) {\n          let indexEntry = data[fieldId];\n          if (serializationVersion === 1) {\n            indexEntry = indexEntry.ds;\n          }\n          dataMap.set(parseInt(fieldId, 10), objectToNumericMap(indexEntry));\n        }\n        miniSearch._index.set(term, dataMap);\n      }\n      return miniSearch;\n    }\n    static loadJSAsync(js, options) {\n      return __awaiter(this, void 0, void 0, function* () {\n        const { index, documentIds, fieldLength, storedFields, serializationVersion } = js;\n        const miniSearch = this.instantiateMiniSearch(js, options);\n        miniSearch._documentIds = yield objectToNumericMapAsync(documentIds);\n        miniSearch._fieldLength = yield objectToNumericMapAsync(fieldLength);\n        miniSearch._storedFields = yield objectToNumericMapAsync(storedFields);\n        for (const [shortId, id] of miniSearch._documentIds) {\n          miniSearch._idToShortId.set(id, shortId);\n        }\n        let count = 0;\n        for (const [term, data] of index) {\n          const dataMap = /* @__PURE__ */ new Map();\n          for (const fieldId of Object.keys(data)) {\n            let indexEntry = data[fieldId];\n            if (serializationVersion === 1) {\n              indexEntry = indexEntry.ds;\n            }\n            dataMap.set(parseInt(fieldId, 10), yield objectToNumericMapAsync(indexEntry));\n          }\n          if (++count % 1e3 === 0)\n            yield wait(0);\n          miniSearch._index.set(term, dataMap);\n        }\n        return miniSearch;\n      });\n    }\n    static instantiateMiniSearch(js, options) {\n      const { documentCount, nextId, fieldIds, averageFieldLength, dirtCount, serializationVersion } = js;\n      if (serializationVersion !== 1 && serializationVersion !== 2) {\n        throw new Error("MiniSearch: cannot deserialize an index created with an incompatible version");\n      }\n      const miniSearch = new MiniSearch(options);\n      miniSearch._documentCount = documentCount;\n      miniSearch._nextId = nextId;\n      miniSearch._idToShortId = /* @__PURE__ */ new Map();\n      miniSearch._fieldIds = fieldIds;\n      miniSearch._avgFieldLength = averageFieldLength;\n      miniSearch._dirtCount = dirtCount || 0;\n      miniSearch._index = new SearchableMap();\n      return miniSearch;\n    }\n    executeQuery(query, searchOptions = {}) {\n      if (query === MiniSearch.wildcard) {\n        return this.executeWildcardQuery(searchOptions);\n      }\n      if (typeof query !== "string") {\n        const options2 = Object.assign(Object.assign(Object.assign({}, searchOptions), query), { queries: void 0 });\n        const results2 = query.queries.map((subquery) => this.executeQuery(subquery, options2));\n        return this.combineResults(results2, options2.combineWith);\n      }\n      const { tokenize, processTerm, searchOptions: globalSearchOptions } = this._options;\n      const options = Object.assign(Object.assign({ tokenize, processTerm }, globalSearchOptions), searchOptions);\n      const { tokenize: searchTokenize, processTerm: searchProcessTerm } = options;\n      const terms = searchTokenize(query).flatMap((term) => searchProcessTerm(term)).filter((term) => !!term);\n      const queries = terms.map(termToQuerySpec(options));\n      const results = queries.map((query2) => this.executeQuerySpec(query2, options));\n      return this.combineResults(results, options.combineWith);\n    }\n    executeQuerySpec(query, searchOptions) {\n      const options = Object.assign(Object.assign({}, this._options.searchOptions), searchOptions);\n      const boosts = (options.fields || this._options.fields).reduce((boosts2, field) => Object.assign(Object.assign({}, boosts2), { [field]: getOwnProperty(options.boost, field) || 1 }), {});\n      const { boostDocument, weights, maxFuzzy, bm25: bm25params } = options;\n      const { fuzzy: fuzzyWeight, prefix: prefixWeight } = Object.assign(Object.assign({}, defaultSearchOptions.weights), weights);\n      const data = this._index.get(query.term);\n      const results = this.termResults(query.term, query.term, 1, query.termBoost, data, boosts, boostDocument, bm25params);\n      let prefixMatches;\n      let fuzzyMatches;\n      if (query.prefix) {\n        prefixMatches = this._index.atPrefix(query.term);\n      }\n      if (query.fuzzy) {\n        const fuzzy = query.fuzzy === true ? 0.2 : query.fuzzy;\n        const maxDistance = fuzzy < 1 ? Math.min(maxFuzzy, Math.round(query.term.length * fuzzy)) : fuzzy;\n        if (maxDistance)\n          fuzzyMatches = this._index.fuzzyGet(query.term, maxDistance);\n      }\n      if (prefixMatches) {\n        for (const [term, data2] of prefixMatches) {\n          const distance = term.length - query.term.length;\n          if (!distance) {\n            continue;\n          }\n          fuzzyMatches === null || fuzzyMatches === void 0 ? void 0 : fuzzyMatches.delete(term);\n          const weight = prefixWeight * term.length / (term.length + 0.3 * distance);\n          this.termResults(query.term, term, weight, query.termBoost, data2, boosts, boostDocument, bm25params, results);\n        }\n      }\n      if (fuzzyMatches) {\n        for (const term of fuzzyMatches.keys()) {\n          const [data2, distance] = fuzzyMatches.get(term);\n          if (!distance) {\n            continue;\n          }\n          const weight = fuzzyWeight * term.length / (term.length + distance);\n          this.termResults(query.term, term, weight, query.termBoost, data2, boosts, boostDocument, bm25params, results);\n        }\n      }\n      return results;\n    }\n    executeWildcardQuery(searchOptions) {\n      const results = /* @__PURE__ */ new Map();\n      const options = Object.assign(Object.assign({}, this._options.searchOptions), searchOptions);\n      for (const [shortId, id] of this._documentIds) {\n        const score = options.boostDocument ? options.boostDocument(id, "", this._storedFields.get(shortId)) : 1;\n        results.set(shortId, {\n          score,\n          terms: [],\n          match: {}\n        });\n      }\n      return results;\n    }\n    combineResults(results, combineWith = OR) {\n      if (results.length === 0) {\n        return /* @__PURE__ */ new Map();\n      }\n      const operator = combineWith.toLowerCase();\n      const combinator = combinators[operator];\n      if (!combinator) {\n        throw new Error(`Invalid combination operator: ${combineWith}`);\n      }\n      return results.reduce(combinator) || /* @__PURE__ */ new Map();\n    }\n    toJSON() {\n      const index = [];\n      for (const [term, fieldIndex] of this._index) {\n        const data = {};\n        for (const [fieldId, freqs] of fieldIndex) {\n          data[fieldId] = Object.fromEntries(freqs);\n        }\n        index.push([term, data]);\n      }\n      return {\n        documentCount: this._documentCount,\n        nextId: this._nextId,\n        documentIds: Object.fromEntries(this._documentIds),\n        fieldIds: this._fieldIds,\n        fieldLength: Object.fromEntries(this._fieldLength),\n        averageFieldLength: this._avgFieldLength,\n        storedFields: Object.fromEntries(this._storedFields),\n        dirtCount: this._dirtCount,\n        index,\n        serializationVersion: 2\n      };\n    }\n    termResults(sourceTerm, derivedTerm, termWeight, termBoost, fieldTermData, fieldBoosts, boostDocumentFn, bm25params, results = /* @__PURE__ */ new Map()) {\n      if (fieldTermData == null)\n        return results;\n      for (const field of Object.keys(fieldBoosts)) {\n        const fieldBoost = fieldBoosts[field];\n        const fieldId = this._fieldIds[field];\n        const fieldTermFreqs = fieldTermData.get(fieldId);\n        if (fieldTermFreqs == null)\n          continue;\n        let matchingFields = fieldTermFreqs.size;\n        const avgFieldLength = this._avgFieldLength[fieldId];\n        for (const docId of fieldTermFreqs.keys()) {\n          if (!this._documentIds.has(docId)) {\n            this.removeTerm(fieldId, docId, derivedTerm);\n            matchingFields -= 1;\n            continue;\n          }\n          const docBoost = boostDocumentFn ? boostDocumentFn(this._documentIds.get(docId), derivedTerm, this._storedFields.get(docId)) : 1;\n          if (!docBoost)\n            continue;\n          const termFreq = fieldTermFreqs.get(docId);\n          const fieldLength = this._fieldLength.get(docId)[fieldId];\n          const rawScore = calcBM25Score(termFreq, matchingFields, this._documentCount, fieldLength, avgFieldLength, bm25params);\n          const weightedScore = termWeight * termBoost * fieldBoost * docBoost * rawScore;\n          const result = results.get(docId);\n          if (result) {\n            result.score += weightedScore;\n            assignUniqueTerm(result.terms, sourceTerm);\n            const match = getOwnProperty(result.match, derivedTerm);\n            if (match) {\n              match.push(field);\n            } else {\n              result.match[derivedTerm] = [field];\n            }\n          } else {\n            results.set(docId, {\n              score: weightedScore,\n              terms: [sourceTerm],\n              match: { [derivedTerm]: [field] }\n            });\n          }\n        }\n      }\n      return results;\n    }\n    addTerm(fieldId, documentId, term) {\n      const indexData = this._index.fetch(term, createMap);\n      let fieldIndex = indexData.get(fieldId);\n      if (fieldIndex == null) {\n        fieldIndex = /* @__PURE__ */ new Map();\n        fieldIndex.set(documentId, 1);\n        indexData.set(fieldId, fieldIndex);\n      } else {\n        const docs = fieldIndex.get(documentId);\n        fieldIndex.set(documentId, (docs || 0) + 1);\n      }\n    }\n    removeTerm(fieldId, documentId, term) {\n      if (!this._index.has(term)) {\n        this.warnDocumentChanged(documentId, fieldId, term);\n        return;\n      }\n      const indexData = this._index.fetch(term, createMap);\n      const fieldIndex = indexData.get(fieldId);\n      if (fieldIndex == null || fieldIndex.get(documentId) == null) {\n        this.warnDocumentChanged(documentId, fieldId, term);\n      } else if (fieldIndex.get(documentId) <= 1) {\n        if (fieldIndex.size <= 1) {\n          indexData.delete(fieldId);\n        } else {\n          fieldIndex.delete(documentId);\n        }\n      } else {\n        fieldIndex.set(documentId, fieldIndex.get(documentId) - 1);\n      }\n      if (this._index.get(term).size === 0) {\n        this._index.delete(term);\n      }\n    }\n    warnDocumentChanged(shortDocumentId, fieldId, term) {\n      for (const fieldName of Object.keys(this._fieldIds)) {\n        if (this._fieldIds[fieldName] === fieldId) {\n          this._options.logger("warn", `MiniSearch: document with ID ${this._documentIds.get(shortDocumentId)} has changed before removal: term "${term}" was not present in field "${fieldName}". Removing a document after it has changed can corrupt the index!`, "version_conflict");\n          return;\n        }\n      }\n    }\n    addDocumentId(documentId) {\n      const shortDocumentId = this._nextId;\n      this._idToShortId.set(documentId, shortDocumentId);\n      this._documentIds.set(shortDocumentId, documentId);\n      this._documentCount += 1;\n      this._nextId += 1;\n      return shortDocumentId;\n    }\n    addFields(fields) {\n      for (let i = 0; i < fields.length; i++) {\n        this._fieldIds[fields[i]] = i;\n      }\n    }\n    addFieldLength(documentId, fieldId, count, length) {\n      let fieldLengths = this._fieldLength.get(documentId);\n      if (fieldLengths == null)\n        this._fieldLength.set(documentId, fieldLengths = []);\n      fieldLengths[fieldId] = length;\n      const averageFieldLength = this._avgFieldLength[fieldId] || 0;\n      const totalFieldLength = averageFieldLength * count + length;\n      this._avgFieldLength[fieldId] = totalFieldLength / (count + 1);\n    }\n    removeFieldLength(documentId, fieldId, count, length) {\n      if (count === 1) {\n        this._avgFieldLength[fieldId] = 0;\n        return;\n      }\n      const totalFieldLength = this._avgFieldLength[fieldId] * count - length;\n      this._avgFieldLength[fieldId] = totalFieldLength / (count - 1);\n    }\n    saveStoredFields(documentId, doc) {\n      const { storeFields, extractField } = this._options;\n      if (storeFields == null || storeFields.length === 0) {\n        return;\n      }\n      let documentFields = this._storedFields.get(documentId);\n      if (documentFields == null)\n        this._storedFields.set(documentId, documentFields = {});\n      for (const fieldName of storeFields) {\n        const fieldValue = extractField(doc, fieldName);\n        if (fieldValue !== void 0)\n          documentFields[fieldName] = fieldValue;\n      }\n    }\n  };\n  MiniSearch.wildcard = Symbol("*");\n  var getOwnProperty = (object, property) => Object.prototype.hasOwnProperty.call(object, property) ? object[property] : void 0;\n  var combinators = {\n    [OR]: (a, b) => {\n      for (const docId of b.keys()) {\n        const existing = a.get(docId);\n        if (existing == null) {\n          a.set(docId, b.get(docId));\n        } else {\n          const { score, terms, match } = b.get(docId);\n          existing.score = existing.score + score;\n          existing.match = Object.assign(existing.match, match);\n          assignUniqueTerms(existing.terms, terms);\n        }\n      }\n      return a;\n    },\n    [AND]: (a, b) => {\n      const combined = /* @__PURE__ */ new Map();\n      for (const docId of b.keys()) {\n        const existing = a.get(docId);\n        if (existing == null)\n          continue;\n        const { score, terms, match } = b.get(docId);\n        assignUniqueTerms(existing.terms, terms);\n        combined.set(docId, {\n          score: existing.score + score,\n          terms: existing.terms,\n          match: Object.assign(existing.match, match)\n        });\n      }\n      return combined;\n    },\n    [AND_NOT]: (a, b) => {\n      for (const docId of b.keys())\n        a.delete(docId);\n      return a;\n    }\n  };\n  var defaultBM25params = { k: 1.2, b: 0.7, d: 0.5 };\n  var calcBM25Score = (termFreq, matchingCount, totalCount, fieldLength, avgFieldLength, bm25params) => {\n    const { k, b, d } = bm25params;\n    const invDocFreq = Math.log(1 + (totalCount - matchingCount + 0.5) / (matchingCount + 0.5));\n    return invDocFreq * (d + termFreq * (k + 1) / (termFreq + k * (1 - b + b * fieldLength / avgFieldLength)));\n  };\n  var termToQuerySpec = (options) => (term, i, terms) => {\n    const fuzzy = typeof options.fuzzy === "function" ? options.fuzzy(term, i, terms) : options.fuzzy || false;\n    const prefix = typeof options.prefix === "function" ? options.prefix(term, i, terms) : options.prefix === true;\n    const termBoost = typeof options.boostTerm === "function" ? options.boostTerm(term, i, terms) : 1;\n    return { term, fuzzy, prefix, termBoost };\n  };\n  var defaultOptions = {\n    idField: "id",\n    extractField: (document2, fieldName) => document2[fieldName],\n    tokenize: (text) => text.split(SPACE_OR_PUNCTUATION),\n    processTerm: (term) => term.toLowerCase(),\n    fields: void 0,\n    searchOptions: void 0,\n    storeFields: [],\n    logger: (level, message) => {\n      if (typeof (console === null || console === void 0 ? void 0 : console[level]) === "function")\n        console[level](message);\n    },\n    autoVacuum: true\n  };\n  var defaultSearchOptions = {\n    combineWith: OR,\n    prefix: false,\n    fuzzy: false,\n    maxFuzzy: 6,\n    boost: {},\n    weights: { fuzzy: 0.45, prefix: 0.375 },\n    bm25: defaultBM25params\n  };\n  var defaultAutoSuggestOptions = {\n    combineWith: AND,\n    prefix: (term, i, terms) => i === terms.length - 1\n  };\n  var defaultVacuumOptions = { batchSize: 1e3, batchWait: 10 };\n  var defaultVacuumConditions = { minDirtFactor: 0.1, minDirtCount: 20 };\n  var defaultAutoVacuumOptions = Object.assign(Object.assign({}, defaultVacuumOptions), defaultVacuumConditions);\n  var assignUniqueTerm = (target, term) => {\n    if (!target.includes(term))\n      target.push(term);\n  };\n  var assignUniqueTerms = (target, source) => {\n    for (const term of source) {\n      if (!target.includes(term))\n        target.push(term);\n    }\n  };\n  var byScore = ({ score: a }, { score: b }) => b - a;\n  var createMap = () => /* @__PURE__ */ new Map();\n  var objectToNumericMap = (object) => {\n    const map = /* @__PURE__ */ new Map();\n    for (const key of Object.keys(object)) {\n      map.set(parseInt(key, 10), object[key]);\n    }\n    return map;\n  };\n  var objectToNumericMapAsync = (object) => __awaiter(void 0, void 0, void 0, function* () {\n    const map = /* @__PURE__ */ new Map();\n    let count = 0;\n    for (const key of Object.keys(object)) {\n      map.set(parseInt(key, 10), object[key]);\n      if (++count % 1e3 === 0) {\n        yield wait(0);\n      }\n    }\n    return map;\n  });\n  var wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));\n  var SPACE_OR_PUNCTUATION = /[\\n\\r\\p{Z}\\p{P}]+/u;\n\n  // src/frontend/main/search.ts\n  var allSearch = 1 /* Title */ | 2 /* Aliases */ | 4 /* Headers */ | 8 /* Tags */ | 16 /* Path */ | 32 /* Content */;\n  var Search = class {\n    search(query, type = allSearch) {\n      if (query.length == 0) {\n        this.clear();\n        return;\n      }\n      this.input.value = query;\n      if (type != allSearch) {\n        this.input.style.color = "var(--text-accent)";\n      } else {\n        this.input.style.color = "";\n      }\n      const searchFields = [];\n      if (type & 1 /* Title */)\n        searchFields.push("title");\n      if (type & 2 /* Aliases */)\n        searchFields.push("aliases");\n      if (type & 4 /* Headers */)\n        searchFields.push("headers");\n      if (type & 8 /* Tags */)\n        searchFields.push("tags");\n      if (type & 16 /* Path */)\n        searchFields.push("path");\n      if (type & 32 /* Content */)\n        searchFields.push("content");\n      console.log(type & 1 /* Title */, type & 2 /* Aliases */, type & 4 /* Headers */, type & 8 /* Tags */, type & 16 /* Path */, type & 32 /* Content */);\n      const results = this.index.search(query, {\n        prefix: true,\n        fuzzy: 0.2,\n        boost: { title: 2, aliases: 1.8, headers: 1.5, tags: 1.3, path: 1.1 },\n        fields: searchFields\n      });\n      console.log("Search results", results);\n      if (results.length > 50)\n        results.splice(50);\n      const showPaths = [];\n      const headerLinks = /* @__PURE__ */ new Map();\n      for (const result of results) {\n        if (result.score < results[0].score * 0.3 && showPaths.length > 4 || result.score < results[0].score * 0.1)\n          break;\n        showPaths.push(result.path);\n        if (query.length > 2) {\n          const headers = [];\n          let breakEarly = false;\n          for (const match in result.match) {\n            if (result.match[match].includes("headers")) {\n              for (const header of result.headers) {\n                if (header.toLowerCase().includes(match.toLowerCase())) {\n                  if (!headers.includes(header))\n                    headers.push(header);\n                  if (query.toLowerCase() != match.toLowerCase()) {\n                    breakEarly = true;\n                    break;\n                  }\n                }\n              }\n            }\n            if (breakEarly)\n              break;\n          }\n          headerLinks.set(result.path, headers);\n        }\n      }\n      ObsidianSite.fileTree?.filter(showPaths);\n      ObsidianSite.fileTree?.setSubHeadings(headerLinks);\n      ObsidianSite.fileTree?.sort((a, b) => {\n        if (!a || !b)\n          return 0;\n        return showPaths.findIndex((path) => a.path == path) - showPaths.findIndex((path) => b.path == path);\n      });\n      if (!ObsidianSite.fileTree) {\n        const list = document.createElement("div");\n        results.filter((result) => result.path.endsWith(".html")).slice(0, 20).forEach((result) => {\n          const item = document.createElement("div");\n          item.classList.add("search-result");\n          const link = document.createElement("a");\n          link.classList.add("tree-item-self");\n          const searchURL = result.path + "?mark=" + encodeURIComponent(query);\n          link.setAttribute("href", searchURL);\n          link.appendChild(document.createTextNode(result.title));\n          item.appendChild(link);\n          list.append(item);\n        });\n        this.dedicatedSearchResultsList.replaceChildren(list);\n        this.container.after(this.dedicatedSearchResultsList);\n        LinkHandler.initializeLinks(this.dedicatedSearchResultsList);\n      }\n    }\n    searchParseFilters(queryString) {\n      if (queryString.startsWith("?"))\n        queryString = queryString.substring(1);\n      let filterName = queryString.split(":")[0];\n      if (!queryString.includes(":"))\n        filterName = "";\n      if (filterName == "content" || filterName == "text" || filterName == "body") {\n        this.search(queryString, 32 /* Content */);\n      } else if (filterName == "title" || filterName == "name") {\n        this.search(queryString, 1 /* Title */);\n      } else if (filterName == "path") {\n        this.search(queryString, 16 /* Path */);\n      } else if (filterName == "header" || filterName == "headers") {\n        this.search(queryString, 4 /* Headers */);\n      } else if (filterName == "tag" || filterName == "tags" || queryString.startsWith("#")) {\n        this.search(queryString, 8 /* Tags */);\n      } else if (filterName == "alias" || filterName == "aliases") {\n        this.search(queryString, 2 /* Aliases */);\n      } else {\n        this.search(queryString);\n      }\n    }\n    clear() {\n      this.container?.classList.remove("has-content");\n      this.input.value = "";\n      this.clearCurrentDocumentSearch();\n      ObsidianSite.fileTree?.unfilter();\n      ObsidianSite.fileTree?.removeSubHeadings();\n      ObsidianSite.fileTree?.unsort();\n    }\n    async init() {\n      this.input = document.querySelector(\'input[type="search"]\');\n      this.container = this.input?.closest("#search-container");\n      if (!this.input || !this.container)\n        return;\n      ObsidianSite.metadata.featureOptions.search.insertFeature(document.body, this.container);\n      const indexResp = await ObsidianSite.fetch(Shared.libFolderName + "/search-index.json");\n      if (!indexResp?.ok) {\n        console.error("Failed to fetch search index");\n        return;\n      }\n      const indexJSON = await indexResp.json();\n      try {\n        this.index = MiniSearch.loadJS(indexJSON, { fields: ["title", "path", "tags", "headers"] });\n      } catch (e) {\n        console.error("Failed to load search index: ", e);\n        return;\n      }\n      const inputClear = document.querySelector("#search-clear-button");\n      inputClear?.addEventListener("click", (event) => {\n        this.clear();\n      });\n      this.input.addEventListener("input", (event) => {\n        const query = event.target?.value ?? "";\n        if (query.length == 0) {\n          this.clear();\n          return;\n        }\n        this.searchParseFilters(query);\n      });\n      if (!ObsidianSite.fileTree) {\n        this.dedicatedSearchResultsList = document.createElement("div");\n        this.dedicatedSearchResultsList.setAttribute("id", "search-results");\n      }\n      return this;\n    }\n    async searchCurrentDocument(query) {\n      this.clearCurrentDocumentSearch();\n      const textNodes = getTextNodes(ObsidianSite.document.sizerEl ?? ObsidianSite.document.documentEl);\n      textNodes.forEach(async (node) => {\n        const content = node.nodeValue;\n        const newContent = content?.replace(new RegExp(query, "gi"), (match) => `<mark>${match}</mark>`);\n        if (newContent && newContent !== content) {\n          const tempDiv = document.createElement("div");\n          tempDiv.innerHTML = newContent;\n          const newNodes = Array.from(tempDiv.childNodes);\n          newNodes.forEach((newNode) => {\n            if (newNode.nodeType != Node.TEXT_NODE) {\n              newNode?.setAttribute("class", "search-mark");\n            }\n            node?.parentNode?.insertBefore(newNode, node);\n          });\n          node?.parentNode?.removeChild(node);\n        }\n      });\n      const firstMark = document.querySelector(".search-mark");\n      setTimeout(() => {\n        if (firstMark)\n          ObsidianSite.scrollTo(firstMark);\n      }, 500);\n    }\n    clearCurrentDocumentSearch() {\n      document.querySelectorAll(".search-mark").forEach((node) => {\n        node.outerHTML = node.innerHTML;\n      });\n    }\n  };\n\n  // src/frontend/main/sidebars.ts\n  var Sidebar = class {\n    constructor(container) {\n      this.minWidthEm = 15;\n      if (!container.classList.contains("sidebar"))\n        throw new Error("Invalid sidebar container");\n      this.containerEl = container;\n      this.contentEl = container.querySelector(".leaf-content");\n      this.topbarEl = container.querySelector(".sidebar-topbar");\n      this.collapseEl = document.querySelector(container.id == "left-sidebar" ? "#left-sidebar-toggle-button" : "#right-sidebar-toggle-button") ?? container.querySelector(".sidebar-collapse-icon") ?? document.querySelector(`.global-topbar-sidebar-toggle[data-sidebar="${container.id}"]`) ?? void 0;\n      this.topbarContentEl = container.querySelector(".topbar-content");\n      this.resizeHandleEl = container.querySelector(".sidebar-handle") ?? void 0;\n      this._isLeft = container.id == "left-sidebar";\n      this._sidebarID = container.id;\n      if (!this.collapseEl) {\n        this.collapseEl = this.createGlobalSidebarToggle();\n      }\n      this.collapseEl?.addEventListener("click", () => {\n        this.collapsed = !this.collapsed;\n      });\n      this.clickOutsideCollapse = this.clickOutsideCollapse.bind(this);\n      this.minResizeWidth = parseFloat(getComputedStyle(this.resizeHandleEl?.parentElement ?? this.resizeHandleEl).fontSize) * this.minWidthEm;\n      this.collapseWidth = this.minResizeWidth / 4;\n      this.setupSidebarResize();\n    }\n    get sidebarID() {\n      return this._sidebarID;\n    }\n    get isLeft() {\n      return this._isLeft;\n    }\n    get resizing() {\n      return this._resizing;\n    }\n    get collapsed() {\n      return this._collapsed;\n    }\n    set collapsed(collapse) {\n      if (this._collapsed === collapse) {\n        return;\n      }\n      this._collapsed = collapse;\n      const isPhone = ObsidianSite.deviceSize === "phone";\n      const isTablet = ObsidianSite.deviceSize === "tablet";\n      if (!collapse) {\n        if (isPhone) {\n          if (this.isLeft) {\n            if (ObsidianSite.rightSidebar && !ObsidianSite.rightSidebar.collapsed) {\n              ObsidianSite.rightSidebar.collapsed = true;\n            }\n          } else {\n            if (ObsidianSite.leftSidebar && !ObsidianSite.leftSidebar.collapsed) {\n              ObsidianSite.leftSidebar.collapsed = true;\n            }\n          }\n        }\n        if (isPhone || isTablet) {\n          document.body.removeEventListener("click", this.clickOutsideCollapse);\n          document.body.addEventListener("click", this.clickOutsideCollapse);\n        }\n      } else {\n        document.body.removeEventListener("click", this.clickOutsideCollapse);\n      }\n      this.containerEl.classList.toggle("is-collapsed", collapse);\n    }\n    get floating() {\n      return this._floating;\n    }\n    set floating(floating) {\n      this._floating = floating;\n      this.containerEl.classList.toggle("floating", floating);\n    }\n    get width() {\n      return this.containerEl.offsetWidth;\n    }\n    set width(width) {\n      const newWidth = `min(max(${width}px, ${this.minWidthEm}em), 40vw)`;\n      if (width < this.collapseWidth) {\n        this.collapsed = true;\n        this.containerEl.style.removeProperty("transition-duration");\n      } else {\n        this.collapsed = false;\n        this.containerEl.style.setProperty("--sidebar-width", newWidth);\n        if (width > this.minResizeWidth)\n          this.containerEl.style.transitionDuration = "0s";\n      }\n      if (ObsidianSite.graphView)\n        ObsidianSite.graphView.graphRenderer.autoResizeCanvas();\n    }\n    createGlobalSidebarToggle() {\n      const navbarZoneSelector = this.isLeft ? "#navbar .navbar-zone-left" : "#navbar .navbar-zone-right";\n      const navbarZone = document.querySelector(navbarZoneSelector);\n      if (!navbarZone)\n        return void 0;\n      const toggle = document.createElement("div");\n      toggle.className = `clickable-icon sidebar-collapse-icon global-topbar-sidebar-toggle ${this.isLeft ? "sidebar-toggle-left" : "sidebar-toggle-right"}`;\n      toggle.id = this.isLeft ? "left-sidebar-toggle-button" : "right-sidebar-toggle-button";\n      toggle.setAttribute("data-sidebar", this.containerEl.id);\n      toggle.setAttribute("aria-label", this.isLeft ? "Toggle left sidebar" : "Toggle right sidebar");\n      toggle.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-toggle-button-icon"><rect x="1" y="2" width="22" height="20" rx="4"></rect><rect x="4" y="5" width="2" height="14" rx="2" fill="currentColor" class="sidebar-toggle-icon-inner"></rect></svg>`;\n      navbarZone.appendChild(toggle);\n      return toggle;\n    }\n    setupSidebarResize() {\n      if (!this.resizeHandleEl)\n        return;\n      const savedWidth = localStorage.getItem(`${this.sidebarID}-width`);\n      if (savedWidth)\n        this.containerEl.style.setProperty("--sidebar-width", savedWidth);\n      const localThis = this;\n      function resizeMove(e) {\n        if (!localThis.resizing)\n          return;\n        const distance = localThis.isLeft ? e.clientX : window.innerWidth - e.clientX;\n        localThis.width = distance;\n      }\n      function handleClick(e) {\n        localThis._resizing = true;\n        localThis.containerEl.classList.add("is-resizing");\n        document.addEventListener("pointermove", resizeMove);\n        document.addEventListener("pointerup", function() {\n          document.removeEventListener("pointermove", resizeMove);\n          const finalWidth = getComputedStyle(localThis.containerEl).getPropertyValue("--sidebar-width");\n          localStorage.setItem(`${localThis.sidebarID}-width`, finalWidth);\n          localThis.containerEl.classList.remove("is-resizing");\n          localThis.containerEl.style.removeProperty("transition-duration");\n        });\n      }\n      this.resizeHandleEl.addEventListener("pointerdown", handleClick);\n      function resetSidebarEvent(e) {\n        localThis.resetWidth();\n      }\n      this.resizeHandleEl.addEventListener("dblclick", resetSidebarEvent);\n    }\n    resetWidth() {\n      this.containerEl.style.removeProperty("transition-duration");\n      this.containerEl.style.removeProperty("--sidebar-width");\n      localStorage.removeItem(`${this.sidebarID}-width`);\n      setTimeout(() => {\n        console.log("Resizing canvas");\n        if (ObsidianSite.graphView) {\n          ObsidianSite.graphView.graphRenderer.autoResizeCanvas();\n          ObsidianSite.graphView.graphRenderer.centerCamera();\n        }\n      }, 500);\n    }\n    clickOutsideCollapse(event) {\n      const target = event.target;\n      if (target?.closest(`#${this.containerEl.id}`)) {\n        return;\n      }\n      if (target?.closest(`.global-topbar-sidebar-toggle[data-sidebar="${this.containerEl.id}"]`)) {\n        return;\n      }\n      const isPhone = ObsidianSite.deviceSize === "phone";\n      const isTablet = ObsidianSite.deviceSize === "tablet";\n      if (isPhone || isTablet) {\n        this.collapsed = true;\n      }\n    }\n  };\n\n  // src/frontend/main/trees.ts\n  var TreeItem = class {\n    constructor(itemEl, parent, depth = 0, minCollapseDepth = 1) {\n      this._path = "";\n      this.collapseAnimationLength = 150;\n      this._oldAnimationLength = this.collapseAnimationLength;\n      this.root = this instanceof Tree ? this : parent?.root ?? (parent instanceof Tree ? parent : void 0);\n      this.parent = parent;\n      this.minCollapseDepth = minCollapseDepth;\n      let isRoot = this instanceof Tree;\n      this.itemEl = itemEl;\n      this.selfEl = isRoot ? itemEl : itemEl.querySelector(".tree-item-self");\n      this.collapseIconEl = isRoot ? itemEl : this.selfEl.querySelector(".collapse-icon");\n      this.innerEl = isRoot ? itemEl : this.selfEl.querySelector(".tree-item-inner");\n      this.childrenEl = isRoot ? itemEl : itemEl.querySelector(".tree-item-children");\n      const hrefAttr = this.selfEl.getAttribute("href");\n      if (hrefAttr)\n        this.path = hrefAttr;\n      this.children = [];\n      const childItems = Array.from(this.childrenEl.children).filter((el) => el.classList.contains("tree-item"));\n      childItems.forEach((child) => {\n        this.children.push(new TreeItem(child, this, depth + 1, this.minCollapseDepth));\n      });\n      this._isFolder = this.itemEl.classList.contains("nav-folder");\n      this._isLink = this.selfEl.tagName == "A";\n      this.depth = depth;\n      this._isCollapsible = this.itemEl.classList.contains("mod-collapsible") && this.depth >= this.minCollapseDepth;\n      if (!this._isCollapsible) {\n        if (this.collapseIconEl && !(this instanceof Tree)) {\n          console.log(this);\n          this.collapseIconEl.remove();\n          this.collapseIconEl = void 0;\n        }\n        this.selfEl.classList.remove("mod-collapsible");\n        this.itemEl.classList.remove("mod-collapsible");\n        this.itemEl.classList.remove("is-collapsed");\n      }\n      this.collapsed = this.itemEl.classList.contains("is-collapsed");\n      if (this._isCollapsible) {\n        const clickItem = this.isLink ? this.collapseIconEl ?? this.selfEl : this.selfEl;\n        clickItem.addEventListener("click", (e) => {\n          this.collapsed = !this.collapsed;\n          e.preventDefault();\n          e.stopPropagation();\n        });\n      }\n      this._checkAnyChildrenOpen();\n    }\n    get path() {\n      return this._path;\n    }\n    set path(path) {\n      if (this.root.pathToItem) {\n        this.root.pathToItem.delete(this._path);\n        this.root.pathToItem.set(path, this);\n      }\n      this._path = path;\n      this.selfEl.setAttribute("href", path);\n    }\n    get title() {\n      return this.innerEl.innerHTML;\n    }\n    set title(title) {\n      this.innerEl.innerHTML = title;\n    }\n    get isFolder() {\n      return this._isFolder;\n    }\n    get isLink() {\n      return this._isLink;\n    }\n    get collapsable() {\n      return this._isCollapsible;\n    }\n    get collapsed() {\n      return this._collapsed;\n    }\n    set collapsed(collapse) {\n      if (!this.collapsable)\n        collapse = false;\n      if (this.collapsed == collapse)\n        return;\n      if (!collapse && this.parent instanceof TreeItem && this.parent.collapsed) {\n        this.parent.collapsed = false;\n      }\n      this._collapsed = collapse;\n      this.itemEl.classList.toggle("is-collapsed", collapse);\n      this.collapseIconEl?.classList.toggle("is-collapsed", collapse);\n      if (collapse)\n        slideUp(this.childrenEl, this.collapseAnimationLength);\n      else\n        slideDown(this.childrenEl, this.collapseAnimationLength);\n      this.parent?._checkAnyChildrenOpen();\n    }\n    get collapsedRecursive() {\n      return this._collapsedRecursive;\n    }\n    set collapsedRecursive(collapse) {\n      if (this.collapsedRecursive == collapse)\n        return;\n      this._collapsedRecursive = collapse;\n      this.children.forEach((child) => {\n        child.collapsed = collapse;\n        child.collapsedRecursive = collapse;\n      });\n    }\n    get anyChildrenOpen() {\n      return this._anyChildrenOpen;\n    }\n    _checkAnyChildrenOpen() {\n      this._anyChildrenOpen = this.children.some((child) => !child.collapsed && child.collapsable);\n      this._collapsedRecursive = !this._anyChildrenOpen;\n      return this._anyChildrenOpen;\n    }\n    forAllChildren(callback) {\n      this.children.forEach((child) => {\n        callback(child);\n        child.forAllChildren(callback);\n      });\n    }\n    overrideAnimationLength(length) {\n      this._oldAnimationLength = this.collapseAnimationLength;\n      this.collapseAnimationLength = length;\n      this.children.forEach((child) => {\n        child.overrideAnimationLength(length);\n      });\n    }\n    restoreAnimationLength() {\n      this.collapseAnimationLength = this._oldAnimationLength;\n      this.children.forEach((child) => {\n        child.restoreAnimationLength();\n      });\n    }\n    setActive(options = {}) {\n      if (this.root.activeItem)\n        this.root.activeItem.selfEl.classList.remove("is-active");\n      this.root.activeItem = this;\n      this.selfEl.classList.add("is-active");\n      if (options.scrollIntoView) {\n        this.selfEl.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });\n      }\n    }\n    setFiltered(filteredOut) {\n      if (filteredOut) {\n        this.itemEl.classList.add("filtered-out");\n      } else {\n        this.itemEl.classList.remove("filtered-out");\n        this.parent?.setFiltered(false);\n      }\n    }\n    filter(paths) {\n      this.overrideAnimationLength(0);\n      this.itemEl.classList.add("filtered");\n      this.collapsedRecursive = false;\n      this.forAllChildren((child) => {\n        child.setFiltered(true);\n      });\n      paths.forEach((path) => {\n        const item = this.findByPath(path);\n        if (item)\n          item.setFiltered(false);\n      });\n    }\n    async unfilter() {\n      this.itemEl.classList.remove("filtered");\n      this.forAllChildren((child) => {\n        child.setFiltered(false);\n      });\n      this.collapsedRecursive = true;\n      this.restoreAnimationLength();\n    }\n    setSubHeadings(hintLabelLists) {\n      this.removeSubHeadings();\n      for (const [path, hintLabels] of hintLabelLists) {\n        if (hintLabels.length == 0)\n          continue;\n        const item = this.findByPath(path);\n        if (!item)\n          continue;\n        item.itemEl.classList.add("has-hints");\n        const hintContainer = document.createElement("div");\n        hintContainer.classList.add("tree-hint-container");\n        item.itemEl.appendChild(hintContainer);\n        hintLabels.forEach((label) => {\n          const hintLabelEl = document.createElement("a");\n          hintLabelEl.classList.add("tree-hint-label");\n          hintLabelEl.classList.add("internal-link");\n          hintLabelEl.textContent = label;\n          hintLabelEl.href = path + "#" + label;\n          hintContainer.appendChild(hintLabelEl);\n        });\n        LinkHandler.initializeLinks(hintContainer);\n      }\n    }\n    removeSubHeadings() {\n      this.itemEl.classList.remove("has-hints");\n      this.itemEl.querySelectorAll(".tree-hint-container").forEach((el) => {\n        el.remove();\n      });\n      this.itemEl.querySelectorAll(".has-hints").forEach((el) => {\n        el.classList.remove("has-hints");\n      });\n    }\n    sort(sortFunction) {\n      this.itemEl.classList.add("sorted");\n      this.children.sort(sortFunction);\n      this.children.forEach((child) => {\n        child.sort(sortFunction);\n      });\n      this.children.forEach((child) => {\n        this.childrenEl.appendChild(child.itemEl);\n      });\n    }\n    unsort() {\n      this.itemEl.classList.remove("sorted");\n      this.sort((a, b) => (ObsidianSite.getWebpageData(a.path)?.treeOrder ?? 0) - (ObsidianSite.getWebpageData(b.path)?.treeOrder ?? 0));\n    }\n    find(predicate) {\n      if (predicate(this))\n        return this;\n      for (const child of this.children) {\n        const found = child.find(predicate);\n        if (found)\n          return found;\n      }\n      return void 0;\n    }\n    findByPath(path) {\n      return this.root.pathToItem.get(path);\n    }\n  };\n  var _Tree = class extends TreeItem {\n    constructor(container, minCollapseDepth = 1) {\n      const wrapperEl = container.classList.contains("tree-container") ? container : container.querySelector(".tree-container");\n      if (wrapperEl == null)\n        throw new Error("Invalid tree container");\n      super(wrapperEl, void 0, 0, minCollapseDepth);\n      this.pathToItem = /* @__PURE__ */ new Map();\n      this.rootEl = wrapperEl;\n      this.childrenEl = this.rootEl;\n      this.selfEl = this.rootEl;\n      this.innerEl = this.rootEl;\n      this.collapseAllEl = this.rootEl.querySelector(".tree-collapse-all");\n      const collapseSvg = this.collapseAllEl?.querySelector("svg");\n      if (collapseSvg) {\n        collapseSvg.innerHTML = "<path d></path><path d></path>";\n        this.collapsePath1 = collapseSvg.querySelector("path");\n        this.collapsePath2 = collapseSvg.querySelector("path:last-child");\n      }\n      this.forAllChildren((child) => {\n        if (child.path != "")\n          this.pathToItem.set(child.path, child);\n      });\n      this.collapseAllEl?.addEventListener("click", () => {\n        this.setCollapseIcon(!this.collapsedRecursive);\n        this.collapsedRecursive = !this.collapsedRecursive;\n      });\n      LinkHandler.initializeLinks(this.rootEl);\n      this.setCollapseIcon(!this.anyChildrenOpen);\n    }\n    _checkAnyChildrenOpen() {\n      const open = super._checkAnyChildrenOpen();\n      this.setCollapseIcon(!open);\n      return open;\n    }\n    setCollapseIcon(collapsed) {\n      if (collapsed) {\n        this.collapsePath1?.setAttribute("d", _Tree.collapsePaths[0]);\n        this.collapsePath2?.setAttribute("d", _Tree.collapsePaths[1]);\n      } else {\n        this.collapsePath1?.setAttribute("d", _Tree.uncollapsePaths[0]);\n        this.collapsePath2?.setAttribute("d", _Tree.uncollapsePaths[1]);\n      }\n    }\n    revealPath(path) {\n      const item = this.findByPath(path);\n      if (!item)\n        return;\n      item.collapsed = false;\n    }\n  };\n  var Tree = _Tree;\n  Tree.collapsePaths = ["m7 15 5 5 5-5", "m7 9 5-5 5 5"];\n  Tree.uncollapsePaths = ["m7 20 5-5 5 5", "m7 4 5 5 5-5"];\n\n  // src/frontend/graph-view/graph-wasm-helper.ts\n  var _positionsPtr, _positionsByteLength, _radiiPtr, _linkSourcesPtr, _linkTargetsPtr;\n  var GraphWASMHelper = class {\n    constructor() {\n      this.nodeCount = 0;\n      this.linkCount = 0;\n      this.hoveredNode = -1;\n      __privateAdd(this, _positionsPtr, 0);\n      __privateAdd(this, _positionsByteLength, 0);\n      __privateAdd(this, _radiiPtr, 0);\n      __privateAdd(this, _linkSourcesPtr, 0);\n      __privateAdd(this, _linkTargetsPtr, 0);\n      this.startPositions = new Float32Array(0);\n      this.linkSources = new Int32Array(0);\n      this.linkTargets = new Int32Array(0);\n      this.radii = new Float32Array(0);\n      this.maxRadius = 0;\n      this.averageRadius = 0;\n      this.minRadius = 0;\n    }\n    init(graph, positions) {\n      this.free();\n      this.graphView = graph;\n      this.nodeCount = graph.nodeCount;\n      this.linkCount = graph.linkCount;\n      if (positions?.length != this.nodeCount * 2) {\n        throw new Error("Invalid positions array length");\n      }\n      this.radii = new Float32Array(graph.radii);\n      this.linkSources = new Int32Array(graph.linkSources);\n      this.linkTargets = new Int32Array(graph.linkTargets);\n      this.maxRadius = this.radii.reduce((a, b) => Math.max(a, b));\n      this.averageRadius = this.radii.reduce((a, b) => a + b) / this.radii.length;\n      this.minRadius = this.radii.reduce((a, b) => Math.min(a, b));\n      this.startPositions = new Float32Array(this.nodeCount * 2);\n      this.startPositions = this.generatePositions(positions);\n      __privateSet(this, _positionsPtr, Module._malloc(this.startPositions.byteLength));\n      __privateSet(this, _positionsByteLength, this.startPositions.byteLength);\n      __privateSet(this, _radiiPtr, Module._malloc(this.radii.byteLength));\n      __privateSet(this, _linkSourcesPtr, Module._malloc(this.linkSources.byteLength));\n      __privateSet(this, _linkTargetsPtr, Module._malloc(this.linkTargets.byteLength));\n      Module.HEAP32.set(new Int32Array(this.startPositions.buffer), __privateGet(this, _positionsPtr) / this.startPositions.BYTES_PER_ELEMENT);\n      Module.HEAP32.set(new Int32Array(this.radii.buffer), __privateGet(this, _radiiPtr) / this.radii.BYTES_PER_ELEMENT);\n      Module.HEAP32.set(new Int32Array(this.linkSources.buffer), __privateGet(this, _linkSourcesPtr) / this.linkSources.BYTES_PER_ELEMENT);\n      Module.HEAP32.set(new Int32Array(this.linkTargets.buffer), __privateGet(this, _linkTargetsPtr) / this.linkTargets.BYTES_PER_ELEMENT);\n      Module._Init(__privateGet(this, _positionsPtr), __privateGet(this, _radiiPtr), __privateGet(this, _linkSourcesPtr), __privateGet(this, _linkTargetsPtr), this.nodeCount, this.linkCount, graph.batchFraction, graph.ticker.deltaTime, graph.options.attractionForce, graph.options.linkLength, graph.options.repulsionForce, graph.options.centralForce);\n    }\n    get positions() {\n      return Module.HEAP32.buffer.slice(__privateGet(this, _positionsPtr), __privateGet(this, _positionsPtr) + __privateGet(this, _positionsByteLength));\n    }\n    get positionsF() {\n      return new Float32Array(this.positions);\n    }\n    generatePositions(defaultPositions) {\n      let positions = new Float32Array(defaultPositions ?? new Array(this.nodeCount * 2).fill(0));\n      const spawnRadius = this.averageRadius * 2 * Math.sqrt(this.nodeCount) * 2;\n      for (let i = 0; i < this.nodeCount; i++) {\n        const value = positions[i * 2];\n        if (value != 0 && !isNaN(value) && value != void 0) {\n          continue;\n        }\n        const distance = (1 - this.radii[i] / this.maxRadius) * spawnRadius;\n        positions[i * 2] = Math.cos(i / this.nodeCount * 7.41 * 2 * Math.PI) * distance;\n        positions[i * 2 + 1] = Math.sin(i / this.nodeCount * 7.41 * 2 * Math.PI) * distance;\n      }\n      return positions;\n    }\n    getBounds() {\n      let bounds = new Bounds(0, 0, 0, 0);\n      const positions = new Float32Array(this.positions);\n      for (let i = 0; i < this.nodeCount - 1; i += 2) {\n        const pos = new Vector2(positions[i], positions[i + 1]);\n        bounds.encapsulatePoint(pos.scale(2));\n      }\n      const centerDelta = bounds.center;\n      const centerDist = centerDelta.magnitude;\n      bounds = bounds.expand(50 + centerDist);\n      bounds.translate(centerDelta.inverse);\n      return bounds;\n    }\n    update(mousePosition, grabbedNode, cameraScale) {\n      this.hoveredNode = Module._Update(mousePosition.x, mousePosition.y, grabbedNode, cameraScale);\n    }\n    free() {\n      Module._free(__privateGet(this, _positionsPtr));\n      Module._free(__privateGet(this, _radiiPtr));\n      Module._free(__privateGet(this, _linkSourcesPtr));\n      Module._free(__privateGet(this, _linkTargetsPtr));\n      Module._FreeMemory();\n    }\n    set batchFraction(value) {\n      Module._SetBatchFractionSize(value);\n    }\n    set attractionForce(value) {\n      Module._SetAttractionForce(value);\n    }\n    set repulsionForce(value) {\n      Module._SetRepulsionForce(value);\n    }\n    set centralForce(value) {\n      Module._SetCentralForce(value);\n    }\n    set linkLength(value) {\n      Module._SetLinkLength(value);\n    }\n    set dt(value) {\n      Module._SetDt(value);\n    }\n    set settleness(value) {\n      Module._SetSettleness(value);\n    }\n  };\n  _positionsPtr = new WeakMap();\n  _positionsByteLength = new WeakMap();\n  _radiiPtr = new WeakMap();\n  _linkSourcesPtr = new WeakMap();\n  _linkTargetsPtr = new WeakMap();\n\n  // src/frontend/graph-view/graph-worker-helper.ts\n  var _pixiInit, pixiInit_fn, _pixiSetInteraction, pixiSetInteraction_fn, _pixiSetCamera, pixiSetCamera_fn, _pixiSetColors, pixiSetColors_fn;\n  var GraphRenderWorker = class {\n    constructor(graph) {\n      __privateAdd(this, _pixiInit);\n      __privateAdd(this, _pixiSetInteraction);\n      __privateAdd(this, _pixiSetCamera);\n      __privateAdd(this, _pixiSetColors);\n      this.graph = graph;\n      this.canvas = document.querySelector("#graph-canvas");\n      this.canvasSidebar = this.canvas.closest(".sidebar");\n      console.log("Creating graph worker");\n      try {\n        this.view = this.canvas.transferControlToOffscreen();\n      } catch (e) {\n        console.log("Failed to transfer control to offscreen canvas");\n      }\n      var workerPath = `${ObsidianSite.document.info.pathToRoot}/${Shared.libFolderName}/${Shared.scriptsFolderName}/graph-render-worker.js`;\n      if (window.location.protocol === "file:") {\n        var fileInfo = ObsidianSite.getLocalDataFromId(LinkHandler.getFileDataIdFromURL(workerPath));\n        const data = Uint8Array.from(Array.from(fileInfo.data).map((s) => s.charCodeAt(0)));\n        this.worker = new Worker(URL.createObjectURL(new Blob([data], { type: "application/javascript" })));\n      } else {\n        this.worker = new Worker(new URL(workerPath, window.location.href).pathname);\n      }\n      this._cameraOffset = new Vector2(0, 0);\n      this._cameraScale = 1;\n      this._hoveredNode = -1;\n      this._grabbedNode = -1;\n      this._colors = {\n        background: 0,\n        link: 0,\n        node: 0,\n        outline: 0,\n        text: 0,\n        accent: 0\n      };\n      this._width = 0;\n      this._height = 0;\n      this.cameraOffset = new Vector2(this.canvas.width, this.canvas.height).scale(0.5);\n      this.cameraScale = 1;\n      this.hoveredNode = -1;\n      this.grabbedNode = -1;\n      this.resampleColors();\n      __privateMethod(this, _pixiInit, pixiInit_fn).call(this, true);\n      this.width = this.canvas.width;\n      this.height = this.canvas.height;\n      this.autoResizeCanvas();\n    }\n    get cameraOffset() {\n      return this._cameraOffset;\n    }\n    set cameraOffset(offset) {\n      this._cameraOffset = offset;\n      __privateMethod(this, _pixiSetCamera, pixiSetCamera_fn).call(this, offset, this.cameraScale);\n    }\n    get cameraScale() {\n      return this._cameraScale;\n    }\n    set cameraScale(scale) {\n      this._cameraScale = scale;\n      __privateMethod(this, _pixiSetCamera, pixiSetCamera_fn).call(this, this.cameraOffset, scale);\n    }\n    get hoveredNode() {\n      return this._hoveredNode;\n    }\n    set hoveredNode(node) {\n      this._hoveredNode = node;\n      __privateMethod(this, _pixiSetInteraction, pixiSetInteraction_fn).call(this, node, this._grabbedNode);\n    }\n    get grabbedNode() {\n      return this._grabbedNode;\n    }\n    set grabbedNode(node) {\n      this._grabbedNode = node;\n      __privateMethod(this, _pixiSetInteraction, pixiSetInteraction_fn).call(this, this._hoveredNode, node);\n    }\n    get colors() {\n      return this._colors;\n    }\n    set colors(colors) {\n      this._colors = colors;\n      __privateMethod(this, _pixiSetColors, pixiSetColors_fn).call(this, colors);\n    }\n    get width() {\n      return this._width;\n    }\n    set width(width) {\n      this._width = width;\n      this.resizeCanvas(width, this._height);\n    }\n    get height() {\n      return this._height;\n    }\n    set height(height) {\n      this._height = height;\n      this.resizeCanvas(this._width, height);\n    }\n    set activeNode(node) {\n      this.worker.postMessage({\n        type: "set_active",\n        active: node\n      });\n    }\n    updateData(graph) {\n      this.graph = graph;\n      __privateMethod(this, _pixiInit, pixiInit_fn).call(this);\n    }\n    sampleColor(variable) {\n      const testEl = document.createElement("div");\n      document.body.appendChild(testEl);\n      testEl.style.setProperty("display", "none");\n      testEl.style.setProperty("color", "var(" + variable + ")");\n      const col = getComputedStyle(testEl).color;\n      const opacity = getComputedStyle(testEl).opacity;\n      testEl.remove();\n      function toColorObject(str) {\n        const match = str.match(/rgb?\\((\\d+),\\s*(\\d+),\\s*(\\d+)\\)/);\n        return match ? {\n          red: parseInt(match[1]),\n          green: parseInt(match[2]),\n          blue: parseInt(match[3]),\n          alpha: 1\n        } : null;\n      }\n      const color = toColorObject(col);\n      const alpha = parseFloat(opacity);\n      const result = {\n        a: alpha * (color?.alpha ?? 1),\n        rgb: (color?.red ?? 8912896) << 16 | (color?.green ?? 34816) << 8 | (color?.blue ?? 136)\n      };\n      return result;\n    }\n    resampleColors() {\n      this.colors = {\n        background: this.sampleColor("--background-secondary").rgb,\n        link: this.sampleColor("--graph-line").rgb,\n        node: this.sampleColor("--graph-node").rgb,\n        outline: this.sampleColor("--graph-line").rgb,\n        text: this.sampleColor("--graph-text").rgb,\n        accent: this.sampleColor("--interactive-accent").rgb\n      };\n    }\n    draw(_positions) {\n      this.worker.postMessage({\n        type: "draw",\n        positions: _positions\n      }, [_positions]);\n    }\n    resizeCanvas(width, height) {\n      this.worker.postMessage({\n        type: "resize",\n        width,\n        height\n      });\n      this._width = width;\n      this._height = height;\n    }\n    autoResizeCanvas() {\n      let canvasWidth = this.canvas.offsetWidth;\n      let canvasHeight = this.canvas.offsetHeight;\n      if (this.width != canvasWidth || this.height != canvasHeight) {\n        this.centerCamera();\n        this.resizeCanvas(canvasWidth, canvasHeight);\n      }\n    }\n    centerCamera() {\n      this.cameraOffset = new Vector2(this.width, this.height).scale(0.5);\n    }\n    toScreenSpace(x, y, floor = true) {\n      let xScreen = x * this.cameraScale + this.cameraOffset.x;\n      let yScreen = y * this.cameraScale + this.cameraOffset.y;\n      if (floor) {\n        xScreen = Math.floor(xScreen);\n        yScreen = Math.floor(yScreen);\n      }\n      return new Vector2(xScreen, yScreen);\n    }\n    vecToScreenSpace(vector, floor = true) {\n      return this.toScreenSpace(vector.x, vector.y, floor);\n    }\n    toWorldspace(x, y) {\n      const xWorld = (x - this.cameraOffset.x) / this.cameraScale;\n      const yWorld = (y - this.cameraOffset.y) / this.cameraScale;\n      return new Vector2(xWorld, yWorld);\n    }\n    vecToWorldspace(vector) {\n      return this.toWorldspace(vector.x, vector.y);\n    }\n    setCameraCenterWorldspace(position) {\n      this.cameraOffset = new Vector2(this.width / 2 - position.x * this.cameraScale, this.height / 2 - position.y * this.cameraScale);\n    }\n    getCameraCenterWorldspace() {\n      return this.toWorldspace(this.width / 2, this.height / 2);\n    }\n  };\n  _pixiInit = new WeakSet();\n  pixiInit_fn = function(initial = false) {\n    const { width, height } = this.view;\n    let options = { width, height, view: this.view };\n    let objects = [this.view];\n    if (!initial) {\n      options = { width, height };\n      objects = [];\n    }\n    this.worker.postMessage({\n      type: "init",\n      linkCount: this.graph.graphSim.linkCount,\n      linkSources: this.graph.graphSim.linkSources,\n      linkTargets: this.graph.graphSim.linkTargets,\n      nodeCount: this.graph.graphSim.nodeCount,\n      radii: this.graph.graphSim.radii,\n      labels: this.graph.labels,\n      linkLength: this.graph.options.linkLength,\n      edgePruning: this.graph.options.edgePruning,\n      options\n    }, objects);\n  };\n  _pixiSetInteraction = new WeakSet();\n  pixiSetInteraction_fn = function(hoveredNodeIndex, grabbedNodeIndex) {\n    const obj = {\n      type: "update_interaction",\n      hoveredNode: hoveredNodeIndex,\n      grabbedNode: grabbedNodeIndex\n    };\n    this.worker.postMessage(obj);\n  };\n  _pixiSetCamera = new WeakSet();\n  pixiSetCamera_fn = function(cameraOffset, cameraScale) {\n    this.worker.postMessage({\n      type: "update_camera",\n      cameraOffset,\n      cameraScale\n    });\n  };\n  _pixiSetColors = new WeakSet();\n  pixiSetColors_fn = function(colors) {\n    this.worker.postMessage({\n      type: "update_colors",\n      colors\n    });\n  };\n\n  // src/shared/inserted-feature.ts\n  var _InsertedFeature = class {\n    constructor(options, existingElement) {\n      this.elements = /* @__PURE__ */ new Map();\n      this._options = options;\n      if (existingElement) {\n        this.replaceFeature(existingElement);\n      } else {\n        this.setupFeatureContainer();\n      }\n      this.options.insertFeature(document.body, this.getElement(_InsertedFeature.FEATURE_KEY));\n      this.onAfterMount();\n    }\n    getElementDefinitions() {\n      return {\n        [_InsertedFeature.FEATURE_KEY]: {\n          type: "div",\n          className: ["feature", "hide"],\n          id: this.options.featureId\n        },\n        [_InsertedFeature.HEADER_KEY]: {\n          type: "div",\n          className: "feature-header"\n        },\n        [_InsertedFeature.CONTENT_KEY]: {\n          type: "div",\n          className: `${this.options.featureId}-content`\n        },\n        [_InsertedFeature.TITLE_KEY]: {\n          type: "div",\n          className: "feature-title"\n        }\n      };\n    }\n    getElementHierarchy() {\n      return {\n        [_InsertedFeature.FEATURE_KEY]: null,\n        [_InsertedFeature.HEADER_KEY]: _InsertedFeature.FEATURE_KEY,\n        [_InsertedFeature.TITLE_KEY]: _InsertedFeature.HEADER_KEY,\n        [_InsertedFeature.CONTENT_KEY]: _InsertedFeature.FEATURE_KEY\n      };\n    }\n    createElement(definition) {\n      const element = document.createElement(definition.type);\n      if (definition.className) {\n        const classes = Array.isArray(definition.className) ? definition.className : [definition.className];\n        element.classList.add(...classes);\n      }\n      if (definition.id) {\n        element.id = definition.id;\n      }\n      if (definition.attributes) {\n        Object.entries(definition.attributes).forEach(([key, value]) => {\n          element.setAttribute(key, value);\n        });\n      }\n      return element;\n    }\n    getElement(key) {\n      return this.elements.get(key);\n    }\n    setupFeatureContainer() {\n      const definitions = this.getElementDefinitions();\n      const hierarchy = this.getElementHierarchy();\n      Object.entries(definitions).forEach(([key, def]) => {\n        this.elements.set(key, this.createElement(def));\n      });\n      Object.entries(hierarchy).forEach(([key, parentKey]) => {\n        if (parentKey === null)\n          return;\n        const element = this.elements.get(key);\n        const parent = this.elements.get(parentKey);\n        if (element && parent) {\n          parent.appendChild(element);\n        }\n      });\n      if (this._options instanceof InsertedFeatureOptionsWithTitle && this._options.displayTitle?.length > 0) {\n        const titleEl = this.getElement(_InsertedFeature.TITLE_KEY);\n        if (titleEl) {\n          titleEl.innerText = this._options.displayTitle;\n        }\n      }\n      setTimeout(() => {\n        const featureEl = this.getElement(_InsertedFeature.FEATURE_KEY);\n        featureEl?.classList.remove("hide");\n      }, 0);\n    }\n    replaceFeature(existingElement) {\n      this.destroy();\n      const definitions = this.getElementDefinitions();\n      const hierarchy = this.getElementHierarchy();\n      this.elements.set(_InsertedFeature.FEATURE_KEY, existingElement);\n      Object.entries(definitions).forEach(([key, def]) => {\n        if (key === _InsertedFeature.FEATURE_KEY)\n          return;\n        let element = existingElement.querySelector(`.${Array.isArray(def.className) ? def.className[0] : def.className}`);\n        if (!element) {\n          element = this.createElement(def);\n          const parentKey = hierarchy[key];\n          if (parentKey) {\n            const parent = this.elements.get(parentKey);\n            parent?.appendChild(element);\n          }\n        }\n        this.elements.set(key, element);\n      });\n    }\n    onAfterMount() {\n    }\n    get options() {\n      return this._options;\n    }\n    destroy() {\n      this.elements.forEach((element) => {\n        if (element.parentNode) {\n          element.parentNode.removeChild(element);\n        }\n      });\n      this.elements.clear();\n    }\n  };\n  var InsertedFeature = _InsertedFeature;\n  InsertedFeature.FEATURE_KEY = "feature";\n  InsertedFeature.HEADER_KEY = "header";\n  InsertedFeature.CONTENT_KEY = "content";\n  InsertedFeature.TITLE_KEY = "title";\n\n  // src/frontend/main/graph-view.ts\n  var GraphView = class extends InsertedFeature {\n    constructor(featureEl) {\n      super(ObsidianSite.metadata.featureOptions.graphView, featureEl);\n      this.batchFraction = 1;\n      this.graphExpanded = false;\n      this._paused = false;\n      this._isGlobalGraph = false;\n      this.eventsInitialized = false;\n      this.updateRunning = false;\n      this.mouseWorldPos = new Vector2(0, 0);\n      this.scrollVelocity = 0;\n      this.firstUpdate = true;\n      this.drawLastTime = 0;\n      this.graphSim = new GraphWASMHelper();\n      this.graphContainer = document.querySelector(".graph-view-container");\n      this.globalGraphButton = document.querySelector(".graph-global.graph-icon");\n      this.expandGraphButton = document.querySelector(".graph-expand.graph-icon");\n      this.ticker = new Ticker(60);\n      this.ticker.add(this.update.bind(this));\n      this.ticker.start();\n      requestAnimationFrame(this.draw.bind(this));\n    }\n    set options(value) {\n      this._options = value;\n      if (!this.graphSim)\n        return;\n      this.graphSim.attractionForce = value.attractionForce;\n      this.graphSim.centralForce = value.centralForce;\n      this.graphSim.linkLength = value.linkLength;\n      this.graphSim.repulsionForce = value.repulsionForce / this.batchFraction;\n    }\n    get options() {\n      return this._options;\n    }\n    set attractionForce(value) {\n      if (value == this.options.attractionForce)\n        return;\n      this.options.attractionForce = value;\n      if (this.graphSim) {\n        this.graphSim.attractionForce = value;\n        this.graphSim.settleness = 1;\n      }\n    }\n    get attractionForce() {\n      return this.options.attractionForce;\n    }\n    set centralForce(value) {\n      if (value == this.options.centralForce)\n        return;\n      this.options.centralForce = value;\n      if (this.graphSim) {\n        this.graphSim.centralForce = value;\n        this.graphSim.settleness = 1;\n      }\n    }\n    get centralForce() {\n      return this.options.centralForce;\n    }\n    set linkLength(value) {\n      if (value == this.options.linkLength)\n        return;\n      this.options.linkLength = value;\n      if (this.graphSim) {\n        this.graphSim.linkLength = value;\n        this.graphSim.settleness = 1;\n      }\n    }\n    get linkLength() {\n      return this.options.linkLength;\n    }\n    set repulsionForce(value) {\n      if (value == this.options.repulsionForce)\n        return;\n      this.options.repulsionForce = value;\n      if (this.graphSim) {\n        this.graphSim.repulsionForce = value / this.batchFraction;\n        this.graphSim.settleness = 1;\n      }\n    }\n    get repulsionForce() {\n      return this.options.repulsionForce;\n    }\n    get paused() {\n      return this._paused;\n    }\n    set paused(value) {\n      this._paused = value;\n    }\n    get isGlobalGraph() {\n      return this._isGlobalGraph;\n    }\n    set isGlobalGraph(value) {\n      this._isGlobalGraph = value;\n    }\n    initEvents() {\n      const localThis = this;\n      function getMousePositionOnCanvas(event) {\n        const rect = localThis.graphRenderer.canvas.getBoundingClientRect();\n        const pos = getPointerPosition(event);\n        return new Vector2(pos.x - rect.left, pos.y - rect.top);\n      }\n      function getTouchPositionOnCanvas(event) {\n        const rect = localThis.graphRenderer.canvas.getBoundingClientRect();\n        const pos = getTouchPosition(event);\n        return new Vector2(pos.x - rect.left, pos.y - rect.top);\n      }\n      let pointerPos = new Vector2(0, 0);\n      let lastPointerPos = new Vector2(0, 0);\n      let pointerDelta = new Vector2(0, 0);\n      let dragDisplacement = new Vector2(0, 0);\n      let startDragTime = 0;\n      let pointerDown = false;\n      let middleDown = false;\n      let startPointerPos = new Vector2(0, 0);\n      let firstPointerDownId = -1;\n      let pointerInside = false;\n      const graphContainer = this.graphContainer;\n      const graphRenderer = this.graphRenderer;\n      function handlePointerEnter(enter) {\n        let lastDistance = 0;\n        let startZoom = false;\n        function handleMouseMove(move) {\n          pointerPos = getMousePositionOnCanvas(move);\n          if (pointerPos.isUndefined)\n            return;\n          localThis.mouseWorldPos = graphRenderer.vecToWorldspace(pointerPos);\n          pointerDelta = new Vector2(pointerPos.x - lastPointerPos.x, pointerPos.y - lastPointerPos.y);\n          lastPointerPos = pointerPos;\n          if (graphRenderer.grabbedNode != -1)\n            dragDisplacement = new Vector2(pointerPos.x - startPointerPos.x, pointerPos.y - startPointerPos.y);\n          if (pointerDown && graphRenderer.hoveredNode != -1 && graphRenderer.grabbedNode == -1 && graphRenderer.hoveredNode != graphRenderer.grabbedNode) {\n            graphRenderer.grabbedNode = graphRenderer.hoveredNode;\n          }\n          if (pointerDown && graphRenderer.hoveredNode == -1 && graphRenderer.grabbedNode == -1 || middleDown) {\n            graphRenderer.cameraOffset = new Vector2(graphRenderer.cameraOffset.x + pointerDelta.x, graphRenderer.cameraOffset.y + pointerDelta.y);\n          } else {\n            if (graphRenderer.hoveredNode != -1)\n              graphRenderer.canvas.style.cursor = "pointer";\n            else\n              graphRenderer.canvas.style.cursor = "default";\n          }\n        }\n        function applyPointerMove(nextPos) {\n          if (nextPos.isUndefined)\n            return;\n          pointerPos = nextPos;\n          localThis.mouseWorldPos = graphRenderer.vecToWorldspace(pointerPos);\n          pointerDelta = new Vector2(pointerPos.x - lastPointerPos.x, pointerPos.y - lastPointerPos.y);\n          lastPointerPos = pointerPos;\n          if (graphRenderer.grabbedNode != -1)\n            dragDisplacement = new Vector2(pointerPos.x - startPointerPos.x, pointerPos.y - startPointerPos.y);\n          if (pointerDown && graphRenderer.hoveredNode != -1 && graphRenderer.grabbedNode == -1 && graphRenderer.hoveredNode != graphRenderer.grabbedNode) {\n            graphRenderer.grabbedNode = graphRenderer.hoveredNode;\n          }\n          if (pointerDown && graphRenderer.hoveredNode == -1 && graphRenderer.grabbedNode == -1 || middleDown) {\n            graphRenderer.cameraOffset = new Vector2(graphRenderer.cameraOffset.x + pointerDelta.x, graphRenderer.cameraOffset.y + pointerDelta.y);\n          } else {\n            if (graphRenderer.hoveredNode != -1)\n              graphRenderer.canvas.style.cursor = "pointer";\n            else\n              graphRenderer.canvas.style.cursor = "default";\n          }\n        }\n        function handleTouchMove(move) {\n          if (move.touches?.length == 1) {\n            if (startZoom) {\n              lastPointerPos = getTouchPositionOnCanvas(move);\n              startZoom = false;\n              pointerDelta = new Vector2(0, 0);\n              localThis.mouseWorldPos = graphRenderer.vecToWorldspace(lastPointerPos);\n              return;\n            }\n            applyPointerMove(getTouchPositionOnCanvas(move));\n            return;\n          }\n          if (move.touches?.length == 2) {\n            const touch1 = getTouchPositionVector(move.touches[0]);\n            const touch2 = getTouchPositionVector(move.touches[1]);\n            pointerPos = getTouchPositionOnCanvas(move);\n            pointerDelta = new Vector2(pointerPos.x - lastPointerPos.x, pointerPos.y - lastPointerPos.y);\n            lastPointerPos = pointerPos;\n            const distance = Math.sqrt(Math.pow(touch1.x - touch2.x, 2) + Math.pow(touch1.y - touch2.y, 2));\n            if (!startZoom) {\n              startZoom = true;\n              lastDistance = distance;\n              pointerDelta = new Vector2(0, 0);\n              localThis.mouseWorldPos = Vector2.Undefined;\n              graphRenderer.grabbedNode = -1;\n              graphRenderer.hoveredNode = -1;\n            }\n            const distanceDelta = distance - lastDistance;\n            const scaleDelta = lastDistance == 0 ? 0 : distanceDelta / lastDistance;\n            localThis.scaleAround(graphRenderer.vecToWorldspace(pointerPos), 1 + scaleDelta, 0.15, 15);\n            graphRenderer.cameraOffset = new Vector2(graphRenderer.cameraOffset.x + pointerDelta.x, graphRenderer.cameraOffset.y + pointerDelta.y);\n            lastDistance = distance;\n          }\n        }\n        function handlePointerUp(up) {\n          document.removeEventListener("pointerup", handlePointerUp);\n          const pointerUpTime = Date.now();\n          setTimeout(() => {\n            if (pointerDown && graphRenderer.hoveredNode != -1 && Math.abs(dragDisplacement.x) <= 4 && Math.abs(dragDisplacement.y) <= 4 && pointerUpTime - startDragTime < 300) {\n              localThis.navigateToNode(graphRenderer.hoveredNode);\n            }\n            if (pointerDown && graphRenderer.grabbedNode != -1) {\n              graphRenderer.grabbedNode = -1;\n            }\n            if (up.button == 0)\n              pointerDown = false;\n            if (up.pointerType == "touch" && firstPointerDownId == up.pointerId) {\n              firstPointerDownId = -1;\n              pointerDown = false;\n            }\n            if (up.button == 1)\n              middleDown = false;\n            if (!pointerInside) {\n              document.removeEventListener("mousemove", handleMouseMove);\n              document.removeEventListener("touchmove", handleTouchMove);\n            }\n          }, 0);\n        }\n        function handlePointerDown(down) {\n          document.addEventListener("pointerup", handlePointerUp);\n          localThis.mouseWorldPos = graphRenderer.vecToWorldspace(pointerPos);\n          dragDisplacement = new Vector2(0, 0);\n          if (down.button == 0)\n            pointerDown = true;\n          if (down.pointerType == "touch" && firstPointerDownId == -1) {\n            firstPointerDownId = down.pointerId;\n            pointerDown = true;\n          }\n          if (down.button == 1)\n            middleDown = true;\n          startPointerPos = pointerPos;\n          startDragTime = Date.now();\n        }\n        function handlePointerLeave(leave) {\n          setTimeout(() => {\n            pointerInside = false;\n            if (!pointerDown) {\n              document.removeEventListener("mousemove", handleMouseMove);\n              document.removeEventListener("touchmove", handleTouchMove);\n              localThis.mouseWorldPos = Vector2.Undefined;\n            }\n            graphContainer.removeEventListener("pointerdown", handlePointerDown);\n            graphContainer.removeEventListener("pointerleave", handlePointerLeave);\n          }, 1);\n        }\n        pointerPos = getMousePositionOnCanvas(enter);\n        localThis.mouseWorldPos = graphRenderer.vecToWorldspace(pointerPos);\n        lastPointerPos = getMousePositionOnCanvas(enter);\n        pointerInside = true;\n        document.addEventListener("mousemove", handleMouseMove);\n        document.addEventListener("touchmove", handleTouchMove);\n        graphContainer.addEventListener("pointerdown", handlePointerDown);\n        graphContainer.addEventListener("pointerleave", handlePointerLeave);\n      }\n      this.graphRenderer.canvas.addEventListener("pointerenter", handlePointerEnter);\n      this.expandGraphButton?.addEventListener("click", (event) => {\n        event.stopPropagation();\n        localThis.toggleExpandedGraph();\n      });\n      this.globalGraphButton?.addEventListener("click", (event) => {\n        event.stopPropagation();\n        if (!localThis.isGlobalGraph) {\n          localThis.showGraph();\n        } else {\n          localThis.showGraph([ObsidianSite.document.pathname]);\n        }\n      });\n      graphContainer.addEventListener("wheel", function(e) {\n        const startingScrollVelocity = 0.065;\n        const delta = e.deltaY;\n        if (delta > 0) {\n          if (localThis.scrollVelocity >= -startingScrollVelocity) {\n            localThis.scrollVelocity = -startingScrollVelocity;\n          }\n          localThis.scrollVelocity *= 1.16;\n        } else {\n          if (localThis.scrollVelocity <= startingScrollVelocity) {\n            localThis.scrollVelocity = startingScrollVelocity;\n          }\n          localThis.scrollVelocity *= 1.16;\n        }\n      });\n      graphContainer.addEventListener("dblclick", function(e) {\n        localThis.fitToNodes();\n      });\n      document.querySelector(".theme-toggle-input")?.addEventListener("change", (event) => {\n        setTimeout(() => graphRenderer.resampleColors(), 0);\n      });\n    }\n    async generate(paths) {\n      this.paths = paths;\n      this.nodeCount = this.paths.length;\n      this.linkSources = [];\n      this.linkTargets = [];\n      this.labels = [];\n      this.radii = [];\n      this.colors = [];\n      const linkCounts = [];\n      for (let i = 0; i < this.nodeCount; i++) {\n        linkCounts.push(0);\n      }\n      let pathIndex = 0;\n      for (const source of this.paths) {\n        const fileInfo = ObsidianSite.getWebpageData(source);\n        if (!fileInfo)\n          continue;\n        this.labels.push(fileInfo.title);\n        const links = fileInfo.links.map((l) => LinkHandler.getPathnameFromURL(l)).concat(fileInfo.attachments).concat(fileInfo.backlinks);\n        let uniqueLinks = [...new Set(links)];\n        uniqueLinks.push(source);\n        for (const link of uniqueLinks) {\n          const targetIndex = this.paths.indexOf(link);\n          if (targetIndex != -1) {\n            this.linkSources.push(targetIndex);\n            this.linkTargets.push(pathIndex);\n            linkCounts[pathIndex]++;\n            linkCounts[targetIndex]++;\n          }\n        }\n        pathIndex++;\n      }\n      const maxLinks = Math.max(...linkCounts);\n      this.radii = linkCounts.map((l) => inOutQuadBlend(this.options.minNodeRadius, this.options.maxNodeRadius, Math.min(l / (maxLinks * 0.8), 1)));\n      this.linkCount = this.linkSources.length;\n    }\n    async showGraph(paths) {\n      this.paused = true;\n      let linked = [];\n      if (paths) {\n        for (const element of paths) {\n          const fileInfo = ObsidianSite.getWebpageData(element);\n          if (fileInfo?.backlinks)\n            linked.push(...fileInfo.backlinks);\n          if (fileInfo?.links)\n            linked.push(...fileInfo.links.map((l) => LinkHandler.getPathnameFromURL(l)));\n          if (fileInfo?.attachments)\n            linked.push(...fileInfo.attachments);\n        }\n        linked.push(...paths);\n      } else {\n        linked = ObsidianSite.metadata.allFiles;\n      }\n      if (linked.length == ObsidianSite.metadata.allFiles.length)\n        this.isGlobalGraph = true;\n      else\n        this.isGlobalGraph = false;\n      linked = linked.filter((l) => {\n        let data = ObsidianSite.getWebpageData(l);\n        if (!data?.backlinks || !data?.links || !data?.type)\n          return false;\n        if (data.backlinks.length == 0) {\n          console.log("No backlinks for", l);\n        }\n        if (!this.options.showOrphanNodes && data.backlinks.length == 0 && data.links.length == 0)\n          return false;\n        if (!this.options.showAttachments && (data.type == "attachment" || data.type == "media" || data.type == "other"))\n          return false;\n        return true;\n      });\n      if (linked.length == 0) {\n        console.log("No nodes to display.");\n        return;\n      }\n      const uniquePaths = [...new Set(linked)];\n      const newPositions = new Array(uniquePaths.length * 2).fill(0);\n      if (this.paths?.length > 0) {\n        const oldPositions = this.graphSim.positionsF;\n        for (let i = 0; i < uniquePaths.length; i++) {\n          const path = uniquePaths[i];\n          const index = this.paths.indexOf(path);\n          if (index == -1)\n            continue;\n          newPositions[i * 2] = oldPositions[index * 2];\n          newPositions[i * 2 + 1] = oldPositions[index * 2 + 1];\n        }\n      }\n      await this.generate(uniquePaths);\n      this.graphSim.init(this, newPositions);\n      if (!this.graphRenderer)\n        this.graphRenderer = new GraphRenderWorker(this);\n      else\n        this.graphRenderer.updateData(this);\n      this.fitToNodes();\n      if (!this.eventsInitialized) {\n        this.initEvents();\n        this.eventsInitialized = true;\n      }\n      this.paused = false;\n      const localSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-circle-dot"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="1"/></svg>`;\n      const globalSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><path d="M12 12v3"/></svg>`;\n      this.globalGraphButton.innerHTML = this.isGlobalGraph ? localSVG : globalSVG;\n      this.setActiveNodeByPath(ObsidianSite.document.pathname);\n    }\n    fitToNodes() {\n      this.graphRenderer.centerCamera();\n      this.graphRenderer.cameraScale = 1 / Math.sqrt(this.nodeCount) * this.graphRenderer.canvas.width / 200;\n      this.graphSim.settleness = 1;\n    }\n    update(dt) {\n      if (this.paused || !this.graphRenderer || !this.graphSim) {\n        return;\n      }\n      if (this.firstUpdate) {\n        setTimeout(() => this.graphRenderer?.canvas?.classList.remove("hide"), 500);\n        this.firstUpdate = false;\n      }\n      this.graphSim.dt = dt;\n      this.graphSim.update(this.mouseWorldPos, this.graphRenderer.grabbedNode, this.graphRenderer.cameraScale);\n      if (this.graphSim.hoveredNode != this.graphRenderer.hoveredNode) {\n        this.graphRenderer.hoveredNode = this.graphSim.hoveredNode;\n        this.graphRenderer.canvas.style.cursor = this.graphSim.hoveredNode == -1 ? "default" : "pointer";\n      }\n    }\n    async draw(time) {\n      if (!this.graphRenderer || !this.graphSim || this.paths.length == 0)\n        return;\n      const dt = (time - this.drawLastTime) / 1e3;\n      this.drawLastTime = time;\n      this.graphRenderer.draw(this.graphSim.positions);\n      if (this.scrollVelocity != 0) {\n        if (Math.abs(this.scrollVelocity) < 1e-3) {\n          this.scrollVelocity = 0;\n        }\n        this.zoomAround(this.mouseWorldPos, this.scrollVelocity);\n        this.scrollVelocity *= 1 - dt * 15;\n      }\n      requestAnimationFrame(this.draw.bind(this));\n    }\n    zoomAround(point, zoom, minScale = 0.15, maxScale = 15) {\n      const cameraCenter = this.graphRenderer.getCameraCenterWorldspace();\n      this.graphRenderer.cameraScale = Math.max(Math.min(this.graphRenderer.cameraScale + zoom * this.graphRenderer.cameraScale, maxScale), minScale);\n      if (this.graphRenderer.cameraScale != minScale && this.graphRenderer.cameraScale != maxScale && this.scrollVelocity > 0 && !this.mouseWorldPos.isUndefined) {\n        const aroundDiff = new Vector2(point.x - cameraCenter.x, point.y - cameraCenter.y);\n        const movePos = new Vector2(cameraCenter.x + aroundDiff.x * zoom, cameraCenter.y + aroundDiff.y * zoom);\n        this.graphRenderer.setCameraCenterWorldspace(movePos);\n      } else\n        this.graphRenderer.setCameraCenterWorldspace(cameraCenter);\n    }\n    scaleAround(point, scale, minScale = 0.15, maxScale = 15) {\n      const cameraCenter = this.graphRenderer.getCameraCenterWorldspace();\n      const scaleBefore = this.graphRenderer.cameraScale;\n      this.graphRenderer.cameraScale = Math.max(Math.min(scale * this.graphRenderer.cameraScale, maxScale), minScale);\n      const diff = (scaleBefore - this.graphRenderer.cameraScale) / scaleBefore;\n      if (this.graphRenderer.cameraScale != minScale && this.graphRenderer.cameraScale != maxScale && scale != 0) {\n        const aroundDiff = new Vector2(point.x - cameraCenter.x, point.y - cameraCenter.y);\n        const movePos = new Vector2(cameraCenter.x - aroundDiff.x * diff, cameraCenter.y - aroundDiff.y * diff);\n        this.graphRenderer.setCameraCenterWorldspace(movePos);\n      } else\n        this.graphRenderer.setCameraCenterWorldspace(cameraCenter);\n    }\n    async navigateToNode(nodeIndex) {\n      if (nodeIndex < 0 || nodeIndex >= this.nodeCount)\n        return;\n      if (this.graphExpanded)\n        this.toggleExpandedGraph();\n      const url = this.paths[nodeIndex];\n      await ObsidianSite.loadURL(url);\n    }\n    toggleExpandedGraph() {\n      const initialWidth = this.graphContainer.clientWidth;\n      const initialHeight = this.graphContainer.clientHeight;\n      this.graphContainer.classList.add("scale-down");\n      const fadeOutAnimation = this.graphContainer.animate({ opacity: 0 }, { duration: 100, easing: "ease-in", fill: "forwards" });\n      const localThis = this;\n      fadeOutAnimation.addEventListener("finish", function() {\n        localThis.graphContainer.classList.toggle("expanded");\n        localThis.graphRenderer.autoResizeCanvas();\n        localThis.graphRenderer.centerCamera();\n        const finalWidth = localThis.graphContainer.clientWidth;\n        const finalHeight = localThis.graphContainer.clientHeight;\n        localThis.graphRenderer.cameraScale *= (finalWidth / initialWidth + finalHeight / initialHeight) / 2;\n        localThis.graphContainer.classList.remove("scale-down");\n        localThis.graphContainer.classList.add("scale-up");\n        const fadeInAnimation = localThis.graphContainer.animate({ opacity: 1 }, { duration: 200, easing: "ease-out", fill: "forwards" });\n        fadeInAnimation.addEventListener("finish", function() {\n          localThis.graphContainer.classList.remove("scale-up");\n        });\n      });\n      this.graphExpanded = !this.graphExpanded;\n      if (this.graphExpanded) {\n        document.addEventListener("pointerdown", handleOutsideClick, { once: true });\n      } else {\n        document.removeEventListener("pointerdown", handleOutsideClick);\n      }\n      function handleOutsideClick(event) {\n        if (!localThis.graphExpanded)\n          return;\n        if (event.composedPath().includes(localThis.graphContainer)) {\n          document.addEventListener("pointerdown", handleOutsideClick, { once: true });\n          return;\n        }\n        localThis.toggleExpandedGraph();\n      }\n      this.graphRenderer.autoResizeCanvas();\n    }\n    getNodeByPath(path) {\n      return this.paths.indexOf(path);\n    }\n    setActiveNode(nodeIndex) {\n      if (nodeIndex < 0 || nodeIndex >= this.nodeCount)\n        return;\n      this.graphRenderer.activeNode = nodeIndex;\n    }\n    setActiveNodeByPath(path) {\n      this.setActiveNode(this.getNodeByPath(path));\n    }\n  };\n\n  // src/frontend/main/theme.ts\n  var Theme = class {\n    constructor() {\n      this.themeToggle = document.querySelector(".theme-toggle-input");\n      this.themeToggle?.addEventListener("change", (event) => {\n        this.switchTheme();\n      });\n    }\n    switchTheme() {\n      const current = localStorage.getItem("theme");\n      let opposite = current == "light" /* Light */ ? "dark" /* Dark */ : "light" /* Light */;\n      this.setTheme(opposite, false);\n    }\n    setTheme(theme, instant = false) {\n      let state = theme == "light" /* Light */;\n      this.themeToggle.checked = state;\n      let oldTransition = "";\n      if (instant) {\n        oldTransition = document.body.style.transition;\n        document.body.style.transition = "none";\n      }\n      if (!this.themeToggle.classList.contains("is-checked") && state) {\n        this.themeToggle.classList.add("is-checked");\n      } else if (this.themeToggle.classList.contains("is-checked") && !state) {\n        this.themeToggle.classList.remove("is-checked");\n      }\n      if (!state) {\n        if (document.body.classList.contains("theme-light")) {\n          document.body.classList.remove("theme-light");\n        }\n        if (!document.body.classList.contains("theme-dark")) {\n          document.body.classList.add("theme-dark");\n        }\n      } else {\n        if (document.body.classList.contains("theme-dark")) {\n          document.body.classList.remove("theme-dark");\n        }\n        if (!document.body.classList.contains("theme-light")) {\n          document.body.classList.add("theme-light");\n        }\n      }\n      if (instant) {\n        setTimeout(function() {\n          document.body.style.transition = oldTransition;\n        }, 100);\n      }\n      localStorage.setItem("theme", state ? "light" : "dark");\n    }\n  };\n\n  // src/shared/dynamic-inserted-feature.ts\n  var DynamicInsertedFeature = class extends InsertedFeature {\n    constructor(options, dependencies, existingElement) {\n      super(options, existingElement);\n      this.dependencies = dependencies;\n      this.updateContent();\n    }\n    regenerate() {\n      this.updateContent();\n    }\n    updateDependencies(newDependencies, autoRegenerate = true) {\n      this.dependencies = newDependencies;\n      if (autoRegenerate) {\n        this.regenerate();\n      }\n    }\n    modifyDependencies(modifier, autoRegenerate = true) {\n      modifier(this.dependencies);\n      if (autoRegenerate) {\n        this.regenerate();\n      }\n    }\n    getDependencies() {\n      return this.dependencies;\n    }\n    updateContent() {\n      const contentEl = this.getElement(InsertedFeature.CONTENT_KEY);\n      if (!contentEl)\n        return;\n      while (contentEl.firstChild) {\n        contentEl.removeChild(contentEl.firstChild);\n      }\n      const featureEl = this.getElement(InsertedFeature.FEATURE_KEY);\n      if (!featureEl?.isConnected && featureEl) {\n        this.options.insertFeature(document.body, featureEl);\n      }\n      this.generateContent(contentEl);\n    }\n    hide() {\n      const featureEl = this.getElement(InsertedFeature.FEATURE_KEY);\n      if (featureEl) {\n        featureEl.style.display = "none";\n      }\n    }\n    show() {\n      const featureEl = this.getElement(InsertedFeature.FEATURE_KEY);\n      if (featureEl) {\n        featureEl.style.display = "";\n      }\n    }\n  };\n\n  // src/frontend/main/backlinks.ts\n  var Backlink = class {\n    get url() {\n      return this._url;\n    }\n    constructor(container, targetURL) {\n      this.targetData = ObsidianSite.getWebpageData(targetURL);\n      if (!this.targetData) {\n        console.error("Failed to find target for backlink", targetURL);\n        return;\n      }\n      this._url = targetURL;\n      this.backlinkEl = document.createElement("a");\n      this.backlinkEl.href = targetURL;\n      this.backlinkEl.classList.add("backlink");\n      container.appendChild(this.backlinkEl);\n      this.backlinkIconEl = document.createElement("div");\n      this.backlinkIconEl.classList.add("backlink-icon");\n      this.backlinkIconEl.innerHTML = this.targetData.icon;\n      this.backlinkEl.appendChild(this.backlinkIconEl);\n      this.backlinkTitleEl = document.createElement("div");\n      this.backlinkTitleEl.classList.add("backlink-title");\n      this.backlinkTitleEl.innerText = this.targetData.title;\n      this.backlinkEl.appendChild(this.backlinkTitleEl);\n      this.backlinkEl.addEventListener("click", (e) => {\n        e.preventDefault();\n        ObsidianSite.loadURL(this.url);\n      });\n    }\n  };\n  var BacklinkList = class extends DynamicInsertedFeature {\n    constructor(backlinkPaths) {\n      super(ObsidianSite.metadata.featureOptions.backlinks, {\n        backlinkPaths\n      });\n    }\n    generateContent(container) {\n      const deps = this.getDependencies();\n      this.backlinks = deps.backlinkPaths.map((url) => new Backlink(container, url));\n    }\n  };\n\n  // src/frontend/main/tags.ts\n  var Tags = class extends DynamicInsertedFeature {\n    constructor(tags) {\n      super(ObsidianSite.metadata.featureOptions.tags, { tags });\n    }\n    generateContent(container) {\n      const deps = this.getDependencies();\n      for (const tagName of deps.tags) {\n        const tagEl = document.createElement("a");\n        tagEl.classList.add("tag");\n        tagEl.setAttribute("href", `?query=tag:${tagName.replace("#", "")}`);\n        tagEl.innerText = tagName;\n        container.appendChild(tagEl);\n      }\n      LinkHandler.initializeLinks(container);\n    }\n  };\n\n  // src/frontend/main/aliases.ts\n  var Aliases = class extends DynamicInsertedFeature {\n    constructor(aliases) {\n      super(ObsidianSite.metadata.featureOptions.alias, {\n        aliases\n      });\n    }\n    generateContent(container) {\n      const deps = this.getDependencies();\n      for (const aliasName of deps.aliases) {\n        const aliasEl = document.createElement("span");\n        aliasEl.classList.add("alias");\n        aliasEl.innerText = aliasName;\n        container.appendChild(aliasEl);\n      }\n      return container;\n    }\n  };\n\n  // src/frontend/main/website.ts\n  var ObsidianWebsite = class {\n    constructor() {\n      this.LinkHandler = LinkHandler;\n      this.LinkPreview = FilePreviewPopover;\n      this.topbarTitleEl = null;\n      this.isLoaded = false;\n      this.isHttp = window.location.protocol != "file:";\n      this.fileTree = void 0;\n      this.outlineTree = void 0;\n      this.search = void 0;\n      this.leftSidebar = void 0;\n      this.rightSidebar = void 0;\n      this.graphView = void 0;\n      this.backlinkList = void 0;\n      this.tags = void 0;\n      this.aliases = void 0;\n      this.outlineHeadingEls = [];\n      this.outlineScrollContainer = void 0;\n      this.outlineScrollHandler = void 0;\n      this.outlineScrollRaf = void 0;\n      this.onloadCallbacks = [];\n      this.cachedWebpageDataMap = /* @__PURE__ */ new Map();\n      this.cachedFileDataMap = /* @__PURE__ */ new Map();\n      this.lastScreenWidth = void 0;\n      this.isResizing = false;\n      this.checkStillResizingTimeout = void 0;\n      this._deviceSize = "large-screen";\n    }\n    onDocumentLoad(callback) {\n      this.onloadCallbacks.push(callback);\n    }\n    async init() {\n      window.addEventListener("load", () => ObsidianSite.onInit());\n      if (this.isHttp) {\n        this.metadata = await this.loadWebsiteData();\n        if (!this.metadata) {\n          console.error("Failed to load website data.");\n          return;\n        }\n      }\n    }\n    async onInit() {\n      if (!this.isHttp) {\n        this.metadata = await this.loadWebsiteData();\n        if (!this.metadata) {\n          console.error("Failed to load website data.");\n          this.metadata = new WebsiteData();\n          this.metadata.ignoreMetadata = true;\n        }\n      }\n      await waitUntil(() => this.metadata != void 0, 16);\n      console.log("Website init");\n      if (window.location.protocol != "file:") {\n        await loadIncludes();\n      }\n      this.theme = new Theme();\n      this.bodyEl = document.body;\n      this.horizontalLayout = document.querySelector("#main-horizontal");\n      this.centerContentEl = document.querySelector("#center-content");\n      this.topbarTitleEl = document.querySelector("#global-topbar-title");\n      const fileTreeEl = document.querySelector("#file-explorer");\n      const outlineTreeEl = document.querySelector("#outline");\n      const leftSidebarEl = document.querySelector(".sidebar#left-sidebar");\n      const rightSidebarEl = document.querySelector(".sidebar#right-sidebar");\n      this.bodyEl.className += " " + this.metadata.bodyClasses;\n      this.createLoadingEl();\n      if (fileTreeEl)\n        this.fileTree = new Tree(fileTreeEl);\n      if (outlineTreeEl)\n        this.outlineTree = new Tree(outlineTreeEl, this.metadata.featureOptions.outline.minCollapseDepth);\n      if (leftSidebarEl)\n        this.leftSidebar = new Sidebar(leftSidebarEl);\n      if (rightSidebarEl)\n        this.rightSidebar = new Sidebar(rightSidebarEl);\n      this.search = await new Search().init();\n      const pathname = document.querySelector("meta[name=\'pathname\']")?.getAttribute("content") ?? "unknown";\n      this.entryPage = pathname;\n      this.document = await new WebpageDocument(pathname);\n      await this.document.loadChildDocuments();\n      await this.document.postLoadInit();\n      this.updateTopbarTitle(this.document.title);\n      this.initializeOutlineScrollSync();\n      if (!ObsidianSite.metadata.ignoreMetadata && ObsidianSite.metadata.featureOptions.graphView.enabled) {\n        this.loadGraphView().then(() => this.graphView?.showGraph([pathname]));\n      }\n      this.initEvents();\n      FilePreviewPopover.loadPinnedPreviews();\n      this.onDocumentLoad((doc) => {\n        if (!ObsidianSite.metadata.ignoreMetadata) {\n          const insertBacklinks = doc.isMainDocument && !ObsidianSite.metadata.ignoreMetadata && ObsidianSite.metadata.featureOptions.backlinks.enabled && doc.documentType == "markdown" /* Markdown */;\n          const insertTags = doc.isMainDocument && !ObsidianSite.metadata.ignoreMetadata && ObsidianSite.metadata.featureOptions.tags.enabled && doc.documentType == "markdown" /* Markdown */;\n          const insertAliases = doc.isMainDocument && !ObsidianSite.metadata.ignoreMetadata && ObsidianSite.metadata.featureOptions.alias.enabled && doc.documentType == "markdown" /* Markdown */;\n          if (insertBacklinks) {\n            const backlinks = doc.info.backlinks?.filter((b) => b != doc.pathname);\n            if (!this.backlinkList) {\n              this.backlinkList = new BacklinkList(doc.info.backlinks ?? []);\n            } else {\n              this.backlinkList?.modifyDependencies((d) => {\n                d.backlinkPaths = doc.info.backlinks ?? [];\n              });\n            }\n            if (!backlinks || backlinks.length == 0) {\n              this.backlinkList?.hide();\n            } else {\n              this.backlinkList?.show();\n            }\n          } else {\n            this.backlinkList?.hide();\n          }\n          if (insertTags) {\n            const tags = [];\n            if (ObsidianSite.metadata.featureOptions.tags.showInlineTags && doc.info.inlineTags) {\n              tags.push(...doc.info.inlineTags);\n            }\n            if (ObsidianSite.metadata.featureOptions.tags.showFrontmatterTags && doc.info.frontmatterTags) {\n              tags.push(...doc.info.frontmatterTags);\n            }\n            if (!this.tags) {\n              this.tags = new Tags(tags);\n            } else {\n              this.tags?.modifyDependencies((d) => {\n                d.tags = tags;\n              });\n            }\n            if (tags.length == 0) {\n              this.tags?.hide();\n            } else {\n              this.tags?.show();\n            }\n          } else {\n            this.tags?.hide();\n          }\n          if (insertAliases) {\n            const aliases = doc.info.aliases;\n            if (!this.aliases) {\n              this.aliases = new Aliases(aliases ?? []);\n            } else {\n              this.aliases?.modifyDependencies((d) => {\n                d.aliases = aliases ?? [];\n              });\n            }\n            if (!aliases || aliases.length == 0) {\n              this.aliases?.hide();\n            } else {\n              this.aliases?.show();\n            }\n          } else {\n            this.aliases?.hide();\n          }\n        }\n      });\n      if (this.isHttp) {\n        let initialPath = this.document.pathname;\n        if (initialPath == "index.html")\n          initialPath = "";\n        history.replaceState({ pathname: initialPath }, this.document.title, initialPath);\n      }\n      this.isLoaded = true;\n      this.onloadCallbacks.forEach((cb) => cb(this.document));\n    }\n    initEvents() {\n      window.addEventListener("popstate", async (e) => {\n        console.log("popstate", e);\n        if (!e.state)\n          return;\n        const pathname = e.state.pathname;\n        await ObsidianSite.loadURL(pathname, false);\n      });\n      const localThis = this;\n      window.addEventListener("resize", () => {\n        localThis.onResize();\n      });\n      this.onResize();\n    }\n    updateMetaTag(name, content) {\n      let meta = document.querySelector(`meta[name="${name}"], meta[property="${name}"]`);\n      if (!meta) {\n        meta = document.createElement("meta");\n        if (name.startsWith("og:")) {\n          meta.setAttribute("property", name);\n        } else {\n          meta.setAttribute("name", name);\n        }\n        document.head.appendChild(meta);\n      }\n      meta.setAttribute("content", content);\n    }\n    updateTopbarTitle(title) {\n      if (!this.topbarTitleEl)\n        return;\n      this.topbarTitleEl.textContent = title;\n      this.topbarTitleEl.setAttribute("title", title);\n    }\n    async loadURL(url, pushState = true) {\n      const header = LinkHandler.getHashFromURL(url);\n      const query = LinkHandler.getQueryFromURL(url);\n      url = LinkHandler.getPathnameFromURL(url);\n      console.log("Loading URL", url, header, query);\n      if (query && query.startsWith("query=")) {\n        this.search?.searchParseFilters(query.substring(6));\n        return;\n      }\n      if (this.document.pathname == url) {\n        if (header) {\n          this.document.scrollToHeader(header);\n          this.setActiveOutlineHeadingById(header, true);\n        } else {\n          new Notice("This page is already loaded.");\n        }\n        return this.document;\n      }\n      const data = ObsidianSite.getWebpageData(url);\n      if (!data) {\n        new Notice("This page does not exist yet.");\n        console.warn("Page does not exist", url);\n        return void 0;\n      }\n      this.teardownOutlineScrollSync();\n      const page = await new WebpageDocument(url).load();\n      if (!page) {\n        new Notice("Failed to load page. Unknown error.");\n        return;\n      }\n      document.title = page.title;\n      this.updateTopbarTitle(page.title);\n      this.updateMetaTag("pathname", page.pathname);\n      this.updateMetaTag("description", page.info?.description || "");\n      this.updateMetaTag("author", page.info?.author || "");\n      this.updateMetaTag("og:title", page.title);\n      this.updateMetaTag("og:description", page.info?.description || "");\n      this.updateMetaTag("og:url", window.location.href);\n      this.updateMetaTag("og:image", page.info?.coverImageURL || "");\n      await this.graphView?.showGraph([page.pathname]);\n      this.fileTree?.findByPath(page.pathname)?.setActive();\n      this.fileTree?.revealPath(page.pathname);\n      this.graphView?.setActiveNodeByPath(page.pathname);\n      this.document = page;\n      if (this.document && this.isHttp && pushState) {\n        let currentPath = this.document.pathname;\n        if (currentPath == "index.html")\n          currentPath = "";\n        history.pushState({ pathname: currentPath }, this.document.title, currentPath);\n      }\n      let newOutlineEl = page.sourceHtml.querySelector("#outline");\n      if (newOutlineEl) {\n        newOutlineEl = document.adoptNode(newOutlineEl);\n        document.querySelector("#outline")?.replaceWith(newOutlineEl);\n        ObsidianSite.outlineTree = new Tree(newOutlineEl, this.metadata.featureOptions.outline.minCollapseDepth);\n      }\n      setTimeout(async () => {\n        this.onloadCallbacks.forEach((cb) => cb(page));\n        await page.show();\n        if (header) {\n          page.scrollToHeader(header);\n          this.setActiveOutlineHeadingById(header, true);\n        }\n        this.initializeOutlineScrollSync();\n      }, 100);\n      return page;\n    }\n    async fetch(url) {\n      url = LinkHandler.getPathnameFromURL(url);\n      if (this.isHttp || url.startsWith("http")) {\n        const req = await fetch(url);\n        if (req.ok) {\n          return req;\n        } else {\n          console.error("Failed to fetch", url);\n          return;\n        }\n      } else {\n        const file = this.getFileData(url);\n        if (!file?.data) {\n          console.error("Failed to fetch", url);\n          return;\n        }\n        const req = new Response(file.data, { status: 200 });\n        return req;\n      }\n    }\n    documentExists(url) {\n      url = LinkHandler.getPathnameFromURL(url);\n      if (this.isHttp) {\n        return !!this.metadata.webpages[url];\n      } else {\n        return !!this.getFileData(url)?.data;\n      }\n    }\n    async loadWebsiteData() {\n      if (this.isHttp) {\n        try {\n          const dataReq = await fetch(Shared.libFolderName + "/metadata.json");\n          if (dataReq.ok) {\n            const jsonStr = await dataReq.text();\n            return WebsiteData.fromJSON(jsonStr);\n          }\n        } catch (e) {\n          console.error("Failed to load website metadata.", e);\n          new Notice("Failed to load website metadata.");\n        }\n      } else {\n        const jsonData = this.getLocalDataFromId("website-metadata");\n        return jsonData ? WebsiteData.fromJSON(JSON.stringify(jsonData)) : void 0;\n      }\n      return void 0;\n    }\n    async loadGraphView() {\n      const graphViewFeature = document.querySelector(".graph-view-wrapper");\n      if (!graphViewFeature)\n        return;\n      const localThis = this;\n      waitLoadScripts(["graph-render-worker", "graph-wasm"], () => {\n        console.log("scripts loaded");\n        async function initGraphView() {\n          console.log("Initializing graph view");\n          const graphView = new GraphView(graphViewFeature);\n          localThis.graphView = graphView;\n          console.log("Graph view initialized");\n        }\n        Module["onRuntimeInitialized"] = () => {\n          console.log("Wasm loaded");\n          initGraphView();\n        };\n        run();\n        setTimeout(() => {\n          if (localThis.graphView == void 0) {\n            initGraphView();\n          }\n        }, 100);\n      });\n      await waitUntil(() => this.graphView != void 0);\n    }\n    getLocalDataFromId(id) {\n      const el = document.getElementById(id);\n      if (!el)\n        return;\n      return JSON.parse(decodeURI(atob(el.getAttribute("value") ?? "")));\n    }\n    getWebpageData(url) {\n      if (!this.isHttp) {\n        if (this.cachedWebpageDataMap.has(url)) {\n          return this.cachedWebpageDataMap.get(url);\n        } else {\n          const data = this.getLocalDataFromId(LinkHandler.getFileDataIdFromURL(url));\n          this.cachedWebpageDataMap.set(url, data);\n          return data;\n        }\n      }\n      if (this.metadata) {\n        const data = this.metadata.webpages[url];\n        if (data) {\n          return data;\n        }\n      }\n      return;\n    }\n    getFileData(url) {\n      if (!this.isHttp) {\n        if (this.cachedFileDataMap.has(url)) {\n          return this.cachedFileDataMap.get(url);\n        } else {\n          const data = this.getLocalDataFromId(LinkHandler.getFileDataIdFromURL(url));\n          this.cachedFileDataMap.set(url, data);\n          return data;\n        }\n      }\n      if (this.metadata) {\n        const data = this.metadata.fileInfo[url];\n        if (data) {\n          return data;\n        }\n      }\n      return {};\n    }\n    scrollTo(element) {\n      element.scrollIntoView();\n    }\n    teardownOutlineScrollSync() {\n      if (this.outlineScrollContainer && this.outlineScrollHandler) {\n        this.outlineScrollContainer.removeEventListener("scroll", this.outlineScrollHandler);\n      }\n      if (this.outlineScrollRaf != void 0) {\n        window.cancelAnimationFrame(this.outlineScrollRaf);\n      }\n      this.outlineHeadingEls = [];\n      this.outlineScrollContainer = void 0;\n      this.outlineScrollHandler = void 0;\n      this.outlineScrollRaf = void 0;\n    }\n    initializeOutlineScrollSync() {\n      this.teardownOutlineScrollSync();\n      if (!this.outlineTree || !this.document?.documentEl)\n        return;\n      const headings = Array.from(this.document.documentEl.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]"));\n      if (headings.length == 0)\n        return;\n      this.outlineHeadingEls = headings;\n      this.outlineScrollContainer = this.document.documentEl;\n      this.outlineScrollHandler = () => {\n        if (this.outlineScrollRaf != void 0)\n          return;\n        this.outlineScrollRaf = window.requestAnimationFrame(() => {\n          this.outlineScrollRaf = void 0;\n          this.updateOutlineActiveHeading(true);\n        });\n      };\n      this.outlineScrollContainer.addEventListener("scroll", this.outlineScrollHandler, { passive: true });\n      this.updateOutlineActiveHeading(true);\n    }\n    updateOutlineActiveHeading(scrollActiveItemIntoView) {\n      if (!this.outlineTree || !this.outlineScrollContainer || this.outlineHeadingEls.length == 0)\n        return;\n      const containerRect = this.outlineScrollContainer.getBoundingClientRect();\n      const activationTop = containerRect.top + Math.min(120, this.outlineScrollContainer.clientHeight * 0.25);\n      let currentHeading = void 0;\n      for (const heading of this.outlineHeadingEls) {\n        if (!heading.id || heading.offsetParent == null)\n          continue;\n        if (heading.getBoundingClientRect().top <= activationTop)\n          currentHeading = heading;\n        else\n          break;\n      }\n      if (!currentHeading) {\n        currentHeading = this.outlineHeadingEls.find((heading) => heading.id && heading.offsetParent != null);\n      }\n      if (currentHeading?.id) {\n        this.setActiveOutlineHeadingById(currentHeading.id, scrollActiveItemIntoView);\n      }\n    }\n    setActiveOutlineHeadingById(headerId, scrollActiveItemIntoView) {\n      if (!this.outlineTree)\n        return;\n      const item = this.findOutlineItemByHeaderId(headerId);\n      if (!item)\n        return;\n      if (this.outlineTree.activeItem == item)\n        return;\n      this.outlineTree.revealPath(item.path);\n      item.setActive({ scrollIntoView: scrollActiveItemIntoView });\n    }\n    findOutlineItemByHeaderId(headerId) {\n      if (!this.outlineTree)\n        return void 0;\n      const hash = "#" + headerId;\n      const candidates = /* @__PURE__ */ new Set([hash]);\n      const pathname = this.document?.pathname ?? "";\n      const pathVariants = [pathname, decodeURI(pathname), encodeURI(pathname)];\n      for (const path of pathVariants) {\n        if (!path)\n          continue;\n        candidates.add(path + hash);\n        candidates.add("./" + path + hash);\n        candidates.add("/" + path + hash);\n      }\n      for (const candidate of candidates) {\n        const item = this.outlineTree.pathToItem.get(candidate);\n        if (item)\n          return item;\n      }\n      return this.outlineTree.find((item) => item.path.endsWith(hash));\n    }\n    async showLoading(loading, inside = this.centerContentEl) {\n      inside.style.transitionDuration = "";\n      inside.classList.toggle("hide", loading);\n      this.loadingEl.classList.toggle("show", loading);\n      if (loading) {\n        const viewBounds = Bounds.fromElement(inside);\n        this.loadingEl.style.left = viewBounds.center.x - this.loadingEl.offsetWidth / 2 + "px";\n        this.loadingEl.style.top = viewBounds.center.y - this.loadingEl.offsetHeight / 2 + "px";\n      }\n      await delay(200);\n    }\n    createLoadingEl() {\n      this.loadingEl = document.createElement("div");\n      this.loadingEl.classList.add("loading-icon");\n      document.body.appendChild(this.loadingEl);\n      this.loadingEl.innerHTML = `<div></div><div></div><div></div><div></div>`;\n    }\n    get documentBounds() {\n      return Bounds.fromElement(this.centerContentEl);\n    }\n    onEndResize() {\n      this.graphView?.graphRenderer?.autoResizeCanvas();\n      document.body.classList.toggle("resizing", false);\n    }\n    onStartResize() {\n      document.body.classList.toggle("resizing", true);\n    }\n    get deviceSize() {\n      return this._deviceSize;\n    }\n    set deviceSize(size) {\n      this._deviceSize = size;\n    }\n    onResize() {\n      if (!this.isResizing) {\n        this.onStartResize();\n        this.isResizing = true;\n      }\n      const localThis = this;\n      function widthNowInRange(low, high) {\n        const w = window.innerWidth;\n        return w > low && w < high && localThis.lastScreenWidth == void 0 || w > low && w < high && ((localThis.lastScreenWidth ?? 0) <= low || (localThis.lastScreenWidth ?? 0) >= high);\n      }\n      function widthNowGreaterThan(value) {\n        const w = window.innerWidth;\n        return w > value && localThis.lastScreenWidth == void 0 || w > value && (localThis.lastScreenWidth ?? 0) < value;\n      }\n      function widthNowLessThan(value) {\n        const w = window.innerWidth;\n        return w < value && localThis.lastScreenWidth == void 0 || w < value && (localThis.lastScreenWidth ?? 0) > value;\n      }\n      const docWidthCSS = this.metadata.featureOptions.document?.documentWidth ?? "45em";\n      const leftWdithCSS = this.metadata.featureOptions.sidebar?.leftDefaultWidth ?? "20em";\n      const rightWidthCSS = this.metadata.featureOptions.sidebar?.rightDefaultWidth ?? "20em";\n      const docWidth = getLengthInPixels(docWidthCSS, this.centerContentEl);\n      const leftWidth = this.leftSidebar ? getLengthInPixels(leftWdithCSS, this.leftSidebar?.containerEl) : 0;\n      const rightWidth = this.rightSidebar ? getLengthInPixels(rightWidthCSS, this.rightSidebar?.containerEl) : 0;\n      if (widthNowGreaterThan(docWidth + leftWidth + rightWidth) || widthNowGreaterThan(1025)) {\n        this.deviceSize = "large-screen";\n        document.body.classList.toggle("floating-sidebars", false);\n        document.body.classList.toggle("is-large-screen", true);\n        document.body.classList.toggle("is-small-screen", false);\n        document.body.classList.toggle("is-tablet", false);\n        document.body.classList.toggle("is-phone", false);\n        if (this.leftSidebar)\n          this.leftSidebar.collapsed = false;\n        if (this.rightSidebar)\n          this.rightSidebar.collapsed = false;\n      } else if (widthNowInRange(docWidth + leftWidth, docWidth + leftWidth + rightWidth) || widthNowInRange(769, 1024)) {\n        this.deviceSize = "small screen";\n        document.body.classList.toggle("floating-sidebars", false);\n        document.body.classList.toggle("is-large-screen", false);\n        document.body.classList.toggle("is-small-screen", true);\n        document.body.classList.toggle("is-tablet", false);\n        document.body.classList.toggle("is-phone", false);\n        if (this.leftSidebar && this.rightSidebar && !this.leftSidebar.collapsed) {\n          this.rightSidebar.collapsed = true;\n        }\n      } else if (widthNowInRange(leftWidth + rightWidth, docWidth + leftWidth) || widthNowInRange(481, 768)) {\n        this.deviceSize = "tablet";\n        document.body.classList.toggle("floating-sidebars", true);\n        document.body.classList.toggle("is-large-screen", false);\n        document.body.classList.toggle("is-small-screen", false);\n        document.body.classList.toggle("is-tablet", true);\n        document.body.classList.toggle("is-phone", false);\n        if (this.leftSidebar && this.rightSidebar && !this.leftSidebar.collapsed) {\n          this.rightSidebar.collapsed = true;\n        }\n      } else if (widthNowLessThan(leftWidth + rightWidth) || widthNowLessThan(480)) {\n        this.deviceSize = "phone";\n        document.body.classList.toggle("floating-sidebars", true);\n        document.body.classList.toggle("is-large-screen", false);\n        document.body.classList.toggle("is-small-screen", false);\n        document.body.classList.toggle("is-tablet", false);\n        document.body.classList.toggle("is-phone", true);\n        if (this.leftSidebar)\n          this.leftSidebar.collapsed = true;\n        if (this.rightSidebar)\n          this.rightSidebar.collapsed = true;\n      }\n      this.lastScreenWidth = window.innerWidth;\n      if (this.checkStillResizingTimeout != void 0)\n        clearTimeout(this.checkStillResizingTimeout);\n      const screenWidthSnapshot = window.innerWidth;\n      this.checkStillResizingTimeout = setTimeout(function() {\n        if (window.innerWidth == screenWidthSnapshot) {\n          localThis.checkStillResizingTimeout = void 0;\n          localThis.isResizing = false;\n          localThis.onEndResize();\n        }\n      }, 200);\n    }\n  };\n\n  // src/frontend/main/index.txt.ts\n  if (window && window.location) {\n    window.ObsidianSite = new ObsidianWebsite();\n    ObsidianSite = window.ObsidianSite;\n    window.WebpageDocument = WebpageDocument;\n    window.Canvas = Canvas;\n    window.Bounds = Bounds;\n    window.Vector2 = Vector2;\n    window.LinkHandler = LinkHandler;\n    window.FilePreviewPopover = FilePreviewPopover;\n    ObsidianSite.init();\n  }\n})();\n';
+var index_txt_default = '/*\nTHIS IS A GENERATED/BUNDLED FILE BY ESBUILD\nif you want to view the source, please visit the github repository of this plugin\n*/\n\n"use strict";\n(() => {\n  var __require = /* @__PURE__ */ ((x) => typeof require !== "undefined" ? require : typeof Proxy !== "undefined" ? new Proxy(x, {\n    get: (a, b) => (typeof require !== "undefined" ? require : a)[b]\n  }) : x)(function(x) {\n    if (typeof require !== "undefined")\n      return require.apply(this, arguments);\n    throw new Error(\'Dynamic require of "\' + x + \'" is not supported\');\n  });\n  var __accessCheck = (obj, member, msg) => {\n    if (!member.has(obj))\n      throw TypeError("Cannot " + msg);\n  };\n  var __privateGet = (obj, member, getter) => {\n    __accessCheck(obj, member, "read from private field");\n    return getter ? getter.call(obj) : member.get(obj);\n  };\n  var __privateAdd = (obj, member, value) => {\n    if (member.has(obj))\n      throw TypeError("Cannot add the same private member more than once");\n    member instanceof WeakSet ? member.add(obj) : member.set(obj, value);\n  };\n  var __privateSet = (obj, member, value, setter) => {\n    __accessCheck(obj, member, "write to private field");\n    setter ? setter.call(obj, value) : member.set(obj, value);\n    return value;\n  };\n  var __privateMethod = (obj, member, method) => {\n    __accessCheck(obj, member, "access private method");\n    return method;\n  };\n\n  // src/frontend/main/utils.ts\n  async function delay(ms) {\n    return new Promise((resolve) => setTimeout(resolve, ms));\n  }\n  async function waitUntil(predicate, interval = 100) {\n    while (!predicate())\n      await delay(interval);\n  }\n  function getTextNodes(element) {\n    const textNodes = [];\n    const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, null);\n    let node;\n    while (node = walker.nextNode()) {\n      textNodes.push(node);\n    }\n    return textNodes;\n  }\n  function getLengthInPixels(cssString, contextElement) {\n    const tempElement = document.createElement("div");\n    tempElement.style.position = "absolute";\n    tempElement.style.visibility = "hidden";\n    tempElement.style.width = cssString;\n    contextElement.appendChild(tempElement);\n    const lengthInPixels = tempElement.offsetWidth;\n    contextElement.removeChild(tempElement);\n    return lengthInPixels;\n  }\n  var Bounds = class {\n    get width() {\n      return this.right - this.left;\n    }\n    set width(value) {\n      this.right = this.left + value;\n    }\n    get height() {\n      return this.bottom - this.top;\n    }\n    set height(value) {\n      this.bottom = this.top + value;\n    }\n    get center() {\n      return new Vector2(this.left + this.width / 2, this.top + this.height / 2);\n    }\n    get min() {\n      return new Vector2(this.left, this.top);\n    }\n    set min(value) {\n      this.left = value.x;\n      this.top = value.y;\n    }\n    set position(value) {\n      this.min = value;\n    }\n    get max() {\n      return new Vector2(this.right, this.bottom);\n    }\n    set max(value) {\n      this.right = value.x;\n      this.bottom = value.y;\n    }\n    get size() {\n      return new Vector2(this.width, this.height);\n    }\n    set size(value) {\n      this.width = value.x;\n      this.height = value.y;\n    }\n    constructor(left, top, width, height) {\n      this.left = left;\n      this.top = top;\n      this.right = left + width;\n      this.bottom = top + height;\n    }\n    containsPoint(point) {\n      return point.x >= this.left && point.x <= this.right && point.y >= this.top && point.y <= this.bottom;\n    }\n    containsBounds(bounds) {\n      return bounds.left >= this.left && bounds.right <= this.right && bounds.top >= this.top && bounds.bottom <= this.bottom;\n    }\n    encapsulate(bounds) {\n      this.left = Math.min(this.left, bounds.left);\n      this.top = Math.min(this.top, bounds.top);\n      this.right = Math.max(this.right, bounds.right);\n      this.bottom = Math.max(this.bottom, bounds.bottom);\n      return this;\n    }\n    encapsulatePoint(point) {\n      if (point.isUndefined)\n        return;\n      this.left = Math.min(this.left, point.x);\n      this.top = Math.min(this.top, point.y);\n      this.right = Math.max(this.right, point.x);\n      this.bottom = Math.max(this.bottom, point.y);\n      return this;\n    }\n    expand(by) {\n      this.left -= by;\n      this.right += by;\n      this.top -= by;\n      this.bottom += by;\n      return this;\n    }\n    translate(by) {\n      this.left += by.x;\n      this.right += by.x;\n      this.top += by.y;\n      this.bottom += by.y;\n      return this;\n    }\n    scale(by) {\n      let width = this.width;\n      let height = this.height;\n      this.left += width * (1 - by) / 2;\n      this.right -= width * (1 - by) / 2;\n      this.top += height * (1 - by) / 2;\n      this.bottom -= height * (1 - by) / 2;\n      return this;\n    }\n    overlaps(bounds) {\n      return this.left < bounds.right && this.right > bounds.left && this.top < bounds.bottom && this.bottom > bounds.top;\n    }\n    static fromElement(el) {\n      const rect = el.getBoundingClientRect();\n      return new Bounds(rect.x, rect.y, rect.width, rect.height);\n    }\n    static get screenBounds() {\n      return new Bounds(0, 0, window.innerWidth, window.innerHeight);\n    }\n  };\n  var _Vector2 = class {\n    constructor(x, y) {\n      this.x = x;\n      this.y = y;\n    }\n    add(point) {\n      return new _Vector2(this.x + point.x, this.y + point.y);\n    }\n    sub(point) {\n      return new _Vector2(this.x - point.x, this.y - point.y);\n    }\n    scale(scalar) {\n      return new _Vector2(this.x * scalar, this.y * scalar);\n    }\n    divide(scalar) {\n      return new _Vector2(this.x / scalar, this.y / scalar);\n    }\n    get isUndefined() {\n      return isNaN(this.x) || isNaN(this.y);\n    }\n    get magnitude() {\n      return Math.sqrt(this.sqrMagnitude);\n    }\n    get sqrMagnitude() {\n      return this.x * this.x + this.y * this.y;\n    }\n    get normalized() {\n      const mag = this.magnitude;\n      return new _Vector2(this.x / mag, this.y / mag);\n    }\n    get inverse() {\n      return new _Vector2(-this.x, -this.y);\n    }\n    static distance(a, b) {\n      return a.sub(b).magnitude;\n    }\n    static dot(a, b) {\n      return a.x * b.x + a.y * b.y;\n    }\n  };\n  var Vector2 = _Vector2;\n  Vector2.Undefined = new _Vector2(NaN, NaN);\n  var Ticker = class {\n    constructor(targetFPS) {\n      this.callbacks = [];\n      this.targetFPS = targetFPS;\n      this.measuredFPS = targetFPS;\n      this._lastTime = performance.now();\n      this._deltaTime = 1 / targetFPS;\n      this._time = this._lastTime;\n    }\n    get deltaTime() {\n      return this._deltaTime / 1e3;\n    }\n    get time() {\n      return this._time;\n    }\n    async start() {\n      while (true) {\n        this._time = performance.now();\n        requestAnimationFrame(() => {\n          for (let callback of this.callbacks) {\n            callback(this.deltaTime);\n          }\n        });\n        const dt = this._time - this._lastTime;\n        let deltaDiff = dt - 1e3 / this.targetFPS;\n        this._lastTime = this._time + Math.max(deltaDiff, 0);\n        await delay(Math.max(0, deltaDiff));\n        this._deltaTime = Math.min(dt + Math.max(deltaDiff, 0), 1e3 / this.targetFPS * 3);\n        this.measuredFPS = 1 / this.deltaTime * 0.1 + this.measuredFPS * 0.9;\n      }\n    }\n    add(callback) {\n      this.callbacks.push(callback);\n    }\n  };\n  function slideUp(target, duration = 500) {\n    if (target.style.display === "none")\n      return;\n    target.style.transitionProperty = "height, margin, padding";\n    target.style.transitionTimingFunction = "ease-in-out";\n    target.style.transitionDuration = duration + "ms";\n    target.style.boxSizing = "border-box";\n    target.style.height = target.offsetHeight + "px";\n    target.offsetHeight;\n    target.style.overflow = "hidden";\n    target.style.height = "0";\n    target.style.paddingTop = "0";\n    target.style.paddingBottom = "0";\n    target.style.marginTop = "0";\n    target.style.marginBottom = "0";\n    window.setTimeout(async () => {\n      target.style.display = "none";\n      target.style.removeProperty("height");\n      target.style.removeProperty("padding-top");\n      target.style.removeProperty("padding-bottom");\n      target.style.removeProperty("margin-top");\n      target.style.removeProperty("margin-bottom");\n      target.style.removeProperty("overflow");\n      target.style.removeProperty("transition-duration");\n      target.style.removeProperty("transition-property");\n    }, duration);\n  }\n  function slideDown(target, duration = 500) {\n    if (window.getComputedStyle(target).display !== "none")\n      return;\n    target.style.removeProperty("display");\n    let display = window.getComputedStyle(target).display;\n    if (display === "none")\n      display = "block";\n    target.style.display = display;\n    const height = target.offsetHeight;\n    target.style.overflow = "hidden";\n    target.style.height = "0";\n    target.style.paddingTop = "0";\n    target.style.paddingBottom = "0";\n    target.style.marginTop = "0";\n    target.style.marginBottom = "0";\n    target.offsetHeight;\n    target.style.boxSizing = "border-box";\n    target.style.transitionProperty = "height, margin, padding";\n    target.style.transitionTimingFunction = "ease-in-out";\n    target.style.transitionDuration = duration + "ms";\n    target.style.height = height + "px";\n    target.style.removeProperty("padding-top");\n    target.style.removeProperty("padding-bottom");\n    target.style.removeProperty("margin-top");\n    target.style.removeProperty("margin-bottom");\n    window.setTimeout(async () => {\n      target.style.removeProperty("height");\n      target.style.removeProperty("overflow");\n      target.style.removeProperty("transition-duration");\n      target.style.removeProperty("transition-property");\n    }, duration);\n  }\n  function getTouchPosition(event) {\n    const touches = Array.from(event.touches);\n    const x = touches.reduce((acc, cur) => acc + cur.clientX, 0) / touches.length;\n    const y = touches.reduce((acc, cur) => acc + cur.clientY, 0) / touches.length;\n    return new Vector2(x, y);\n  }\n  function getPointerPosition(event) {\n    return new Vector2(event.clientX, event.clientY);\n  }\n  function getTouchPositionVector(touch) {\n    return { x: touch.clientX, y: touch.clientY };\n  }\n  function inOutQuadBlend(start, end, t) {\n    t /= 2;\n    let t2 = 2 * t * (1 - t) + 0.5;\n    t2 -= 0.5;\n    t2 *= 2;\n    return start + (end - start) * t2;\n  }\n  function inOutQuadBlendv(start, end, t) {\n    return new Vector2(inOutQuadBlend(start.x, end.x, t), inOutQuadBlend(start.y, end.y, t));\n  }\n  function clamp(value, min, max) {\n    return Math.max(min, Math.min(value, max));\n  }\n  function mapRange(value, low1, high1, low2, high2) {\n    return low2 + (high2 - low2) * (value - low1) / (high1 - low1);\n  }\n  function mapRangeClamped(value, low1, high1, low2, high2) {\n    return clamp(mapRange(value, low1, high1, low2, high2), low2, high2);\n  }\n\n  // src/frontend/main/canvas.ts\n  var CanvasNode = class {\n    constructor(canvas, nodeEl) {\n      this.isFocused = false;\n      this.canvas = canvas;\n      this.nodeEl = nodeEl;\n      this.nodeEl.nodeObj = this;\n      this.labelEl = nodeEl.querySelector(".canvas-node-label");\n      this.containerEl = nodeEl.querySelector(".canvas-node-container");\n      this.contentEl = nodeEl.querySelector(".canvas-node-content");\n      if (!this.labelEl || !this.containerEl || !this.contentEl) {\n        console.error("Failed to find all required elements for canvas node", this);\n        return;\n      }\n      const contentClasses = this.contentEl.classList;\n      if (contentClasses.contains("image-embed"))\n        this.type = "image" /* Image */;\n      else if (contentClasses.contains("video-embed"))\n        this.type = "video" /* Video */;\n      else if (contentClasses.contains("audio-embed"))\n        this.type = "audio" /* Audio */;\n      else if (contentClasses.contains("markdown-embed") && contentClasses.contains("external-markdown-embed"))\n        this.type = "external-markdown" /* ExternalMarkdown */;\n      else if (contentClasses.contains("markdown-embed"))\n        this.type = "markdown" /* Markdown */;\n      else if (contentClasses.contains("canvas-embed"))\n        this.type = "canvas" /* Canvas */;\n      else if (this.contentEl.firstElementChild?.tagName === "IFRAME")\n        this.type = "website" /* Website */;\n      else if (this.nodeEl.classList.contains("canvas-node-group"))\n        this.type = "group" /* Group */;\n      else\n        this.type = "none" /* None */;\n      if (this.type == "external-markdown" /* ExternalMarkdown */) {\n        const documentEl = this.contentEl.querySelector(".obsidian-document");\n        console.log(documentEl);\n        const documentObj = canvas.document.children.find((doc) => doc.documentEl == documentEl);\n        if (documentObj)\n          this.document = documentObj;\n        else\n          console.error("Failed to find document object for external markdown node", this);\n      }\n      this.initEvents();\n    }\n    get size() {\n      return new Vector2(parseFloat(this.nodeEl.style.width.replace("px", "")), parseFloat(this.nodeEl.style.height.replace("px", "")));\n    }\n    set size(newSize) {\n      this.nodeEl.style.width = newSize.x + "px";\n      this.nodeEl.style.height = newSize.y + "px";\n      this.nodeEl.style.setProperty("--canvas-node-width", newSize.x + "px");\n      this.nodeEl.style.setProperty("--canvas-node-height", newSize.y + "px");\n    }\n    get position() {\n      const transform = this.nodeEl.style.transform;\n      const match = transform.match(/translate\\(([^,]+)px, ([^,]+)px\\)/);\n      const translate = this.nodeEl.style.translate;\n      const match2 = translate.match(/([^,]+)px ([^,]+)px/);\n      let x = 0;\n      let y = 0;\n      if (match) {\n        x += parseFloat(match[1]);\n        y += parseFloat(match[2]);\n      }\n      if (match2) {\n        x += parseFloat(match2[1]);\n        y += parseFloat(match2[2]);\n      }\n      return new Vector2(x, y);\n    }\n    set position(newPos) {\n      this.nodeEl.style.transform = `translate(${newPos.x}px, ${newPos.y}px)`;\n    }\n    get bounds() {\n      let bounds = new Bounds(0, 0, 0, 0);\n      let size = this.size.scale(this.canvas.scale);\n      let position = this.position.scale(this.canvas.scale).add(this.canvas.position);\n      bounds.position = position;\n      bounds.size = size;\n      return bounds;\n    }\n    get label() {\n      return this.labelEl.textContent ?? "";\n    }\n    set label(newLabel) {\n      this.labelEl.textContent = newLabel;\n    }\n    get isScrollable() {\n      if (!this.document)\n        return false;\n      return this.document?.documentEl.scrollHeight > this.document?.documentEl.clientHeight;\n    }\n    get scrollContainer() {\n      return this.document?.documentEl;\n    }\n    focus(force = true) {\n      if (this.isFocused && force)\n        return;\n      if (this.canvas.focusedNode != this)\n        this.canvas.focusedNode?.focus(false);\n      this.nodeEl.classList.toggle("is-focused", force);\n      this.canvas.focusedNode = force ? this : null;\n      this.isFocused = force;\n    }\n    initEvents() {\n      const node = this;\n      this.nodeEl.addEventListener("dblclick", (e) => {\n        node.fitToView(false);\n      });\n      function onEnter(event) {\n        node.focus(true);\n        node.nodeEl.addEventListener("mouseleave", onLeave);\n        node.nodeEl.addEventListener("touchend", onLeave);\n        event.stopPropagation();\n      }\n      function onLeave() {\n        console.log("leave");\n        node.focus(false);\n        node.nodeEl.removeEventListener("mouseleave", onLeave);\n        node.nodeEl.removeEventListener("touchend", onLeave);\n      }\n      this.nodeEl.addEventListener("pointerenter", onEnter);\n    }\n    fitToView(instant = false) {\n      this.canvas.fitToBounds(this.bounds, 0.9, instant);\n    }\n  };\n  var Canvas = class {\n    constructor(document2) {\n      this.hiddenNodes = [];\n      this.focusedNode = null;\n      this._renderScale = 1;\n      this._minScale = 0.1;\n      this._maxScale = 5;\n      this._targetScale = 1;\n      this._scale = 1;\n      this._targetPosition = new Vector2(0, 0);\n      this._position = new Vector2(0, 0);\n      this._backgroundBaseScale = 20;\n      this._invisibleBackgroundScale = 2;\n      this._backgroundScale = this._backgroundBaseScale;\n      this._backgroundDotSize = 1;\n      this._backgroundPosition = new Vector2(0, 0);\n      this.lastTime = 0;\n      this.document = document2;\n      this.nodes = Array.from(document2.documentEl.querySelectorAll(".canvas-node")).map((nodeEl) => new CanvasNode(this, nodeEl));\n      this.document.documentEl.style.position = "absolute";\n      this.document.documentEl.style.width = "100%";\n      this.document.documentEl.style.height = "100%";\n      this.document.documentEl.style.overflow = "hidden";\n      this.document.documentEl.style.top = "0";\n      this.document.documentEl.style.left = "0";\n      this.canvasEl = document2.documentEl.querySelector(".canvas");\n      this.wrapperEl = document2.documentEl.querySelector(".canvas-wrapper");\n      this.backgroundEl = document2.documentEl.querySelector(".canvas-background pattern");\n      this.backgroundDotEl = this.backgroundEl?.querySelector("circle");\n      this.canvasEl.setAttribute("style", `translate: 0px 1px; scale: 1;`);\n      this.backgroundScale = this._backgroundScale;\n      this.backgroundDotSize = this._backgroundDotSize;\n      this.renderScale = this._renderScale;\n      const nodespaceOffset = Bounds.fromElement(this.canvasEl).min.sub(this.nodeBounds.min);\n      Array.from(this.canvasEl.children).forEach((el) => {\n        el.style.translate = `${nodespaceOffset.x}px ${nodespaceOffset.y}px`;\n      });\n      this.forcePosition = this.nodeBounds.min.sub(this.wrapperBounds.min);\n      requestAnimationFrame(this.updateScale.bind(this));\n      this.initEvents();\n      this.wrapperEl.style.transition = "opacity 0.0s";\n      this.wrapperEl.classList.add("hide");\n      this.wrapperEl.style.transition = "opacity 3s";\n      this.wrapperEl.classList.remove("hide");\n      this.fitToBounds(this.nodeBounds, 3, true);\n      setTimeout(() => {\n        this.fitToBounds(this.nodeBounds, 0.9, false);\n      }, 100);\n    }\n    get renderScale() {\n      return this._renderScale;\n    }\n    set renderScale(scale) {\n      this._renderScale = scale;\n      this.canvasEl.style.zoom = scale * 100 + "%";\n      this.scale = this._scale;\n      this.position = this._position;\n    }\n    get nodeBounds() {\n      if (this.nodes.length == 0)\n        return new Bounds(0, 0, 0, 0);\n      const bounds = this.nodes[0].bounds;\n      for (const node of this.nodes) {\n        bounds.encapsulate(node.bounds);\n      }\n      ;\n      return bounds;\n    }\n    get wrapperBounds() {\n      return Bounds.fromElement(this.wrapperEl);\n    }\n    get minScale() {\n      return this._minScale;\n    }\n    get maxScale() {\n      return this._maxScale;\n    }\n    get targetScale() {\n      return this._targetScale;\n    }\n    set targetScale(newScale) {\n      newScale = Math.min(Math.max(newScale, this.minScale), this.maxScale);\n      this._targetScale = newScale;\n    }\n    get scale() {\n      return this._scale;\n    }\n    set scale(newScale) {\n      let ratio = newScale / this._scale;\n      this._scale = newScale;\n      let scaled = newScale / this.renderScale;\n      const scaleStr = scaled.toString() ?? "1";\n      this.canvasEl.style.scale = scaleStr;\n      const zoomStr = (1 / Math.sqrt(newScale)).toString() ?? "1";\n      this.wrapperEl.style.setProperty("--zoom-multiplier", zoomStr);\n      this.canvasEl.classList.toggle("small-scale", this.scale < 0.15);\n      this.backgroundScale = this.backgroundScale * ratio;\n    }\n    get targetPosition() {\n      return this._targetPosition;\n    }\n    set targetPosition(screenPos) {\n      this._targetPosition = screenPos;\n    }\n    get position() {\n      return this._position;\n    }\n    set position(screenPos) {\n      this._position = screenPos;\n      let scaled = screenPos.divide(this.renderScale);\n      this.canvasEl.style.translate = `${scaled.x}px ${scaled.y}px`;\n      this.backgroundPosition = this.position;\n    }\n    set forcePosition(screenPos) {\n      this.targetPosition = screenPos;\n      this.position = screenPos;\n    }\n    get forcePosition() {\n      return this.position;\n    }\n    get backgroundScale() {\n      return this._backgroundScale;\n    }\n    set backgroundScale(newScale) {\n      const scaleStr = newScale.toString() ?? "20";\n      this.backgroundEl?.setAttribute("width", scaleStr);\n      this.backgroundEl?.setAttribute("height", scaleStr);\n      this._backgroundScale = newScale;\n      if (this.backgroundEl?.parentElement)\n        this.backgroundEl.parentElement.style.opacity = (1 - mapRangeClamped(this._backgroundScale, this._backgroundBaseScale / 2, this._invisibleBackgroundScale, 0, 1)).toString();\n    }\n    get backgroundDotSize() {\n      return this._backgroundDotSize;\n    }\n    set backgroundDotSize(newSize) {\n      const sizeStr = newSize.toString() ?? "0.7";\n      this.backgroundDotEl?.setAttribute("r", sizeStr);\n      this.backgroundDotEl?.setAttribute("cx", sizeStr);\n      this.backgroundDotEl?.setAttribute("cy", sizeStr);\n      this._backgroundDotSize = newSize;\n    }\n    get backgroundPosition() {\n      return this._backgroundPosition;\n    }\n    set backgroundPosition(newPosition) {\n      if (!this.backgroundEl)\n        return;\n      this.backgroundEl?.setAttribute("x", newPosition.x.toString());\n      this.backgroundEl?.setAttribute("y", newPosition.y.toString());\n      this._backgroundPosition = newPosition;\n    }\n    updateScale(time) {\n      if (this.lastTime == 0)\n        this.lastTime = time;\n      const deltaTime = (time - this.lastTime) / 1e3;\n      this.lastTime = time;\n      if (Math.abs(this.targetScale - this.scale) > 1e-4)\n        this.scale = inOutQuadBlend(this.scale, this.targetScale, 6 * deltaTime);\n      if (this.targetPosition.sub(this.position).magnitude > 1e-3)\n        this.position = inOutQuadBlendv(this.position, this.targetPosition, 6 * deltaTime);\n      let screenBounds = Bounds.screenBounds;\n      this.hiddenNodes.sort((a, b) => {\n        const aCenter = a.bounds.center;\n        const bCenter = b.bounds.center;\n        const aDist = aCenter.sub(screenBounds.center).magnitude;\n        const bDist = bCenter.sub(screenBounds.center).magnitude;\n        return aDist - bDist;\n      });\n      for (let i = 0; i < 50; i++) {\n        if (i >= this.hiddenNodes.length)\n          break;\n        const node = this.hiddenNodes[i];\n        if (!node) {\n          this.hiddenNodes.splice(i, 1);\n          continue;\n        }\n        const bounds = node.bounds.expand(100);\n        const isVisible = bounds.overlaps(screenBounds);\n        node.nodeEl.style.display = isVisible ? "" : "none";\n        if (isVisible)\n          this.hiddenNodes.splice(i, 1);\n      }\n      requestAnimationFrame(this.updateScale.bind(this));\n    }\n    initEvents() {\n      const observer = new IntersectionObserver((entries) => {\n        entries.forEach((entry) => {\n          entry.target.style.display = entry.isIntersecting ? "" : "none";\n          if (!entry.isIntersecting)\n            this.hiddenNodes.push(entry.target.nodeObj);\n        });\n      }, { root: null, rootMargin: "0px", threshold: 0 });\n      this.nodes.forEach((node) => observer.observe(node.nodeEl));\n      const localThis = this;\n      const isWindows = navigator.userAgent.includes("Windows");\n      function getRelativePointerPosition(event) {\n        const rect = localThis.wrapperEl.getBoundingClientRect();\n        const x = event.clientX - rect.left;\n        const y = event.clientY - rect.top;\n        return new Vector2(x, y);\n      }\n      function dragStart(event) {\n        if (event.pointerType != "mouse" && event.pointerType != "pen")\n          return;\n        const startPointerPos = getRelativePointerPosition(event);\n        const startCanvasPos = localThis.position;\n        const startingNode = localThis.focusedNode;\n        function drag(dragEvent) {\n          if (isWindows && startingNode?.isScrollable && dragEvent.buttons == 4)\n            return;\n          dragEvent.preventDefault();\n          const pointer = getRelativePointerPosition(dragEvent);\n          const delta = pointer.sub(startPointerPos);\n          localThis.forcePosition = startCanvasPos.add(delta);\n        }\n        function dragEnd(e) {\n          document.removeEventListener("mousemove", drag);\n          document.removeEventListener("mouseup", dragEnd);\n        }\n        document.addEventListener("mousemove", drag);\n        document.addEventListener("mouseup", dragEnd);\n      }\n      this.wrapperEl.addEventListener("pointerdown", dragStart);\n      function shouldOverrideScroll(deltaY, deltaX, node) {\n        const scrollContainer = node?.scrollContainer;\n        if (scrollContainer) {\n          if (scrollContainer.scrollTop != 0 && deltaY < 0 && Math.abs(deltaY / (deltaX + 0.01)) > 2)\n            return false;\n          if (scrollContainer.scrollHeight - scrollContainer.scrollTop > scrollContainer.clientHeight + 1 && deltaY > 0 && Math.abs(deltaY / (deltaX + 0.01)) > 2)\n            return false;\n          if (scrollContainer.scrollLeft != 0 && deltaX < 0 && Math.abs(deltaX / (deltaY + 0.01)) > 2)\n            return false;\n          if (scrollContainer.scrollWidth - scrollContainer.scrollLeft > scrollContainer.clientWidth + 1 && deltaX > 0 && Math.abs(deltaX / (deltaY + 0.01)) > 2)\n            return false;\n        }\n        return true;\n      }\n      this.wrapperEl.addEventListener("wheel", function(event) {\n        if (!shouldOverrideScroll(event.deltaY, event.deltaX, localThis.focusedNode))\n          return;\n        let scale = 1;\n        scale -= event.deltaY / 700 * scale;\n        localThis.scaleAround(scale, getRelativePointerPosition(event));\n      }, { passive: true });\n      let touching = false;\n      this.wrapperEl.addEventListener("touchstart", function(event) {\n        if (touching)\n          return;\n        touching = true;\n        const touches = event.touches;\n        function getTouchData(touches2) {\n          const touch1 = getRelativePointerPosition(touches2[0]);\n          const touch2 = touches2.length == 2 ? getRelativePointerPosition(touches2[1]) : null;\n          const center = touch2 ? touch1.add(touch2).scale(0.5) : touch1;\n          const distance = touch2 ? Vector2.distance(touch1, touch2) : 0;\n          return { touch1, touch2, center, distance };\n        }\n        let lastTouchData = getTouchData(touches);\n        let isTwoFingerDrag = touches.length == 2;\n        const startingNode = localThis.focusedNode;\n        function touchMove(event2) {\n          const touches2 = event2.touches;\n          const touchData = getTouchData(touches2);\n          if (touches2.length == 2) {\n            if (!isTwoFingerDrag) {\n              lastTouchData = getTouchData(touches2);\n              isTwoFingerDrag = true;\n            }\n            const scaleDelta = (touchData.distance - lastTouchData.distance) / lastTouchData.distance;\n            localThis.scaleAround(1 + scaleDelta, touchData.center);\n          }\n          const delta = touchData.center.sub(lastTouchData.center);\n          if (!isTwoFingerDrag && !shouldOverrideScroll(-delta.y, delta.x, startingNode)) {\n            lastTouchData = getTouchData(touches2);\n            return;\n          }\n          event2.preventDefault();\n          localThis.targetPosition = localThis.targetPosition.add(delta);\n          lastTouchData = getTouchData(touches2);\n        }\n        function touchEnd(event2) {\n          document.removeEventListener("touchmove", touchMove);\n          document.removeEventListener("touchend", touchEnd);\n          touching = false;\n        }\n        document.addEventListener("touchmove", touchMove);\n        document.addEventListener("touchend", touchEnd);\n      });\n    }\n    scaleAround(scaleBy, point, instantScale = false) {\n      const currentScale = this.targetScale;\n      let newScale = currentScale * scaleBy;\n      newScale = Math.min(Math.max(newScale, this.minScale), this.maxScale);\n      scaleBy = newScale / currentScale;\n      const centerToPoint = point.sub(this.targetPosition);\n      const centerPin = centerToPoint.scale(scaleBy).add(this.targetPosition);\n      const offset = point.sub(centerPin);\n      if (instantScale) {\n        this.scale *= scaleBy;\n        this.targetScale = this.scale;\n        this.forcePosition = this.forcePosition.add(offset);\n      } else {\n        this.targetScale *= scaleBy;\n        this.targetPosition = this.targetPosition.add(offset);\n      }\n      return offset;\n    }\n    setScaleAround(scale, point, instant = false) {\n      this.scaleAround(scale / this.targetScale, point, instant);\n    }\n    fitToBounds(bounds = this.nodeBounds, scaleMultiplier = 0.9, instant = false) {\n      this.hideNodesOutsideBounds(bounds.scale(2));\n      const documentWidth = this.document.containerEl.clientWidth;\n      const documentHeight = this.document.containerEl.clientHeight;\n      const xRatio = documentWidth / bounds.width;\n      const yRatio = documentHeight / bounds.height;\n      const scale = scaleMultiplier * Math.min(xRatio, yRatio);\n      this.scaleAround(scale, bounds.center, instant);\n      this.centerView(bounds.center, instant);\n    }\n    hideNodesOutsideBounds(bounds) {\n      for (const node of this.nodes) {\n        if (!bounds.overlaps(node.bounds)) {\n          node.nodeEl.style.display = "none";\n          this.hiddenNodes.push(node);\n        }\n      }\n    }\n    centerView(center, instant = false) {\n      const offset = this.wrapperBounds.center.sub(center);\n      if (instant)\n        this.forcePosition = this.forcePosition.add(offset);\n      else\n        this.targetPosition = this.targetPosition.add(offset);\n    }\n  };\n\n  // src/shared/features/feature-options-base.ts\n  \n  var RelationType = /* @__PURE__ */ ((RelationType2) => {\n    RelationType2["Before"] = "before";\n    RelationType2["After"] = "after";\n    RelationType2["Start"] = "start";\n    RelationType2["End"] = "end";\n    return RelationType2;\n  })(RelationType || {});\n  var FeatureRelation = class {\n    constructor(selector = "#right-sidebar-content", type = "start" /* Start */) {\n      this.selector = "#right-sidebar-content";\n      this.type = "start" /* Start */;\n      \n      \n      this.selector = selector;\n      this.type = type;\n    }\n  };\n  var FeatureSettingInfo = class {\n    constructor(options) {\n      this.show = true;\n      this.name = "";\n      this.description = "";\n      this.placeholder = "";\n      this.fileInputOptions = void 0;\n      this.dropdownOptions = void 0;\n      if (options) {\n        this.show = options.show ?? this.show;\n        this.name = options.name ?? this.name;\n        this.description = options.description ?? this.description;\n        this.placeholder = options.placeholder ?? this.placeholder;\n        this.fileInputOptions = options.fileInputOptions ?? this.fileInputOptions;\n        this.dropdownOptions = options.dropdownTypes ?? this.dropdownOptions;\n      }\n    }\n  };\n  var FeatureOptions = class {\n    constructor() {\n      this.featureId = "feature";\n      this.enabled = true;\n      this.unavailable = false;\n      this.alwaysEnabled = false;\n      this.hideSettingsButton = false;\n    }\n    setAvailable(value) {\n      this.unavailable = !value;\n      this.enabled = value;\n    }\n  };\n  var InsertedFeatureOptions = class extends FeatureOptions {\n    constructor(featureId, featurePlacement) {\n      super();\n      this.featurePlacement = new FeatureRelation();\n      \n      this.featureId = featureId ?? "inserted-feature";\n      this.featurePlacement = featurePlacement ?? new FeatureRelation();\n    }\n    insertFeature(container, feature) {\n      if (!container)\n        return false;\n      let relation = container.querySelector(this.featurePlacement.selector);\n      if (relation) {\n        switch (this.featurePlacement.type) {\n          case "before" /* Before */:\n            relation.before(feature);\n            return true;\n          case "after" /* After */:\n            relation.after(feature);\n            return true;\n          case "start" /* Start */:\n            relation.prepend(feature);\n            return true;\n          case "end" /* End */:\n            relation.append(feature);\n            return true;\n          default:\n            return false;\n        }\n      }\n      return false;\n    }\n  };\n  var InsertedFeatureOptionsWithTitle = class extends InsertedFeatureOptions {\n    constructor() {\n      super(...arguments);\n      this.displayTitle = "Feature";\n      \n    }\n  };\n  var FetchedFeatureOptions = class extends InsertedFeatureOptions {\n    constructor() {\n      super(...arguments);\n      \n    }\n  };\n\n  // src/shared/features/aliases.ts\n  var AliasesOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.featureId = "aliases";\n      this.displayTitle = "Aliases";\n      this.featurePlacement = new FeatureRelation(".header .data-bar", "start" /* Start */);\n    }\n  };\n\n  // src/shared/features/backlinks.ts\n  \n  var BacklinksOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.featureId = "backlinks";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation(".footer", "start" /* Start */);\n    }\n  };\n\n  // src/shared/shared.ts\n  var Shared = class {\n  };\n  Shared.libFolderName = "site-lib";\n  Shared.mediaFolderName = "media";\n  Shared.scriptsFolderName = "scripts";\n  Shared.cssFolderName = "styles";\n  Shared.fontFolderName = "fonts";\n  Shared.htmlFolderName = "html";\n  Shared.metadataFileName = "metadata.json";\n  Shared.searchIndexFileName = "search-index.json";\n\n  // src/shared/features/custom-head.ts\n  \n  var CustomHeadOptions = class extends FetchedFeatureOptions {\n    constructor() {\n      super();\n      this.sourcePath = "";\n      \n      this.featureId = "custom-head";\n      this.featurePlacement = new FeatureRelation("head", "end" /* End */);\n      this.includePath = `${Shared.libFolderName}/${Shared.htmlFolderName}/custom-head.html`;\n    }\n  };\n\n  // src/shared/features/document.ts\n  \n  var DocumentOptions = class extends FeatureOptions {\n    constructor() {\n      super();\n      this.allowFoldingLists = true;\n      this.allowFoldingHeadings = true;\n      this.documentWidth = "40em";\n      \n      \n      \n      this.featureId = "obsidian-document";\n      this.alwaysEnabled = true;\n    }\n  };\n\n  // src/shared/features/file-navigation.ts\n  \n  var FileNavigationOptions = class extends FetchedFeatureOptions {\n    constructor() {\n      super();\n      this.showCustomIcons = false;\n      this.showDefaultFolderIcons = false;\n      this.showDefaultFileIcons = false;\n      this.defaultFolderIcon = "lucide//folder";\n      this.defaultFileIcon = "lucide//file";\n      this.defaultMediaIcon = "lucide//file-image";\n      this.exposeStartingPath = true;\n      \n      \n      \n      \n      \n      \n      \n      this.featureId = "file-navigation";\n      this.featurePlacement = new FeatureRelation("#left-sidebar-content", "end" /* End */);\n      this.includePath = `${Shared.libFolderName}/${Shared.htmlFolderName}/file-tree.html`;\n    }\n  };\n\n  // src/shared/features/graph-view.ts\n  \n  var GraphViewOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.showOrphanNodes = true;\n      this.showAttachments = false;\n      this.allowGlobalGraph = true;\n      this.allowExpand = true;\n      this.attractionForce = 1;\n      this.linkLength = 15;\n      this.repulsionForce = 80;\n      this.centralForce = 2;\n      this.edgePruning = 100;\n      this.minNodeRadius = 3;\n      this.maxNodeRadius = 7;\n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      this.featureId = "graph-view";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation("#right-sidebar-content", "start" /* Start */);\n    }\n  };\n\n  // src/shared/features/link-preview.ts\n  var LinkPreviewOptions = class extends FeatureOptions {\n    constructor() {\n      super();\n      this.featureId = "link-preview";\n      this.hideSettingsButton = true;\n    }\n  };\n\n  // src/shared/features/outline.ts\n  \n  var OutlineOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.startCollapsed = false;\n      this.minCollapseDepth = 0;\n      \n      \n      this.featureId = "outline";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation("#right-sidebar-content", "end" /* End */);\n    }\n  };\n\n  // src/shared/features/properties.ts\n  \n  var PropertiesOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      \n      this.featureId = "properties";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation(".header", "start" /* Start */);\n    }\n  };\n\n  // src/shared/features/rss.ts\n  \n  var RssOptions = class extends FeatureOptions {\n    constructor() {\n      super();\n      this.siteUrl = "";\n      this.authorName = "";\n      \n      \n      this.featureId = "rss";\n    }\n  };\n\n  // src/shared/features/search.ts\n  \n  var SearchOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.featureId = "search";\n      this.displayTitle = \'\';\n      this.featurePlacement = new FeatureRelation("#global-topbar-left-content", "start" /* Start */);\n    }\n  };\n\n  // src/shared/features/sidebar.ts\n  \n  var SidebarOptions = class extends FeatureOptions {\n    constructor() {\n      super();\n      this.allowResizing = true;\n      this.allowCollapsing = true;\n      this.rightDefaultWidth = "20em";\n      this.leftDefaultWidth = "20em";\n      \n      \n      \n      \n      this.featureId = "sidebar";\n    }\n  };\n\n  // src/shared/features/tags.ts\n  \n  var TagsOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.showInlineTags = true;\n      this.showFrontmatterTags = true;\n      \n      \n      this.featureId = "tags";\n      this.displayTitle = "";\n      this.featurePlacement = new FeatureRelation(".header .data-bar", "end" /* End */);\n    }\n  };\n\n  // src/shared/features/theme-toggle.ts\n  var ThemeToggleOptions = class extends InsertedFeatureOptionsWithTitle {\n    constructor() {\n      super();\n      this.featureId = "theme-toggle";\n      this.displayTitle = "";\n      this.featurePlacement = new FeatureRelation("#global-topbar-right-content", "start" /* Start */);\n    }\n  };\n\n  // src/shared/website-data.ts\n  var WebsiteOptions = class {\n    static fromJSON(json) {\n      let data = Object.assign(new WebsiteOptions(), JSON.parse(json));\n      data.backlinks = Object.assign(new BacklinksOptions(), data.backlinks);\n      data.tags = Object.assign(new TagsOptions(), data.tags);\n      data.alias = Object.assign(new AliasesOptions(), data.alias);\n      data.properties = Object.assign(new PropertiesOptions(), data.properties);\n      data.fileNavigation = Object.assign(new FileNavigationOptions(), data.fileNavigation);\n      data.search = Object.assign(new SearchOptions(), data.search);\n      data.outline = Object.assign(new OutlineOptions(), data.outline);\n      data.themeToggle = Object.assign(new ThemeToggleOptions(), data.themeToggle);\n      data.graphView = Object.assign(new GraphViewOptions(), data.graphView);\n      data.sidebar = Object.assign(new SidebarOptions(), data.sidebar);\n      data.customHead = Object.assign(new CustomHeadOptions(), data.customHead);\n      data.document = Object.assign(new DocumentOptions(), data.document);\n      data.rss = Object.assign(new RssOptions(), data.rss);\n      data.linkPreview = Object.assign(new LinkPreviewOptions(), data.linkPreview);\n      return data;\n    }\n  };\n  var WebsiteData = class {\n    constructor() {\n      this.ignoreMetadata = false;\n      this.webpages = {};\n      this.fileInfo = {};\n      this.sourceToTarget = {};\n      this.attachments = [];\n      this.shownInTree = [];\n      this.allFiles = [];\n      this.siteName = "";\n      this.vaultName = "";\n      this.createdTime = 0;\n      this.modifiedTime = 0;\n      this.pluginVersion = "";\n      this.exportRoot = "";\n      this.baseURL = "";\n      this.themeName = "";\n      this.bodyClasses = "";\n      this.hasFavicon = false;\n      this.featureOptions = new WebsiteOptions();\n    }\n    static fromJSON(json) {\n      let data = Object.assign(new WebsiteData(), JSON.parse(json));\n      data.featureOptions = WebsiteOptions.fromJSON(JSON.stringify(data.featureOptions));\n      return data;\n    }\n  };\n\n  // src/frontend/main/callouts.ts\n  var Callout = class {\n    constructor(calloutEl, initEvents = true) {\n      this._collapsed = false;\n      this.calloutEl = calloutEl;\n      this.titleEl = calloutEl.querySelector(".callout-title-inner");\n      this.contentEl = calloutEl.querySelector(".callout-content");\n      this.iconEl = calloutEl.querySelector(".callout-icon");\n      this.foldIconEl = calloutEl.querySelector(".callout-fold");\n      const fold = calloutEl.getAttribute("data-callout-fold");\n      switch (fold) {\n        case "+":\n          this.foldType = 0 /* StartOpen */;\n          this._collapsed = false;\n          break;\n        case "-":\n          this.foldType = 1 /* StartClosed */;\n          this._collapsed = true;\n          break;\n        default:\n          this.foldType = 2 /* Static */;\n          this._collapsed = false;\n          break;\n      }\n      this.type = calloutEl.getAttribute("data-callout") ?? "";\n      this.metadata = calloutEl.getAttribute("data-callout-metadata") ?? "";\n      if (initEvents)\n        this.init();\n    }\n    get title() {\n      return this.titleEl?.textContent ?? "";\n    }\n    set title(title) {\n      this.titleEl.textContent = title;\n    }\n    get collapsed() {\n      return this._collapsed;\n    }\n    set collapsed(collapse) {\n      this.toggle(collapse);\n    }\n    toggle(force) {\n      if (this.foldType == 2 /* Static */)\n        return;\n      if (force === void 0)\n        force = !this._collapsed;\n      this.calloutEl?.classList.toggle("is-collapsed", force);\n      this.foldIconEl?.classList.toggle("is-collapsed", force);\n      if (force)\n        slideUp(this.contentEl, 150);\n      else\n        slideDown(this.contentEl, 150);\n      this._collapsed = force;\n    }\n    collapse() {\n      this.toggle(true);\n    }\n    expand() {\n      this.toggle(false);\n    }\n    init() {\n      if (this.foldIconEl) {\n        this.foldIconEl.addEventListener("click", () => {\n          this.toggle();\n        });\n      }\n    }\n  };\n\n  // src/frontend/main/headers.ts\n  var _Header = class {\n    constructor(element) {\n      this._children = [];\n      this._isCollapsed = false;\n      this._content = [];\n      this._divParent = element.parentElement;\n      this._headerElement = element;\n      this._collapseIndicatorElement = this._headerElement.querySelector(".heading-collapse-indicator");\n      this._id = element.id;\n      this._level = parseInt(element.tagName.replace("H", ""));\n      _Header.headerMap.set(element, this);\n      if (this._collapseIndicatorElement) {\n        this._collapseIndicatorElement.addEventListener("click", () => {\n          this.toggleCollapse();\n        });\n      }\n    }\n    get id() {\n      return this._id;\n    }\n    get text() {\n      return this._headerElement.textContent ?? "";\n    }\n    set text(value) {\n      this._headerElement.textContent = value;\n    }\n    get level() {\n      return this._level;\n    }\n    get headerElement() {\n      return this._headerElement;\n    }\n    get collapseIndicatorElement() {\n      return this._collapseIndicatorElement;\n    }\n    get children() {\n      return this._children;\n    }\n    get isCollapsed() {\n      return this._isCollapsed;\n    }\n    scrollTo(options = { behavior: "smooth", block: "start" }) {\n      this._headerElement.scrollIntoView(options);\n    }\n    find(predicate) {\n      if (predicate(this)) {\n        return this;\n      }\n      for (const child of this.children) {\n        const result = child.find(predicate);\n        if (result) {\n          return result;\n        }\n      }\n      return void 0;\n    }\n    findByID(id) {\n      if (id.startsWith("#")) {\n        id = id.substring(1);\n      }\n      return this.find((header) => header.id === id);\n    }\n    getFlatChildren() {\n      let headers = [this];\n      for (const child of this._children) {\n        headers = headers.concat(child.getFlatChildren());\n      }\n      return headers;\n    }\n    toggleCollapse() {\n      this._isCollapsed = !this._isCollapsed;\n      this._collapseIndicatorElement?.classList.toggle("is-collapsed", this._isCollapsed);\n      this._headerElement.classList.toggle("is-collapsed", this._isCollapsed);\n      this.updateVisibility(this._isCollapsed);\n    }\n    updateVisibility(collapse) {\n      this._collapseIndicatorElement?.classList.toggle("is-collapsed", collapse);\n      this._headerElement.classList.toggle("is-collapsed", collapse);\n      for (const element of this._content) {\n        element.style.display = collapse ? "none" : "";\n      }\n      for (const child of this._children) {\n        child.headerElement.style.display = collapse ? "none" : "";\n        if (collapse) {\n          child.updateVisibility(true);\n        } else {\n          child.updateVisibility(child._isCollapsed);\n        }\n      }\n    }\n    getHeaderWithContentRecursive() {\n      let content = [];\n      content.push(this._divParent);\n      for (const element of this._content) {\n        content.push(element);\n      }\n      for (const child of this._children) {\n        content = content.concat(child.getHeaderWithContentRecursive());\n      }\n      return content;\n    }\n    static createHeaderTree(html) {\n      const headers = Array.from(html.querySelectorAll("h1, h2, h3, h4, h5, h6"));\n      const headerObjects = headers.map((el) => new _Header(el));\n      const rootHeaders = [];\n      const stack = [];\n      for (let i = 0; i < headerObjects.length; i++) {\n        const currentHeader = headerObjects[i];\n        while (stack.length > 0 && stack[stack.length - 1].level >= currentHeader.level) {\n          stack.pop();\n        }\n        if (stack.length > 0) {\n          stack[stack.length - 1].children.push(currentHeader);\n        } else {\n          rootHeaders.push(currentHeader);\n        }\n        stack.push(currentHeader);\n        let nextElement = currentHeader.headerElement.nextElementSibling;\n        while (nextElement && !(nextElement instanceof HTMLHeadingElement)) {\n          if (nextElement instanceof HTMLElement) {\n            currentHeader._content.push(nextElement);\n          }\n          nextElement = nextElement.nextElementSibling;\n        }\n        nextElement = currentHeader.headerElement.parentElement?.nextElementSibling ?? null;\n        while (nextElement && !nextElement.querySelector("h1, h2, h3, h4, h5, h6")) {\n          if (nextElement instanceof HTMLElement && !nextElement.classList.contains("footer")) {\n            currentHeader._content.push(nextElement);\n          }\n          nextElement = nextElement.nextElementSibling;\n        }\n      }\n      return rootHeaders;\n    }\n  };\n  var Header = _Header;\n  Header.headerMap = /* @__PURE__ */ new WeakMap();\n\n  // src/frontend/main/link-preview.ts\n  var _FilePreviewPopover = class {\n    constructor(link, target, onRemove) {\n      this.isPinned = false;\n      this.resizeObserver = null;\n      this.hoverTimeout = null;\n      this.showTimeout = null;\n      this.link = link;\n      this.target = target;\n      this.onRemove = onRemove;\n      this.createPreviewElements();\n      this.setupEventListeners();\n      this.positionPreview();\n      this.setupOutsideClickListener();\n    }\n    static savePinnedPreviews() {\n      const previewDatas = _FilePreviewPopover.pinnedPreviews.map((preview) => {\n        return {\n          target: preview.target,\n          top: preview.filePreviewPopover.style.top,\n          left: preview.filePreviewPopover.style.left,\n          width: preview.filePreviewPopover.style.width,\n          height: preview.filePreviewPopover.style.height,\n          zIndex: preview.filePreviewPopover.style.zIndex\n        };\n      });\n      localStorage.setItem("pinnedPreviews", JSON.stringify(previewDatas));\n    }\n    static loadPinnedPreviews() {\n      const previewDatas = JSON.parse(localStorage.getItem("pinnedPreviews") ?? "[]");\n      previewDatas.forEach(async (previewData) => {\n        const preview = new _FilePreviewPopover(null, previewData.target, () => {\n        });\n        preview.setPinned(true);\n        preview.filePreviewPopover.style.top = previewData.top;\n        preview.filePreviewPopover.style.left = previewData.left;\n        preview.filePreviewPopover.style.width = previewData.width;\n        preview.filePreviewPopover.style.height = previewData.height;\n        preview.filePreviewPopover.style.zIndex = previewData.zIndex || _FilePreviewPopover.baseZIndex.toString();\n        preview.show();\n      });\n    }\n    static create(target, x, y, pinned = true) {\n      const preview = new _FilePreviewPopover(null, target, () => {\n      });\n      preview.setPinned(pinned);\n      preview.filePreviewPopover.style.top = y + "px";\n      preview.filePreviewPopover.style.left = x + "px";\n      preview.show();\n    }\n    static initializeLink(link, target) {\n      let preview = null;\n      link.addEventListener("pointerenter", function() {\n        if (!preview) {\n          preview = new _FilePreviewPopover(link, target, () => {\n            preview = null;\n          });\n          preview.startShowTimeout();\n        }\n      });\n      link.addEventListener("pointerleave", function() {\n        if (preview) {\n          if (!preview.isPinned) {\n            preview.startRemoveTimeout();\n          }\n          preview.clearShowTimeout();\n        }\n      });\n      link.addEventListener("click", function(event) {\n        if (preview) {\n          if (!preview.isPinned) {\n            preview.startRemoveTimeout();\n          }\n          preview.clearShowTimeout();\n        }\n      });\n    }\n    createPreviewElements() {\n      this.filePreviewPopover = document.createElement("div");\n      this.filePreviewPopover.className = "file-preview popover hover-popover hide";\n      document.body.appendChild(this.filePreviewPopover);\n      this.markdownEmbed = document.createElement("div");\n      this.markdownEmbed.className = "markdown-embed";\n      this.filePreviewPopover.appendChild(this.markdownEmbed);\n      this.markdownEmbedContent = document.createElement("div");\n      this.markdownEmbedContent.className = "markdown-embed-content";\n      this.markdownEmbed.appendChild(this.markdownEmbedContent);\n      this.actionContainer = document.createElement("div");\n      this.actionContainer.className = "preview-action-container";\n      this.filePreviewPopover.appendChild(this.actionContainer);\n      this.dragHandle = document.createElement("div");\n      this.dragHandle.className = "drag-handle clickable-icon popover-action";\n      this.actionContainer.appendChild(this.dragHandle);\n      this.pinButton = document.createElement("button");\n      this.pinButton.className = "pin-button clickable-icon popover-action";\n      this.actionContainer.appendChild(this.pinButton);\n      this.goToButton = document.createElement("button");\n      this.goToButton.className = "go-to-button clickable-icon popover-action";\n      this.actionContainer.appendChild(this.goToButton);\n      this.filePreviewPopover.style.zIndex = _FilePreviewPopover.baseZIndex.toString();\n      this.bringToFront();\n    }\n    setPinned(pinned) {\n      this.isPinned = pinned;\n      this.pinButton.classList.toggle("pinned", this.isPinned);\n      this.filePreviewPopover.classList.toggle("pinned", this.isPinned);\n      if (this.isPinned) {\n        _FilePreviewPopover.pinnedPreviews.push(this);\n      } else {\n        _FilePreviewPopover.pinnedPreviews = _FilePreviewPopover.pinnedPreviews.filter((preview) => preview !== this);\n      }\n    }\n    setupEventListeners() {\n      this.pinButton.addEventListener("click", () => {\n        this.setPinned(!this.isPinned);\n        _FilePreviewPopover.savePinnedPreviews();\n      });\n      this.goToButton.addEventListener("click", () => {\n        ObsidianSite.loadURL(this.target);\n      });\n      this.setupDragHandleListeners();\n      this.filePreviewPopover.addEventListener("pointerenter", () => {\n        this.clearRemoveTimeout();\n      });\n      this.filePreviewPopover.addEventListener("pointerleave", () => {\n        if (!this.isPinned) {\n          this.startRemoveTimeout();\n        }\n      });\n      this.setupResizeObserver();\n    }\n    updateMaxSize() {\n      const viewportWidth = window.innerWidth;\n      const viewportHeight = window.innerHeight;\n      const rect = this.filePreviewPopover.getBoundingClientRect();\n      const margin = 10;\n      const maxWidth = viewportWidth - rect.left - margin;\n      const maxHeight = viewportHeight - rect.top - margin;\n      this.filePreviewPopover.style.maxWidth = `${maxWidth}px`;\n      this.filePreviewPopover.style.maxHeight = `${maxHeight}px`;\n      const newLeft = Math.max(margin, rect.left);\n      const newTop = Math.max(margin, rect.top);\n      if (newLeft !== rect.left) {\n        this.filePreviewPopover.style.left = `${newLeft}px`;\n      }\n      if (newTop !== rect.top) {\n        this.filePreviewPopover.style.top = `${newTop}px`;\n      }\n      _FilePreviewPopover.savePinnedPreviews();\n    }\n    setupResizeObserver() {\n      this.updateMaxSize();\n      this.resizeObserver = new ResizeObserver(() => {\n        this.updateMaxSize();\n      });\n      this.resizeObserver.observe(this.filePreviewPopover);\n      window.addEventListener("resize", this.updateMaxSize);\n    }\n    dragPreviewCallback(event) {\n      event.stopPropagation();\n      this.bringToFront();\n      const offsetX = event.clientX - this.filePreviewPopover.getBoundingClientRect().left;\n      const offsetY = event.clientY - this.filePreviewPopover.getBoundingClientRect().top;\n      const onPointerMove = (event2) => {\n        let newLeft = event2.clientX - offsetX;\n        let newTop = event2.clientY - offsetY;\n        const viewportWidth = window.innerWidth;\n        const viewportHeight = window.innerHeight;\n        const previewRect = this.filePreviewPopover.getBoundingClientRect();\n        newLeft = Math.max(0, Math.min(newLeft, viewportWidth - previewRect.width));\n        newTop = Math.max(0, Math.min(newTop, viewportHeight - previewRect.height));\n        this.filePreviewPopover.style.left = newLeft + "px";\n        this.filePreviewPopover.style.top = newTop + "px";\n        this.updateMaxSize();\n      };\n      const onPointerUp = () => {\n        if (this.isPinned) {\n          _FilePreviewPopover.savePinnedPreviews();\n        }\n        document.removeEventListener("pointermove", onPointerMove);\n        document.removeEventListener("pointerup", onPointerUp);\n      };\n      document.addEventListener("pointermove", onPointerMove);\n      document.addEventListener("pointerup", onPointerUp);\n    }\n    setupDragHandleListeners() {\n      this.dragHandle.addEventListener("pointerdown", this.dragPreviewCallback.bind(this));\n      this.actionContainer.addEventListener("pointerdown", this.dragPreviewCallback.bind(this));\n    }\n    positionPreview() {\n      if (!this.link)\n        return;\n      const linkRect = this.link.getBoundingClientRect();\n      const previewRect = this.filePreviewPopover.getBoundingClientRect();\n      const viewportWidth = window.innerWidth;\n      const viewportHeight = window.innerHeight;\n      this.filePreviewPopover.style.top = "";\n      this.filePreviewPopover.style.left = "";\n      const margin = 10;\n      let top, left;\n      if (viewportHeight - linkRect.bottom >= previewRect.height + margin) {\n        top = linkRect.bottom + margin;\n      } else {\n        top = Math.max(margin, linkRect.top - previewRect.height - margin);\n      }\n      left = linkRect.left;\n      if (left + previewRect.width > viewportWidth - margin) {\n        left = Math.max(margin, linkRect.right - previewRect.width);\n      }\n      top = Math.min(Math.max(margin, top), viewportHeight - previewRect.height - margin);\n      left = Math.min(Math.max(margin, left), viewportWidth - previewRect.width - margin);\n      this.filePreviewPopover.style.top = `${top}px`;\n      this.filePreviewPopover.style.left = `${left}px`;\n    }\n    setupOutsideClickListener() {\n      this.outsideClickListener = (event) => {\n        if (!this.isPinned && !this.filePreviewPopover.contains(event.target) && !this.link?.contains(event.target)) {\n          this.remove();\n        }\n      };\n      document.addEventListener("pointerdown", this.outsideClickListener);\n    }\n    startShowTimeout() {\n      this.clearShowTimeout();\n      this.showTimeout = window.setTimeout(() => this.show(), 350);\n    }\n    clearShowTimeout() {\n      if (this.showTimeout !== null) {\n        clearTimeout(this.showTimeout);\n        this.showTimeout = null;\n      }\n    }\n    async show() {\n      this.filePreviewDocument = new WebpageDocument(this.target);\n      await (await this.filePreviewDocument.load(null, this.markdownEmbedContent, true, true))?.show();\n      this.positionPreview();\n      this.filePreviewPopover.classList.remove("hide");\n    }\n    bringToFront() {\n      let maxZIndex = Math.max(_FilePreviewPopover.baseZIndex, ..._FilePreviewPopover.pinnedPreviews.map((p) => parseInt(p.filePreviewPopover.style.zIndex) || _FilePreviewPopover.baseZIndex));\n      if (maxZIndex >= _FilePreviewPopover.maxZIndex) {\n        _FilePreviewPopover.pinnedPreviews.forEach((p, index) => {\n          p.filePreviewPopover.style.zIndex = (_FilePreviewPopover.baseZIndex + index).toString();\n        });\n        maxZIndex = _FilePreviewPopover.baseZIndex + _FilePreviewPopover.pinnedPreviews.length - 1;\n      }\n      this.filePreviewPopover.style.zIndex = (maxZIndex + 1).toString();\n    }\n    startRemoveTimeout() {\n      this.clearRemoveTimeout();\n      this.hoverTimeout = window.setTimeout(() => this.remove(), 300);\n    }\n    clearRemoveTimeout() {\n      if (this.hoverTimeout !== null) {\n        clearTimeout(this.hoverTimeout);\n        this.hoverTimeout = null;\n      }\n    }\n    remove() {\n      this.clearRemoveTimeout();\n      this.clearShowTimeout();\n      if (this.filePreviewPopover && this.filePreviewPopover.parentNode) {\n        this.filePreviewPopover.parentNode.removeChild(this.filePreviewPopover);\n      }\n      if (this.resizeObserver) {\n        this.resizeObserver.disconnect();\n      }\n      window.removeEventListener("resize", this.updateMaxSize);\n      document.removeEventListener("pointerdown", this.outsideClickListener);\n      this.onRemove();\n    }\n  };\n  var FilePreviewPopover = _FilePreviewPopover;\n  FilePreviewPopover.baseZIndex = 100;\n  FilePreviewPopover.maxZIndex = 1e3;\n  FilePreviewPopover.pinnedPreviews = [];\n\n  // src/frontend/main/links.ts\n  var LinkHandler = class {\n    static initializeLinks(onElement) {\n      console.log("Initializing links on element", onElement);\n      onElement?.querySelectorAll(".internal-link, a.tag, a.tree-item-self, a.footnote-link").forEach(function(link) {\n        const target = link.getAttribute("href") ?? "null";\n        if (target == "null") {\n          console.log("No target found for link");\n          return;\n        }\n        link.addEventListener("click", function(event) {\n          event.preventDefault();\n          event.stopPropagation();\n          ObsidianSite.loadURL(target);\n          if (ObsidianSite.deviceSize === "phone") {\n            const leftSidebar = link.closest("#left-sidebar");\n            const rightSidebar = link.closest("#right-sidebar");\n            if (leftSidebar && ObsidianSite.leftSidebar?.collapsed === false) {\n              ObsidianSite.leftSidebar.collapsed = true;\n            } else if (rightSidebar && ObsidianSite.rightSidebar?.collapsed === false) {\n              ObsidianSite.rightSidebar.collapsed = true;\n            }\n          }\n        });\n        if (target && !target.startsWith("http") && !ObsidianSite.documentExists(target)) {\n          link.classList.add("is-unresolved");\n        } else if (link.classList.contains("internal-link")) {\n          if (!ObsidianSite.metadata?.ignoreMetadata && ObsidianSite.metadata?.featureOptions?.linkPreview?.enabled) {\n            FilePreviewPopover.initializeLink(link, target);\n          }\n        }\n      });\n    }\n    static getPathnameFromURL(url) {\n      if (url == "" || url == "/" || url == "\\\\")\n        return "index.html";\n      if (url?.startsWith("#") || url?.startsWith("?"))\n        return (ObsidianSite.document?.pathname?.split("#")[0]?.split("?")[0] ?? "") + (url ?? "");\n      return url?.split("?")[0]?.split("#")[0]?.trim() ?? "";\n    }\n    static getHashFromURL(url) {\n      return (url.split("#")[1] ?? "").split("?")[0]?.trim() ?? "";\n    }\n    static getQueryFromURL(url) {\n      return url.split("?")[1]?.trim() ?? "";\n    }\n    static getFileDataIdFromURL(url) {\n      url = this.getPathnameFromURL(url);\n      if (url.startsWith("./"))\n        url = url.substring(2);\n      while (url.startsWith("../")) {\n        url = url.substring(3);\n      }\n      return btoa(encodeURI(url));\n    }\n  };\n\n  // src/frontend/main/lists.ts\n  var ListItem = class {\n    constructor(element, parent) {\n      this.parent = void 0;\n      this.collapsible = false;\n      this.collapseEl = void 0;\n      this.line = 0;\n      this.itemEl = element;\n      this.parent = parent;\n      this.line = parseInt(this.itemEl.getAttribute("data-line") ?? "0");\n      this.collapseEl = Array.from(this.itemEl.children).find((el) => el.classList.contains("list-collapse-indicator"));\n      const child = this.itemEl.querySelector("ol, ul");\n      if (child) {\n        this.child = new List(child, this);\n        if (this.collapseEl) {\n          this.collapsible = true;\n          const localThis = this;\n          this.collapseEl.addEventListener("click", function(event) {\n            localThis.isCollapsed = !localThis.isCollapsed;\n            event.stopPropagation();\n          });\n        }\n      }\n    }\n    get isChecked() {\n      return this.itemEl.classList.contains("is-checked");\n    }\n    get isCollapsed() {\n      return this.itemEl.classList.contains("is-collapsed");\n    }\n    set isCollapsed(collapse) {\n      this.itemEl.classList.toggle("is-collapsed", collapse);\n      if (this.collapseEl)\n        this.collapseEl.classList.toggle("is-collapsed", collapse);\n    }\n    get textContent() {\n      return Array.prototype.filter.call(this.itemEl.childNodes, (child) => child.nodeType === Node.TEXT_NODE).map((child) => child.textContent).join("").trim();\n    }\n    get htmlContent() {\n      return this.itemEl.innerHTML;\n    }\n  };\n  var List = class {\n    constructor(element, parent) {\n      this.children = [];\n      this.parent = void 0;\n      if (element.tagName != "OL" && element.tagName != "UL")\n        throw new Error("Invalid list element");\n      this.listType = element.tagName == "OL" ? "ordered" /* Ordered */ : element.classList.contains("contains-task-list") ? "checklist" /* Checklist */ : "unordered" /* Unordered */;\n      this.listEl = element;\n      this.parent = parent;\n      const childItems = Array.from(this.listEl.children).filter((el) => el.tagName == "LI");\n      childItems.forEach((child) => {\n        this.children.push(new ListItem(child, this));\n      });\n    }\n    get linearList() {\n      let list = [];\n      this.children.forEach((child) => {\n        list.push(child);\n        if (child.child)\n          list = list.concat(child.child.linearList);\n      });\n      return list;\n    }\n  };\n\n  // src/frontend/main/notifications.ts\n  var Notice = class {\n    constructor(message, duration = 5e3) {\n      this.message = message;\n      this.duration = duration;\n      this.show();\n    }\n    show() {\n      if (!Notice.container) {\n        Notice.container = document.createElement("div");\n        Notice.container.classList.add("notice-container");\n        Notice.container.style.top = "0";\n        Notice.container.style.right = "0";\n        document.body.appendChild(Notice.container);\n      }\n      this.notification = document.createElement("div");\n      this.notification.classList.add("notice");\n      this.notification.innerHTML = this.message;\n      Notice.container.appendChild(this.notification);\n      this.notification.style.opacity = "0";\n      this.notification.style.transform = "translateX(350px)";\n      this.notification.style.transition = "all 0.5s";\n      setTimeout(() => {\n        this.notification.style.opacity = "1";\n        this.notification.style.transform = "translateX(0)";\n        this.notification.style.height = this.notification.scrollHeight + "px";\n      }, 100);\n      setTimeout(() => {\n        this.dismiss();\n      }, this.duration);\n      this.notification.addEventListener("click", () => {\n        this.dismiss();\n      }, { once: true });\n    }\n    dismiss() {\n      if (!this.notification)\n        return;\n      this.notification.style.opacity = "0";\n      this.notification.style.height = "0";\n      this.notification.style.margin = "0";\n      this.notification.style.padding = "0";\n      setTimeout(() => {\n        this.notification.remove();\n      }, 500);\n    }\n  };\n\n  // src/frontend/main/document.ts\n  var WebpageDocument = class {\n    constructor(url) {\n      this.title = "";\n      this.headers = [];\n      this.callouts = [];\n      this.lists = [];\n      this.children = [];\n      this.isPreview = false;\n      this.initialized = false;\n      this._exists = false;\n      if (!window?.location)\n        return;\n      url = url.trim();\n      if (url.startsWith("http") || url.startsWith("www") || url.startsWith("/") || url.startsWith("\\\\")) {\n        console.error("Please use a relative path from the root of the wesite to load a webpage");\n        return;\n      }\n      this.pathname = LinkHandler.getPathnameFromURL(url);\n      this.hash = LinkHandler.getHashFromURL(url);\n      this.query = LinkHandler.getQueryFromURL(url);\n      let origin = window?.location?.origin;\n      if (origin == "null")\n        origin = "file://";\n      this.info = ObsidianSite.getWebpageData(this.pathname);\n      if (!this.info && !ObsidianSite.metadata.ignoreMetadata) {\n        new Notice("This page does not exist yet.");\n        console.warn("This page does not exist yet.", this.pathname);\n        return;\n      }\n      this._exists = true;\n      this.documentType = this.info?.type ?? "markdown" /* Markdown */;\n      this.title = this.info?.title ?? this.pathname;\n    }\n    get isMainDocument() {\n      return this.parent == null && !this.isPreview;\n    }\n    get bounds() {\n      return Bounds.fromElement(this.documentEl);\n    }\n    get exists() {\n      return this._exists;\n    }\n    findHeader(predicate) {\n      for (const header of this.headers) {\n        let result = header.find(predicate);\n        if (result)\n          return result;\n      }\n      return null;\n    }\n    getFlatHeaders() {\n      return this.headers.flatMap((h) => h.getFlatChildren());\n    }\n    scrollToHeader(headerId) {\n      console.log("Scrolling to header", headerId);\n      const header = this.findHeader((h) => h.id == headerId);\n      if (header)\n        header.scrollTo();\n    }\n    findElements() {\n      if (!this.containerEl)\n        this.containerEl = ObsidianSite.centerContentEl;\n      this.sizerEl = this.documentType == "markdown" /* Markdown */ ? this.containerEl.querySelector(".markdown-preview-sizer") : void 0;\n      this.documentEl = this.containerEl.querySelector(".obsidian-document");\n      this.headerEl = this.containerEl.querySelector(".header");\n      this.footerEl = this.containerEl.querySelector(".footer");\n    }\n    async load(parent = null, containerEl = ObsidianSite.centerContentEl, isPreview = false, headerOnly = false) {\n      this.parent = parent;\n      this.isPreview = isPreview;\n      if (!this.pathname || !this.exists)\n        return this;\n      let oldDocument = ObsidianSite.document;\n      await ObsidianSite.showLoading(true, containerEl);\n      this.containerEl = containerEl;\n      const documentReq = await ObsidianSite.fetch(this.pathname);\n      if (documentReq?.ok) {\n        const documentText = await documentReq.text();\n        this.sourceHtml = new DOMParser().parseFromString(documentText, "text/html");\n        let newDocumentEl = this.sourceHtml.querySelector(".obsidian-document");\n        if (newDocumentEl) {\n          newDocumentEl = document.adoptNode(newDocumentEl);\n          const docEl = containerEl.querySelector(".obsidian-document");\n          if (docEl) {\n            docEl.before(newDocumentEl);\n            docEl.remove();\n          } else\n            containerEl.appendChild(newDocumentEl);\n        }\n        await this.loadChildDocuments();\n        await this.postLoadInit();\n        if (this.sizerEl && headerOnly && this.hash && this.hash != "") {\n          var header = this.headers.find((h) => h.findByID(this.hash))?.findByID(this.hash);\n          if (header) {\n            this.sizerEl.innerHTML = header.getHeaderWithContentRecursive().map((e) => e.outerHTML).join("");\n          }\n        }\n        this.initialized = false;\n      } else {\n        new Notice("This document could not be loaded.");\n        console.error("Failed to load document", this.pathname);\n        return void 0;\n      }\n      return this;\n    }\n    async show() {\n      await ObsidianSite.showLoading(false, this.containerEl);\n    }\n    async postLoadInit() {\n      this.findElements();\n      this.postProcess();\n      if (this.isMainDocument || this.isPreview) {\n        this.processHeaders();\n        this.processCallouts();\n        this.processLists();\n      }\n      if (this.documentType == "canvas" /* Canvas */) {\n        this.canvas = new Canvas(this);\n      }\n      if (this.isMainDocument || this.isPreview)\n        LinkHandler.initializeLinks(this.documentEl ?? this.containerEl);\n      return this;\n    }\n    processHeaders() {\n      this.headers = Header.createHeaderTree(this.documentEl);\n    }\n    processCallouts() {\n      const calloutEls = Array.from(this.documentEl.querySelectorAll(".callout"));\n      this.callouts = [];\n      for (const calloutEl of calloutEls) {\n        this.callouts.push(new Callout(calloutEl));\n      }\n    }\n    processLists() {\n      const listEls = Array.from(this.documentEl.querySelectorAll(":is(ul, ol):not(:is(ul, ol) :is(ul, ol))"));\n      this.lists = [];\n      for (const listEl of listEls) {\n        this.lists.push(new List(listEl, void 0));\n      }\n    }\n    postProcess() {\n      this.documentEl?.querySelectorAll(".kanban-plugin__item.is-complete input[type=\'checkbox\']").forEach((el) => el.checked = true);\n      if (!ObsidianSite.metadata.ignoreMetadata) {\n        this.documentEl?.classList.toggle("allow-fold-headings", ObsidianSite.metadata.featureOptions.document.allowFoldingHeadings);\n        this.documentEl?.classList.toggle("allow-fold-lists", ObsidianSite.metadata.featureOptions.document.allowFoldingLists);\n      }\n    }\n    async loadChildDocuments() {\n      this.findElements();\n      let parentTemp = this;\n      let parentCount = 0;\n      while (parentTemp) {\n        parentTemp = parentTemp.parent;\n        parentCount++;\n      }\n      if (parentCount > 4)\n        return;\n      const childRefs = Array.from(this.documentEl.querySelectorAll("link[itemprop=\'include-document\']"));\n      const promises = [];\n      for (const ref of childRefs) {\n        const url = ref.getAttribute("href");\n        if (!url)\n          continue;\n        const childPromise = new WebpageDocument(url).load(this, ref.parentElement);\n        promises.push(childPromise);\n        console.log("Loading child", url);\n        ref.remove();\n      }\n      const childrenTemp = await Promise.all(promises);\n      console.log("Loaded child documents", childrenTemp);\n      this.children.push(...childrenTemp.filter((c) => c != void 0));\n    }\n    async loadChild(url, containerEl) {\n      let child = new WebpageDocument(url);\n      let loaded = await child.load(this, containerEl);\n      if (loaded)\n        this.children.push(loaded);\n      return loaded;\n    }\n    async unloadChild(child) {\n      this.children = this.children.filter((c) => c != child);\n      child.documentEl?.remove();\n    }\n    getMinReadableWidth() {\n      const fontSize = parseFloat(getComputedStyle(this.sizerEl ?? this.documentEl).fontSize);\n      return fontSize * 30;\n    }\n  };\n\n  // ../node_modules/minisearch/dist/es/index.js\n  function __awaiter(thisArg, _arguments, P, generator) {\n    function adopt(value) {\n      return value instanceof P ? value : new P(function(resolve) {\n        resolve(value);\n      });\n    }\n    return new (P || (P = Promise))(function(resolve, reject) {\n      function fulfilled(value) {\n        try {\n          step(generator.next(value));\n        } catch (e) {\n          reject(e);\n        }\n      }\n      function rejected(value) {\n        try {\n          step(generator["throw"](value));\n        } catch (e) {\n          reject(e);\n        }\n      }\n      function step(result) {\n        result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);\n      }\n      step((generator = generator.apply(thisArg, _arguments || [])).next());\n    });\n  }\n  var ENTRIES = "ENTRIES";\n  var KEYS = "KEYS";\n  var VALUES = "VALUES";\n  var LEAF = "";\n  var TreeIterator = class {\n    constructor(set, type) {\n      const node = set._tree;\n      const keys = Array.from(node.keys());\n      this.set = set;\n      this._type = type;\n      this._path = keys.length > 0 ? [{ node, keys }] : [];\n    }\n    next() {\n      const value = this.dive();\n      this.backtrack();\n      return value;\n    }\n    dive() {\n      if (this._path.length === 0) {\n        return { done: true, value: void 0 };\n      }\n      const { node, keys } = last$1(this._path);\n      if (last$1(keys) === LEAF) {\n        return { done: false, value: this.result() };\n      }\n      const child = node.get(last$1(keys));\n      this._path.push({ node: child, keys: Array.from(child.keys()) });\n      return this.dive();\n    }\n    backtrack() {\n      if (this._path.length === 0) {\n        return;\n      }\n      const keys = last$1(this._path).keys;\n      keys.pop();\n      if (keys.length > 0) {\n        return;\n      }\n      this._path.pop();\n      this.backtrack();\n    }\n    key() {\n      return this.set._prefix + this._path.map(({ keys }) => last$1(keys)).filter((key) => key !== LEAF).join("");\n    }\n    value() {\n      return last$1(this._path).node.get(LEAF);\n    }\n    result() {\n      switch (this._type) {\n        case VALUES:\n          return this.value();\n        case KEYS:\n          return this.key();\n        default:\n          return [this.key(), this.value()];\n      }\n    }\n    [Symbol.iterator]() {\n      return this;\n    }\n  };\n  var last$1 = (array) => {\n    return array[array.length - 1];\n  };\n  var fuzzySearch = (node, query, maxDistance) => {\n    const results = /* @__PURE__ */ new Map();\n    if (query === void 0)\n      return results;\n    const n = query.length + 1;\n    const m = n + maxDistance;\n    const matrix = new Uint8Array(m * n).fill(maxDistance + 1);\n    for (let j = 0; j < n; ++j)\n      matrix[j] = j;\n    for (let i = 1; i < m; ++i)\n      matrix[i * n] = i;\n    recurse(node, query, maxDistance, results, matrix, 1, n, "");\n    return results;\n  };\n  var recurse = (node, query, maxDistance, results, matrix, m, n, prefix) => {\n    const offset = m * n;\n    key:\n      for (const key of node.keys()) {\n        if (key === LEAF) {\n          const distance = matrix[offset - 1];\n          if (distance <= maxDistance) {\n            results.set(prefix, [node.get(key), distance]);\n          }\n        } else {\n          let i = m;\n          for (let pos = 0; pos < key.length; ++pos, ++i) {\n            const char = key[pos];\n            const thisRowOffset = n * i;\n            const prevRowOffset = thisRowOffset - n;\n            let minDistance = matrix[thisRowOffset];\n            const jmin = Math.max(0, i - maxDistance - 1);\n            const jmax = Math.min(n - 1, i + maxDistance);\n            for (let j = jmin; j < jmax; ++j) {\n              const different = char !== query[j];\n              const rpl = matrix[prevRowOffset + j] + +different;\n              const del = matrix[prevRowOffset + j + 1] + 1;\n              const ins = matrix[thisRowOffset + j] + 1;\n              const dist = matrix[thisRowOffset + j + 1] = Math.min(rpl, del, ins);\n              if (dist < minDistance)\n                minDistance = dist;\n            }\n            if (minDistance > maxDistance) {\n              continue key;\n            }\n          }\n          recurse(node.get(key), query, maxDistance, results, matrix, i, n, prefix + key);\n        }\n      }\n  };\n  var SearchableMap = class {\n    constructor(tree = /* @__PURE__ */ new Map(), prefix = "") {\n      this._size = void 0;\n      this._tree = tree;\n      this._prefix = prefix;\n    }\n    atPrefix(prefix) {\n      if (!prefix.startsWith(this._prefix)) {\n        throw new Error("Mismatched prefix");\n      }\n      const [node, path] = trackDown(this._tree, prefix.slice(this._prefix.length));\n      if (node === void 0) {\n        const [parentNode, key] = last(path);\n        for (const k of parentNode.keys()) {\n          if (k !== LEAF && k.startsWith(key)) {\n            const node2 = /* @__PURE__ */ new Map();\n            node2.set(k.slice(key.length), parentNode.get(k));\n            return new SearchableMap(node2, prefix);\n          }\n        }\n      }\n      return new SearchableMap(node, prefix);\n    }\n    clear() {\n      this._size = void 0;\n      this._tree.clear();\n    }\n    delete(key) {\n      this._size = void 0;\n      return remove(this._tree, key);\n    }\n    entries() {\n      return new TreeIterator(this, ENTRIES);\n    }\n    forEach(fn) {\n      for (const [key, value] of this) {\n        fn(key, value, this);\n      }\n    }\n    fuzzyGet(key, maxEditDistance) {\n      return fuzzySearch(this._tree, key, maxEditDistance);\n    }\n    get(key) {\n      const node = lookup(this._tree, key);\n      return node !== void 0 ? node.get(LEAF) : void 0;\n    }\n    has(key) {\n      const node = lookup(this._tree, key);\n      return node !== void 0 && node.has(LEAF);\n    }\n    keys() {\n      return new TreeIterator(this, KEYS);\n    }\n    set(key, value) {\n      if (typeof key !== "string") {\n        throw new Error("key must be a string");\n      }\n      this._size = void 0;\n      const node = createPath(this._tree, key);\n      node.set(LEAF, value);\n      return this;\n    }\n    get size() {\n      if (this._size) {\n        return this._size;\n      }\n      this._size = 0;\n      const iter = this.entries();\n      while (!iter.next().done)\n        this._size += 1;\n      return this._size;\n    }\n    update(key, fn) {\n      if (typeof key !== "string") {\n        throw new Error("key must be a string");\n      }\n      this._size = void 0;\n      const node = createPath(this._tree, key);\n      node.set(LEAF, fn(node.get(LEAF)));\n      return this;\n    }\n    fetch(key, initial) {\n      if (typeof key !== "string") {\n        throw new Error("key must be a string");\n      }\n      this._size = void 0;\n      const node = createPath(this._tree, key);\n      let value = node.get(LEAF);\n      if (value === void 0) {\n        node.set(LEAF, value = initial());\n      }\n      return value;\n    }\n    values() {\n      return new TreeIterator(this, VALUES);\n    }\n    [Symbol.iterator]() {\n      return this.entries();\n    }\n    static from(entries) {\n      const tree = new SearchableMap();\n      for (const [key, value] of entries) {\n        tree.set(key, value);\n      }\n      return tree;\n    }\n    static fromObject(object) {\n      return SearchableMap.from(Object.entries(object));\n    }\n  };\n  var trackDown = (tree, key, path = []) => {\n    if (key.length === 0 || tree == null) {\n      return [tree, path];\n    }\n    for (const k of tree.keys()) {\n      if (k !== LEAF && key.startsWith(k)) {\n        path.push([tree, k]);\n        return trackDown(tree.get(k), key.slice(k.length), path);\n      }\n    }\n    path.push([tree, key]);\n    return trackDown(void 0, "", path);\n  };\n  var lookup = (tree, key) => {\n    if (key.length === 0 || tree == null) {\n      return tree;\n    }\n    for (const k of tree.keys()) {\n      if (k !== LEAF && key.startsWith(k)) {\n        return lookup(tree.get(k), key.slice(k.length));\n      }\n    }\n  };\n  var createPath = (node, key) => {\n    const keyLength = key.length;\n    outer:\n      for (let pos = 0; node && pos < keyLength; ) {\n        for (const k of node.keys()) {\n          if (k !== LEAF && key[pos] === k[0]) {\n            const len = Math.min(keyLength - pos, k.length);\n            let offset = 1;\n            while (offset < len && key[pos + offset] === k[offset])\n              ++offset;\n            const child2 = node.get(k);\n            if (offset === k.length) {\n              node = child2;\n            } else {\n              const intermediate = /* @__PURE__ */ new Map();\n              intermediate.set(k.slice(offset), child2);\n              node.set(key.slice(pos, pos + offset), intermediate);\n              node.delete(k);\n              node = intermediate;\n            }\n            pos += offset;\n            continue outer;\n          }\n        }\n        const child = /* @__PURE__ */ new Map();\n        node.set(key.slice(pos), child);\n        return child;\n      }\n    return node;\n  };\n  var remove = (tree, key) => {\n    const [node, path] = trackDown(tree, key);\n    if (node === void 0) {\n      return;\n    }\n    node.delete(LEAF);\n    if (node.size === 0) {\n      cleanup(path);\n    } else if (node.size === 1) {\n      const [key2, value] = node.entries().next().value;\n      merge(path, key2, value);\n    }\n  };\n  var cleanup = (path) => {\n    if (path.length === 0) {\n      return;\n    }\n    const [node, key] = last(path);\n    node.delete(key);\n    if (node.size === 0) {\n      cleanup(path.slice(0, -1));\n    } else if (node.size === 1) {\n      const [key2, value] = node.entries().next().value;\n      if (key2 !== LEAF) {\n        merge(path.slice(0, -1), key2, value);\n      }\n    }\n  };\n  var merge = (path, key, value) => {\n    if (path.length === 0) {\n      return;\n    }\n    const [node, nodeKey] = last(path);\n    node.set(nodeKey + key, value);\n    node.delete(nodeKey);\n  };\n  var last = (array) => {\n    return array[array.length - 1];\n  };\n  var OR = "or";\n  var AND = "and";\n  var AND_NOT = "and_not";\n  var MiniSearch = class {\n    constructor(options) {\n      if ((options === null || options === void 0 ? void 0 : options.fields) == null) {\n        throw new Error(\'MiniSearch: option "fields" must be provided\');\n      }\n      const autoVacuum = options.autoVacuum == null || options.autoVacuum === true ? defaultAutoVacuumOptions : options.autoVacuum;\n      this._options = Object.assign(Object.assign(Object.assign({}, defaultOptions), options), { autoVacuum, searchOptions: Object.assign(Object.assign({}, defaultSearchOptions), options.searchOptions || {}), autoSuggestOptions: Object.assign(Object.assign({}, defaultAutoSuggestOptions), options.autoSuggestOptions || {}) });\n      this._index = new SearchableMap();\n      this._documentCount = 0;\n      this._documentIds = /* @__PURE__ */ new Map();\n      this._idToShortId = /* @__PURE__ */ new Map();\n      this._fieldIds = {};\n      this._fieldLength = /* @__PURE__ */ new Map();\n      this._avgFieldLength = [];\n      this._nextId = 0;\n      this._storedFields = /* @__PURE__ */ new Map();\n      this._dirtCount = 0;\n      this._currentVacuum = null;\n      this._enqueuedVacuum = null;\n      this._enqueuedVacuumConditions = defaultVacuumConditions;\n      this.addFields(this._options.fields);\n    }\n    add(document2) {\n      const { extractField, tokenize, processTerm, fields, idField } = this._options;\n      const id = extractField(document2, idField);\n      if (id == null) {\n        throw new Error(`MiniSearch: document does not have ID field "${idField}"`);\n      }\n      if (this._idToShortId.has(id)) {\n        throw new Error(`MiniSearch: duplicate ID ${id}`);\n      }\n      const shortDocumentId = this.addDocumentId(id);\n      this.saveStoredFields(shortDocumentId, document2);\n      for (const field of fields) {\n        const fieldValue = extractField(document2, field);\n        if (fieldValue == null)\n          continue;\n        const tokens = tokenize(fieldValue.toString(), field);\n        const fieldId = this._fieldIds[field];\n        const uniqueTerms = new Set(tokens).size;\n        this.addFieldLength(shortDocumentId, fieldId, this._documentCount - 1, uniqueTerms);\n        for (const term of tokens) {\n          const processedTerm = processTerm(term, field);\n          if (Array.isArray(processedTerm)) {\n            for (const t of processedTerm) {\n              this.addTerm(fieldId, shortDocumentId, t);\n            }\n          } else if (processedTerm) {\n            this.addTerm(fieldId, shortDocumentId, processedTerm);\n          }\n        }\n      }\n    }\n    addAll(documents) {\n      for (const document2 of documents)\n        this.add(document2);\n    }\n    addAllAsync(documents, options = {}) {\n      const { chunkSize = 10 } = options;\n      const acc = { chunk: [], promise: Promise.resolve() };\n      const { chunk, promise } = documents.reduce(({ chunk: chunk2, promise: promise2 }, document2, i) => {\n        chunk2.push(document2);\n        if ((i + 1) % chunkSize === 0) {\n          return {\n            chunk: [],\n            promise: promise2.then(() => new Promise((resolve) => setTimeout(resolve, 0))).then(() => this.addAll(chunk2))\n          };\n        } else {\n          return { chunk: chunk2, promise: promise2 };\n        }\n      }, acc);\n      return promise.then(() => this.addAll(chunk));\n    }\n    remove(document2) {\n      const { tokenize, processTerm, extractField, fields, idField } = this._options;\n      const id = extractField(document2, idField);\n      if (id == null) {\n        throw new Error(`MiniSearch: document does not have ID field "${idField}"`);\n      }\n      const shortId = this._idToShortId.get(id);\n      if (shortId == null) {\n        throw new Error(`MiniSearch: cannot remove document with ID ${id}: it is not in the index`);\n      }\n      for (const field of fields) {\n        const fieldValue = extractField(document2, field);\n        if (fieldValue == null)\n          continue;\n        const tokens = tokenize(fieldValue.toString(), field);\n        const fieldId = this._fieldIds[field];\n        const uniqueTerms = new Set(tokens).size;\n        this.removeFieldLength(shortId, fieldId, this._documentCount, uniqueTerms);\n        for (const term of tokens) {\n          const processedTerm = processTerm(term, field);\n          if (Array.isArray(processedTerm)) {\n            for (const t of processedTerm) {\n              this.removeTerm(fieldId, shortId, t);\n            }\n          } else if (processedTerm) {\n            this.removeTerm(fieldId, shortId, processedTerm);\n          }\n        }\n      }\n      this._storedFields.delete(shortId);\n      this._documentIds.delete(shortId);\n      this._idToShortId.delete(id);\n      this._fieldLength.delete(shortId);\n      this._documentCount -= 1;\n    }\n    removeAll(documents) {\n      if (documents) {\n        for (const document2 of documents)\n          this.remove(document2);\n      } else if (arguments.length > 0) {\n        throw new Error("Expected documents to be present. Omit the argument to remove all documents.");\n      } else {\n        this._index = new SearchableMap();\n        this._documentCount = 0;\n        this._documentIds = /* @__PURE__ */ new Map();\n        this._idToShortId = /* @__PURE__ */ new Map();\n        this._fieldLength = /* @__PURE__ */ new Map();\n        this._avgFieldLength = [];\n        this._storedFields = /* @__PURE__ */ new Map();\n        this._nextId = 0;\n      }\n    }\n    discard(id) {\n      const shortId = this._idToShortId.get(id);\n      if (shortId == null) {\n        throw new Error(`MiniSearch: cannot discard document with ID ${id}: it is not in the index`);\n      }\n      this._idToShortId.delete(id);\n      this._documentIds.delete(shortId);\n      this._storedFields.delete(shortId);\n      (this._fieldLength.get(shortId) || []).forEach((fieldLength, fieldId) => {\n        this.removeFieldLength(shortId, fieldId, this._documentCount, fieldLength);\n      });\n      this._fieldLength.delete(shortId);\n      this._documentCount -= 1;\n      this._dirtCount += 1;\n      this.maybeAutoVacuum();\n    }\n    maybeAutoVacuum() {\n      if (this._options.autoVacuum === false) {\n        return;\n      }\n      const { minDirtFactor, minDirtCount, batchSize, batchWait } = this._options.autoVacuum;\n      this.conditionalVacuum({ batchSize, batchWait }, { minDirtCount, minDirtFactor });\n    }\n    discardAll(ids) {\n      const autoVacuum = this._options.autoVacuum;\n      try {\n        this._options.autoVacuum = false;\n        for (const id of ids) {\n          this.discard(id);\n        }\n      } finally {\n        this._options.autoVacuum = autoVacuum;\n      }\n      this.maybeAutoVacuum();\n    }\n    replace(updatedDocument) {\n      const { idField, extractField } = this._options;\n      const id = extractField(updatedDocument, idField);\n      this.discard(id);\n      this.add(updatedDocument);\n    }\n    vacuum(options = {}) {\n      return this.conditionalVacuum(options);\n    }\n    conditionalVacuum(options, conditions) {\n      if (this._currentVacuum) {\n        this._enqueuedVacuumConditions = this._enqueuedVacuumConditions && conditions;\n        if (this._enqueuedVacuum != null) {\n          return this._enqueuedVacuum;\n        }\n        this._enqueuedVacuum = this._currentVacuum.then(() => {\n          const conditions2 = this._enqueuedVacuumConditions;\n          this._enqueuedVacuumConditions = defaultVacuumConditions;\n          return this.performVacuuming(options, conditions2);\n        });\n        return this._enqueuedVacuum;\n      }\n      if (this.vacuumConditionsMet(conditions) === false) {\n        return Promise.resolve();\n      }\n      this._currentVacuum = this.performVacuuming(options);\n      return this._currentVacuum;\n    }\n    performVacuuming(options, conditions) {\n      return __awaiter(this, void 0, void 0, function* () {\n        const initialDirtCount = this._dirtCount;\n        if (this.vacuumConditionsMet(conditions)) {\n          const batchSize = options.batchSize || defaultVacuumOptions.batchSize;\n          const batchWait = options.batchWait || defaultVacuumOptions.batchWait;\n          let i = 1;\n          for (const [term, fieldsData] of this._index) {\n            for (const [fieldId, fieldIndex] of fieldsData) {\n              for (const [shortId] of fieldIndex) {\n                if (this._documentIds.has(shortId)) {\n                  continue;\n                }\n                if (fieldIndex.size <= 1) {\n                  fieldsData.delete(fieldId);\n                } else {\n                  fieldIndex.delete(shortId);\n                }\n              }\n            }\n            if (this._index.get(term).size === 0) {\n              this._index.delete(term);\n            }\n            if (i % batchSize === 0) {\n              yield new Promise((resolve) => setTimeout(resolve, batchWait));\n            }\n            i += 1;\n          }\n          this._dirtCount -= initialDirtCount;\n        }\n        yield null;\n        this._currentVacuum = this._enqueuedVacuum;\n        this._enqueuedVacuum = null;\n      });\n    }\n    vacuumConditionsMet(conditions) {\n      if (conditions == null) {\n        return true;\n      }\n      let { minDirtCount, minDirtFactor } = conditions;\n      minDirtCount = minDirtCount || defaultAutoVacuumOptions.minDirtCount;\n      minDirtFactor = minDirtFactor || defaultAutoVacuumOptions.minDirtFactor;\n      return this.dirtCount >= minDirtCount && this.dirtFactor >= minDirtFactor;\n    }\n    get isVacuuming() {\n      return this._currentVacuum != null;\n    }\n    get dirtCount() {\n      return this._dirtCount;\n    }\n    get dirtFactor() {\n      return this._dirtCount / (1 + this._documentCount + this._dirtCount);\n    }\n    has(id) {\n      return this._idToShortId.has(id);\n    }\n    getStoredFields(id) {\n      const shortId = this._idToShortId.get(id);\n      if (shortId == null) {\n        return void 0;\n      }\n      return this._storedFields.get(shortId);\n    }\n    search(query, searchOptions = {}) {\n      const rawResults = this.executeQuery(query, searchOptions);\n      const results = [];\n      for (const [docId, { score, terms, match }] of rawResults) {\n        const quality = terms.length || 1;\n        const result = {\n          id: this._documentIds.get(docId),\n          score: score * quality,\n          terms: Object.keys(match),\n          queryTerms: terms,\n          match\n        };\n        Object.assign(result, this._storedFields.get(docId));\n        if (searchOptions.filter == null || searchOptions.filter(result)) {\n          results.push(result);\n        }\n      }\n      if (query === MiniSearch.wildcard && searchOptions.boostDocument == null && this._options.searchOptions.boostDocument == null) {\n        return results;\n      }\n      results.sort(byScore);\n      return results;\n    }\n    autoSuggest(queryString, options = {}) {\n      options = Object.assign(Object.assign({}, this._options.autoSuggestOptions), options);\n      const suggestions = /* @__PURE__ */ new Map();\n      for (const { score, terms } of this.search(queryString, options)) {\n        const phrase = terms.join(" ");\n        const suggestion = suggestions.get(phrase);\n        if (suggestion != null) {\n          suggestion.score += score;\n          suggestion.count += 1;\n        } else {\n          suggestions.set(phrase, { score, terms, count: 1 });\n        }\n      }\n      const results = [];\n      for (const [suggestion, { score, terms, count }] of suggestions) {\n        results.push({ suggestion, terms, score: score / count });\n      }\n      results.sort(byScore);\n      return results;\n    }\n    get documentCount() {\n      return this._documentCount;\n    }\n    get termCount() {\n      return this._index.size;\n    }\n    static loadJSON(json, options) {\n      if (options == null) {\n        throw new Error("MiniSearch: loadJSON should be given the same options used when serializing the index");\n      }\n      return this.loadJS(JSON.parse(json), options);\n    }\n    static loadJSONAsync(json, options) {\n      return __awaiter(this, void 0, void 0, function* () {\n        if (options == null) {\n          throw new Error("MiniSearch: loadJSON should be given the same options used when serializing the index");\n        }\n        return this.loadJSAsync(JSON.parse(json), options);\n      });\n    }\n    static getDefault(optionName) {\n      if (defaultOptions.hasOwnProperty(optionName)) {\n        return getOwnProperty(defaultOptions, optionName);\n      } else {\n        throw new Error(`MiniSearch: unknown option "${optionName}"`);\n      }\n    }\n    static loadJS(js, options) {\n      const { index, documentIds, fieldLength, storedFields, serializationVersion } = js;\n      const miniSearch = this.instantiateMiniSearch(js, options);\n      miniSearch._documentIds = objectToNumericMap(documentIds);\n      miniSearch._fieldLength = objectToNumericMap(fieldLength);\n      miniSearch._storedFields = objectToNumericMap(storedFields);\n      for (const [shortId, id] of miniSearch._documentIds) {\n        miniSearch._idToShortId.set(id, shortId);\n      }\n      for (const [term, data] of index) {\n        const dataMap = /* @__PURE__ */ new Map();\n        for (const fieldId of Object.keys(data)) {\n          let indexEntry = data[fieldId];\n          if (serializationVersion === 1) {\n            indexEntry = indexEntry.ds;\n          }\n          dataMap.set(parseInt(fieldId, 10), objectToNumericMap(indexEntry));\n        }\n        miniSearch._index.set(term, dataMap);\n      }\n      return miniSearch;\n    }\n    static loadJSAsync(js, options) {\n      return __awaiter(this, void 0, void 0, function* () {\n        const { index, documentIds, fieldLength, storedFields, serializationVersion } = js;\n        const miniSearch = this.instantiateMiniSearch(js, options);\n        miniSearch._documentIds = yield objectToNumericMapAsync(documentIds);\n        miniSearch._fieldLength = yield objectToNumericMapAsync(fieldLength);\n        miniSearch._storedFields = yield objectToNumericMapAsync(storedFields);\n        for (const [shortId, id] of miniSearch._documentIds) {\n          miniSearch._idToShortId.set(id, shortId);\n        }\n        let count = 0;\n        for (const [term, data] of index) {\n          const dataMap = /* @__PURE__ */ new Map();\n          for (const fieldId of Object.keys(data)) {\n            let indexEntry = data[fieldId];\n            if (serializationVersion === 1) {\n              indexEntry = indexEntry.ds;\n            }\n            dataMap.set(parseInt(fieldId, 10), yield objectToNumericMapAsync(indexEntry));\n          }\n          if (++count % 1e3 === 0)\n            yield wait(0);\n          miniSearch._index.set(term, dataMap);\n        }\n        return miniSearch;\n      });\n    }\n    static instantiateMiniSearch(js, options) {\n      const { documentCount, nextId, fieldIds, averageFieldLength, dirtCount, serializationVersion } = js;\n      if (serializationVersion !== 1 && serializationVersion !== 2) {\n        throw new Error("MiniSearch: cannot deserialize an index created with an incompatible version");\n      }\n      const miniSearch = new MiniSearch(options);\n      miniSearch._documentCount = documentCount;\n      miniSearch._nextId = nextId;\n      miniSearch._idToShortId = /* @__PURE__ */ new Map();\n      miniSearch._fieldIds = fieldIds;\n      miniSearch._avgFieldLength = averageFieldLength;\n      miniSearch._dirtCount = dirtCount || 0;\n      miniSearch._index = new SearchableMap();\n      return miniSearch;\n    }\n    executeQuery(query, searchOptions = {}) {\n      if (query === MiniSearch.wildcard) {\n        return this.executeWildcardQuery(searchOptions);\n      }\n      if (typeof query !== "string") {\n        const options2 = Object.assign(Object.assign(Object.assign({}, searchOptions), query), { queries: void 0 });\n        const results2 = query.queries.map((subquery) => this.executeQuery(subquery, options2));\n        return this.combineResults(results2, options2.combineWith);\n      }\n      const { tokenize, processTerm, searchOptions: globalSearchOptions } = this._options;\n      const options = Object.assign(Object.assign({ tokenize, processTerm }, globalSearchOptions), searchOptions);\n      const { tokenize: searchTokenize, processTerm: searchProcessTerm } = options;\n      const terms = searchTokenize(query).flatMap((term) => searchProcessTerm(term)).filter((term) => !!term);\n      const queries = terms.map(termToQuerySpec(options));\n      const results = queries.map((query2) => this.executeQuerySpec(query2, options));\n      return this.combineResults(results, options.combineWith);\n    }\n    executeQuerySpec(query, searchOptions) {\n      const options = Object.assign(Object.assign({}, this._options.searchOptions), searchOptions);\n      const boosts = (options.fields || this._options.fields).reduce((boosts2, field) => Object.assign(Object.assign({}, boosts2), { [field]: getOwnProperty(options.boost, field) || 1 }), {});\n      const { boostDocument, weights, maxFuzzy, bm25: bm25params } = options;\n      const { fuzzy: fuzzyWeight, prefix: prefixWeight } = Object.assign(Object.assign({}, defaultSearchOptions.weights), weights);\n      const data = this._index.get(query.term);\n      const results = this.termResults(query.term, query.term, 1, query.termBoost, data, boosts, boostDocument, bm25params);\n      let prefixMatches;\n      let fuzzyMatches;\n      if (query.prefix) {\n        prefixMatches = this._index.atPrefix(query.term);\n      }\n      if (query.fuzzy) {\n        const fuzzy = query.fuzzy === true ? 0.2 : query.fuzzy;\n        const maxDistance = fuzzy < 1 ? Math.min(maxFuzzy, Math.round(query.term.length * fuzzy)) : fuzzy;\n        if (maxDistance)\n          fuzzyMatches = this._index.fuzzyGet(query.term, maxDistance);\n      }\n      if (prefixMatches) {\n        for (const [term, data2] of prefixMatches) {\n          const distance = term.length - query.term.length;\n          if (!distance) {\n            continue;\n          }\n          fuzzyMatches === null || fuzzyMatches === void 0 ? void 0 : fuzzyMatches.delete(term);\n          const weight = prefixWeight * term.length / (term.length + 0.3 * distance);\n          this.termResults(query.term, term, weight, query.termBoost, data2, boosts, boostDocument, bm25params, results);\n        }\n      }\n      if (fuzzyMatches) {\n        for (const term of fuzzyMatches.keys()) {\n          const [data2, distance] = fuzzyMatches.get(term);\n          if (!distance) {\n            continue;\n          }\n          const weight = fuzzyWeight * term.length / (term.length + distance);\n          this.termResults(query.term, term, weight, query.termBoost, data2, boosts, boostDocument, bm25params, results);\n        }\n      }\n      return results;\n    }\n    executeWildcardQuery(searchOptions) {\n      const results = /* @__PURE__ */ new Map();\n      const options = Object.assign(Object.assign({}, this._options.searchOptions), searchOptions);\n      for (const [shortId, id] of this._documentIds) {\n        const score = options.boostDocument ? options.boostDocument(id, "", this._storedFields.get(shortId)) : 1;\n        results.set(shortId, {\n          score,\n          terms: [],\n          match: {}\n        });\n      }\n      return results;\n    }\n    combineResults(results, combineWith = OR) {\n      if (results.length === 0) {\n        return /* @__PURE__ */ new Map();\n      }\n      const operator = combineWith.toLowerCase();\n      const combinator = combinators[operator];\n      if (!combinator) {\n        throw new Error(`Invalid combination operator: ${combineWith}`);\n      }\n      return results.reduce(combinator) || /* @__PURE__ */ new Map();\n    }\n    toJSON() {\n      const index = [];\n      for (const [term, fieldIndex] of this._index) {\n        const data = {};\n        for (const [fieldId, freqs] of fieldIndex) {\n          data[fieldId] = Object.fromEntries(freqs);\n        }\n        index.push([term, data]);\n      }\n      return {\n        documentCount: this._documentCount,\n        nextId: this._nextId,\n        documentIds: Object.fromEntries(this._documentIds),\n        fieldIds: this._fieldIds,\n        fieldLength: Object.fromEntries(this._fieldLength),\n        averageFieldLength: this._avgFieldLength,\n        storedFields: Object.fromEntries(this._storedFields),\n        dirtCount: this._dirtCount,\n        index,\n        serializationVersion: 2\n      };\n    }\n    termResults(sourceTerm, derivedTerm, termWeight, termBoost, fieldTermData, fieldBoosts, boostDocumentFn, bm25params, results = /* @__PURE__ */ new Map()) {\n      if (fieldTermData == null)\n        return results;\n      for (const field of Object.keys(fieldBoosts)) {\n        const fieldBoost = fieldBoosts[field];\n        const fieldId = this._fieldIds[field];\n        const fieldTermFreqs = fieldTermData.get(fieldId);\n        if (fieldTermFreqs == null)\n          continue;\n        let matchingFields = fieldTermFreqs.size;\n        const avgFieldLength = this._avgFieldLength[fieldId];\n        for (const docId of fieldTermFreqs.keys()) {\n          if (!this._documentIds.has(docId)) {\n            this.removeTerm(fieldId, docId, derivedTerm);\n            matchingFields -= 1;\n            continue;\n          }\n          const docBoost = boostDocumentFn ? boostDocumentFn(this._documentIds.get(docId), derivedTerm, this._storedFields.get(docId)) : 1;\n          if (!docBoost)\n            continue;\n          const termFreq = fieldTermFreqs.get(docId);\n          const fieldLength = this._fieldLength.get(docId)[fieldId];\n          const rawScore = calcBM25Score(termFreq, matchingFields, this._documentCount, fieldLength, avgFieldLength, bm25params);\n          const weightedScore = termWeight * termBoost * fieldBoost * docBoost * rawScore;\n          const result = results.get(docId);\n          if (result) {\n            result.score += weightedScore;\n            assignUniqueTerm(result.terms, sourceTerm);\n            const match = getOwnProperty(result.match, derivedTerm);\n            if (match) {\n              match.push(field);\n            } else {\n              result.match[derivedTerm] = [field];\n            }\n          } else {\n            results.set(docId, {\n              score: weightedScore,\n              terms: [sourceTerm],\n              match: { [derivedTerm]: [field] }\n            });\n          }\n        }\n      }\n      return results;\n    }\n    addTerm(fieldId, documentId, term) {\n      const indexData = this._index.fetch(term, createMap);\n      let fieldIndex = indexData.get(fieldId);\n      if (fieldIndex == null) {\n        fieldIndex = /* @__PURE__ */ new Map();\n        fieldIndex.set(documentId, 1);\n        indexData.set(fieldId, fieldIndex);\n      } else {\n        const docs = fieldIndex.get(documentId);\n        fieldIndex.set(documentId, (docs || 0) + 1);\n      }\n    }\n    removeTerm(fieldId, documentId, term) {\n      if (!this._index.has(term)) {\n        this.warnDocumentChanged(documentId, fieldId, term);\n        return;\n      }\n      const indexData = this._index.fetch(term, createMap);\n      const fieldIndex = indexData.get(fieldId);\n      if (fieldIndex == null || fieldIndex.get(documentId) == null) {\n        this.warnDocumentChanged(documentId, fieldId, term);\n      } else if (fieldIndex.get(documentId) <= 1) {\n        if (fieldIndex.size <= 1) {\n          indexData.delete(fieldId);\n        } else {\n          fieldIndex.delete(documentId);\n        }\n      } else {\n        fieldIndex.set(documentId, fieldIndex.get(documentId) - 1);\n      }\n      if (this._index.get(term).size === 0) {\n        this._index.delete(term);\n      }\n    }\n    warnDocumentChanged(shortDocumentId, fieldId, term) {\n      for (const fieldName of Object.keys(this._fieldIds)) {\n        if (this._fieldIds[fieldName] === fieldId) {\n          this._options.logger("warn", `MiniSearch: document with ID ${this._documentIds.get(shortDocumentId)} has changed before removal: term "${term}" was not present in field "${fieldName}". Removing a document after it has changed can corrupt the index!`, "version_conflict");\n          return;\n        }\n      }\n    }\n    addDocumentId(documentId) {\n      const shortDocumentId = this._nextId;\n      this._idToShortId.set(documentId, shortDocumentId);\n      this._documentIds.set(shortDocumentId, documentId);\n      this._documentCount += 1;\n      this._nextId += 1;\n      return shortDocumentId;\n    }\n    addFields(fields) {\n      for (let i = 0; i < fields.length; i++) {\n        this._fieldIds[fields[i]] = i;\n      }\n    }\n    addFieldLength(documentId, fieldId, count, length) {\n      let fieldLengths = this._fieldLength.get(documentId);\n      if (fieldLengths == null)\n        this._fieldLength.set(documentId, fieldLengths = []);\n      fieldLengths[fieldId] = length;\n      const averageFieldLength = this._avgFieldLength[fieldId] || 0;\n      const totalFieldLength = averageFieldLength * count + length;\n      this._avgFieldLength[fieldId] = totalFieldLength / (count + 1);\n    }\n    removeFieldLength(documentId, fieldId, count, length) {\n      if (count === 1) {\n        this._avgFieldLength[fieldId] = 0;\n        return;\n      }\n      const totalFieldLength = this._avgFieldLength[fieldId] * count - length;\n      this._avgFieldLength[fieldId] = totalFieldLength / (count - 1);\n    }\n    saveStoredFields(documentId, doc) {\n      const { storeFields, extractField } = this._options;\n      if (storeFields == null || storeFields.length === 0) {\n        return;\n      }\n      let documentFields = this._storedFields.get(documentId);\n      if (documentFields == null)\n        this._storedFields.set(documentId, documentFields = {});\n      for (const fieldName of storeFields) {\n        const fieldValue = extractField(doc, fieldName);\n        if (fieldValue !== void 0)\n          documentFields[fieldName] = fieldValue;\n      }\n    }\n  };\n  MiniSearch.wildcard = Symbol("*");\n  var getOwnProperty = (object, property) => Object.prototype.hasOwnProperty.call(object, property) ? object[property] : void 0;\n  var combinators = {\n    [OR]: (a, b) => {\n      for (const docId of b.keys()) {\n        const existing = a.get(docId);\n        if (existing == null) {\n          a.set(docId, b.get(docId));\n        } else {\n          const { score, terms, match } = b.get(docId);\n          existing.score = existing.score + score;\n          existing.match = Object.assign(existing.match, match);\n          assignUniqueTerms(existing.terms, terms);\n        }\n      }\n      return a;\n    },\n    [AND]: (a, b) => {\n      const combined = /* @__PURE__ */ new Map();\n      for (const docId of b.keys()) {\n        const existing = a.get(docId);\n        if (existing == null)\n          continue;\n        const { score, terms, match } = b.get(docId);\n        assignUniqueTerms(existing.terms, terms);\n        combined.set(docId, {\n          score: existing.score + score,\n          terms: existing.terms,\n          match: Object.assign(existing.match, match)\n        });\n      }\n      return combined;\n    },\n    [AND_NOT]: (a, b) => {\n      for (const docId of b.keys())\n        a.delete(docId);\n      return a;\n    }\n  };\n  var defaultBM25params = { k: 1.2, b: 0.7, d: 0.5 };\n  var calcBM25Score = (termFreq, matchingCount, totalCount, fieldLength, avgFieldLength, bm25params) => {\n    const { k, b, d } = bm25params;\n    const invDocFreq = Math.log(1 + (totalCount - matchingCount + 0.5) / (matchingCount + 0.5));\n    return invDocFreq * (d + termFreq * (k + 1) / (termFreq + k * (1 - b + b * fieldLength / avgFieldLength)));\n  };\n  var termToQuerySpec = (options) => (term, i, terms) => {\n    const fuzzy = typeof options.fuzzy === "function" ? options.fuzzy(term, i, terms) : options.fuzzy || false;\n    const prefix = typeof options.prefix === "function" ? options.prefix(term, i, terms) : options.prefix === true;\n    const termBoost = typeof options.boostTerm === "function" ? options.boostTerm(term, i, terms) : 1;\n    return { term, fuzzy, prefix, termBoost };\n  };\n  var defaultOptions = {\n    idField: "id",\n    extractField: (document2, fieldName) => document2[fieldName],\n    tokenize: (text) => text.split(SPACE_OR_PUNCTUATION),\n    processTerm: (term) => term.toLowerCase(),\n    fields: void 0,\n    searchOptions: void 0,\n    storeFields: [],\n    logger: (level, message) => {\n      if (typeof (console === null || console === void 0 ? void 0 : console[level]) === "function")\n        console[level](message);\n    },\n    autoVacuum: true\n  };\n  var defaultSearchOptions = {\n    combineWith: OR,\n    prefix: false,\n    fuzzy: false,\n    maxFuzzy: 6,\n    boost: {},\n    weights: { fuzzy: 0.45, prefix: 0.375 },\n    bm25: defaultBM25params\n  };\n  var defaultAutoSuggestOptions = {\n    combineWith: AND,\n    prefix: (term, i, terms) => i === terms.length - 1\n  };\n  var defaultVacuumOptions = { batchSize: 1e3, batchWait: 10 };\n  var defaultVacuumConditions = { minDirtFactor: 0.1, minDirtCount: 20 };\n  var defaultAutoVacuumOptions = Object.assign(Object.assign({}, defaultVacuumOptions), defaultVacuumConditions);\n  var assignUniqueTerm = (target, term) => {\n    if (!target.includes(term))\n      target.push(term);\n  };\n  var assignUniqueTerms = (target, source) => {\n    for (const term of source) {\n      if (!target.includes(term))\n        target.push(term);\n    }\n  };\n  var byScore = ({ score: a }, { score: b }) => b - a;\n  var createMap = () => /* @__PURE__ */ new Map();\n  var objectToNumericMap = (object) => {\n    const map = /* @__PURE__ */ new Map();\n    for (const key of Object.keys(object)) {\n      map.set(parseInt(key, 10), object[key]);\n    }\n    return map;\n  };\n  var objectToNumericMapAsync = (object) => __awaiter(void 0, void 0, void 0, function* () {\n    const map = /* @__PURE__ */ new Map();\n    let count = 0;\n    for (const key of Object.keys(object)) {\n      map.set(parseInt(key, 10), object[key]);\n      if (++count % 1e3 === 0) {\n        yield wait(0);\n      }\n    }\n    return map;\n  });\n  var wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));\n  var SPACE_OR_PUNCTUATION = /[\\n\\r\\p{Z}\\p{P}]+/u;\n\n  // src/frontend/main/search.ts\n  var allSearch = 1 /* Title */ | 2 /* Aliases */ | 4 /* Headers */ | 8 /* Tags */ | 16 /* Path */ | 32 /* Content */;\n  var Search = class {\n    search(query, type = allSearch) {\n      if (query.length == 0) {\n        this.clear();\n        return;\n      }\n      this.input.value = query;\n      if (type != allSearch) {\n        this.input.style.color = "var(--text-accent)";\n      } else {\n        this.input.style.color = "";\n      }\n      const searchFields = [];\n      if (type & 1 /* Title */)\n        searchFields.push("title");\n      if (type & 2 /* Aliases */)\n        searchFields.push("aliases");\n      if (type & 4 /* Headers */)\n        searchFields.push("headers");\n      if (type & 8 /* Tags */)\n        searchFields.push("tags");\n      if (type & 16 /* Path */)\n        searchFields.push("path");\n      if (type & 32 /* Content */)\n        searchFields.push("content");\n      console.log(type & 1 /* Title */, type & 2 /* Aliases */, type & 4 /* Headers */, type & 8 /* Tags */, type & 16 /* Path */, type & 32 /* Content */);\n      const results = this.index.search(query, {\n        prefix: true,\n        fuzzy: 0.2,\n        boost: { title: 2, aliases: 1.8, headers: 1.5, tags: 1.3, path: 1.1 },\n        fields: searchFields\n      });\n      console.log("Search results", results);\n      if (results.length > 50)\n        results.splice(50);\n      const showPaths = [];\n      const headerLinks = /* @__PURE__ */ new Map();\n      for (const result of results) {\n        if (result.score < results[0].score * 0.3 && showPaths.length > 4 || result.score < results[0].score * 0.1)\n          break;\n        showPaths.push(result.path);\n        if (query.length > 2) {\n          const headers = [];\n          let breakEarly = false;\n          for (const match in result.match) {\n            if (result.match[match].includes("headers")) {\n              for (const header of result.headers) {\n                if (header.toLowerCase().includes(match.toLowerCase())) {\n                  if (!headers.includes(header))\n                    headers.push(header);\n                  if (query.toLowerCase() != match.toLowerCase()) {\n                    breakEarly = true;\n                    break;\n                  }\n                }\n              }\n            }\n            if (breakEarly)\n              break;\n          }\n          headerLinks.set(result.path, headers);\n        }\n      }\n      ObsidianSite.fileTree?.filter(showPaths);\n      ObsidianSite.fileTree?.setSubHeadings(headerLinks);\n      ObsidianSite.fileTree?.sort((a, b) => {\n        if (!a || !b)\n          return 0;\n        return showPaths.findIndex((path) => a.path == path) - showPaths.findIndex((path) => b.path == path);\n      });\n      if (!ObsidianSite.fileTree) {\n        const list = document.createElement("div");\n        results.filter((result) => result.path.endsWith(".html")).slice(0, 20).forEach((result) => {\n          const item = document.createElement("div");\n          item.classList.add("search-result");\n          const link = document.createElement("a");\n          link.classList.add("tree-item-self");\n          const searchURL = result.path + "?mark=" + encodeURIComponent(query);\n          link.setAttribute("href", searchURL);\n          link.appendChild(document.createTextNode(result.title));\n          item.appendChild(link);\n          list.append(item);\n        });\n        this.dedicatedSearchResultsList.replaceChildren(list);\n        this.container.after(this.dedicatedSearchResultsList);\n        LinkHandler.initializeLinks(this.dedicatedSearchResultsList);\n      }\n    }\n    searchParseFilters(queryString) {\n      if (queryString.startsWith("?"))\n        queryString = queryString.substring(1);\n      let filterName = queryString.split(":")[0];\n      if (!queryString.includes(":"))\n        filterName = "";\n      if (filterName == "content" || filterName == "text" || filterName == "body") {\n        this.search(queryString, 32 /* Content */);\n      } else if (filterName == "title" || filterName == "name") {\n        this.search(queryString, 1 /* Title */);\n      } else if (filterName == "path") {\n        this.search(queryString, 16 /* Path */);\n      } else if (filterName == "header" || filterName == "headers") {\n        this.search(queryString, 4 /* Headers */);\n      } else if (filterName == "tag" || filterName == "tags" || queryString.startsWith("#")) {\n        this.search(queryString, 8 /* Tags */);\n      } else if (filterName == "alias" || filterName == "aliases") {\n        this.search(queryString, 2 /* Aliases */);\n      } else {\n        this.search(queryString);\n      }\n    }\n    clear() {\n      this.container?.classList.remove("has-content");\n      this.input.value = "";\n      this.clearCurrentDocumentSearch();\n      ObsidianSite.fileTree?.unfilter();\n      ObsidianSite.fileTree?.removeSubHeadings();\n      ObsidianSite.fileTree?.unsort();\n    }\n    async init() {\n      this.input = document.querySelector(\'input[type="search"]\');\n      this.container = this.input?.closest("#search-container");\n      if (!this.input || !this.container)\n        return;\n      ObsidianSite.metadata.featureOptions.search.insertFeature(document.body, this.container);\n      const indexResp = await ObsidianSite.fetch(Shared.libFolderName + "/search-index.json");\n      if (!indexResp?.ok) {\n        console.error("Failed to fetch search index");\n        return;\n      }\n      const indexJSON = await indexResp.json();\n      try {\n        this.index = MiniSearch.loadJS(indexJSON, { fields: ["title", "path", "tags", "headers"] });\n      } catch (e) {\n        console.error("Failed to load search index: ", e);\n        return;\n      }\n      const inputClear = document.querySelector("#search-clear-button");\n      inputClear?.addEventListener("click", (event) => {\n        this.clear();\n      });\n      this.input.addEventListener("input", (event) => {\n        const query = event.target?.value ?? "";\n        if (query.length == 0) {\n          this.clear();\n          return;\n        }\n        this.searchParseFilters(query);\n      });\n      if (!ObsidianSite.fileTree) {\n        this.dedicatedSearchResultsList = document.createElement("div");\n        this.dedicatedSearchResultsList.setAttribute("id", "search-results");\n      }\n      return this;\n    }\n    async searchCurrentDocument(query) {\n      this.clearCurrentDocumentSearch();\n      const textNodes = getTextNodes(ObsidianSite.document.sizerEl ?? ObsidianSite.document.documentEl);\n      textNodes.forEach(async (node) => {\n        const content = node.nodeValue;\n        const newContent = content?.replace(new RegExp(query, "gi"), (match) => `<mark>${match}</mark>`);\n        if (newContent && newContent !== content) {\n          const tempDiv = document.createElement("div");\n          tempDiv.innerHTML = newContent;\n          const newNodes = Array.from(tempDiv.childNodes);\n          newNodes.forEach((newNode) => {\n            if (newNode.nodeType != Node.TEXT_NODE) {\n              newNode?.setAttribute("class", "search-mark");\n            }\n            node?.parentNode?.insertBefore(newNode, node);\n          });\n          node?.parentNode?.removeChild(node);\n        }\n      });\n      const firstMark = document.querySelector(".search-mark");\n      setTimeout(() => {\n        if (firstMark)\n          ObsidianSite.scrollTo(firstMark);\n      }, 500);\n    }\n    clearCurrentDocumentSearch() {\n      document.querySelectorAll(".search-mark").forEach((node) => {\n        node.outerHTML = node.innerHTML;\n      });\n    }\n  };\n\n  // src/frontend/main/sidebars.ts\n  var Sidebar = class {\n    constructor(container) {\n      this.minWidthEm = 15;\n      if (!container.classList.contains("sidebar"))\n        throw new Error("Invalid sidebar container");\n      this.containerEl = container;\n      this.contentEl = container.querySelector(".leaf-content");\n      this.topbarEl = container.querySelector(".sidebar-topbar");\n      this.collapseEl = document.querySelector(container.id == "left-sidebar" ? "#left-sidebar-toggle-button" : "#right-sidebar-toggle-button") ?? container.querySelector(".sidebar-collapse-icon") ?? document.querySelector(`.global-topbar-sidebar-toggle[data-sidebar="${container.id}"]`) ?? void 0;\n      this.topbarContentEl = container.querySelector(".topbar-content");\n      this.resizeHandleEl = container.querySelector(".sidebar-handle") ?? void 0;\n      this._isLeft = container.id == "left-sidebar";\n      this._sidebarID = container.id;\n      if (!this.collapseEl) {\n        this.collapseEl = this.createGlobalSidebarToggle();\n      }\n      this.collapseEl?.addEventListener("click", () => {\n        this.collapsed = !this.collapsed;\n      });\n      this.clickOutsideCollapse = this.clickOutsideCollapse.bind(this);\n      this.minResizeWidth = parseFloat(getComputedStyle(this.resizeHandleEl?.parentElement ?? this.resizeHandleEl).fontSize) * this.minWidthEm;\n      this.collapseWidth = this.minResizeWidth / 4;\n      this.setupSidebarResize();\n    }\n    get sidebarID() {\n      return this._sidebarID;\n    }\n    get isLeft() {\n      return this._isLeft;\n    }\n    get resizing() {\n      return this._resizing;\n    }\n    get collapsed() {\n      return this._collapsed;\n    }\n    set collapsed(collapse) {\n      if (this._collapsed === collapse) {\n        return;\n      }\n      this._collapsed = collapse;\n      const isPhone = ObsidianSite.deviceSize === "phone";\n      const isTablet = ObsidianSite.deviceSize === "tablet";\n      if (!collapse) {\n        if (isPhone) {\n          if (this.isLeft) {\n            if (ObsidianSite.rightSidebar && !ObsidianSite.rightSidebar.collapsed) {\n              ObsidianSite.rightSidebar.collapsed = true;\n            }\n          } else {\n            if (ObsidianSite.leftSidebar && !ObsidianSite.leftSidebar.collapsed) {\n              ObsidianSite.leftSidebar.collapsed = true;\n            }\n          }\n        }\n        if (isPhone || isTablet) {\n          document.body.removeEventListener("click", this.clickOutsideCollapse);\n          document.body.addEventListener("click", this.clickOutsideCollapse);\n        }\n      } else {\n        document.body.removeEventListener("click", this.clickOutsideCollapse);\n      }\n      this.containerEl.classList.toggle("is-collapsed", collapse);\n    }\n    get floating() {\n      return this._floating;\n    }\n    set floating(floating) {\n      this._floating = floating;\n      this.containerEl.classList.toggle("floating", floating);\n    }\n    get width() {\n      return this.containerEl.offsetWidth;\n    }\n    set width(width) {\n      const newWidth = `min(max(${width}px, ${this.minWidthEm}em), 40vw)`;\n      if (width < this.collapseWidth) {\n        this.collapsed = true;\n        this.containerEl.style.removeProperty("transition-duration");\n      } else {\n        this.collapsed = false;\n        this.containerEl.style.setProperty("--sidebar-width", newWidth);\n        if (width > this.minResizeWidth)\n          this.containerEl.style.transitionDuration = "0s";\n      }\n      if (ObsidianSite.graphView)\n        ObsidianSite.graphView.graphRenderer.autoResizeCanvas();\n    }\n    createGlobalSidebarToggle() {\n      const navbarZoneSelector = this.isLeft ? "#navbar .navbar-zone-left" : "#navbar .navbar-zone-right";\n      const navbarZone = document.querySelector(navbarZoneSelector);\n      if (!navbarZone)\n        return void 0;\n      const toggle = document.createElement("div");\n      toggle.className = `clickable-icon sidebar-collapse-icon global-topbar-sidebar-toggle ${this.isLeft ? "sidebar-toggle-left" : "sidebar-toggle-right"}`;\n      toggle.id = this.isLeft ? "left-sidebar-toggle-button" : "right-sidebar-toggle-button";\n      toggle.setAttribute("data-sidebar", this.containerEl.id);\n      toggle.setAttribute("aria-label", this.isLeft ? "Toggle left sidebar" : "Toggle right sidebar");\n      toggle.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-toggle-button-icon"><rect x="1" y="2" width="22" height="20" rx="4"></rect><rect x="4" y="5" width="2" height="14" rx="2" fill="currentColor" class="sidebar-toggle-icon-inner"></rect></svg>`;\n      navbarZone.appendChild(toggle);\n      return toggle;\n    }\n    setupSidebarResize() {\n      if (!this.resizeHandleEl)\n        return;\n      const savedWidth = localStorage.getItem(`${this.sidebarID}-width`);\n      if (savedWidth)\n        this.containerEl.style.setProperty("--sidebar-width", savedWidth);\n      const localThis = this;\n      function resizeMove(e) {\n        if (!localThis.resizing)\n          return;\n        const distance = localThis.isLeft ? e.clientX : window.innerWidth - e.clientX;\n        localThis.width = distance;\n      }\n      function handleClick(e) {\n        localThis._resizing = true;\n        localThis.containerEl.classList.add("is-resizing");\n        document.addEventListener("pointermove", resizeMove);\n        document.addEventListener("pointerup", function() {\n          document.removeEventListener("pointermove", resizeMove);\n          const finalWidth = getComputedStyle(localThis.containerEl).getPropertyValue("--sidebar-width");\n          localStorage.setItem(`${localThis.sidebarID}-width`, finalWidth);\n          localThis.containerEl.classList.remove("is-resizing");\n          localThis.containerEl.style.removeProperty("transition-duration");\n        });\n      }\n      this.resizeHandleEl.addEventListener("pointerdown", handleClick);\n      function resetSidebarEvent(e) {\n        localThis.resetWidth();\n      }\n      this.resizeHandleEl.addEventListener("dblclick", resetSidebarEvent);\n    }\n    resetWidth() {\n      this.containerEl.style.removeProperty("transition-duration");\n      this.containerEl.style.removeProperty("--sidebar-width");\n      localStorage.removeItem(`${this.sidebarID}-width`);\n      setTimeout(() => {\n        console.log("Resizing canvas");\n        if (ObsidianSite.graphView) {\n          ObsidianSite.graphView.graphRenderer.autoResizeCanvas();\n          ObsidianSite.graphView.graphRenderer.centerCamera();\n        }\n      }, 500);\n    }\n    clickOutsideCollapse(event) {\n      const target = event.target;\n      if (target?.closest(`#${this.containerEl.id}`)) {\n        return;\n      }\n      if (target?.closest(`.global-topbar-sidebar-toggle[data-sidebar="${this.containerEl.id}"]`)) {\n        return;\n      }\n      const isPhone = ObsidianSite.deviceSize === "phone";\n      const isTablet = ObsidianSite.deviceSize === "tablet";\n      if (isPhone || isTablet) {\n        this.collapsed = true;\n      }\n    }\n  };\n\n  // src/frontend/main/trees.ts\n  var TreeItem = class {\n    constructor(itemEl, parent, depth = 0, minCollapseDepth = 1) {\n      this._path = "";\n      this.collapseAnimationLength = 150;\n      this._oldAnimationLength = this.collapseAnimationLength;\n      this.root = this instanceof Tree ? this : parent?.root ?? (parent instanceof Tree ? parent : void 0);\n      this.parent = parent;\n      this.minCollapseDepth = minCollapseDepth;\n      let isRoot = this instanceof Tree;\n      this.itemEl = itemEl;\n      this.selfEl = isRoot ? itemEl : itemEl.querySelector(".tree-item-self");\n      this.collapseIconEl = isRoot ? itemEl : this.selfEl.querySelector(".collapse-icon");\n      this.innerEl = isRoot ? itemEl : this.selfEl.querySelector(".tree-item-inner");\n      this.childrenEl = isRoot ? itemEl : itemEl.querySelector(".tree-item-children");\n      const hrefAttr = this.selfEl.getAttribute("href");\n      if (hrefAttr)\n        this.path = hrefAttr;\n      this.children = [];\n      const childItems = Array.from(this.childrenEl.children).filter((el) => el.classList.contains("tree-item"));\n      childItems.forEach((child) => {\n        this.children.push(new TreeItem(child, this, depth + 1, this.minCollapseDepth));\n      });\n      this._isFolder = this.itemEl.classList.contains("nav-folder");\n      this._isLink = this.selfEl.tagName == "A";\n      this.depth = depth;\n      this._isCollapsible = this.itemEl.classList.contains("mod-collapsible") && this.depth >= this.minCollapseDepth;\n      if (!this._isCollapsible) {\n        if (this.collapseIconEl && !(this instanceof Tree)) {\n          console.log(this);\n          this.collapseIconEl.remove();\n          this.collapseIconEl = void 0;\n        }\n        this.selfEl.classList.remove("mod-collapsible");\n        this.itemEl.classList.remove("mod-collapsible");\n        this.itemEl.classList.remove("is-collapsed");\n      }\n      this.collapsed = this.itemEl.classList.contains("is-collapsed");\n      if (this._isCollapsible) {\n        const clickItem = this.isLink ? this.collapseIconEl ?? this.selfEl : this.selfEl;\n        clickItem.addEventListener("click", (e) => {\n          this.collapsed = !this.collapsed;\n          e.preventDefault();\n          e.stopPropagation();\n        });\n      }\n      this._checkAnyChildrenOpen();\n    }\n    get path() {\n      return this._path;\n    }\n    set path(path) {\n      if (this.root.pathToItem) {\n        this.root.pathToItem.delete(this._path);\n        this.root.pathToItem.set(path, this);\n      }\n      this._path = path;\n      this.selfEl.setAttribute("href", path);\n    }\n    get title() {\n      return this.innerEl.innerHTML;\n    }\n    set title(title) {\n      this.innerEl.innerHTML = title;\n    }\n    get isFolder() {\n      return this._isFolder;\n    }\n    get isLink() {\n      return this._isLink;\n    }\n    get collapsable() {\n      return this._isCollapsible;\n    }\n    get collapsed() {\n      return this._collapsed;\n    }\n    set collapsed(collapse) {\n      if (!this.collapsable)\n        collapse = false;\n      if (this.collapsed == collapse)\n        return;\n      if (!collapse && this.parent instanceof TreeItem && this.parent.collapsed) {\n        this.parent.collapsed = false;\n      }\n      this._collapsed = collapse;\n      this.itemEl.classList.toggle("is-collapsed", collapse);\n      this.collapseIconEl?.classList.toggle("is-collapsed", collapse);\n      if (collapse)\n        slideUp(this.childrenEl, this.collapseAnimationLength);\n      else\n        slideDown(this.childrenEl, this.collapseAnimationLength);\n      this.parent?._checkAnyChildrenOpen();\n    }\n    get collapsedRecursive() {\n      return this._collapsedRecursive;\n    }\n    set collapsedRecursive(collapse) {\n      if (this.collapsedRecursive == collapse)\n        return;\n      this._collapsedRecursive = collapse;\n      this.children.forEach((child) => {\n        child.collapsed = collapse;\n        child.collapsedRecursive = collapse;\n      });\n    }\n    get anyChildrenOpen() {\n      return this._anyChildrenOpen;\n    }\n    _checkAnyChildrenOpen() {\n      this._anyChildrenOpen = this.children.some((child) => !child.collapsed && child.collapsable);\n      this._collapsedRecursive = !this._anyChildrenOpen;\n      return this._anyChildrenOpen;\n    }\n    forAllChildren(callback) {\n      this.children.forEach((child) => {\n        callback(child);\n        child.forAllChildren(callback);\n      });\n    }\n    overrideAnimationLength(length) {\n      this._oldAnimationLength = this.collapseAnimationLength;\n      this.collapseAnimationLength = length;\n      this.children.forEach((child) => {\n        child.overrideAnimationLength(length);\n      });\n    }\n    restoreAnimationLength() {\n      this.collapseAnimationLength = this._oldAnimationLength;\n      this.children.forEach((child) => {\n        child.restoreAnimationLength();\n      });\n    }\n    setActive(options = {}) {\n      if (this.root.activeItem)\n        this.root.activeItem.selfEl.classList.remove("is-active");\n      this.root.activeItem = this;\n      this.selfEl.classList.add("is-active");\n      if (options.scrollIntoView) {\n        this.selfEl.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });\n      }\n    }\n    setFiltered(filteredOut) {\n      if (filteredOut) {\n        this.itemEl.classList.add("filtered-out");\n      } else {\n        this.itemEl.classList.remove("filtered-out");\n        this.parent?.setFiltered(false);\n      }\n    }\n    filter(paths) {\n      this.overrideAnimationLength(0);\n      this.itemEl.classList.add("filtered");\n      this.collapsedRecursive = false;\n      this.forAllChildren((child) => {\n        child.setFiltered(true);\n      });\n      paths.forEach((path) => {\n        const item = this.findByPath(path);\n        if (item)\n          item.setFiltered(false);\n      });\n    }\n    async unfilter() {\n      this.itemEl.classList.remove("filtered");\n      this.forAllChildren((child) => {\n        child.setFiltered(false);\n      });\n      this.collapsedRecursive = true;\n      this.restoreAnimationLength();\n    }\n    setSubHeadings(hintLabelLists) {\n      this.removeSubHeadings();\n      for (const [path, hintLabels] of hintLabelLists) {\n        if (hintLabels.length == 0)\n          continue;\n        const item = this.findByPath(path);\n        if (!item)\n          continue;\n        item.itemEl.classList.add("has-hints");\n        const hintContainer = document.createElement("div");\n        hintContainer.classList.add("tree-hint-container");\n        item.itemEl.appendChild(hintContainer);\n        hintLabels.forEach((label) => {\n          const hintLabelEl = document.createElement("a");\n          hintLabelEl.classList.add("tree-hint-label");\n          hintLabelEl.classList.add("internal-link");\n          hintLabelEl.textContent = label;\n          hintLabelEl.href = path + "#" + label;\n          hintContainer.appendChild(hintLabelEl);\n        });\n        LinkHandler.initializeLinks(hintContainer);\n      }\n    }\n    removeSubHeadings() {\n      this.itemEl.classList.remove("has-hints");\n      this.itemEl.querySelectorAll(".tree-hint-container").forEach((el) => {\n        el.remove();\n      });\n      this.itemEl.querySelectorAll(".has-hints").forEach((el) => {\n        el.classList.remove("has-hints");\n      });\n    }\n    sort(sortFunction) {\n      this.itemEl.classList.add("sorted");\n      this.children.sort(sortFunction);\n      this.children.forEach((child) => {\n        child.sort(sortFunction);\n      });\n      this.children.forEach((child) => {\n        this.childrenEl.appendChild(child.itemEl);\n      });\n    }\n    unsort() {\n      this.itemEl.classList.remove("sorted");\n      this.sort((a, b) => (ObsidianSite.getWebpageData(a.path)?.treeOrder ?? 0) - (ObsidianSite.getWebpageData(b.path)?.treeOrder ?? 0));\n    }\n    find(predicate) {\n      if (predicate(this))\n        return this;\n      for (const child of this.children) {\n        const found = child.find(predicate);\n        if (found)\n          return found;\n      }\n      return void 0;\n    }\n    findByPath(path) {\n      return this.root.pathToItem.get(path);\n    }\n  };\n  var _Tree = class extends TreeItem {\n    constructor(container, minCollapseDepth = 1) {\n      const wrapperEl = container.classList.contains("tree-container") ? container : container.querySelector(".tree-container");\n      if (wrapperEl == null)\n        throw new Error("Invalid tree container");\n      super(wrapperEl, void 0, 0, minCollapseDepth);\n      this.pathToItem = /* @__PURE__ */ new Map();\n      this.rootEl = wrapperEl;\n      this.childrenEl = this.rootEl;\n      this.selfEl = this.rootEl;\n      this.innerEl = this.rootEl;\n      this.collapseAllEl = this.rootEl.querySelector(".tree-collapse-all");\n      const collapseSvg = this.collapseAllEl?.querySelector("svg");\n      if (collapseSvg) {\n        collapseSvg.innerHTML = "<path d></path><path d></path>";\n        this.collapsePath1 = collapseSvg.querySelector("path");\n        this.collapsePath2 = collapseSvg.querySelector("path:last-child");\n      }\n      this.forAllChildren((child) => {\n        if (child.path != "")\n          this.pathToItem.set(child.path, child);\n      });\n      this.collapseAllEl?.addEventListener("click", () => {\n        this.setCollapseIcon(!this.collapsedRecursive);\n        this.collapsedRecursive = !this.collapsedRecursive;\n      });\n      LinkHandler.initializeLinks(this.rootEl);\n      this.setCollapseIcon(!this.anyChildrenOpen);\n    }\n    _checkAnyChildrenOpen() {\n      const open = super._checkAnyChildrenOpen();\n      this.setCollapseIcon(!open);\n      return open;\n    }\n    setCollapseIcon(collapsed) {\n      if (collapsed) {\n        this.collapsePath1?.setAttribute("d", _Tree.collapsePaths[0]);\n        this.collapsePath2?.setAttribute("d", _Tree.collapsePaths[1]);\n      } else {\n        this.collapsePath1?.setAttribute("d", _Tree.uncollapsePaths[0]);\n        this.collapsePath2?.setAttribute("d", _Tree.uncollapsePaths[1]);\n      }\n    }\n    revealPath(path) {\n      const item = this.findByPath(path);\n      if (!item)\n        return;\n      item.collapsed = false;\n    }\n  };\n  var Tree = _Tree;\n  Tree.collapsePaths = ["m7 15 5 5 5-5", "m7 9 5-5 5 5"];\n  Tree.uncollapsePaths = ["m7 20 5-5 5 5", "m7 4 5 5 5-5"];\n\n  // src/frontend/graph-view/graph-wasm-helper.ts\n  var _positionsPtr, _positionsByteLength, _radiiPtr, _linkSourcesPtr, _linkTargetsPtr;\n  var GraphWASMHelper = class {\n    constructor() {\n      this.nodeCount = 0;\n      this.linkCount = 0;\n      this.hoveredNode = -1;\n      __privateAdd(this, _positionsPtr, 0);\n      __privateAdd(this, _positionsByteLength, 0);\n      __privateAdd(this, _radiiPtr, 0);\n      __privateAdd(this, _linkSourcesPtr, 0);\n      __privateAdd(this, _linkTargetsPtr, 0);\n      this.startPositions = new Float32Array(0);\n      this.linkSources = new Int32Array(0);\n      this.linkTargets = new Int32Array(0);\n      this.radii = new Float32Array(0);\n      this.maxRadius = 0;\n      this.averageRadius = 0;\n      this.minRadius = 0;\n    }\n    init(graph, positions) {\n      this.free();\n      this.graphView = graph;\n      this.nodeCount = graph.nodeCount;\n      this.linkCount = graph.linkCount;\n      if (positions?.length != this.nodeCount * 2) {\n        throw new Error("Invalid positions array length");\n      }\n      this.radii = new Float32Array(graph.radii);\n      this.linkSources = new Int32Array(graph.linkSources);\n      this.linkTargets = new Int32Array(graph.linkTargets);\n      this.maxRadius = this.radii.reduce((a, b) => Math.max(a, b));\n      this.averageRadius = this.radii.reduce((a, b) => a + b) / this.radii.length;\n      this.minRadius = this.radii.reduce((a, b) => Math.min(a, b));\n      this.startPositions = new Float32Array(this.nodeCount * 2);\n      this.startPositions = this.generatePositions(positions);\n      __privateSet(this, _positionsPtr, Module._malloc(this.startPositions.byteLength));\n      __privateSet(this, _positionsByteLength, this.startPositions.byteLength);\n      __privateSet(this, _radiiPtr, Module._malloc(this.radii.byteLength));\n      __privateSet(this, _linkSourcesPtr, Module._malloc(this.linkSources.byteLength));\n      __privateSet(this, _linkTargetsPtr, Module._malloc(this.linkTargets.byteLength));\n      Module.HEAP32.set(new Int32Array(this.startPositions.buffer), __privateGet(this, _positionsPtr) / this.startPositions.BYTES_PER_ELEMENT);\n      Module.HEAP32.set(new Int32Array(this.radii.buffer), __privateGet(this, _radiiPtr) / this.radii.BYTES_PER_ELEMENT);\n      Module.HEAP32.set(new Int32Array(this.linkSources.buffer), __privateGet(this, _linkSourcesPtr) / this.linkSources.BYTES_PER_ELEMENT);\n      Module.HEAP32.set(new Int32Array(this.linkTargets.buffer), __privateGet(this, _linkTargetsPtr) / this.linkTargets.BYTES_PER_ELEMENT);\n      Module._Init(__privateGet(this, _positionsPtr), __privateGet(this, _radiiPtr), __privateGet(this, _linkSourcesPtr), __privateGet(this, _linkTargetsPtr), this.nodeCount, this.linkCount, graph.batchFraction, graph.ticker.deltaTime, graph.options.attractionForce, graph.options.linkLength, graph.options.repulsionForce, graph.options.centralForce);\n    }\n    get positions() {\n      return Module.HEAP32.buffer.slice(__privateGet(this, _positionsPtr), __privateGet(this, _positionsPtr) + __privateGet(this, _positionsByteLength));\n    }\n    get positionsF() {\n      return new Float32Array(this.positions);\n    }\n    generatePositions(defaultPositions) {\n      let positions = new Float32Array(defaultPositions ?? new Array(this.nodeCount * 2).fill(0));\n      const spawnRadius = this.averageRadius * 2 * Math.sqrt(this.nodeCount) * 2;\n      for (let i = 0; i < this.nodeCount; i++) {\n        const value = positions[i * 2];\n        if (value != 0 && !isNaN(value) && value != void 0) {\n          continue;\n        }\n        const distance = (1 - this.radii[i] / this.maxRadius) * spawnRadius;\n        positions[i * 2] = Math.cos(i / this.nodeCount * 7.41 * 2 * Math.PI) * distance;\n        positions[i * 2 + 1] = Math.sin(i / this.nodeCount * 7.41 * 2 * Math.PI) * distance;\n      }\n      return positions;\n    }\n    getBounds() {\n      let bounds = new Bounds(0, 0, 0, 0);\n      const positions = new Float32Array(this.positions);\n      for (let i = 0; i < this.nodeCount - 1; i += 2) {\n        const pos = new Vector2(positions[i], positions[i + 1]);\n        bounds.encapsulatePoint(pos.scale(2));\n      }\n      const centerDelta = bounds.center;\n      const centerDist = centerDelta.magnitude;\n      bounds = bounds.expand(50 + centerDist);\n      bounds.translate(centerDelta.inverse);\n      return bounds;\n    }\n    update(mousePosition, grabbedNode, cameraScale) {\n      this.hoveredNode = Module._Update(mousePosition.x, mousePosition.y, grabbedNode, cameraScale);\n    }\n    free() {\n      Module._free(__privateGet(this, _positionsPtr));\n      Module._free(__privateGet(this, _radiiPtr));\n      Module._free(__privateGet(this, _linkSourcesPtr));\n      Module._free(__privateGet(this, _linkTargetsPtr));\n      Module._FreeMemory();\n    }\n    set batchFraction(value) {\n      Module._SetBatchFractionSize(value);\n    }\n    set attractionForce(value) {\n      Module._SetAttractionForce(value);\n    }\n    set repulsionForce(value) {\n      Module._SetRepulsionForce(value);\n    }\n    set centralForce(value) {\n      Module._SetCentralForce(value);\n    }\n    set linkLength(value) {\n      Module._SetLinkLength(value);\n    }\n    set dt(value) {\n      Module._SetDt(value);\n    }\n    set settleness(value) {\n      Module._SetSettleness(value);\n    }\n  };\n  _positionsPtr = new WeakMap();\n  _positionsByteLength = new WeakMap();\n  _radiiPtr = new WeakMap();\n  _linkSourcesPtr = new WeakMap();\n  _linkTargetsPtr = new WeakMap();\n\n  // src/frontend/graph-view/graph-worker-helper.ts\n  var _pixiInit, pixiInit_fn, _pixiSetInteraction, pixiSetInteraction_fn, _pixiSetCamera, pixiSetCamera_fn, _pixiSetColors, pixiSetColors_fn;\n  var GraphRenderWorker = class {\n    constructor(graph) {\n      __privateAdd(this, _pixiInit);\n      __privateAdd(this, _pixiSetInteraction);\n      __privateAdd(this, _pixiSetCamera);\n      __privateAdd(this, _pixiSetColors);\n      this.graph = graph;\n      this.canvas = document.querySelector("#graph-canvas");\n      this.canvasSidebar = this.canvas.closest(".sidebar");\n      console.log("Creating graph worker");\n      try {\n        this.view = this.canvas.transferControlToOffscreen();\n      } catch (e) {\n        console.log("Failed to transfer control to offscreen canvas");\n      }\n      var workerPath = `${ObsidianSite.document.info.pathToRoot}/${Shared.libFolderName}/${Shared.scriptsFolderName}/graph-render-worker.js`;\n      if (window.location.protocol === "file:") {\n        var fileInfo = ObsidianSite.getLocalDataFromId(LinkHandler.getFileDataIdFromURL(workerPath));\n        const data = Uint8Array.from(Array.from(fileInfo.data).map((s) => s.charCodeAt(0)));\n        this.worker = new Worker(URL.createObjectURL(new Blob([data], { type: "application/javascript" })));\n      } else {\n        this.worker = new Worker(new URL(workerPath, window.location.href).pathname);\n      }\n      this._cameraOffset = new Vector2(0, 0);\n      this._cameraScale = 1;\n      this._hoveredNode = -1;\n      this._grabbedNode = -1;\n      this._colors = {\n        background: 0,\n        link: 0,\n        node: 0,\n        outline: 0,\n        text: 0,\n        accent: 0\n      };\n      this._width = 0;\n      this._height = 0;\n      this.cameraOffset = new Vector2(this.canvas.width, this.canvas.height).scale(0.5);\n      this.cameraScale = 1;\n      this.hoveredNode = -1;\n      this.grabbedNode = -1;\n      this.resampleColors();\n      __privateMethod(this, _pixiInit, pixiInit_fn).call(this, true);\n      this.width = this.canvas.width;\n      this.height = this.canvas.height;\n      this.autoResizeCanvas();\n    }\n    get cameraOffset() {\n      return this._cameraOffset;\n    }\n    set cameraOffset(offset) {\n      this._cameraOffset = offset;\n      __privateMethod(this, _pixiSetCamera, pixiSetCamera_fn).call(this, offset, this.cameraScale);\n    }\n    get cameraScale() {\n      return this._cameraScale;\n    }\n    set cameraScale(scale) {\n      this._cameraScale = scale;\n      __privateMethod(this, _pixiSetCamera, pixiSetCamera_fn).call(this, this.cameraOffset, scale);\n    }\n    get hoveredNode() {\n      return this._hoveredNode;\n    }\n    set hoveredNode(node) {\n      this._hoveredNode = node;\n      __privateMethod(this, _pixiSetInteraction, pixiSetInteraction_fn).call(this, node, this._grabbedNode);\n    }\n    get grabbedNode() {\n      return this._grabbedNode;\n    }\n    set grabbedNode(node) {\n      this._grabbedNode = node;\n      __privateMethod(this, _pixiSetInteraction, pixiSetInteraction_fn).call(this, this._hoveredNode, node);\n    }\n    get colors() {\n      return this._colors;\n    }\n    set colors(colors) {\n      this._colors = colors;\n      __privateMethod(this, _pixiSetColors, pixiSetColors_fn).call(this, colors);\n    }\n    get width() {\n      return this._width;\n    }\n    set width(width) {\n      this._width = width;\n      this.resizeCanvas(width, this._height);\n    }\n    get height() {\n      return this._height;\n    }\n    set height(height) {\n      this._height = height;\n      this.resizeCanvas(this._width, height);\n    }\n    set activeNode(node) {\n      this.worker.postMessage({\n        type: "set_active",\n        active: node\n      });\n    }\n    updateData(graph) {\n      this.graph = graph;\n      __privateMethod(this, _pixiInit, pixiInit_fn).call(this);\n    }\n    sampleColor(variable) {\n      const testEl = document.createElement("div");\n      document.body.appendChild(testEl);\n      testEl.style.setProperty("display", "none");\n      testEl.style.setProperty("color", "var(" + variable + ")");\n      const col = getComputedStyle(testEl).color;\n      const opacity = getComputedStyle(testEl).opacity;\n      testEl.remove();\n      function toColorObject(str) {\n        const match = str.match(/rgb?\\((\\d+),\\s*(\\d+),\\s*(\\d+)\\)/);\n        return match ? {\n          red: parseInt(match[1]),\n          green: parseInt(match[2]),\n          blue: parseInt(match[3]),\n          alpha: 1\n        } : null;\n      }\n      const color = toColorObject(col);\n      const alpha = parseFloat(opacity);\n      const result = {\n        a: alpha * (color?.alpha ?? 1),\n        rgb: (color?.red ?? 8912896) << 16 | (color?.green ?? 34816) << 8 | (color?.blue ?? 136)\n      };\n      return result;\n    }\n    resampleColors() {\n      this.colors = {\n        background: this.sampleColor("--background-secondary").rgb,\n        link: this.sampleColor("--graph-line").rgb,\n        node: this.sampleColor("--graph-node").rgb,\n        outline: this.sampleColor("--graph-line").rgb,\n        text: this.sampleColor("--graph-text").rgb,\n        accent: this.sampleColor("--interactive-accent").rgb\n      };\n    }\n    draw(_positions) {\n      this.worker.postMessage({\n        type: "draw",\n        positions: _positions\n      }, [_positions]);\n    }\n    resizeCanvas(width, height) {\n      this.worker.postMessage({\n        type: "resize",\n        width,\n        height\n      });\n      this._width = width;\n      this._height = height;\n    }\n    autoResizeCanvas() {\n      let canvasWidth = this.canvas.offsetWidth;\n      let canvasHeight = this.canvas.offsetHeight;\n      if (this.width != canvasWidth || this.height != canvasHeight) {\n        this.centerCamera();\n        this.resizeCanvas(canvasWidth, canvasHeight);\n      }\n    }\n    centerCamera() {\n      this.cameraOffset = new Vector2(this.width, this.height).scale(0.5);\n    }\n    toScreenSpace(x, y, floor = true) {\n      let xScreen = x * this.cameraScale + this.cameraOffset.x;\n      let yScreen = y * this.cameraScale + this.cameraOffset.y;\n      if (floor) {\n        xScreen = Math.floor(xScreen);\n        yScreen = Math.floor(yScreen);\n      }\n      return new Vector2(xScreen, yScreen);\n    }\n    vecToScreenSpace(vector, floor = true) {\n      return this.toScreenSpace(vector.x, vector.y, floor);\n    }\n    toWorldspace(x, y) {\n      const xWorld = (x - this.cameraOffset.x) / this.cameraScale;\n      const yWorld = (y - this.cameraOffset.y) / this.cameraScale;\n      return new Vector2(xWorld, yWorld);\n    }\n    vecToWorldspace(vector) {\n      return this.toWorldspace(vector.x, vector.y);\n    }\n    setCameraCenterWorldspace(position) {\n      this.cameraOffset = new Vector2(this.width / 2 - position.x * this.cameraScale, this.height / 2 - position.y * this.cameraScale);\n    }\n    getCameraCenterWorldspace() {\n      return this.toWorldspace(this.width / 2, this.height / 2);\n    }\n  };\n  _pixiInit = new WeakSet();\n  pixiInit_fn = function(initial = false) {\n    const { width, height } = this.view;\n    let options = { width, height, view: this.view };\n    let objects = [this.view];\n    if (!initial) {\n      options = { width, height };\n      objects = [];\n    }\n    this.worker.postMessage({\n      type: "init",\n      linkCount: this.graph.graphSim.linkCount,\n      linkSources: this.graph.graphSim.linkSources,\n      linkTargets: this.graph.graphSim.linkTargets,\n      nodeCount: this.graph.graphSim.nodeCount,\n      radii: this.graph.graphSim.radii,\n      labels: this.graph.labels,\n      linkLength: this.graph.options.linkLength,\n      edgePruning: this.graph.options.edgePruning,\n      options\n    }, objects);\n  };\n  _pixiSetInteraction = new WeakSet();\n  pixiSetInteraction_fn = function(hoveredNodeIndex, grabbedNodeIndex) {\n    const obj = {\n      type: "update_interaction",\n      hoveredNode: hoveredNodeIndex,\n      grabbedNode: grabbedNodeIndex\n    };\n    this.worker.postMessage(obj);\n  };\n  _pixiSetCamera = new WeakSet();\n  pixiSetCamera_fn = function(cameraOffset, cameraScale) {\n    this.worker.postMessage({\n      type: "update_camera",\n      cameraOffset,\n      cameraScale\n    });\n  };\n  _pixiSetColors = new WeakSet();\n  pixiSetColors_fn = function(colors) {\n    this.worker.postMessage({\n      type: "update_colors",\n      colors\n    });\n  };\n\n  // src/shared/inserted-feature.ts\n  var _InsertedFeature = class {\n    constructor(options, existingElement) {\n      this.elements = /* @__PURE__ */ new Map();\n      this._options = options;\n      if (existingElement) {\n        this.replaceFeature(existingElement);\n      } else {\n        this.setupFeatureContainer();\n      }\n      this.options.insertFeature(document.body, this.getElement(_InsertedFeature.FEATURE_KEY));\n      this.onAfterMount();\n    }\n    getElementDefinitions() {\n      return {\n        [_InsertedFeature.FEATURE_KEY]: {\n          type: "div",\n          className: ["feature", "hide"],\n          id: this.options.featureId\n        },\n        [_InsertedFeature.HEADER_KEY]: {\n          type: "div",\n          className: "feature-header"\n        },\n        [_InsertedFeature.CONTENT_KEY]: {\n          type: "div",\n          className: `${this.options.featureId}-content`\n        },\n        [_InsertedFeature.TITLE_KEY]: {\n          type: "div",\n          className: "feature-title"\n        }\n      };\n    }\n    getElementHierarchy() {\n      return {\n        [_InsertedFeature.FEATURE_KEY]: null,\n        [_InsertedFeature.HEADER_KEY]: _InsertedFeature.FEATURE_KEY,\n        [_InsertedFeature.TITLE_KEY]: _InsertedFeature.HEADER_KEY,\n        [_InsertedFeature.CONTENT_KEY]: _InsertedFeature.FEATURE_KEY\n      };\n    }\n    createElement(definition) {\n      const element = document.createElement(definition.type);\n      if (definition.className) {\n        const classes = Array.isArray(definition.className) ? definition.className : [definition.className];\n        element.classList.add(...classes);\n      }\n      if (definition.id) {\n        element.id = definition.id;\n      }\n      if (definition.attributes) {\n        Object.entries(definition.attributes).forEach(([key, value]) => {\n          element.setAttribute(key, value);\n        });\n      }\n      return element;\n    }\n    getElement(key) {\n      return this.elements.get(key);\n    }\n    setupFeatureContainer() {\n      const definitions = this.getElementDefinitions();\n      const hierarchy = this.getElementHierarchy();\n      Object.entries(definitions).forEach(([key, def]) => {\n        this.elements.set(key, this.createElement(def));\n      });\n      Object.entries(hierarchy).forEach(([key, parentKey]) => {\n        if (parentKey === null)\n          return;\n        const element = this.elements.get(key);\n        const parent = this.elements.get(parentKey);\n        if (element && parent) {\n          parent.appendChild(element);\n        }\n      });\n      if (this._options instanceof InsertedFeatureOptionsWithTitle && this._options.displayTitle?.length > 0) {\n        const titleEl = this.getElement(_InsertedFeature.TITLE_KEY);\n        if (titleEl) {\n          titleEl.innerText = this._options.displayTitle;\n        }\n      }\n      setTimeout(() => {\n        const featureEl = this.getElement(_InsertedFeature.FEATURE_KEY);\n        featureEl?.classList.remove("hide");\n      }, 0);\n    }\n    replaceFeature(existingElement) {\n      this.destroy();\n      const definitions = this.getElementDefinitions();\n      const hierarchy = this.getElementHierarchy();\n      this.elements.set(_InsertedFeature.FEATURE_KEY, existingElement);\n      Object.entries(definitions).forEach(([key, def]) => {\n        if (key === _InsertedFeature.FEATURE_KEY)\n          return;\n        let element = existingElement.querySelector(`.${Array.isArray(def.className) ? def.className[0] : def.className}`);\n        if (!element) {\n          element = this.createElement(def);\n          const parentKey = hierarchy[key];\n          if (parentKey) {\n            const parent = this.elements.get(parentKey);\n            parent?.appendChild(element);\n          }\n        }\n        this.elements.set(key, element);\n      });\n    }\n    onAfterMount() {\n    }\n    get options() {\n      return this._options;\n    }\n    destroy() {\n      this.elements.forEach((element) => {\n        if (element.parentNode) {\n          element.parentNode.removeChild(element);\n        }\n      });\n      this.elements.clear();\n    }\n  };\n  var InsertedFeature = _InsertedFeature;\n  InsertedFeature.FEATURE_KEY = "feature";\n  InsertedFeature.HEADER_KEY = "header";\n  InsertedFeature.CONTENT_KEY = "content";\n  InsertedFeature.TITLE_KEY = "title";\n\n  // src/frontend/main/graph-view.ts\n  var GraphView = class extends InsertedFeature {\n    constructor(featureEl) {\n      super(ObsidianSite.metadata.featureOptions.graphView, featureEl);\n      this.batchFraction = 1;\n      this.graphExpanded = false;\n      this._paused = false;\n      this._isGlobalGraph = false;\n      this.eventsInitialized = false;\n      this.updateRunning = false;\n      this.mouseWorldPos = new Vector2(0, 0);\n      this.scrollVelocity = 0;\n      this.firstUpdate = true;\n      this.drawLastTime = 0;\n      this.graphSim = new GraphWASMHelper();\n      this.graphContainer = document.querySelector(".graph-view-container");\n      this.globalGraphButton = document.querySelector(".graph-global.graph-icon");\n      this.expandGraphButton = document.querySelector(".graph-expand.graph-icon");\n      this.ticker = new Ticker(60);\n      this.ticker.add(this.update.bind(this));\n      this.ticker.start();\n      requestAnimationFrame(this.draw.bind(this));\n    }\n    set options(value) {\n      this._options = value;\n      if (!this.graphSim)\n        return;\n      this.graphSim.attractionForce = value.attractionForce;\n      this.graphSim.centralForce = value.centralForce;\n      this.graphSim.linkLength = value.linkLength;\n      this.graphSim.repulsionForce = value.repulsionForce / this.batchFraction;\n    }\n    get options() {\n      return this._options;\n    }\n    set attractionForce(value) {\n      if (value == this.options.attractionForce)\n        return;\n      this.options.attractionForce = value;\n      if (this.graphSim) {\n        this.graphSim.attractionForce = value;\n        this.graphSim.settleness = 1;\n      }\n    }\n    get attractionForce() {\n      return this.options.attractionForce;\n    }\n    set centralForce(value) {\n      if (value == this.options.centralForce)\n        return;\n      this.options.centralForce = value;\n      if (this.graphSim) {\n        this.graphSim.centralForce = value;\n        this.graphSim.settleness = 1;\n      }\n    }\n    get centralForce() {\n      return this.options.centralForce;\n    }\n    set linkLength(value) {\n      if (value == this.options.linkLength)\n        return;\n      this.options.linkLength = value;\n      if (this.graphSim) {\n        this.graphSim.linkLength = value;\n        this.graphSim.settleness = 1;\n      }\n    }\n    get linkLength() {\n      return this.options.linkLength;\n    }\n    set repulsionForce(value) {\n      if (value == this.options.repulsionForce)\n        return;\n      this.options.repulsionForce = value;\n      if (this.graphSim) {\n        this.graphSim.repulsionForce = value / this.batchFraction;\n        this.graphSim.settleness = 1;\n      }\n    }\n    get repulsionForce() {\n      return this.options.repulsionForce;\n    }\n    get paused() {\n      return this._paused;\n    }\n    set paused(value) {\n      this._paused = value;\n    }\n    get isGlobalGraph() {\n      return this._isGlobalGraph;\n    }\n    set isGlobalGraph(value) {\n      this._isGlobalGraph = value;\n    }\n    initEvents() {\n      const localThis = this;\n      function getMousePositionOnCanvas(event) {\n        const rect = localThis.graphRenderer.canvas.getBoundingClientRect();\n        const pos = getPointerPosition(event);\n        return new Vector2(pos.x - rect.left, pos.y - rect.top);\n      }\n      function getTouchPositionOnCanvas(event) {\n        const rect = localThis.graphRenderer.canvas.getBoundingClientRect();\n        const pos = getTouchPosition(event);\n        return new Vector2(pos.x - rect.left, pos.y - rect.top);\n      }\n      let pointerPos = new Vector2(0, 0);\n      let lastPointerPos = new Vector2(0, 0);\n      let pointerDelta = new Vector2(0, 0);\n      let dragDisplacement = new Vector2(0, 0);\n      let startDragTime = 0;\n      let pointerDown = false;\n      let middleDown = false;\n      let startPointerPos = new Vector2(0, 0);\n      let firstPointerDownId = -1;\n      let pointerInside = false;\n      const graphContainer = this.graphContainer;\n      const graphRenderer = this.graphRenderer;\n      function handlePointerEnter(enter) {\n        let lastDistance = 0;\n        let startZoom = false;\n        function handleMouseMove(move) {\n          pointerPos = getMousePositionOnCanvas(move);\n          if (pointerPos.isUndefined)\n            return;\n          localThis.mouseWorldPos = graphRenderer.vecToWorldspace(pointerPos);\n          pointerDelta = new Vector2(pointerPos.x - lastPointerPos.x, pointerPos.y - lastPointerPos.y);\n          lastPointerPos = pointerPos;\n          if (graphRenderer.grabbedNode != -1)\n            dragDisplacement = new Vector2(pointerPos.x - startPointerPos.x, pointerPos.y - startPointerPos.y);\n          if (pointerDown && graphRenderer.hoveredNode != -1 && graphRenderer.grabbedNode == -1 && graphRenderer.hoveredNode != graphRenderer.grabbedNode) {\n            graphRenderer.grabbedNode = graphRenderer.hoveredNode;\n          }\n          if (pointerDown && graphRenderer.hoveredNode == -1 && graphRenderer.grabbedNode == -1 || middleDown) {\n            graphRenderer.cameraOffset = new Vector2(graphRenderer.cameraOffset.x + pointerDelta.x, graphRenderer.cameraOffset.y + pointerDelta.y);\n          } else {\n            if (graphRenderer.hoveredNode != -1)\n              graphRenderer.canvas.style.cursor = "pointer";\n            else\n              graphRenderer.canvas.style.cursor = "default";\n          }\n        }\n        function applyPointerMove(nextPos) {\n          if (nextPos.isUndefined)\n            return;\n          pointerPos = nextPos;\n          localThis.mouseWorldPos = graphRenderer.vecToWorldspace(pointerPos);\n          pointerDelta = new Vector2(pointerPos.x - lastPointerPos.x, pointerPos.y - lastPointerPos.y);\n          lastPointerPos = pointerPos;\n          if (graphRenderer.grabbedNode != -1)\n            dragDisplacement = new Vector2(pointerPos.x - startPointerPos.x, pointerPos.y - startPointerPos.y);\n          if (pointerDown && graphRenderer.hoveredNode != -1 && graphRenderer.grabbedNode == -1 && graphRenderer.hoveredNode != graphRenderer.grabbedNode) {\n            graphRenderer.grabbedNode = graphRenderer.hoveredNode;\n          }\n          if (pointerDown && graphRenderer.hoveredNode == -1 && graphRenderer.grabbedNode == -1 || middleDown) {\n            graphRenderer.cameraOffset = new Vector2(graphRenderer.cameraOffset.x + pointerDelta.x, graphRenderer.cameraOffset.y + pointerDelta.y);\n          } else {\n            if (graphRenderer.hoveredNode != -1)\n              graphRenderer.canvas.style.cursor = "pointer";\n            else\n              graphRenderer.canvas.style.cursor = "default";\n          }\n        }\n        function handleTouchMove(move) {\n          if (move.touches?.length == 1) {\n            if (startZoom) {\n              lastPointerPos = getTouchPositionOnCanvas(move);\n              startZoom = false;\n              pointerDelta = new Vector2(0, 0);\n              localThis.mouseWorldPos = graphRenderer.vecToWorldspace(lastPointerPos);\n              return;\n            }\n            applyPointerMove(getTouchPositionOnCanvas(move));\n            return;\n          }\n          if (move.touches?.length == 2) {\n            const touch1 = getTouchPositionVector(move.touches[0]);\n            const touch2 = getTouchPositionVector(move.touches[1]);\n            pointerPos = getTouchPositionOnCanvas(move);\n            pointerDelta = new Vector2(pointerPos.x - lastPointerPos.x, pointerPos.y - lastPointerPos.y);\n            lastPointerPos = pointerPos;\n            const distance = Math.sqrt(Math.pow(touch1.x - touch2.x, 2) + Math.pow(touch1.y - touch2.y, 2));\n            if (!startZoom) {\n              startZoom = true;\n              lastDistance = distance;\n              pointerDelta = new Vector2(0, 0);\n              localThis.mouseWorldPos = Vector2.Undefined;\n              graphRenderer.grabbedNode = -1;\n              graphRenderer.hoveredNode = -1;\n            }\n            const distanceDelta = distance - lastDistance;\n            const scaleDelta = lastDistance == 0 ? 0 : distanceDelta / lastDistance;\n            localThis.scaleAround(graphRenderer.vecToWorldspace(pointerPos), 1 + scaleDelta, 0.15, 15);\n            graphRenderer.cameraOffset = new Vector2(graphRenderer.cameraOffset.x + pointerDelta.x, graphRenderer.cameraOffset.y + pointerDelta.y);\n            lastDistance = distance;\n          }\n        }\n        function handlePointerUp(up) {\n          document.removeEventListener("pointerup", handlePointerUp);\n          const pointerUpTime = Date.now();\n          setTimeout(() => {\n            if (pointerDown && graphRenderer.hoveredNode != -1 && Math.abs(dragDisplacement.x) <= 4 && Math.abs(dragDisplacement.y) <= 4 && pointerUpTime - startDragTime < 300) {\n              localThis.navigateToNode(graphRenderer.hoveredNode);\n            }\n            if (pointerDown && graphRenderer.grabbedNode != -1) {\n              graphRenderer.grabbedNode = -1;\n            }\n            if (up.button == 0)\n              pointerDown = false;\n            if (up.pointerType == "touch" && firstPointerDownId == up.pointerId) {\n              firstPointerDownId = -1;\n              pointerDown = false;\n            }\n            if (up.button == 1)\n              middleDown = false;\n            if (!pointerInside) {\n              document.removeEventListener("mousemove", handleMouseMove);\n              document.removeEventListener("touchmove", handleTouchMove);\n            }\n          }, 0);\n        }\n        function handlePointerDown(down) {\n          document.addEventListener("pointerup", handlePointerUp);\n          localThis.mouseWorldPos = graphRenderer.vecToWorldspace(pointerPos);\n          dragDisplacement = new Vector2(0, 0);\n          if (down.button == 0)\n            pointerDown = true;\n          if (down.pointerType == "touch" && firstPointerDownId == -1) {\n            firstPointerDownId = down.pointerId;\n            pointerDown = true;\n          }\n          if (down.button == 1)\n            middleDown = true;\n          startPointerPos = pointerPos;\n          startDragTime = Date.now();\n        }\n        function handlePointerLeave(leave) {\n          setTimeout(() => {\n            pointerInside = false;\n            if (!pointerDown) {\n              document.removeEventListener("mousemove", handleMouseMove);\n              document.removeEventListener("touchmove", handleTouchMove);\n              localThis.mouseWorldPos = Vector2.Undefined;\n            }\n            graphContainer.removeEventListener("pointerdown", handlePointerDown);\n            graphContainer.removeEventListener("pointerleave", handlePointerLeave);\n          }, 1);\n        }\n        pointerPos = getMousePositionOnCanvas(enter);\n        localThis.mouseWorldPos = graphRenderer.vecToWorldspace(pointerPos);\n        lastPointerPos = getMousePositionOnCanvas(enter);\n        pointerInside = true;\n        document.addEventListener("mousemove", handleMouseMove);\n        document.addEventListener("touchmove", handleTouchMove);\n        graphContainer.addEventListener("pointerdown", handlePointerDown);\n        graphContainer.addEventListener("pointerleave", handlePointerLeave);\n      }\n      this.graphRenderer.canvas.addEventListener("pointerenter", handlePointerEnter);\n      this.expandGraphButton?.addEventListener("click", (event) => {\n        event.stopPropagation();\n        localThis.toggleExpandedGraph();\n      });\n      this.globalGraphButton?.addEventListener("click", (event) => {\n        event.stopPropagation();\n        if (!localThis.isGlobalGraph) {\n          localThis.showGraph();\n        } else {\n          localThis.showGraph([ObsidianSite.document.pathname]);\n        }\n      });\n      graphContainer.addEventListener("wheel", function(e) {\n        const startingScrollVelocity = 0.065;\n        const delta = e.deltaY;\n        if (delta > 0) {\n          if (localThis.scrollVelocity >= -startingScrollVelocity) {\n            localThis.scrollVelocity = -startingScrollVelocity;\n          }\n          localThis.scrollVelocity *= 1.16;\n        } else {\n          if (localThis.scrollVelocity <= startingScrollVelocity) {\n            localThis.scrollVelocity = startingScrollVelocity;\n          }\n          localThis.scrollVelocity *= 1.16;\n        }\n      });\n      graphContainer.addEventListener("dblclick", function(e) {\n        localThis.fitToNodes();\n      });\n      document.querySelector(".theme-toggle-input")?.addEventListener("change", (event) => {\n        setTimeout(() => graphRenderer.resampleColors(), 0);\n      });\n    }\n    async generate(paths) {\n      this.paths = paths;\n      this.nodeCount = this.paths.length;\n      this.linkSources = [];\n      this.linkTargets = [];\n      this.labels = [];\n      this.radii = [];\n      this.colors = [];\n      const linkCounts = [];\n      for (let i = 0; i < this.nodeCount; i++) {\n        linkCounts.push(0);\n      }\n      let pathIndex = 0;\n      for (const source of this.paths) {\n        const fileInfo = ObsidianSite.getWebpageData(source);\n        if (!fileInfo)\n          continue;\n        this.labels.push(fileInfo.title);\n        const links = fileInfo.links.map((l) => LinkHandler.getPathnameFromURL(l)).concat(fileInfo.attachments).concat(fileInfo.backlinks);\n        let uniqueLinks = [...new Set(links)];\n        uniqueLinks.push(source);\n        for (const link of uniqueLinks) {\n          const targetIndex = this.paths.indexOf(link);\n          if (targetIndex != -1) {\n            this.linkSources.push(targetIndex);\n            this.linkTargets.push(pathIndex);\n            linkCounts[pathIndex]++;\n            linkCounts[targetIndex]++;\n          }\n        }\n        pathIndex++;\n      }\n      const maxLinks = Math.max(...linkCounts);\n      this.radii = linkCounts.map((l) => inOutQuadBlend(this.options.minNodeRadius, this.options.maxNodeRadius, Math.min(l / (maxLinks * 0.8), 1)));\n      this.linkCount = this.linkSources.length;\n    }\n    async showGraph(paths) {\n      this.paused = true;\n      let linked = [];\n      if (paths) {\n        for (const element of paths) {\n          const fileInfo = ObsidianSite.getWebpageData(element);\n          if (fileInfo?.backlinks)\n            linked.push(...fileInfo.backlinks);\n          if (fileInfo?.links)\n            linked.push(...fileInfo.links.map((l) => LinkHandler.getPathnameFromURL(l)));\n          if (fileInfo?.attachments)\n            linked.push(...fileInfo.attachments);\n        }\n        linked.push(...paths);\n      } else {\n        linked = ObsidianSite.metadata.allFiles;\n      }\n      if (linked.length == ObsidianSite.metadata.allFiles.length)\n        this.isGlobalGraph = true;\n      else\n        this.isGlobalGraph = false;\n      linked = linked.filter((l) => {\n        let data = ObsidianSite.getWebpageData(l);\n        if (!data?.backlinks || !data?.links || !data?.type)\n          return false;\n        if (data.backlinks.length == 0) {\n          console.log("No backlinks for", l);\n        }\n        if (!this.options.showOrphanNodes && data.backlinks.length == 0 && data.links.length == 0)\n          return false;\n        if (!this.options.showAttachments && (data.type == "attachment" || data.type == "media" || data.type == "other"))\n          return false;\n        return true;\n      });\n      if (linked.length == 0) {\n        console.log("No nodes to display.");\n        return;\n      }\n      const uniquePaths = [...new Set(linked)];\n      const newPositions = new Array(uniquePaths.length * 2).fill(0);\n      if (this.paths?.length > 0) {\n        const oldPositions = this.graphSim.positionsF;\n        for (let i = 0; i < uniquePaths.length; i++) {\n          const path = uniquePaths[i];\n          const index = this.paths.indexOf(path);\n          if (index == -1)\n            continue;\n          newPositions[i * 2] = oldPositions[index * 2];\n          newPositions[i * 2 + 1] = oldPositions[index * 2 + 1];\n        }\n      }\n      await this.generate(uniquePaths);\n      this.graphSim.init(this, newPositions);\n      if (!this.graphRenderer)\n        this.graphRenderer = new GraphRenderWorker(this);\n      else\n        this.graphRenderer.updateData(this);\n      this.fitToNodes();\n      if (!this.eventsInitialized) {\n        this.initEvents();\n        this.eventsInitialized = true;\n      }\n      this.paused = false;\n      const localSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-circle-dot"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="1"/></svg>`;\n      const globalSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><path d="M12 12v3"/></svg>`;\n      this.globalGraphButton.innerHTML = this.isGlobalGraph ? localSVG : globalSVG;\n      this.setActiveNodeByPath(ObsidianSite.document.pathname);\n    }\n    fitToNodes() {\n      this.graphRenderer.centerCamera();\n      this.graphRenderer.cameraScale = 1 / Math.sqrt(this.nodeCount) * this.graphRenderer.canvas.width / 200;\n      this.graphSim.settleness = 1;\n    }\n    update(dt) {\n      if (this.paused || !this.graphRenderer || !this.graphSim) {\n        return;\n      }\n      if (this.firstUpdate) {\n        setTimeout(() => this.graphRenderer?.canvas?.classList.remove("hide"), 500);\n        this.firstUpdate = false;\n      }\n      this.graphSim.dt = dt;\n      this.graphSim.update(this.mouseWorldPos, this.graphRenderer.grabbedNode, this.graphRenderer.cameraScale);\n      if (this.graphSim.hoveredNode != this.graphRenderer.hoveredNode) {\n        this.graphRenderer.hoveredNode = this.graphSim.hoveredNode;\n        this.graphRenderer.canvas.style.cursor = this.graphSim.hoveredNode == -1 ? "default" : "pointer";\n      }\n    }\n    async draw(time) {\n      if (!this.graphRenderer || !this.graphSim || this.paths.length == 0)\n        return;\n      const dt = (time - this.drawLastTime) / 1e3;\n      this.drawLastTime = time;\n      this.graphRenderer.draw(this.graphSim.positions);\n      if (this.scrollVelocity != 0) {\n        if (Math.abs(this.scrollVelocity) < 1e-3) {\n          this.scrollVelocity = 0;\n        }\n        this.zoomAround(this.mouseWorldPos, this.scrollVelocity);\n        this.scrollVelocity *= 1 - dt * 15;\n      }\n      requestAnimationFrame(this.draw.bind(this));\n    }\n    zoomAround(point, zoom, minScale = 0.15, maxScale = 15) {\n      const cameraCenter = this.graphRenderer.getCameraCenterWorldspace();\n      this.graphRenderer.cameraScale = Math.max(Math.min(this.graphRenderer.cameraScale + zoom * this.graphRenderer.cameraScale, maxScale), minScale);\n      if (this.graphRenderer.cameraScale != minScale && this.graphRenderer.cameraScale != maxScale && this.scrollVelocity > 0 && !this.mouseWorldPos.isUndefined) {\n        const aroundDiff = new Vector2(point.x - cameraCenter.x, point.y - cameraCenter.y);\n        const movePos = new Vector2(cameraCenter.x + aroundDiff.x * zoom, cameraCenter.y + aroundDiff.y * zoom);\n        this.graphRenderer.setCameraCenterWorldspace(movePos);\n      } else\n        this.graphRenderer.setCameraCenterWorldspace(cameraCenter);\n    }\n    scaleAround(point, scale, minScale = 0.15, maxScale = 15) {\n      const cameraCenter = this.graphRenderer.getCameraCenterWorldspace();\n      const scaleBefore = this.graphRenderer.cameraScale;\n      this.graphRenderer.cameraScale = Math.max(Math.min(scale * this.graphRenderer.cameraScale, maxScale), minScale);\n      const diff = (scaleBefore - this.graphRenderer.cameraScale) / scaleBefore;\n      if (this.graphRenderer.cameraScale != minScale && this.graphRenderer.cameraScale != maxScale && scale != 0) {\n        const aroundDiff = new Vector2(point.x - cameraCenter.x, point.y - cameraCenter.y);\n        const movePos = new Vector2(cameraCenter.x - aroundDiff.x * diff, cameraCenter.y - aroundDiff.y * diff);\n        this.graphRenderer.setCameraCenterWorldspace(movePos);\n      } else\n        this.graphRenderer.setCameraCenterWorldspace(cameraCenter);\n    }\n    async navigateToNode(nodeIndex) {\n      if (nodeIndex < 0 || nodeIndex >= this.nodeCount)\n        return;\n      if (this.graphExpanded)\n        this.toggleExpandedGraph();\n      const url = this.paths[nodeIndex];\n      await ObsidianSite.loadURL(url);\n    }\n    toggleExpandedGraph() {\n      const initialWidth = this.graphContainer.clientWidth;\n      const initialHeight = this.graphContainer.clientHeight;\n      this.graphContainer.classList.add("scale-down");\n      const fadeOutAnimation = this.graphContainer.animate({ opacity: 0 }, { duration: 100, easing: "ease-in", fill: "forwards" });\n      const localThis = this;\n      fadeOutAnimation.addEventListener("finish", function() {\n        localThis.graphContainer.classList.toggle("expanded");\n        localThis.graphRenderer.autoResizeCanvas();\n        localThis.graphRenderer.centerCamera();\n        const finalWidth = localThis.graphContainer.clientWidth;\n        const finalHeight = localThis.graphContainer.clientHeight;\n        localThis.graphRenderer.cameraScale *= (finalWidth / initialWidth + finalHeight / initialHeight) / 2;\n        localThis.graphContainer.classList.remove("scale-down");\n        localThis.graphContainer.classList.add("scale-up");\n        const fadeInAnimation = localThis.graphContainer.animate({ opacity: 1 }, { duration: 200, easing: "ease-out", fill: "forwards" });\n        fadeInAnimation.addEventListener("finish", function() {\n          localThis.graphContainer.classList.remove("scale-up");\n        });\n      });\n      this.graphExpanded = !this.graphExpanded;\n      if (this.graphExpanded) {\n        document.addEventListener("pointerdown", handleOutsideClick, { once: true });\n      } else {\n        document.removeEventListener("pointerdown", handleOutsideClick);\n      }\n      function handleOutsideClick(event) {\n        if (!localThis.graphExpanded)\n          return;\n        if (event.composedPath().includes(localThis.graphContainer)) {\n          document.addEventListener("pointerdown", handleOutsideClick, { once: true });\n          return;\n        }\n        localThis.toggleExpandedGraph();\n      }\n      this.graphRenderer.autoResizeCanvas();\n    }\n    getNodeByPath(path) {\n      return this.paths.indexOf(path);\n    }\n    setActiveNode(nodeIndex) {\n      if (nodeIndex < 0 || nodeIndex >= this.nodeCount)\n        return;\n      this.graphRenderer.activeNode = nodeIndex;\n    }\n    setActiveNodeByPath(path) {\n      this.setActiveNode(this.getNodeByPath(path));\n    }\n  };\n\n  // src/frontend/main/theme.ts\n  var Theme = class {\n    constructor() {\n      this.themeToggle = document.querySelector(".theme-toggle-input");\n      this.themeToggle?.addEventListener("change", (event) => {\n        this.switchTheme();\n      });\n    }\n    switchTheme() {\n      const current = localStorage.getItem("theme");\n      let opposite = current == "light" /* Light */ ? "dark" /* Dark */ : "light" /* Light */;\n      this.setTheme(opposite, false);\n    }\n    setTheme(theme, instant = false) {\n      let state = theme == "light" /* Light */;\n      this.themeToggle.checked = state;\n      let oldTransition = "";\n      if (instant) {\n        oldTransition = document.body.style.transition;\n        document.body.style.transition = "none";\n      }\n      if (!this.themeToggle.classList.contains("is-checked") && state) {\n        this.themeToggle.classList.add("is-checked");\n      } else if (this.themeToggle.classList.contains("is-checked") && !state) {\n        this.themeToggle.classList.remove("is-checked");\n      }\n      if (!state) {\n        if (document.body.classList.contains("theme-light")) {\n          document.body.classList.remove("theme-light");\n        }\n        if (!document.body.classList.contains("theme-dark")) {\n          document.body.classList.add("theme-dark");\n        }\n      } else {\n        if (document.body.classList.contains("theme-dark")) {\n          document.body.classList.remove("theme-dark");\n        }\n        if (!document.body.classList.contains("theme-light")) {\n          document.body.classList.add("theme-light");\n        }\n      }\n      if (instant) {\n        setTimeout(function() {\n          document.body.style.transition = oldTransition;\n        }, 100);\n      }\n      localStorage.setItem("theme", state ? "light" : "dark");\n    }\n  };\n\n  // src/shared/dynamic-inserted-feature.ts\n  var DynamicInsertedFeature = class extends InsertedFeature {\n    constructor(options, dependencies, existingElement) {\n      super(options, existingElement);\n      this.dependencies = dependencies;\n      this.updateContent();\n    }\n    regenerate() {\n      this.updateContent();\n    }\n    updateDependencies(newDependencies, autoRegenerate = true) {\n      this.dependencies = newDependencies;\n      if (autoRegenerate) {\n        this.regenerate();\n      }\n    }\n    modifyDependencies(modifier, autoRegenerate = true) {\n      modifier(this.dependencies);\n      if (autoRegenerate) {\n        this.regenerate();\n      }\n    }\n    getDependencies() {\n      return this.dependencies;\n    }\n    updateContent() {\n      const contentEl = this.getElement(InsertedFeature.CONTENT_KEY);\n      if (!contentEl)\n        return;\n      while (contentEl.firstChild) {\n        contentEl.removeChild(contentEl.firstChild);\n      }\n      const featureEl = this.getElement(InsertedFeature.FEATURE_KEY);\n      if (!featureEl?.isConnected && featureEl) {\n        this.options.insertFeature(document.body, featureEl);\n      }\n      this.generateContent(contentEl);\n    }\n    hide() {\n      const featureEl = this.getElement(InsertedFeature.FEATURE_KEY);\n      if (featureEl) {\n        featureEl.style.display = "none";\n      }\n    }\n    show() {\n      const featureEl = this.getElement(InsertedFeature.FEATURE_KEY);\n      if (featureEl) {\n        featureEl.style.display = "";\n      }\n    }\n  };\n\n  // src/frontend/main/backlinks.ts\n  var Backlink = class {\n    get url() {\n      return this._url;\n    }\n    constructor(container, targetURL) {\n      this.targetData = ObsidianSite.getWebpageData(targetURL);\n      if (!this.targetData) {\n        console.error("Failed to find target for backlink", targetURL);\n        return;\n      }\n      this._url = targetURL;\n      this.backlinkEl = document.createElement("a");\n      this.backlinkEl.href = targetURL;\n      this.backlinkEl.classList.add("backlink");\n      container.appendChild(this.backlinkEl);\n      this.backlinkIconEl = document.createElement("div");\n      this.backlinkIconEl.classList.add("backlink-icon");\n      this.backlinkIconEl.innerHTML = this.targetData.icon;\n      this.backlinkEl.appendChild(this.backlinkIconEl);\n      this.backlinkTitleEl = document.createElement("div");\n      this.backlinkTitleEl.classList.add("backlink-title");\n      this.backlinkTitleEl.innerText = this.targetData.title;\n      this.backlinkEl.appendChild(this.backlinkTitleEl);\n      this.backlinkEl.addEventListener("click", (e) => {\n        e.preventDefault();\n        ObsidianSite.loadURL(this.url);\n      });\n    }\n  };\n  var BacklinkList = class extends DynamicInsertedFeature {\n    constructor(backlinkPaths) {\n      super(ObsidianSite.metadata.featureOptions.backlinks, {\n        backlinkPaths\n      });\n    }\n    generateContent(container) {\n      const deps = this.getDependencies();\n      this.backlinks = deps.backlinkPaths.map((url) => new Backlink(container, url));\n    }\n  };\n\n  // src/frontend/main/tags.ts\n  var Tags = class extends DynamicInsertedFeature {\n    constructor(tags) {\n      super(ObsidianSite.metadata.featureOptions.tags, { tags });\n    }\n    generateContent(container) {\n      const deps = this.getDependencies();\n      for (const tagName of deps.tags) {\n        const tagEl = document.createElement("a");\n        tagEl.classList.add("tag");\n        tagEl.setAttribute("href", `?query=tag:${tagName.replace("#", "")}`);\n        tagEl.innerText = tagName;\n        container.appendChild(tagEl);\n      }\n      LinkHandler.initializeLinks(container);\n    }\n  };\n\n  // src/frontend/main/aliases.ts\n  var Aliases = class extends DynamicInsertedFeature {\n    constructor(aliases) {\n      super(ObsidianSite.metadata.featureOptions.alias, {\n        aliases\n      });\n    }\n    generateContent(container) {\n      const deps = this.getDependencies();\n      for (const aliasName of deps.aliases) {\n        const aliasEl = document.createElement("span");\n        aliasEl.classList.add("alias");\n        aliasEl.innerText = aliasName;\n        container.appendChild(aliasEl);\n      }\n      return container;\n    }\n  };\n\n  // src/frontend/main/website.ts\n  var ObsidianWebsite = class {\n    constructor() {\n      this.LinkHandler = LinkHandler;\n      this.LinkPreview = FilePreviewPopover;\n      this.topbarTitleEl = null;\n      this.isLoaded = false;\n      this.isHttp = window.location.protocol != "file:";\n      this.fileTree = void 0;\n      this.outlineTree = void 0;\n      this.search = void 0;\n      this.leftSidebar = void 0;\n      this.rightSidebar = void 0;\n      this.graphView = void 0;\n      this.backlinkList = void 0;\n      this.tags = void 0;\n      this.aliases = void 0;\n      this.outlineHeadingEls = [];\n      this.outlineScrollContainer = void 0;\n      this.outlineScrollHandler = void 0;\n      this.outlineScrollRaf = void 0;\n      this.onloadCallbacks = [];\n      this.cachedWebpageDataMap = /* @__PURE__ */ new Map();\n      this.cachedFileDataMap = /* @__PURE__ */ new Map();\n      this.lastScreenWidth = void 0;\n      this.isResizing = false;\n      this.checkStillResizingTimeout = void 0;\n      this._deviceSize = "large-screen";\n    }\n    onDocumentLoad(callback) {\n      this.onloadCallbacks.push(callback);\n    }\n    async init() {\n      window.addEventListener("load", () => ObsidianSite.onInit());\n      if (this.isHttp) {\n        this.metadata = await this.loadWebsiteData();\n        if (!this.metadata) {\n          console.error("Failed to load website data.");\n          return;\n        }\n      }\n    }\n    async onInit() {\n      if (!this.isHttp) {\n        this.metadata = await this.loadWebsiteData();\n        if (!this.metadata) {\n          console.error("Failed to load website data.");\n          this.metadata = new WebsiteData();\n          this.metadata.ignoreMetadata = true;\n        }\n      }\n      await waitUntil(() => this.metadata != void 0, 16);\n      console.log("Website init");\n      if (window.location.protocol != "file:") {\n        await loadIncludes();\n      }\n      this.theme = new Theme();\n      this.bodyEl = document.body;\n      this.horizontalLayout = document.querySelector("#main-horizontal");\n      this.centerContentEl = document.querySelector("#center-content");\n      this.topbarTitleEl = document.querySelector("#global-topbar-title");\n      const fileTreeEl = document.querySelector("#file-explorer");\n      const outlineTreeEl = document.querySelector("#outline");\n      const leftSidebarEl = document.querySelector(".sidebar#left-sidebar");\n      const rightSidebarEl = document.querySelector(".sidebar#right-sidebar");\n      this.bodyEl.className += " " + this.metadata.bodyClasses;\n      this.createLoadingEl();\n      if (fileTreeEl)\n        this.fileTree = new Tree(fileTreeEl);\n      if (outlineTreeEl)\n        this.outlineTree = new Tree(outlineTreeEl, this.metadata.featureOptions.outline.minCollapseDepth);\n      if (leftSidebarEl)\n        this.leftSidebar = new Sidebar(leftSidebarEl);\n      if (rightSidebarEl)\n        this.rightSidebar = new Sidebar(rightSidebarEl);\n      this.search = await new Search().init();\n      const pathname = document.querySelector("meta[name=\'pathname\']")?.getAttribute("content") ?? "unknown";\n      this.entryPage = pathname;\n      this.document = await new WebpageDocument(pathname);\n      await this.document.loadChildDocuments();\n      await this.document.postLoadInit();\n      this.updateTopbarTitle(this.document.title);\n      this.initializeOutlineScrollSync();\n      if (!ObsidianSite.metadata.ignoreMetadata && ObsidianSite.metadata.featureOptions.graphView.enabled) {\n        this.loadGraphView().then(() => this.graphView?.showGraph([pathname]));\n      }\n      this.initEvents();\n      FilePreviewPopover.loadPinnedPreviews();\n      this.onDocumentLoad((doc) => {\n        if (!ObsidianSite.metadata.ignoreMetadata) {\n          const insertBacklinks = doc.isMainDocument && !ObsidianSite.metadata.ignoreMetadata && ObsidianSite.metadata.featureOptions.backlinks.enabled && doc.documentType == "markdown" /* Markdown */;\n          const insertTags = doc.isMainDocument && !ObsidianSite.metadata.ignoreMetadata && ObsidianSite.metadata.featureOptions.tags.enabled && doc.documentType == "markdown" /* Markdown */;\n          const insertAliases = doc.isMainDocument && !ObsidianSite.metadata.ignoreMetadata && ObsidianSite.metadata.featureOptions.alias.enabled && doc.documentType == "markdown" /* Markdown */;\n          if (insertBacklinks) {\n            const backlinks = doc.info.backlinks?.filter((b) => b != doc.pathname);\n            if (!this.backlinkList) {\n              this.backlinkList = new BacklinkList(doc.info.backlinks ?? []);\n            } else {\n              this.backlinkList?.modifyDependencies((d) => {\n                d.backlinkPaths = doc.info.backlinks ?? [];\n              });\n            }\n            if (!backlinks || backlinks.length == 0) {\n              this.backlinkList?.hide();\n            } else {\n              this.backlinkList?.show();\n            }\n          } else {\n            this.backlinkList?.hide();\n          }\n          if (insertTags) {\n            const tags = [];\n            if (ObsidianSite.metadata.featureOptions.tags.showInlineTags && doc.info.inlineTags) {\n              tags.push(...doc.info.inlineTags);\n            }\n            if (ObsidianSite.metadata.featureOptions.tags.showFrontmatterTags && doc.info.frontmatterTags) {\n              tags.push(...doc.info.frontmatterTags);\n            }\n            if (!this.tags) {\n              this.tags = new Tags(tags);\n            } else {\n              this.tags?.modifyDependencies((d) => {\n                d.tags = tags;\n              });\n            }\n            if (tags.length == 0) {\n              this.tags?.hide();\n            } else {\n              this.tags?.show();\n            }\n          } else {\n            this.tags?.hide();\n          }\n          if (insertAliases) {\n            const aliases = doc.info.aliases;\n            if (!this.aliases) {\n              this.aliases = new Aliases(aliases ?? []);\n            } else {\n              this.aliases?.modifyDependencies((d) => {\n                d.aliases = aliases ?? [];\n              });\n            }\n            if (!aliases || aliases.length == 0) {\n              this.aliases?.hide();\n            } else {\n              this.aliases?.show();\n            }\n          } else {\n            this.aliases?.hide();\n          }\n        }\n      });\n      if (this.isHttp) {\n        let initialPath = this.document.pathname;\n        if (initialPath == "index.html")\n          initialPath = "";\n        history.replaceState({ pathname: initialPath }, this.document.title, initialPath);\n      }\n      this.isLoaded = true;\n      this.onloadCallbacks.forEach((cb) => cb(this.document));\n    }\n    initEvents() {\n      window.addEventListener("popstate", async (e) => {\n        console.log("popstate", e);\n        if (!e.state)\n          return;\n        const pathname = e.state.pathname;\n        await ObsidianSite.loadURL(pathname, false);\n      });\n      const localThis = this;\n      window.addEventListener("resize", () => {\n        localThis.onResize();\n      });\n      this.onResize();\n    }\n    updateMetaTag(name, content) {\n      let meta = document.querySelector(`meta[name="${name}"], meta[property="${name}"]`);\n      if (!meta) {\n        meta = document.createElement("meta");\n        if (name.startsWith("og:")) {\n          meta.setAttribute("property", name);\n        } else {\n          meta.setAttribute("name", name);\n        }\n        document.head.appendChild(meta);\n      }\n      meta.setAttribute("content", content);\n    }\n    updateTopbarTitle(title) {\n      if (!this.topbarTitleEl)\n        return;\n      this.topbarTitleEl.textContent = title;\n      this.topbarTitleEl.setAttribute("title", title);\n    }\n    async loadURL(url, pushState = true) {\n      const header = LinkHandler.getHashFromURL(url);\n      const query = LinkHandler.getQueryFromURL(url);\n      url = LinkHandler.getPathnameFromURL(url);\n      console.log("Loading URL", url, header, query);\n      if (query && query.startsWith("query=")) {\n        this.search?.searchParseFilters(query.substring(6));\n        return;\n      }\n      if (this.document.pathname == url) {\n        if (header) {\n          this.document.scrollToHeader(header);\n          this.setActiveOutlineHeadingById(header, true);\n        } else {\n          new Notice("This page is already loaded.");\n        }\n        return this.document;\n      }\n      const data = ObsidianSite.getWebpageData(url);\n      if (!data) {\n        new Notice("This page does not exist yet.");\n        console.warn("Page does not exist", url);\n        return void 0;\n      }\n      this.teardownOutlineScrollSync();\n      const page = await new WebpageDocument(url).load();\n      if (!page) {\n        new Notice("Failed to load page. Unknown error.");\n        return;\n      }\n      document.title = page.title;\n      this.updateTopbarTitle(page.title);\n      this.updateMetaTag("pathname", page.pathname);\n      this.updateMetaTag("description", page.info?.description || "");\n      this.updateMetaTag("author", page.info?.author || "");\n      this.updateMetaTag("og:title", page.title);\n      this.updateMetaTag("og:description", page.info?.description || "");\n      this.updateMetaTag("og:url", window.location.href);\n      this.updateMetaTag("og:image", page.info?.coverImageURL || "");\n      await this.graphView?.showGraph([page.pathname]);\n      this.fileTree?.findByPath(page.pathname)?.setActive();\n      this.fileTree?.revealPath(page.pathname);\n      this.graphView?.setActiveNodeByPath(page.pathname);\n      this.document = page;\n      if (this.document && this.isHttp && pushState) {\n        let currentPath = this.document.pathname;\n        if (currentPath == "index.html")\n          currentPath = "";\n        history.pushState({ pathname: currentPath }, this.document.title, currentPath);\n      }\n      let newOutlineEl = page.sourceHtml.querySelector("#outline");\n      if (newOutlineEl) {\n        newOutlineEl = document.adoptNode(newOutlineEl);\n        document.querySelector("#outline")?.replaceWith(newOutlineEl);\n        ObsidianSite.outlineTree = new Tree(newOutlineEl, this.metadata.featureOptions.outline.minCollapseDepth);\n      }\n      setTimeout(async () => {\n        this.onloadCallbacks.forEach((cb) => cb(page));\n        await page.show();\n        if (header) {\n          page.scrollToHeader(header);\n          this.setActiveOutlineHeadingById(header, true);\n        }\n        this.initializeOutlineScrollSync();\n      }, 100);\n      return page;\n    }\n    async fetch(url) {\n      url = LinkHandler.getPathnameFromURL(url);\n      if (this.isHttp || url.startsWith("http")) {\n        const req = await fetch(url);\n        if (req.ok) {\n          return req;\n        } else {\n          console.error("Failed to fetch", url);\n          return;\n        }\n      } else {\n        const file = this.getFileData(url);\n        if (!file?.data) {\n          console.error("Failed to fetch", url);\n          return;\n        }\n        const req = new Response(file.data, { status: 200 });\n        return req;\n      }\n    }\n    documentExists(url) {\n      url = LinkHandler.getPathnameFromURL(url);\n      if (this.isHttp) {\n        return !!this.metadata.webpages[url];\n      } else {\n        return !!this.getFileData(url)?.data;\n      }\n    }\n    async loadWebsiteData() {\n      if (this.isHttp) {\n        try {\n          const dataReq = await fetch(Shared.libFolderName + "/metadata.json");\n          if (dataReq.ok) {\n            const jsonStr = await dataReq.text();\n            return WebsiteData.fromJSON(jsonStr);\n          }\n        } catch (e) {\n          console.error("Failed to load website metadata.", e);\n          new Notice("Failed to load website metadata.");\n        }\n      } else {\n        const jsonData = this.getLocalDataFromId("website-metadata");\n        return jsonData ? WebsiteData.fromJSON(JSON.stringify(jsonData)) : void 0;\n      }\n      return void 0;\n    }\n    async loadGraphView() {\n      const graphViewFeature = document.querySelector(".graph-view-wrapper");\n      if (!graphViewFeature)\n        return;\n      const localThis = this;\n      waitLoadScripts(["graph-render-worker", "graph-wasm"], () => {\n        console.log("scripts loaded");\n        async function initGraphView() {\n          console.log("Initializing graph view");\n          const graphView = new GraphView(graphViewFeature);\n          localThis.graphView = graphView;\n          console.log("Graph view initialized");\n        }\n        Module["onRuntimeInitialized"] = () => {\n          console.log("Wasm loaded");\n          initGraphView();\n        };\n        run();\n        setTimeout(() => {\n          if (localThis.graphView == void 0) {\n            initGraphView();\n          }\n        }, 100);\n      });\n      await waitUntil(() => this.graphView != void 0);\n    }\n    getLocalDataFromId(id) {\n      const el = document.getElementById(id);\n      if (!el)\n        return;\n      return JSON.parse(decodeURI(atob(el.getAttribute("value") ?? "")));\n    }\n    getWebpageData(url) {\n      if (!this.isHttp) {\n        if (this.cachedWebpageDataMap.has(url)) {\n          return this.cachedWebpageDataMap.get(url);\n        } else {\n          const data = this.getLocalDataFromId(LinkHandler.getFileDataIdFromURL(url));\n          this.cachedWebpageDataMap.set(url, data);\n          return data;\n        }\n      }\n      if (this.metadata) {\n        const data = this.metadata.webpages[url];\n        if (data) {\n          return data;\n        }\n      }\n      return;\n    }\n    getFileData(url) {\n      if (!this.isHttp) {\n        if (this.cachedFileDataMap.has(url)) {\n          return this.cachedFileDataMap.get(url);\n        } else {\n          const data = this.getLocalDataFromId(LinkHandler.getFileDataIdFromURL(url));\n          this.cachedFileDataMap.set(url, data);\n          return data;\n        }\n      }\n      if (this.metadata) {\n        const data = this.metadata.fileInfo[url];\n        if (data) {\n          return data;\n        }\n      }\n      return {};\n    }\n    scrollTo(element) {\n      element.scrollIntoView();\n    }\n    teardownOutlineScrollSync() {\n      if (this.outlineScrollContainer && this.outlineScrollHandler) {\n        this.outlineScrollContainer.removeEventListener("scroll", this.outlineScrollHandler);\n      }\n      if (this.outlineScrollRaf != void 0) {\n        window.cancelAnimationFrame(this.outlineScrollRaf);\n      }\n      this.outlineHeadingEls = [];\n      this.outlineScrollContainer = void 0;\n      this.outlineScrollHandler = void 0;\n      this.outlineScrollRaf = void 0;\n    }\n    initializeOutlineScrollSync() {\n      this.teardownOutlineScrollSync();\n      if (!this.outlineTree || !this.document?.documentEl)\n        return;\n      const headings = Array.from(this.document.documentEl.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]"));\n      if (headings.length == 0)\n        return;\n      this.outlineHeadingEls = headings;\n      this.outlineScrollContainer = this.document.documentEl;\n      this.outlineScrollHandler = () => {\n        if (this.outlineScrollRaf != void 0)\n          return;\n        this.outlineScrollRaf = window.requestAnimationFrame(() => {\n          this.outlineScrollRaf = void 0;\n          this.updateOutlineActiveHeading(true);\n        });\n      };\n      this.outlineScrollContainer.addEventListener("scroll", this.outlineScrollHandler, { passive: true });\n      this.updateOutlineActiveHeading(true);\n    }\n    updateOutlineActiveHeading(scrollActiveItemIntoView) {\n      if (!this.outlineTree || !this.outlineScrollContainer || this.outlineHeadingEls.length == 0)\n        return;\n      const containerRect = this.outlineScrollContainer.getBoundingClientRect();\n      const activationTop = containerRect.top + Math.min(120, this.outlineScrollContainer.clientHeight * 0.25);\n      let currentHeading = void 0;\n      for (const heading of this.outlineHeadingEls) {\n        if (!heading.id || heading.offsetParent == null)\n          continue;\n        if (heading.getBoundingClientRect().top <= activationTop)\n          currentHeading = heading;\n        else\n          break;\n      }\n      if (!currentHeading) {\n        currentHeading = this.outlineHeadingEls.find((heading) => heading.id && heading.offsetParent != null);\n      }\n      if (currentHeading?.id) {\n        this.setActiveOutlineHeadingById(currentHeading.id, scrollActiveItemIntoView);\n      }\n    }\n    setActiveOutlineHeadingById(headerId, scrollActiveItemIntoView) {\n      if (!this.outlineTree)\n        return;\n      const item = this.findOutlineItemByHeaderId(headerId);\n      if (!item)\n        return;\n      if (this.outlineTree.activeItem == item)\n        return;\n      this.outlineTree.revealPath(item.path);\n      item.setActive({ scrollIntoView: scrollActiveItemIntoView });\n    }\n    findOutlineItemByHeaderId(headerId) {\n      if (!this.outlineTree)\n        return void 0;\n      const hash = "#" + headerId;\n      const candidates = /* @__PURE__ */ new Set([hash]);\n      const pathname = this.document?.pathname ?? "";\n      const pathVariants = [pathname, decodeURI(pathname), encodeURI(pathname)];\n      for (const path of pathVariants) {\n        if (!path)\n          continue;\n        candidates.add(path + hash);\n        candidates.add("./" + path + hash);\n        candidates.add("/" + path + hash);\n      }\n      for (const candidate of candidates) {\n        const item = this.outlineTree.pathToItem.get(candidate);\n        if (item)\n          return item;\n      }\n      return this.outlineTree.find((item) => item.path.endsWith(hash));\n    }\n    async showLoading(loading, inside = this.centerContentEl) {\n      inside.style.transitionDuration = "";\n      inside.classList.toggle("hide", loading);\n      this.loadingEl.classList.toggle("show", loading);\n      if (loading) {\n        const viewBounds = Bounds.fromElement(inside);\n        this.loadingEl.style.left = viewBounds.center.x - this.loadingEl.offsetWidth / 2 + "px";\n        this.loadingEl.style.top = viewBounds.center.y - this.loadingEl.offsetHeight / 2 + "px";\n      }\n      await delay(200);\n    }\n    createLoadingEl() {\n      this.loadingEl = document.createElement("div");\n      this.loadingEl.classList.add("loading-icon");\n      document.body.appendChild(this.loadingEl);\n      this.loadingEl.innerHTML = `<div></div><div></div><div></div><div></div>`;\n    }\n    get documentBounds() {\n      return Bounds.fromElement(this.centerContentEl);\n    }\n    onEndResize() {\n      this.graphView?.graphRenderer?.autoResizeCanvas();\n      document.body.classList.toggle("resizing", false);\n    }\n    onStartResize() {\n      document.body.classList.toggle("resizing", true);\n    }\n    get deviceSize() {\n      return this._deviceSize;\n    }\n    set deviceSize(size) {\n      this._deviceSize = size;\n    }\n    onResize() {\n      if (!this.isResizing) {\n        this.onStartResize();\n        this.isResizing = true;\n      }\n      const localThis = this;\n      function widthNowInRange(low, high) {\n        const w = window.innerWidth;\n        return w > low && w < high && localThis.lastScreenWidth == void 0 || w > low && w < high && ((localThis.lastScreenWidth ?? 0) <= low || (localThis.lastScreenWidth ?? 0) >= high);\n      }\n      function widthNowGreaterThan(value) {\n        const w = window.innerWidth;\n        return w > value && localThis.lastScreenWidth == void 0 || w > value && (localThis.lastScreenWidth ?? 0) < value;\n      }\n      function widthNowLessThan(value) {\n        const w = window.innerWidth;\n        return w < value && localThis.lastScreenWidth == void 0 || w < value && (localThis.lastScreenWidth ?? 0) > value;\n      }\n      const docWidthCSS = this.metadata.featureOptions.document?.documentWidth ?? "45em";\n      const leftWdithCSS = this.metadata.featureOptions.sidebar?.leftDefaultWidth ?? "20em";\n      const rightWidthCSS = this.metadata.featureOptions.sidebar?.rightDefaultWidth ?? "20em";\n      const docWidth = getLengthInPixels(docWidthCSS, this.centerContentEl);\n      const leftWidth = this.leftSidebar ? getLengthInPixels(leftWdithCSS, this.leftSidebar?.containerEl) : 0;\n      const rightWidth = this.rightSidebar ? getLengthInPixels(rightWidthCSS, this.rightSidebar?.containerEl) : 0;\n      if (widthNowGreaterThan(docWidth + leftWidth + rightWidth) || widthNowGreaterThan(1025)) {\n        this.deviceSize = "large-screen";\n        document.body.classList.toggle("floating-sidebars", false);\n        document.body.classList.toggle("is-large-screen", true);\n        document.body.classList.toggle("is-small-screen", false);\n        document.body.classList.toggle("is-tablet", false);\n        document.body.classList.toggle("is-phone", false);\n        if (this.leftSidebar)\n          this.leftSidebar.collapsed = false;\n        if (this.rightSidebar)\n          this.rightSidebar.collapsed = false;\n      } else if (widthNowInRange(docWidth + leftWidth, docWidth + leftWidth + rightWidth) || widthNowInRange(769, 1024)) {\n        this.deviceSize = "small screen";\n        document.body.classList.toggle("floating-sidebars", false);\n        document.body.classList.toggle("is-large-screen", false);\n        document.body.classList.toggle("is-small-screen", true);\n        document.body.classList.toggle("is-tablet", false);\n        document.body.classList.toggle("is-phone", false);\n        if (this.leftSidebar && this.rightSidebar && !this.leftSidebar.collapsed) {\n          this.rightSidebar.collapsed = true;\n        }\n      } else if (widthNowInRange(leftWidth + rightWidth, docWidth + leftWidth) || widthNowInRange(481, 768)) {\n        this.deviceSize = "tablet";\n        document.body.classList.toggle("floating-sidebars", true);\n        document.body.classList.toggle("is-large-screen", false);\n        document.body.classList.toggle("is-small-screen", false);\n        document.body.classList.toggle("is-tablet", true);\n        document.body.classList.toggle("is-phone", false);\n        if (this.leftSidebar && this.rightSidebar && !this.leftSidebar.collapsed) {\n          this.rightSidebar.collapsed = true;\n        }\n      } else if (widthNowLessThan(leftWidth + rightWidth) || widthNowLessThan(480)) {\n        this.deviceSize = "phone";\n        document.body.classList.toggle("floating-sidebars", true);\n        document.body.classList.toggle("is-large-screen", false);\n        document.body.classList.toggle("is-small-screen", false);\n        document.body.classList.toggle("is-tablet", false);\n        document.body.classList.toggle("is-phone", true);\n        if (this.leftSidebar)\n          this.leftSidebar.collapsed = true;\n        if (this.rightSidebar)\n          this.rightSidebar.collapsed = true;\n      }\n      this.lastScreenWidth = window.innerWidth;\n      if (this.checkStillResizingTimeout != void 0)\n        clearTimeout(this.checkStillResizingTimeout);\n      const screenWidthSnapshot = window.innerWidth;\n      this.checkStillResizingTimeout = setTimeout(function() {\n        if (window.innerWidth == screenWidthSnapshot) {\n          localThis.checkStillResizingTimeout = void 0;\n          localThis.isResizing = false;\n          localThis.onEndResize();\n        }\n      }, 200);\n    }\n  };\n\n  // src/frontend/main/index.txt.ts\n  if (window && window.location) {\n    window.ObsidianSite = new ObsidianWebsite();\n    ObsidianSite = window.ObsidianSite;\n    window.WebpageDocument = WebpageDocument;\n    window.Canvas = Canvas;\n    window.Bounds = Bounds;\n    window.Vector2 = Vector2;\n    window.LinkHandler = LinkHandler;\n    window.FilePreviewPopover = FilePreviewPopover;\n    ObsidianSite.init();\n  }\n})();\n';
 
 // src/plugin/asset-loaders/website-js.ts
 var WebsiteJS = class extends AssetLoader {
@@ -78366,7 +78377,7 @@ var WebsiteJS = class extends AssetLoader {
   }
 };
 
-// node_modules/postcss/lib/postcss.mjs
+// ../node_modules/postcss/lib/postcss.mjs
 var import_postcss = __toESM(require_postcss(), 1);
 var postcss_default = import_postcss.default;
 var stringify = import_postcss.default.stringify;
@@ -80305,7 +80316,7 @@ observer.observe(document.body, {
 var Webpage = _Webpage;
 Webpage.advancedSlidesEmbedCache = /* @__PURE__ */ new Map();
 
-// node_modules/minisearch/dist/es/index.js
+// ../node_modules/minisearch/dist/es/index.js
 function __awaiter(thisArg, _arguments, P, generator) {
   function adopt(value) {
     return value instanceof P ? value : new P(function(resolve) {
