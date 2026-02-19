@@ -196,11 +196,15 @@ export class TreeItem
 		this._checkAnyChildrenOpen();
 	}
 
-	public setActive()
+	public setActive(options: { scrollIntoView?: boolean } = {})
 	{
 		if (this.root.activeItem) this.root.activeItem.selfEl.classList.remove("is-active");
 		this.root.activeItem = this;
 		this.selfEl.classList.add("is-active");
+		if (options.scrollIntoView)
+		{
+			this.selfEl.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+		}
 	}
 
 	public setFiltered(filteredOut: boolean)

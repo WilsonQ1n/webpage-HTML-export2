@@ -1,6 +1,6 @@
 import { Search } from "./search";
 import { Sidebar } from "./sidebars";
-import { Tree } from "./trees";
+import { Tree, TreeItem } from "./trees";
 import { Bounds, delay, getLengthInPixels, waitUntil } from "./utils";
 import { WebpageDocument as ObsidianDocument } from "./document";
 import {
@@ -64,6 +64,11 @@ export class ObsidianWebsite {
 	public aliases: Aliases | undefined = undefined;
 
 	public entryPage: string;
+
+	private outlineHeadingEls: HTMLElement[] = [];
+	private outlineScrollContainer: HTMLElement | undefined = undefined;
+	private outlineScrollHandler: (() => void) | undefined = undefined;
+	private outlineScrollRaf: number | undefined = undefined;
 
 	private onloadCallbacks: ((document: ObsidianDocument) => void)[] = [];
 	public onDocumentLoad(callback: (document: ObsidianDocument) => void) {
@@ -140,6 +145,7 @@ export class ObsidianWebsite {
 		await this.document.loadChildDocuments();
 		await this.document.postLoadInit();
 		this.updateTopbarTitle(this.document.title);
+		this.initializeOutlineScrollSync();
 
 		if (
 			!ObsidianSite.metadata.ignoreMetadata &&
@@ -317,7 +323,11 @@ export class ObsidianWebsite {
 
 		// if this document is already loaded
 		if (this.document.pathname == url) {
-			if (header) this.document.scrollToHeader(header);
+			if (header)
+			{
+				this.document.scrollToHeader(header);
+				this.setActiveOutlineHeadingById(header, true);
+			}
 			else {
 				new Notice("This page is already loaded.");
 			}
@@ -331,6 +341,7 @@ export class ObsidianWebsite {
 			console.warn("Page does not exist", url);
 			return undefined;
 		}
+		this.teardownOutlineScrollSync();
 
 		const page = await new ObsidianDocument(url).load();
 
@@ -384,7 +395,9 @@ export class ObsidianWebsite {
 
 			if (header) {
 				page.scrollToHeader(header);
+				this.setActiveOutlineHeadingById(header, true);
 			}
+			this.initializeOutlineScrollSync();
 		}, 100); // Small delay to ensure the DOM is updated
 
 		return page;
@@ -537,6 +550,101 @@ export class ObsidianWebsite {
 
 	public scrollTo(element: Element) {
 		element.scrollIntoView();
+	}
+
+	private teardownOutlineScrollSync() {
+		if (this.outlineScrollContainer && this.outlineScrollHandler) {
+			this.outlineScrollContainer.removeEventListener("scroll", this.outlineScrollHandler);
+		}
+
+		if (this.outlineScrollRaf != undefined) {
+			window.cancelAnimationFrame(this.outlineScrollRaf);
+		}
+
+		this.outlineHeadingEls = [];
+		this.outlineScrollContainer = undefined;
+		this.outlineScrollHandler = undefined;
+		this.outlineScrollRaf = undefined;
+	}
+
+	private initializeOutlineScrollSync() {
+		this.teardownOutlineScrollSync();
+		if (!this.outlineTree || !this.document?.documentEl) return;
+
+		const headings = Array.from(
+			this.document.documentEl.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
+		) as HTMLElement[];
+		if (headings.length == 0) return;
+
+		this.outlineHeadingEls = headings;
+		this.outlineScrollContainer = this.document.documentEl;
+
+		this.outlineScrollHandler = () => {
+			if (this.outlineScrollRaf != undefined) return;
+			this.outlineScrollRaf = window.requestAnimationFrame(() => {
+				this.outlineScrollRaf = undefined;
+				this.updateOutlineActiveHeading(true);
+			});
+		};
+
+		this.outlineScrollContainer.addEventListener("scroll", this.outlineScrollHandler, { passive: true });
+		this.updateOutlineActiveHeading(true);
+	}
+
+	private updateOutlineActiveHeading(scrollActiveItemIntoView: boolean) {
+		if (!this.outlineTree || !this.outlineScrollContainer || this.outlineHeadingEls.length == 0) return;
+
+		const containerRect = this.outlineScrollContainer.getBoundingClientRect();
+		const activationTop = containerRect.top + Math.min(120, this.outlineScrollContainer.clientHeight * 0.25);
+		let currentHeading: HTMLElement | undefined = undefined;
+
+		for (const heading of this.outlineHeadingEls) {
+			if (!heading.id || heading.offsetParent == null) continue;
+			if (heading.getBoundingClientRect().top <= activationTop) currentHeading = heading;
+			else break;
+		}
+
+		if (!currentHeading) {
+			currentHeading = this.outlineHeadingEls.find((heading) => heading.id && heading.offsetParent != null);
+		}
+
+		if (currentHeading?.id) {
+			this.setActiveOutlineHeadingById(currentHeading.id, scrollActiveItemIntoView);
+		}
+	}
+
+	private setActiveOutlineHeadingById(headerId: string, scrollActiveItemIntoView: boolean) {
+		if (!this.outlineTree) return;
+		const item = this.findOutlineItemByHeaderId(headerId);
+		if (!item) return;
+
+		if (this.outlineTree.activeItem == item) return;
+
+		this.outlineTree.revealPath(item.path);
+		item.setActive({ scrollIntoView: scrollActiveItemIntoView });
+	}
+
+	private findOutlineItemByHeaderId(headerId: string): TreeItem | undefined {
+		if (!this.outlineTree) return undefined;
+
+		const hash = "#" + headerId;
+		const candidates = new Set<string>([hash]);
+		const pathname = this.document?.pathname ?? "";
+		const pathVariants = [pathname, decodeURI(pathname), encodeURI(pathname)];
+
+		for (const path of pathVariants) {
+			if (!path) continue;
+			candidates.add(path + hash);
+			candidates.add("./" + path + hash);
+			candidates.add("/" + path + hash);
+		}
+
+		for (const candidate of candidates) {
+			const item = this.outlineTree.pathToItem.get(candidate);
+			if (item) return item;
+		}
+
+		return this.outlineTree.find((item) => item.path.endsWith(hash));
 	}
 
 	public async showLoading(
