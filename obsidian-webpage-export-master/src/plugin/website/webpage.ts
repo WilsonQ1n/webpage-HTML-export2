@@ -698,7 +698,7 @@ export class Webpage extends Attachment
 		const cleaned = hash.replace(/^#\/?/, "");
 		const parts = cleaned.split("/");
 		const page = Number.parseInt(parts[0]);
-		return Number.isFinite(page) ? page : 0;
+		return Number.isFinite(page) && page >= 0 ? page : 0;
 	}
 
 	private resolveAdvancedSlidesFileFromSlide(slide: string, plugin?: any): TFile | undefined
@@ -749,7 +749,7 @@ export class Webpage extends Attachment
 		return target;
 	}
 
-	private async rewriteAdvancedSlidesHtml(html: string, embedTarget: Path, slideFile: TFile): Promise<string>
+	private async rewriteAdvancedSlidesHtml(html: string, embedTarget: Path, slideFile: TFile, page: number): Promise<string>
 	{
 		const doc = new DOMParser().parseFromString(html, "text/html");
 		const assetRoot = AssetHandler.libraryPath.joinString("advanced-slides");
@@ -819,6 +819,41 @@ export class Webpage extends Attachment
 				const rel = Path.getRelativePath(embedTarget, attachment.targetPath).path.replaceAll("\\", "/");
 				el.setAttribute("href", rel);
 			}
+		}
+
+		if (page > 0) {
+			const pageScript = doc.createElement("script");
+			pageScript.textContent = `
+				(function () {
+					const targetPage = ${page};
+					let jumped = false;
+
+					const jumpToPage = () => {
+						if (jumped) return;
+						const reveal = window.Reveal;
+						if (!reveal || typeof reveal.slide !== "function") return;
+						reveal.slide(targetPage, 0);
+						jumped = true;
+					};
+
+					const onReady = () => {
+						setTimeout(jumpToPage, 0);
+						requestAnimationFrame(jumpToPage);
+					};
+
+					const reveal = window.Reveal;
+					if (reveal && typeof reveal.on === "function") {
+						reveal.on("ready", onReady);
+					}
+
+					if (document.readyState === "loading") {
+						document.addEventListener("DOMContentLoaded", onReady, { once: true });
+					} else {
+						onReady();
+					}
+				})();
+			`;
+			doc.body.appendChild(pageScript);
 		}
 
 		return "<!DOCTYPE html> " + doc.documentElement.outerHTML;
@@ -895,7 +930,7 @@ export class Webpage extends Attachment
 					return;
 				}
 				const targetPath = this.getAdvancedSlidesEmbedTargetPath(slideFile, page);
-				const rewritten = await this.rewriteAdvancedSlidesHtml(html, targetPath, slideFile);
+				const rewritten = await this.rewriteAdvancedSlidesHtml(html, targetPath, slideFile, page);
 				embedAttachment = new Attachment(rewritten, targetPath, null, this.exportOptions);
 				Webpage.advancedSlidesEmbedCache.set(cacheKey, embedAttachment);
 			}
@@ -903,7 +938,7 @@ export class Webpage extends Attachment
 			if (!this.attachments.includes(embedAttachment)) this.attachments.push(embedAttachment);
 
 			const iframeSrc = Path.getRelativePath(this.targetPath, embedAttachment.targetPath).path.replaceAll("\\", "/");
-			iframe.setAttribute("src", iframeSrc);
+			iframe.setAttribute("src", `${iframeSrc}#/${page}`);
 			iframe.setAttribute("loading", "lazy");
 			iframe.setAttribute("data-advanced-slides-embed", "true");
 		};
@@ -953,7 +988,7 @@ export class Webpage extends Attachment
 			}
 
 			const slide = params?.slide?.toString?.() ?? "";
-			const page = Number.isFinite(Number(params?.page)) ? Number(params?.page) : 0;
+			const page = Number.isFinite(Number(params?.page)) ? Math.max(0, Number(params?.page)) : 0;
 			const slideFile = this.resolveAdvancedSlidesFileFromSlide(slide, plugin);
 			if (!slideFile) {
 				ExportLog.warning("Advanced Slides embed source not found: " + slide);
@@ -984,7 +1019,7 @@ export class Webpage extends Attachment
 			const allPreBlocks = Array.from(this.pageDocument.querySelectorAll("pre")) as HTMLElement[];
 			for (const fallback of fallbackSlideBlocks) {
 				const slide = fallback.params?.slide?.toString?.() ?? "";
-				const page = Number.isFinite(Number(fallback.params?.page)) ? Number(fallback.params?.page) : 0;
+				const page = Number.isFinite(Number(fallback.params?.page)) ? Math.max(0, Number(fallback.params?.page)) : 0;
 				const slideFile = this.resolveAdvancedSlidesFileFromSlide(slide, plugin);
 				if (!slideFile) {
 					ExportLog.warning("Advanced Slides embed source not found: " + slide);

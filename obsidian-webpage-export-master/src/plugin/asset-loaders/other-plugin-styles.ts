@@ -7,6 +7,7 @@ import { ObsidianStyles } from "./obsidian-styles.js";
 export class OtherPluginStyles extends AssetLoader
 {
     private lastEnabledPluginStyles: string[] = [];
+    private static readonly tabsPluginCandidates = ["tabs", "obsidian-tabs"];
 
     constructor()
     {
@@ -21,33 +22,66 @@ export class OtherPluginStyles extends AssetLoader
 		return await path.readAsString() ?? "";
 	}
 
-    
-    override async load()
-    {
-        if(this.lastEnabledPluginStyles == Settings.exportOptions.includePluginCss) return;
+	private static isTabsPluginName(pluginName: string): boolean
+	{
+		return OtherPluginStyles.tabsPluginCandidates.contains(pluginName.trim().toLowerCase());
+	}
 
-        this.data = "";
-        for (let i = 0; i < Settings.exportOptions.includePluginCss.length; i++)
-        {
-            if (!Settings.exportOptions.includePluginCss[i] || (Settings.exportOptions.includePluginCss[i] && !(/\S/.test(Settings.exportOptions.includePluginCss[i])))) continue;
-			let pluginName = Settings.exportOptions.includePluginCss[i];
+	private static async getTabsPluginStyle(): Promise<{name: string; style: string} | undefined>
+	{
+		for (const pluginName of OtherPluginStyles.tabsPluginCandidates)
+		{
 			const style = await OtherPluginStyles.getStyleForPlugin(pluginName);
-           
-            if (style)
-            {
-                this.data += await AssetHandler.filterStyleRules(style, ObsidianStyles.obsidianStyleAlwaysFilter, ObsidianStyles.obsidianStylesFilter, ObsidianStyles.stylesKeep);
-				console.log("Loaded plugin style: " + Settings.exportOptions.includePluginCss[i] + " size: " + style.length);
-            }
-        }
+			if (style) return { name: pluginName, style };
+		}
 
-        // Add tabs plugin styles
-        const tabsStyle = await OtherPluginStyles.getStyleForPlugin("obsidian-tabs");
-        if (tabsStyle) {
-            this.data += await AssetHandler.filterStyleRules(tabsStyle, ObsidianStyles.obsidianStyleAlwaysFilter, ObsidianStyles.obsidianStylesFilter, ObsidianStyles.stylesKeep);
-            console.log("Loaded tabs plugin style size: " + tabsStyle.length);
-        } else {
-            // Fallback tabs styles
-            this.data += `
+		return;
+	}
+
+	override async load()
+	{
+		if(this.lastEnabledPluginStyles == Settings.exportOptions.includePluginCss) return;
+
+		this.data = "";
+		let tabsPluginStyleLoaded = false;
+		for (let i = 0; i < Settings.exportOptions.includePluginCss.length; i++)
+		{
+			if (!Settings.exportOptions.includePluginCss[i] || (Settings.exportOptions.includePluginCss[i] && !(/\S/.test(Settings.exportOptions.includePluginCss[i])))) continue;
+			const pluginName = Settings.exportOptions.includePluginCss[i].trim();
+			const style = await OtherPluginStyles.getStyleForPlugin(pluginName);
+	           
+			if (style)
+			{
+				// Tabs relies on "tab*" selectors that are stripped by the generic Obsidian filter.
+				// Keep the plugin CSS intact so exported tabs match Obsidian.
+				if (OtherPluginStyles.isTabsPluginName(pluginName))
+				{
+					this.data += style;
+					tabsPluginStyleLoaded = true;
+					console.log("Loaded tabs plugin style (unfiltered): " + pluginName + " size: " + style.length);
+				}
+				else
+				{
+					this.data += await AssetHandler.filterStyleRules(style, ObsidianStyles.obsidianStyleAlwaysFilter, ObsidianStyles.obsidianStylesFilter, ObsidianStyles.stylesKeep);
+					console.log("Loaded plugin style: " + pluginName + " size: " + style.length);
+				}
+			}
+		}
+
+		// Add tabs plugin styles
+		if (!tabsPluginStyleLoaded) {
+			const tabsPlugin = await OtherPluginStyles.getTabsPluginStyle();
+			if (tabsPlugin?.style) {
+				this.data += tabsPlugin.style;
+				tabsPluginStyleLoaded = true;
+				console.log("Loaded tabs plugin style (unfiltered): " + tabsPlugin.name + " size: " + tabsPlugin.style.length);
+			}
+		}
+
+		if (!tabsPluginStyleLoaded) {
+			console.log("Tabs plugin style file not found. Using fallback tabs CSS.");
+			// Fallback tabs styles
+			this.data += `
                 /* Tabs plugin styles */
                 .tabs-container {
                     border: 1px solid var(--tabs-border-color, var(--background-modifier-border));
@@ -127,10 +161,10 @@ export class OtherPluginStyles extends AssetLoader
                 .tabs-container .tabs-contents .tabs-content.tabs-content-active {
                     display: block;
                 }
-            `;
-        }
+			`;
+		}
 
-        this.lastEnabledPluginStyles = Settings.exportOptions.includePluginCss;
-        await super.load();
-    }
+		this.lastEnabledPluginStyles = Settings.exportOptions.includePluginCss;
+		await super.load();
+	}
 }
