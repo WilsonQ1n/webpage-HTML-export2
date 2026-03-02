@@ -74195,7 +74195,7 @@ ObsidianStyles.obsidianStylesFilter = [
 ObsidianStyles.stylesKeep = ["tree", "scrollbar", "input[type", "table", "markdown-rendered", "css-settings-manager", "inline-embed", "background", "token", "-plugin-"];
 
 // src/plugin/asset-loaders/other-plugin-styles.ts
-var OtherPluginStyles = class extends AssetLoader {
+var _OtherPluginStyles = class extends AssetLoader {
   constructor() {
     super("other-plugins.css", "", null, "style" /* Style */, "autohead" /* AutoHead */, true, "dynamic" /* Dynamic */, "async" /* Async */, 9);
     this.lastEnabledPluginStyles = [];
@@ -74207,25 +74207,48 @@ var OtherPluginStyles = class extends AssetLoader {
       return "";
     return (_a3 = await path2.readAsString()) != null ? _a3 : "";
   }
+  static isTabsPluginName(pluginName) {
+    return _OtherPluginStyles.tabsPluginCandidates.contains(pluginName.trim().toLowerCase());
+  }
+  static async getTabsPluginStyle() {
+    for (const pluginName of _OtherPluginStyles.tabsPluginCandidates) {
+      const style = await _OtherPluginStyles.getStyleForPlugin(pluginName);
+      if (style)
+        return { name: pluginName, style };
+    }
+    return;
+  }
   async load() {
     if (this.lastEnabledPluginStyles == Settings.exportOptions.includePluginCss)
       return;
     this.data = "";
+    let tabsPluginStyleLoaded = false;
     for (let i = 0; i < Settings.exportOptions.includePluginCss.length; i++) {
       if (!Settings.exportOptions.includePluginCss[i] || Settings.exportOptions.includePluginCss[i] && !/\S/.test(Settings.exportOptions.includePluginCss[i]))
         continue;
-      let pluginName = Settings.exportOptions.includePluginCss[i];
-      const style = await OtherPluginStyles.getStyleForPlugin(pluginName);
+      const pluginName = Settings.exportOptions.includePluginCss[i].trim();
+      const style = await _OtherPluginStyles.getStyleForPlugin(pluginName);
       if (style) {
-        this.data += await AssetHandler.filterStyleRules(style, ObsidianStyles.obsidianStyleAlwaysFilter, ObsidianStyles.obsidianStylesFilter, ObsidianStyles.stylesKeep);
-        console.log("Loaded plugin style: " + Settings.exportOptions.includePluginCss[i] + " size: " + style.length);
+        if (_OtherPluginStyles.isTabsPluginName(pluginName)) {
+          this.data += style;
+          tabsPluginStyleLoaded = true;
+          console.log("Loaded tabs plugin style (unfiltered): " + pluginName + " size: " + style.length);
+        } else {
+          this.data += await AssetHandler.filterStyleRules(style, ObsidianStyles.obsidianStyleAlwaysFilter, ObsidianStyles.obsidianStylesFilter, ObsidianStyles.stylesKeep);
+          console.log("Loaded plugin style: " + pluginName + " size: " + style.length);
+        }
       }
     }
-    const tabsStyle = await OtherPluginStyles.getStyleForPlugin("obsidian-tabs");
-    if (tabsStyle) {
-      this.data += await AssetHandler.filterStyleRules(tabsStyle, ObsidianStyles.obsidianStyleAlwaysFilter, ObsidianStyles.obsidianStylesFilter, ObsidianStyles.stylesKeep);
-      console.log("Loaded tabs plugin style size: " + tabsStyle.length);
-    } else {
+    if (!tabsPluginStyleLoaded) {
+      const tabsPlugin = await _OtherPluginStyles.getTabsPluginStyle();
+      if (tabsPlugin == null ? void 0 : tabsPlugin.style) {
+        this.data += tabsPlugin.style;
+        tabsPluginStyleLoaded = true;
+        console.log("Loaded tabs plugin style (unfiltered): " + tabsPlugin.name + " size: " + tabsPlugin.style.length);
+      }
+    }
+    if (!tabsPluginStyleLoaded) {
+      console.log("Tabs plugin style file not found. Using fallback tabs CSS.");
       this.data += `
                 /* Tabs plugin styles */
                 .tabs-container {
@@ -74306,12 +74329,14 @@ var OtherPluginStyles = class extends AssetLoader {
                 .tabs-container .tabs-contents .tabs-content.tabs-content-active {
                     display: block;
                 }
-            `;
+			`;
     }
     this.lastEnabledPluginStyles = Settings.exportOptions.includePluginCss;
     await super.load();
   }
 };
+var OtherPluginStyles = _OtherPluginStyles;
+OtherPluginStyles.tabsPluginCandidates = ["tabs", "obsidian-tabs"];
 
 // src/plugin/render-api/render-api.ts
 var import_obsidian7 = require("obsidian");
@@ -79824,7 +79849,7 @@ observer.observe(document.body, {
     const cleaned = hash.replace(/^#\/?/, "");
     const parts = cleaned.split("/");
     const page = Number.parseInt(parts[0]);
-    return Number.isFinite(page) ? page : 0;
+    return Number.isFinite(page) && page >= 0 ? page : 0;
   }
   resolveAdvancedSlidesFileFromSlide(slide, plugin2) {
     var _a3, _b3;
@@ -79871,7 +79896,7 @@ observer.observe(document.body, {
     target.setFileName(`${target.basename}-page-${page}`);
     return target;
   }
-  async rewriteAdvancedSlidesHtml(html, embedTarget, slideFile) {
+  async rewriteAdvancedSlidesHtml(html, embedTarget, slideFile, page) {
     const doc = new DOMParser().parseFromString(html, "text/html");
     const assetRoot = AssetHandler.libraryPath.joinString("advanced-slides");
     const assetPrefix = Path.getRelativePath(embedTarget, assetRoot).path.replaceAll("\\", "/");
@@ -79945,6 +79970,40 @@ observer.observe(document.body, {
         el.setAttribute("href", rel);
       }
     }
+    if (page > 0) {
+      const pageScript = doc.createElement("script");
+      pageScript.textContent = `
+				(function () {
+					const targetPage = ${page};
+					let jumped = false;
+
+					const jumpToPage = () => {
+						if (jumped) return;
+						const reveal = window.Reveal;
+						if (!reveal || typeof reveal.slide !== "function") return;
+						reveal.slide(targetPage, 0);
+						jumped = true;
+					};
+
+					const onReady = () => {
+						setTimeout(jumpToPage, 0);
+						requestAnimationFrame(jumpToPage);
+					};
+
+					const reveal = window.Reveal;
+					if (reveal && typeof reveal.on === "function") {
+						reveal.on("ready", onReady);
+					}
+
+					if (document.readyState === "loading") {
+						document.addEventListener("DOMContentLoaded", onReady, { once: true });
+					} else {
+						onReady();
+					}
+				})();
+			`;
+      doc.body.appendChild(pageScript);
+    }
     return "<!DOCTYPE html> " + doc.documentElement.outerHTML;
   }
   async handleAdvancedSlidesEmbeds() {
@@ -80014,14 +80073,14 @@ observer.observe(document.body, {
           return;
         }
         const targetPath = this.getAdvancedSlidesEmbedTargetPath(slideFile, page);
-        const rewritten = await this.rewriteAdvancedSlidesHtml(html, targetPath, slideFile);
+        const rewritten = await this.rewriteAdvancedSlidesHtml(html, targetPath, slideFile, page);
         embedAttachment = new Attachment(rewritten, targetPath, null, this.exportOptions);
         _Webpage.advancedSlidesEmbedCache.set(cacheKey, embedAttachment);
       }
       if (!this.attachments.includes(embedAttachment))
         this.attachments.push(embedAttachment);
       const iframeSrc = Path.getRelativePath(this.targetPath, embedAttachment.targetPath).path.replaceAll("\\", "/");
-      iframe.setAttribute("src", iframeSrc);
+      iframe.setAttribute("src", `${iframeSrc}#/${page}`);
       iframe.setAttribute("loading", "lazy");
       iframe.setAttribute("data-advanced-slides-embed", "true");
     };
@@ -80067,7 +80126,7 @@ observer.observe(document.body, {
         continue;
       }
       const slide = (_h = (_g = (_f = params == null ? void 0 : params.slide) == null ? void 0 : _f.toString) == null ? void 0 : _g.call(_f)) != null ? _h : "";
-      const page = Number.isFinite(Number(params == null ? void 0 : params.page)) ? Number(params == null ? void 0 : params.page) : 0;
+      const page = Number.isFinite(Number(params == null ? void 0 : params.page)) ? Math.max(0, Number(params == null ? void 0 : params.page)) : 0;
       const slideFile = this.resolveAdvancedSlidesFileFromSlide(slide, plugin2);
       if (!slideFile) {
         ExportLog.warning("Advanced Slides embed source not found: " + slide);
@@ -80094,7 +80153,7 @@ observer.observe(document.body, {
       const allPreBlocks = Array.from(this.pageDocument.querySelectorAll("pre"));
       for (const fallback of fallbackSlideBlocks) {
         const slide = (_l = (_k = (_j = (_i = fallback.params) == null ? void 0 : _i.slide) == null ? void 0 : _j.toString) == null ? void 0 : _k.call(_j)) != null ? _l : "";
-        const page = Number.isFinite(Number((_m = fallback.params) == null ? void 0 : _m.page)) ? Number((_n = fallback.params) == null ? void 0 : _n.page) : 0;
+        const page = Number.isFinite(Number((_m = fallback.params) == null ? void 0 : _m.page)) ? Math.max(0, Number((_n = fallback.params) == null ? void 0 : _n.page)) : 0;
         const slideFile = this.resolveAdvancedSlidesFileFromSlide(slide, plugin2);
         if (!slideFile) {
           ExportLog.warning("Advanced Slides embed source not found: " + slide);
