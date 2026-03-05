@@ -1,0 +1,9 @@
+{
+    "id":  "raw-embed",
+    "name":  "Raw Embed",
+    "minAppVersion":  "1.4.0",
+    "description":  "Render markdown embeds with a |raw alias as source-styled blocks.",
+    "author":  "qinwe",
+    "isDesktopOnly":  false,
+    "version":  "1.0.0"
+}

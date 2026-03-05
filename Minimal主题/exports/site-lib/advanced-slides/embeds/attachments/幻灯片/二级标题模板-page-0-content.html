@@ -1,0 +1,253 @@
+<!DOCTYPE html> <html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title></title>
+    <link rel="stylesheet" href="../../../dist/reveal.css">
+    <link rel="stylesheet" href="../../../dist/theme/white.css" id="theme">
+    <link rel="stylesheet" href="../../../plugin/highlight/zenburn.css">
+	<link rel="stylesheet" href="../../../css/layout.css">
+
+
+    <script defer="" src="../../../dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section data-markdown=""><script type="text/template"><!-- .slide: class="has-light-background drop" data-background-color="grey" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="has-light-background" style="background-color: white; position: absolute; left: 0%; top: 0%; height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+<!-- ------------------------------------第一组------------------------------------ -->
+<div class="has-dark-background" style="background: linear-gradient(  
+to right,  
+#ff0000,  
+#00ff00,  
+#0000ff  
+); background-color: blue; position: absolute; left: 0%; top: 0%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly" align="left">
+
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly" align="left">
+
+一级标题 
+<!-- .element: style="margin-left: 20px; color: white" -->
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+二级标题 
+<!-- .element: style="color: black" -->
+</div>
+
+
+<!-- ------------------------------------第二组------------------------------------ -->
+<div class="" style="background: linear-gradient(  
+90deg,  
+#d76d77  0%,  
+#3a1c71 25%,  
+#2c5364 50%,  
+#203a43 75%,  
+#0f2027 100%  
+); position: absolute; left: 0%; top: 16%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly" align="left">
+  
+</div>
+
+
+<div class="" style="position: absolute; left: 0%; top: 16%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly" align="left">
+
+一级标题 
+<!-- .element: style="margin-left: 20px; color: white" -->
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 16%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+二级标题 
+<!-- .element: style="color: white" -->
+</div>
+
+
+<!-- ------------------------------------第三组------------------------------------ -->
+<div class="" style="background: linear-gradient(  
+90deg,  
+#1f1c2c 0%,  
+#302b63 40%,  
+#24243e 70%,  
+#0f0c29 100%  
+); position: absolute; left: 0%; top: 32%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly" align="left">
+  
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 32%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly" align="left">
+
+一级标题 
+<!-- .element: style="margin-left: 20px; color: white" -->
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 32%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+二级标题 
+<!-- .element: style="color: white" -->
+</div>
+
+
+
+<!-- ------------------------------------第四组------------------------------------ -->
+<div class="" style="background: linear-gradient(  
+90deg,  
+#667eea 0%,  
+#764ba2 40%,  
+#6b73ff 70%,  
+#9face6 100%  
+); position: absolute; left: 0%; top: 48%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly" align="left">
+  
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 48%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly" align="left">
+
+一级标题 
+<!-- .element: style="margin-left: 20px; color: white" -->
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 48%; height: 8%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+二级标题 
+<!-- .element: style="color: white" -->
+</div>
+
+
+</div>
+</div></script></section></div>
+    </div>
+
+    <script src="../../../dist/reveal.js"></script>
+
+    <script src="../../../plugin/markdown/markdown.js"></script>
+    <script src="../../../plugin/highlight/highlight.js"></script>
+    <script src="../../../plugin/zoom/zoom.js"></script>
+    <script src="../../../plugin/notes/notes.js"></script>
+    <script src="../../../plugin/math/math.js"></script>
+	<script src="../../../plugin/mermaid/mermaid.js"></script>
+	<script src="../../../plugin/chart/chart.min.js"></script>
+	<script src="../../../plugin/chart/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      function isLight(color) {
+        let hex = color.replace('#', '');
+
+        // convert #fff => #ffffff
+        if(hex.length == 3){
+          hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+        }
+
+        const c_r = parseInt(hex.substr(0, 2), 16);
+        const c_g = parseInt(hex.substr(2, 2), 16);
+        const c_b = parseInt(hex.substr(4, 2), 16);
+        const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+        return brightness > 155;
+      }
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+
+	if(isLight(bgColor)){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: false,
+        progress: false,
+        history: false,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+        ],
+
+		mathjax3: {
+			mathjax: '../../../plugin/math/mathjax/tex-mml-chtml.js',
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":1920,"height":1080,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+
+      options.controls = false;
+      options.progress = false;
+      options.history = false;
+      options.overview = false;
+      options.slideNumber = false;
+      options.keyboard = false;
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  
+
+</body></html>

@@ -1,0 +1,10 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "timeForPresentation": "text",
+    "shuffle": "checkbox",
+    "minScale": "number"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "cssTheme": "Minimal",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "advanced-slides-style"
+  ],
+  "showRibbon": true
+}

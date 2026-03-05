@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-relative-iframe",
+  "name": "Relative Iframe",
+  "version": "1.10.0",
+  "minAppVersion": "0.15.0",
+  "description": "Allows using relative paths for iframes based on Obsidian's attachment folder.",
+  "author": "Wilson Qin",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

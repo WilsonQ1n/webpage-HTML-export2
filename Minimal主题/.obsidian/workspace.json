@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "e9debffb0d877428",
+    "type": "split",
+    "children": [
+      {
+        "id": "db719c9725c5541a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f47984a1c9ec7ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Slides幻灯片插件.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Advanced Slides幻灯片插件"
+            }
+          },
+          {
+            "id": "65fe6d4b46c3512c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Obsidian关键思路.canvas",
+                "viewState": {
+                  "x": 501.2218914326455,
+                  "y": 106.47627069053121,
+                  "zoom": -0.3495139265592619
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Obsidian关键思路"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "139188faaf1c7240",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6dab4427b467d64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d64b7183fba676f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "bd0522c64755f29a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "756cfa2612db6db8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5
+  },
+  "right": {
+    "id": "3828a799c7bf4352",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9f950cbc82dc3f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f331c82d10d325e1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Minimal主题.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Minimal主题 的出链列表"
+            }
+          },
+          {
+            "id": "eed1c74ea8669007",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "63bbfaeb780e67fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian关键思路.canvas",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Obsidian关键思路 的大纲"
+            }
+          },
+          {
+            "id": "bc72d0df7bf27efb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Minimal主题.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Minimal主题 的反向链接列表"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markwhen:Create new Markwhen file": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "webpage-html-export2-wilson:导出为HTML": false
+    }
+  },
+  "active": "65fe6d4b46c3512c",
+  "lastOpenFiles": [
+    "exports/attachments/幻灯片放大局部.gif",
+    "exports/attachments/窗口拖拽.mp4",
+    "exports/attachments/鱼.glb",
+    "exports/attachments/幻灯片背景.gif",
+    "exports/markwhen/markwhen-8-27-2025-16.00.08.mw",
+    "exports/markwhen",
+    "exports/attachments/允许折叠标题栏.svg",
+    "exports/attachments/image.jpg",
+    "exports/attachments/智能列表启用和禁用效果对比.svg",
+    "exports/attachments/幻灯片黑板反面.svg",
+    "exports/attachments/设置附件文件夹.svg",
+    "exports/attachments/幻灯片自动播放.gif",
+    "exports/site-lib/advanced-slides/plugin/math/mathjax/output/chtml/fonts/woff-v2/mathjax_vector-regular.woff",
+    "exports/site-lib/advanced-slides/plugin/math/mathjax/output/chtml/fonts/woff-v2/mathjax_zero.woff",
+    "exports/site-lib/advanced-slides/plugin/math/mathjax/output/chtml/fonts/woff-v2/mathjax_vector-bold.woff",
+    "exports/site-lib/advanced-slides/plugin/math/mathjax/output/chtml/fonts/woff-v2/mathjax_size4-regular.woff",
+    "exports/site-lib/advanced-slides/plugin/math/mathjax/output/chtml/fonts/woff-v2/mathjax_typewriter-regular.woff",
+    "exports/site-lib/advanced-slides/plugin/math/mathjax/output/chtml/fonts/woff-v2/mathjax_size1-regular.woff",
+    "exports/site-lib/advanced-slides/plugin/chalkboard/img/whiteboard.png",
+    "exports/site-lib/advanced-slides/plugin/chalkboard/img/sponge.png",
+    "exports/site-lib/advanced-slides/plugin/chalkboard/img/chalk-red.png",
+    "exports/site-lib/advanced-slides/plugin/chalkboard/readme.md",
+    "exports/site-lib/advanced-slides/plugin/menu/readme.md",
+    "exports/site-lib/advanced-slides/plugin/menu/contributing.md",
+    "exports/site-lib/advanced-slides/plugin/customcontrols/readme.md",
+    "exports/site-lib/advanced-slides/plugin/chart/readme.md",
+    "Mermaid/Markwhen甘特图.md",
+    "Mermaid/Mermaid看板展示.canvas",
+    "Mermaid/Mermaid.md",
+    "Attachments/幻灯片/白色主题.md",
+    "Attachments/幻灯片/自定义主题.md",
+    "Attachments/幻灯片/网格布局动画.md",
+    "Attachments/幻灯片/tpl-footer.md",
+    "Attachments/幻灯片/元素注释.md",
+    "Attachments/幻灯片/页面注释.md",
+    "Attachments/幻灯片/背景.md",
+    "Attachments/幻灯片/标题颜色.md",
+    "Attachments/幻灯片/范例幻灯片.md",
+    "Attachments/幻灯片/分栏even属性.md",
+    "Attachments/幻灯片/分栏grap属性.md",
+    "Attachments/幻灯片/分栏grap属性呈比例.md",
+    "Attachments/幻灯片/分页.md",
+    "Attachments/幻灯片/高亮主题.md",
+    "Attachments/幻灯片/格子背景.md",
+    "Attachments/幻灯片/幻灯片菜单插件.md",
+    "Attachments/幻灯片/幻灯片宽高.md",
+    "Attachments/幻灯片/幻灯片乱序播放.md",
+    "Obsidian关键思路.canvas",
+    "index.canvas",
+    "exported-HTML/Mermaid看板展示.canvas"
+  ]
+}

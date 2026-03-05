@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"367c61776de2a961","type":"text","text":"```mermaid\n---\nconfig:\n  kanban:\n    ticketBaseUrl: 'https://mermaidchart.atlassian.net/browse/#TICKET#'\n---\nkanban\n小组1\n\t[任务1]\n\tdocs[任务2]\n[小组2]\n\tid6[任务3]\nid9[小组3]\n\tid8[任务4]@{ assigned: '小李' }\nid10[小组4]\n\tid4[任务5:高优先级]@{ ticket: MC-2038, assigned: '小丽', priority: 'High' }\n\tid66[任务6:非常低优先级]@{ priority: 'Very Low', assigned: '小张' }\nid11[小组5]\n\tid5[任务7]\n\tid2[任务8：非常高优先级]@{ ticket: MC-2036, priority: 'Very High'}\n\tid3[任务9：高优先级]@{ ticket: MC-2037, assigned: knsv, priority: 'High' }\nid13[小组6]\n\tid131[任务10]\n\tid132[任务11]\n\t\nid14[小组7]\n\tid141[任务12]\n\tid142[任务13]\nid15[小组8]\n\tid151[任务14]\n\tid152[任务15]\t\n```","x":-300,"y":-360,"width":1080,"height":180}
+	],
+	"edges":[]
+}

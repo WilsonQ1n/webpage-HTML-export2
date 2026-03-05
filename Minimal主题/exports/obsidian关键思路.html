@@ -1,0 +1,930 @@
+<!DOCTYPE html> <html lang="zh-cn"><head>
+<title>Obsidian关键思路</title>
+<base href=".">
+<meta name="pathname" content="obsidian关键思路.html">
+<meta name="description" content="Minimal主题 - Obsidian关键思路">
+<meta property="og:title" content="Obsidian关键思路">
+<meta property="og:description" content="Minimal主题 - Obsidian关键思路">
+<meta property="og:type" content="website">
+<meta property="og:url" content="obsidian关键思路.html">
+<meta property="og:image" content="attachments/安装-minimal-主题.svg">
+<script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@latest/dist/model-viewer.min.js"></script><meta charset="UTF-8"><meta property="og:site_name" content="Minimal主题"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="site-lib/styles/theme.css"><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/supported-plugins.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px;--sidebar-panel-padding:var(--size-4-2, 10px);--global-topbar-height:2em;--global-topbar-padding-y:calc(var(--sidebar-margin) * 0.25);--main-top-offset:calc(var(--global-topbar-height) + (2 * var(--global-topbar-padding-y)) + 1px);--global-topbar-background:var(--background-primary);--global-topbar-border-color:var(--background-modifier-border)}:root{background-color:#202124}.sidebar{height:calc(100% + var(--main-top-offset));margin-top:calc(-1 * var(--main-top-offset));font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:0;padding-top:var(--main-top-offset);box-sizing:border-box;overflow-x:hidden;overflow-y:auto;line-height:var(--line-height-tight);background-color:var(--background-secondary);border-radius:0;transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:0;border-bottom-right-radius:0;padding-inline:var(--sidebar-panel-padding);padding-bottom:var(--sidebar-panel-padding)}#right-sidebar-content{right:0;border-top-left-radius:0;border-bottom-left-radius:0;padding-inline:var(--sidebar-panel-padding);padding-bottom:var(--sidebar-panel-padding)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}#left-sidebar-content .tree-container,#right-sidebar-content .tree-container{height:auto;overflow:visible;flex:0 0 auto}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{display:none}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:0}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:0}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:scaleX(-1);transform-origin:center;left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:80%;height:80%}.sidebar:not(.is-collapsed) .clickable-icon.sidebar-collapse-icon svg.svg-icon .sidebar-toggle-icon-inner{width:24%}.feature-title{margin:0;text-transform:none;letter-spacing:normal;font-size:var(--font-ui-small, .95em);font-weight:var(--font-medium,600);line-height:1.3}.feature-header{display:flex;align-items:center;gap:var(--size-2-3,6px);padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;position:fixed;top:0;left:0;right:0;height:var(--global-topbar-height);padding:var(--global-topbar-padding-y) calc(var(--sidebar-margin) + 2.1em);padding-right:calc(var(--sidebar-margin) + 4.4em);z-index:30;background-color:var(--global-topbar-background);border-bottom:1px solid var(--global-topbar-border-color);gap:.8em}#navbar .navbar-zone{display:flex;align-items:center;min-width:0;height:100%;flex:1 1 0;gap:.45em}#navbar .navbar-zone-left{justify-content:flex-start}#navbar .navbar-zone-center{justify-content:center;flex:2 1 0}#navbar .navbar-zone-right{justify-content:flex-end}#global-topbar-title{font-size:var(--inline-title-size);font-weight:var(--inline-title-weight);color:var(--text-normal);line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:min(60vw,42em);text-align:center}#navbar .topbar-content{width:auto;height:100%;overflow:visible;display:flex;align-items:center}#global-topbar-left-content{min-width:0;width:min(22em,42vw)}#global-topbar-left-content #search-container{width:100%}#navbar .global-topbar-home-link{position:absolute;top:50%;right:calc(var(--sidebar-margin) + 2.3em);transform:translateY(-50%);width:2.15em!important;height:2.15em!important;display:flex;align-items:center;justify-content:center;flex-shrink:0;text-decoration:none;color:var(--icon-color-focused);overflow:visible;line-height:0}#navbar .global-topbar-home-link svg.svg-icon{width:100%;height:100%;stroke-width:2;transform:scale(1.16);transform-origin:center}#navbar .clickable-icon.sidebar-collapse-icon{position:absolute;top:50%;width:1.8em!important;height:1.8em!important;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-inline:0!important;padding:0!important}#navbar .global-topbar-sidebar-toggle[data-sidebar=left-sidebar],#navbar .sidebar-toggle-left{left:var(--sidebar-margin);transform:translateY(-50%)}#navbar .global-topbar-sidebar-toggle[data-sidebar=right-sidebar],#navbar .sidebar-toggle-right{right:var(--sidebar-margin);transform:translateY(-50%) scaleX(-1);transform-origin:center center}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;box-sizing:border-box;padding-top:var(--main-top-offset);width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager mod-windows is-hidden-frameless styled-scrollbars show-ribbon show-view-header trim-cols h1-l h2-l h3-l sidebar-tabs-default table-lines hider-file-nav-header hide-tabs-edit-block-button is-focused"><script defer="">// Tabs plugin functionality
+function initializeTabs() {
+  var tabsContainers = document.querySelectorAll('.tabs-container');
+  tabsContainers.forEach(function(container) {
+    // Re-select nav items and contents to ensure we have current references
+    var navItems = container.querySelectorAll('.tabs-nav-item');
+    var contents = container.querySelectorAll('.tabs-content');
+
+    navItems.forEach(function(item, index) {
+      // Remove existing event listeners to avoid duplicates
+      var newItem = item.cloneNode(true);
+      item.parentNode.replaceChild(newItem, item);
+      item = newItem;
+
+      item.addEventListener('click', function() {
+        // Re-select nav items and contents again to ensure we have the latest references
+        var currentNavItems = container.querySelectorAll('.tabs-nav-item');
+        var currentContents = container.querySelectorAll('.tabs-content');
+        
+        // Remove active class from all items and contents
+        currentNavItems.forEach(function(navItem) {
+          navItem.classList.remove('tabs-nav-item-active');
+        });
+        currentContents.forEach(function(content) {
+          content.classList.remove('tabs-content-active');
+        });
+
+        // Add active class to clicked item and corresponding content
+        item.classList.add('tabs-nav-item-active');
+        if (currentContents[index]) {
+          currentContents[index].classList.add('tabs-content-active');
+        }
+      });
+    });
+  });
+}
+
+// Initialize tabs on page load
+document.addEventListener("DOMContentLoaded", initializeTabs);
+
+// Use MutationObserver to detect new tabs containers
+var observer = new MutationObserver(function(mutations) {
+  mutations.forEach(function(mutation) {
+    if (mutation.addedNodes.length) {
+      // Check if any added node contains tabs containers
+      var hasTabs = false;
+      mutation.addedNodes.forEach(function(node) {
+        if (node.nodeType === 1) { // Element node
+          if (node.classList && node.classList.contains('tabs-container')) {
+            hasTabs = true;
+          } else if (node.querySelector('.tabs-container')) {
+            hasTabs = true;
+          }
+        }
+      });
+      if (hasTabs) {
+        // Small delay to ensure all tabs elements are fully loaded
+        setTimeout(initializeTabs, 100);
+      }
+    }
+  });
+});
+
+// Start observing the document body
+observer.observe(document.body, {
+  childList: true,
+  subtree: true
+});</script><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"><div class="navbar-zone navbar-zone-left"><div id="global-topbar-left-content" class="topbar-content"></div><div id="left-sidebar-toggle-button" class="clickable-icon sidebar-collapse-icon global-topbar-sidebar-toggle sidebar-toggle-left" data-sidebar="left-sidebar" aria-label="Toggle left sidebar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-toggle-button-icon"><rect x="1" y="2" width="22" height="20" rx="4"></rect><rect x="4" y="5" width="2" height="14" rx="2" fill="currentColor" class="sidebar-toggle-icon-inner"></rect></svg></div></div><div class="navbar-zone navbar-zone-center"><div id="global-topbar-title"></div></div><div class="navbar-zone navbar-zone-right"><div id="global-topbar-right-content" class="topbar-content"></div><a class="clickable-icon global-topbar-home-link" id="global-topbar-home-link" href="https://www.baidu.com/" title="https://www.baidu.com/" aria-label="Go to home page"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon topbar-home-button-icon"><path d="M3 10.5 12 3l9 7.5"></path><path d="M5 9.5V21h14V9.5"></path><path d="M9.5 21v-6h5v6"></path></svg></a><div id="right-sidebar-toggle-button" class="clickable-icon sidebar-collapse-icon global-topbar-sidebar-toggle sidebar-toggle-right" data-sidebar="right-sidebar" aria-label="Toggle right sidebar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-toggle-button-icon"><rect x="1" y="2" width="22" height="20" rx="4"></rect><rect x="4" y="5" width="2" height="14" rx="2" fill="currentColor" class="sidebar-toggle-icon-inner"></rect></svg></div></div></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">关系图谱</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="view-content obsidian-document" data-type="canvas"><style id="MJX-CHTML-styles">mjx-mn{display:inline-block;text-align:left}mjx-mspace{display:inline-block;text-align:left}mjx-mo{display:inline-block;text-align:left}mjx-stretchy-h{display:inline-table;width:100%}mjx-stretchy-h>*{display:table-cell;width:0}mjx-stretchy-h>*>mjx-c{display:inline-block;transform:scaleX(1)}mjx-stretchy-h>*>mjx-c::before{display:inline-block;width:initial}mjx-stretchy-h>mjx-ext{overflow:clip visible;width:100%}mjx-stretchy-h>mjx-ext>mjx-c::before{transform:scaleX(500)}mjx-stretchy-h>mjx-ext>mjx-c{width:0}mjx-stretchy-h>mjx-beg>mjx-c{margin-right:-.1em}mjx-stretchy-h>mjx-end>mjx-c{margin-left:-.1em}mjx-stretchy-v{display:inline-block}mjx-stretchy-v>*{display:block}mjx-stretchy-v>mjx-beg{height:0}mjx-stretchy-v>mjx-end>mjx-c{display:block}mjx-stretchy-v>*>mjx-c{transform:scaleY(1);transform-origin:left center;overflow:hidden}mjx-stretchy-v>mjx-ext{display:block;height:100%;box-sizing:border-box;border:0 solid transparent;overflow:visible clip}mjx-stretchy-v>mjx-ext>mjx-c::before{width:initial;box-sizing:border-box}mjx-stretchy-v>mjx-ext>mjx-c{transform:scaleY(500) translateY(.075em);overflow:visible}mjx-mark{display:inline-block;height:0}mjx-c.mjx-c31::before{padding:.666em .5em 0 0;content:"1"}mjx-c.mjx-c32::before{padding:.666em .5em 0 0;content:"2"}mjx-c.mjx-c2B::before{padding:.583em .778em .082em 0;content:"+"}mjx-c.mjx-c33::before{padding:.665em .5em .022em 0;content:"3"}mjx-c.mjx-c3D::before{padding:.583em .778em .082em 0;content:"="}mjx-c.mjx-c37::before{padding:.676em .5em .022em 0;content:"7"}mjx-c.mjx-c36::before{padding:.666em .5em .022em 0;content:"6"}mjx-c.mjx-c35::before{padding:.666em .5em .022em 0;content:"5"}mjx-c.mjx-c2212::before{padding:.583em .778em .082em 0;content:"−"}mjx-c.mjx-c34::before{padding:.677em .5em 0 0;content:"4"}mjx-c.mjx-c30::before{padding:.666em .5em .022em 0;content:"0"}mjx-container[jax=CHTML]{line-height:0}mjx-container [space="1"]{margin-left:.111em}mjx-container [space="2"]{margin-left:.167em}mjx-container [space="3"]{margin-left:.222em}mjx-container [space="4"]{margin-left:.278em}mjx-container [space="5"]{margin-left:.333em}mjx-container [rspace="1"]{margin-right:.111em}mjx-container [rspace="2"]{margin-right:.167em}mjx-container [rspace="3"]{margin-right:.222em}mjx-container [rspace="4"]{margin-right:.278em}mjx-container [rspace="5"]{margin-right:.333em}mjx-container [size="s"]{font-size:70.7%}mjx-container [size=ss]{font-size:50%}mjx-container [size=Tn]{font-size:60%}mjx-container [size=sm]{font-size:85%}mjx-container [size=lg]{font-size:120%}mjx-container [size=Lg]{font-size:144%}mjx-container [size=LG]{font-size:173%}mjx-container [size=hg]{font-size:207%}mjx-container [size=HG]{font-size:249%}mjx-container [width=full]{width:100%}mjx-box{display:inline-block}mjx-block{display:block}mjx-itable{display:inline-table}mjx-row{display:table-row}mjx-row>*{display:table-cell}mjx-mtext{display:inline-block}mjx-mstyle{display:inline-block}mjx-merror{display:inline-block;color:red;background-color:#ff0}mjx-mphantom{visibility:hidden}mjx-assistive-mml{top:0;left:0;clip:rect(1px,1px,1px,1px);user-select:none;position:absolute!important;padding:1px 0 0!important;border:0!important;display:block!important;width:auto!important;overflow:hidden!important}mjx-assistive-mml[display=block]{width:100%!important}mjx-math{display:inline-block;text-align:left;line-height:0;text-indent:0;font-style:normal;font-weight:400;font-size:100%;font-size-adjust:none;letter-spacing:normal;border-collapse:collapse;overflow-wrap:normal;word-spacing:normal;white-space:nowrap;direction:ltr;padding:1px 0}mjx-container[jax=CHTML][display=true]{display:block;text-align:center;margin:1em 0}mjx-container[jax=CHTML][display=true][width=full]{display:flex}mjx-container[jax=CHTML][display=true] mjx-math{padding:0}mjx-container[jax=CHTML][justify=left]{text-align:left}mjx-container[jax=CHTML][justify=right]{text-align:right}mjx-mfrac{display:inline-block;text-align:left}mjx-frac{display:inline-block;vertical-align:.17em;padding:0 .22em}mjx-frac[type="d"]{vertical-align:.04em}mjx-frac[delims]{padding:0 .1em}mjx-frac[atop]{padding:0 .12em}mjx-frac[atop][delims]{padding:0}mjx-dtable{display:inline-table;width:100%}mjx-dtable>*{font-size:2000%}mjx-dbox{display:block;font-size:5%}mjx-num{display:block;text-align:center}mjx-den{display:block;text-align:center}mjx-mfrac[bevelled]>mjx-num{display:inline-block}mjx-mfrac[bevelled]>mjx-den{display:inline-block}mjx-den[align=right],mjx-num[align=right]{text-align:right}mjx-den[align=left],mjx-num[align=left]{text-align:left}mjx-nstrut{display:inline-block;height:.054em;width:0;vertical-align:-.054em}mjx-nstrut[type="d"]{height:.217em;vertical-align:-.217em}mjx-dstrut{display:inline-block;height:.505em;width:0}mjx-dstrut[type="d"]{height:.726em}mjx-line{display:block;box-sizing:border-box;min-height:1px;height:.06em;border-top:.06em solid;margin:.06em -.1em;overflow:hidden}mjx-line[type="d"]{margin:.18em -.1em}mjx-mi{display:inline-block;text-align:left}mjx-c{display:inline-block}mjx-utext{display:inline-block;padding:.75em 0 .2em}mjx-c::before{display:block;width:0}.MJX-TEX{font-family:MJXZERO,MJXTEX}.TEX-B{font-family:MJXZERO,MJXTEX-B}.TEX-I{font-family:MJXZERO,MJXTEX-I}.TEX-MI{font-family:MJXZERO,MJXTEX-MI}.TEX-BI{font-family:MJXZERO,MJXTEX-BI}.TEX-S1{font-family:MJXZERO,MJXTEX-S1}.TEX-S2{font-family:MJXZERO,MJXTEX-S2}.TEX-S3{font-family:MJXZERO,MJXTEX-S3}.TEX-S4{font-family:MJXZERO,MJXTEX-S4}.TEX-A{font-family:MJXZERO,MJXTEX-A}.TEX-C{font-family:MJXZERO,MJXTEX-C}.TEX-CB{font-family:MJXZERO,MJXTEX-CB}.TEX-FR{font-family:MJXZERO,MJXTEX-FR}.TEX-FRB{font-family:MJXZERO,MJXTEX-FRB}.TEX-SS{font-family:MJXZERO,MJXTEX-SS}.TEX-SSB{font-family:MJXZERO,MJXTEX-SSB}.TEX-SSI{font-family:MJXZERO,MJXTEX-SSI}.TEX-SC{font-family:MJXZERO,MJXTEX-SC}.TEX-T{font-family:MJXZERO,MJXTEX-T}.TEX-V{font-family:MJXZERO,MJXTEX-V}.TEX-VB{font-family:MJXZERO,MJXTEX-VB}mjx-stretchy-h mjx-c,mjx-stretchy-v mjx-c{font-family:MJXZERO,MJXTEX-S1,MJXTEX-S4,MJXTEX,MJXTEX-A!important}@font-face{font-family:MJXZERO;src:url("site-lib/fonts/mathjax_zero.woff") format("woff")}@font-face{font-family:MJXTEX;src:url("site-lib/fonts/mathjax_main-regular.woff") format("woff")}@font-face{font-family:MJXTEX-B;src:url("site-lib/fonts/mathjax_main-bold.woff") format("woff")}@font-face{font-family:MJXTEX-I;src:url("site-lib/fonts/mathjax_math-italic.woff") format("woff")}@font-face{font-family:MJXTEX-MI;src:url("site-lib/fonts/mathjax_main-italic.woff") format("woff")}@font-face{font-family:MJXTEX-BI;src:url("site-lib/fonts/mathjax_math-bolditalic.woff") format("woff")}@font-face{font-family:MJXTEX-S1;src:url("site-lib/fonts/mathjax_size1-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S2;src:url("site-lib/fonts/mathjax_size2-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S3;src:url("site-lib/fonts/mathjax_size3-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S4;src:url("site-lib/fonts/mathjax_size4-regular.woff") format("woff")}@font-face{font-family:MJXTEX-A;src:url("site-lib/fonts/mathjax_ams-regular.woff") format("woff")}@font-face{font-family:MJXTEX-C;src:url("site-lib/fonts/mathjax_calligraphic-regular.woff") format("woff")}@font-face{font-family:MJXTEX-CB;src:url("site-lib/fonts/mathjax_calligraphic-bold.woff") format("woff")}@font-face{font-family:MJXTEX-FR;src:url("site-lib/fonts/mathjax_fraktur-regular.woff") format("woff")}@font-face{font-family:MJXTEX-FRB;src:url("site-lib/fonts/mathjax_fraktur-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SS;src:url("site-lib/fonts/mathjax_sansserif-regular.woff") format("woff")}@font-face{font-family:MJXTEX-SSB;src:url("site-lib/fonts/mathjax_sansserif-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SSI;src:url("site-lib/fonts/mathjax_sansserif-italic.woff") format("woff")}@font-face{font-family:MJXTEX-SC;src:url("site-lib/fonts/mathjax_script-regular.woff") format("woff")}@font-face{font-family:MJXTEX-T;src:url("site-lib/fonts/mathjax_typewriter-regular.woff") format("woff")}@font-face{font-family:MJXTEX-V;src:url("site-lib/fonts/mathjax_vector-regular.woff") format("woff")}@font-face{font-family:MJXTEX-VB;src:url("site-lib/fonts/mathjax_vector-bold.woff") format("woff")}mjx-c.mjx-c1D44E.TEX-I::before{padding:.441em .529em .01em 0;content:"a"}mjx-c.mjx-c1D44F.TEX-I::before{padding:.694em .429em .011em 0;content:"b"}</style><div class="canvas-wrapper node-insert-event" tabindex="-1" data-ignore-swipe="true" style="--zoom-multiplier: 1.1287742352354053;"><svg class="canvas-background"><pattern id="e8ea3a9bf80694a0" patternUnits="userSpaceOnUse" x="1036" y="668.6515151515151" width="15.696969696969695" height="15.696969696969695"><circle cx="0.7" cy="0.7" r="0.7"></circle></pattern><rect x="0" y="0" width="100%" height="100%" fill="url(#e8ea3a9bf80694a0)"></rect></svg><div class="canvas-card-menu" style="z-index: 5;"><div class="canvas-card-menu-button mod-draggable" aria-label="添加卡片（点击或拖动）" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-sticky-note"><path d="M21 9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z"></path><path d="M15 3v5a1 1 0 0 0 1 1h5"></path></svg></div><div class="canvas-card-menu-button mod-draggable" aria-label="添加笔记（点击或拖动）" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-file-text"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div><div class="canvas-card-menu-button mod-draggable" aria-label="添加媒体文件（点击或拖动）" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-file-image"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><circle cx="10" cy="12" r="2"></circle><path d="m20 17-1.296-1.296a2.41 2.41 0 0 0-3.408 0L9 22"></path></svg></div></div><div class="canvas-controls" style="z-index: 5;"><div class="canvas-control-group mod-raised"><div class="canvas-control-item" aria-label="白板设定" data-tooltip-position="left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-settings"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"></path><circle cx="12" cy="12" r="3"></circle></svg></div></div><div class="canvas-control-group mod-raised"><div class="canvas-control-item" aria-label="放大" data-tooltip-position="left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-plus"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></div><div class="canvas-control-item" aria-label="重置缩放" data-tooltip-position="left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-rotate-cw"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path></svg></div><div class="canvas-control-item" aria-label="总览全局
+(Shift + 1)" data-tooltip-position="left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-maximize"><path d="M8 3H5a2 2 0 0 0-2 2v3"></path><path d="M21 8V5a2 2 0 0 0-2-2h-3"></path><path d="M3 16v3a2 2 0 0 0 2 2h3"></path><path d="M16 21h3a2 2 0 0 0 2-2v-3"></path></svg></div><div class="canvas-control-item" aria-label="缩小" data-tooltip-position="left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-minus"><path d="M5 12h14"></path></svg></div></div><div class="canvas-control-group mod-raised"><div class="canvas-control-item is-disabled" aria-label="撤销" data-tooltip-position="left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-undo-2"><path d="M9 14 4 9l5-5"></path><path d="M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11"></path></svg></div><div class="canvas-control-item is-disabled" aria-label="重做" data-tooltip-position="left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-redo-2"><path d="m15 14 5-5-5-5"></path><path d="M20 9H9.5A5.5 5.5 0 0 0 4 14.5A5.5 5.5 0 0 0 9.5 20H13"></path></svg></div></div><div class="canvas-control-group mod-raised"><div class="canvas-control-item" aria-label="帮助" data-tooltip-position="left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div></div></div><div class="canvas" style="transform: translate(1036px, 676.5px) scale(0.784848) translate(-840px, -10px);"><svg class="canvas-edges"></svg><svg class="canvas-edges"></svg><svg class="canvas-edges"><g class="is-themed mod-canvas-color-6"><path class="canvas-interaction-path" d="M-170 -260 L-170 -253 M-170,-253 C-170,-103 230,-297 230,-147"></path><path class="canvas-display-path" d="M-170 -260 L-170 -253 M-170,-253 C-170,-103 230,-297 230,-147"></path></g></svg><svg class="canvas-edges"><g class="is-themed mod-canvas-color-6"><g style="transform: translate(230px, -140px) rotate(180deg);"><polygon class="canvas-path-end" points="0,0 6.5,10.4 -6.5,10.4"></polygon></g></g></svg><div class="canvas-node" style="z-index: 2; transform: translate(-360px, -380px); width: 380px; height: 120px; --canvas-node-width: 380px; --canvas-node-height: 120px;"><div class="canvas-node-container"><div class="canvas-node-content-blocker"></div><div class="canvas-node-content markdown-embed"><div class="markdown-embed-content node-insert-event"><div class="markdown-preview-view markdown-rendered node-insert-event show-indentation-guide allow-fold-headings"><pre class="frontmatter language-yaml" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">tags</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> Minimal主题</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre><div class="markdown-preview-sizer markdown-preview-section" style="padding-bottom: 0px; min-height: 73px;"><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-h1"><h1 data-heading="资料" dir="auto" class="heading" id="资料_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>资料</h1></div><div class="el-p"><p dir="auto">我们的资料</p></div></div></div></div><div class="markdown-embed-content node-insert-event" style="display: none;"></div></div></div></div><div class="canvas-node" style="z-index: 3; transform: translate(-360px, -140px); width: 1180px; height: 540px; --canvas-node-width: 1180px; --canvas-node-height: 540px;"><div class="canvas-node-container"><div class="canvas-node-content-blocker"></div><div class="canvas-node-content markdown-embed is-loaded"><div class="markdown-embed-content node-insert-event"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event show-indentation-guide allow-fold-headings show-properties"><div class="markdown-preview-sizer"><div class="header"><h1 class="page-title heading" id="_0"></h1><div class="data-bar"></div></div><div class="markdown-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-h1"><h1 data-heading="安装 Obsidian" dir="auto" class="heading" id="安装_Obsidian_0">安装 Obsidian</h1></div><div class="el-p"><p dir="auto">下载 Obsidian ， 点击进行安装 ：  </p></div><div class="el-p"><p dir="auto"><a rel="noopener nofollow" class="external-link is-unresolved" href="https://obsidian.md/" target="_self">https://obsidian.md/</a></p></div><div class="el-p"><p dir="auto">这里的内容使用的是 <code>Obsidian 1.12.4</code> </p></div><div class="el-h1"><h1 data-heading="安装主题 Minmal" dir="auto" class="heading" id="安装主题_Minmal_0">安装主题 Minmal</h1></div><div class="el-p"><p dir="auto">利用快捷 <code>ctrl</code>+<code>,</code> 打开 <code>设置</code> 窗口在主题中搜索 Minimal 并安装：  </p></div><div class="el-p"><p dir="auto"><span alt="安装 Minimal 主题.svg" src="attachments/安装-minimal-主题.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="安装 Minimal 主题.svg" src="attachments/安装-minimal-主题.svg?1770807610434#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">这个主题的官方介绍链接 ： <a rel="noopener nofollow" class="external-link is-unresolved" href="https://minimal.guide" target="_self">https://minimal.guide</a></p></div><div class="el-h1"><h1 data-heading="标题栏" dir="auto" class="heading" id="标题栏_0">标题栏</h1></div><div class="el-p"><p dir="auto">下图展示了什么是 <code>标签页标题栏</code>  什么是 <code>页内标题</code> ：   </p></div><div class="el-p"><p dir="auto"><span alt="标题栏显示.svg" src="attachments/标题栏显示.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="标题栏显示.svg" src="attachments/标题栏显示.svg?1770807712332#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">可以通过下面操作 <code>隐藏</code> 或 <code>显示</code> 它们 ：   </p></div><div class="el-p"><p dir="auto"><span alt="隐藏或显示标题栏.svg" src="attachments/隐藏或显示标题栏.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="隐藏或显示标题栏.svg" src="attachments/隐藏或显示标题栏.svg?1770807731236#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="更多选项" dir="auto" class="heading" id="更多选项_0">更多选项</h2></div><div class="el-p"><p dir="auto">在启用了 <code>页内标题</code> 的时候， 可以点击 <code>更多选项</code> ：   </p></div><div class="el-p"><p dir="auto"><span alt="什么是更多选项.svg" src="attachments/什么是更多选项.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="什么是更多选项.svg" src="attachments/什么是更多选项.svg?1770083933867#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">如果禁用了 <code>页内标题</code> 可以右击标题栏弹出 <code>更多选项</code> ：   </p></div><div class="el-p"><p dir="auto"><span alt="右击页面标题弹出更多选项.svg" src="attachments/右击页面标题弹出更多选项.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="右击页面标题弹出更多选项.svg" src="attachments/右击页面标题弹出更多选项.svg?1770084237584#undefined" target="_self"></span></p></div><div class="el-h1"><h1 data-heading="缩减栏宽" dir="auto" class="heading" id="缩减栏宽_0">缩减栏宽</h1></div><div class="el-p"><p dir="auto">下面是在 obsidian 中限制了一行的宽度， 导致即便页面有更多的空白也不能充分利用 ：  </p></div><div class="el-p"><p dir="auto"><span alt="启用缩减栏宽.svg" src="attachments/启用缩减栏宽.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="启用缩减栏宽.svg" src="attachments/启用缩减栏宽.svg?1770084346850#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">可以通过设置 <code>缩减栏宽</code> 来充分利用 Obsidian 页面两侧的空白 ：   </p></div><div class="el-p"><p dir="auto"><span alt="禁用缩减栏宽.svg" src="attachments/禁用缩减栏宽.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="禁用缩减栏宽.svg" src="attachments/禁用缩减栏宽.svg?1770084408746#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto"><code>缩减标题栏</code> 可以在编辑器下面进行设置  ：  </p></div><div class="el-p"><p dir="auto"><span alt="设置缩减标题栏.svg" src="attachments/设置缩减标题栏.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="设置缩减标题栏.svg" src="attachments/设置缩减标题栏.svg?1770084508741#undefined" target="_self"></span></p></div><div class="el-h1"><h1 data-heading="折叠标题" dir="auto" class="heading" id="折叠标题_0">折叠标题</h1></div><div class="el-p"><p dir="auto"><code>设置</code> &gt;  <code>编辑器</code> 中可以设置对标题栏进行折叠 ：   </p></div><div class="el-p"><p dir="auto"><span alt="允许折叠标题栏.svg" src="attachments/允许折叠标题栏.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="允许折叠标题栏.svg" src="attachments/允许折叠标题栏.svg?1771392067494#undefined" target="_self"></span></p></div><div class="el-h1"><h1 data-heading="段间距" dir="auto" class="heading" id="段间距_0">段间距</h1></div><div class="el-p"><p dir="auto">在预览模式下， 利用段间距可以让阅读更友好 ：   </p></div><div class="el-p"><p dir="auto"><span alt="段落间距.svg" src="attachments/段落间距.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="段落间距.svg" src="attachments/段落间距.svg?1771396715882#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">在 Minimal主题的基础上， 又增加了一些标题间距的功能， 每个标题都有间距设置 ： </p></div><div class="el-p"><p dir="auto"><span alt="各个标题和文章的间距设置.svg" src="attachments/各个标题和文章的间距设置.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="各个标题和文章的间距设置.svg" src="attachments/各个标题和文章的间距设置.svg?1771489484010#undefined" target="_self"></span></p></div><div class="el-h1"><h1 data-heading="严格换行" dir="auto" class="heading" id="严格换行_0">严格换行</h1></div><div class="el-p"><p dir="auto">如果启用 <code>严格换行</code> 下面一段文字并不换行 ：  </p></div><div class="el-p"><p dir="auto">第一行<br>
+第二行</p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto">建议<code>禁用</code> 严格换行 </p>
+</div></div></div><div class="el-h1"><h1 data-heading="标题分割" dir="auto" class="heading" id="标题分割_0">标题分割</h1></div><div class="el-p"><p dir="auto">为了使得文档章节看起来更舒服，建议启用 "H1标题分割线" ：    </p></div><div class="el-p"><p dir="auto"><span alt="H1标题分割线.svg" src="attachments/h1标题分割线.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="H1标题分割线.svg" src="attachments/h1标题分割线.svg?1770085498740#undefined" target="_self"></span></p></div><div class="el-h1"><h1 data-heading="页面布局" dir="auto" class="heading" id="页面布局_0">页面布局</h1></div><div class="el-p"><p dir="auto">下图介绍了 obsidian 的页面布局。默认情况下是扁平化的外观 ：  </p></div><div class="el-p"><p dir="auto"><span alt="页面布局.svg" src="attachments/页面布局.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="页面布局.svg" src="attachments/页面布局.svg?1770085685866#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">右侧通过点击可以切换到不同的窗口 ： </p></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">反向链接</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">出链</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">标签</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">大纲</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><p dir="auto"><span alt="右侧不同窗口_反向链接.svg" src="attachments/右侧不同窗口_反向链接.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="右侧不同窗口_反向链接.svg" src="attachments/右侧不同窗口_反向链接.svg?1770098135311#undefined" target="_self"></span></p></div><div class="tabs-content"><p dir="auto"><span alt="右侧不同窗口_出链.svg" src="attachments/右侧不同窗口_出链.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="右侧不同窗口_出链.svg" src="attachments/右侧不同窗口_出链.svg?1770098086742#undefined" target="_self"></span></p></div><div class="tabs-content"><p dir="auto"><span alt="右侧不同窗口_标签.svg" src="attachments/右侧不同窗口_标签.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="右侧不同窗口_标签.svg" src="attachments/右侧不同窗口_标签.svg?1770098286560#undefined" target="_self"></span></p></div><div class="tabs-content"><p dir="auto"><span alt="右侧不同窗口_大纲.svg" src="attachments/右侧不同窗口_大纲.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="右侧不同窗口_大纲.svg" src="attachments/右侧不同窗口_大纲.svg?1770098138216#undefined" target="_self"></span></p></div></div></div></div><div class="el-p"><p dir="auto">这些窗口都可以拖拽图标，进行移动位置 ： </p></div><div class="el-p"><p dir="auto"><span alt="窗口拖拽.mp4" src="attachments/窗口拖拽.mp4#undefined" class="internal-embed media-embed video-embed is-loaded" target="_self"><video controls="" preload="metadata" src="attachments/窗口拖拽.mp4?1769872326469#t=0.001#undefined" style="" target="_self"></video></span></p></div><div class="el-h1"><h1 data-heading="功能区" dir="auto" class="heading" id="功能区_0">功能区</h1></div><div class="el-p"><p dir="auto">在界面最左侧的一些小按钮就是功能区 ：   </p></div><div class="el-p"><p dir="auto"><span alt="什么是功能区.svg" src="attachments/什么是功能区.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="什么是功能区.svg" src="attachments/什么是功能区.svg?1772411203792#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">还可以在设置中进行隐藏/显示，还可以调整顺序 ：  </p></div><div class="el-p"><p dir="auto"><span alt="设置中改变功能能区的显示.svg" src="attachments/设置中改变功能能区的显示.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="设置中改变功能能区的显示.svg" src="attachments/设置中改变功能能区的显示.svg?1772427941771#undefined" target="_self"></span></p></div><div class="el-h1"><h1 data-heading="图片" dir="auto" class="heading" id="图片_0">图片</h1></div><div class="el-p"><p dir="auto">图片最好插入到 <a data-tooltip-position="top" aria-label="Diagrams" data-href="#Diagrams" href="obsidian关键思路.html#Diagrams_0" class="internal-link" target="_self" rel="noopener nofollow">插件Diagrams</a> 中， 然后保存成 <code>svg</code> 格式。 </p></div><div class="el-h2"><h2 data-heading="附件文件夹" dir="auto" class="heading" id="附件文件夹_0">附件文件夹</h2></div><div class="el-p"><p dir="auto">粘贴图片的时候，被复制到了 <code>工程文件夹</code> 下。 最好创建一个叫 <code>Attachments</code> 的文件夹， 让图片自动粘贴到这里 ：  </p></div><div class="el-p"><p dir="auto"><span alt="设置附件文件夹.svg" src="attachments/设置附件文件夹.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="设置附件文件夹.svg" src="attachments/设置附件文件夹.svg?1770084592751#undefined" target="_self"></span></p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">如何删除没有使用的图片</div></div><div class="callout-content">
+<ol>
+<li data-line="1" dir="auto">可以安装 <code>Clear unusend images</code> 插件</li>
+<li data-line="2" dir="auto">之后利用 <code>ctrl + p</code> 调出命令窗口，输入命令：<code>Clear Unused Images: Clear Unused Images</code></li>
+</ol>
+</div></div></div><div class="el-h2"><h2 data-heading="Emoji" dir="auto" class="heading" id="Emoji_0">Emoji</h2></div><div class="el-p"><p dir="auto">可以安装 <code>Emoji Toolbar</code> 插件 ，按照下面步骤插入一个 Emoji 符号 ：  </p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><code>ctrl+p</code> 调出命令窗口</li>
+<li data-line="1" dir="auto">输入 <code>Emoji Toolbar:Open emoji picker</code></li>
+<li data-line="2" dir="auto">从 <em>Emoji Toobar</em> 中选择一个需要的图标<br>
+<span alt="使用Emoji Toobar 插入.svg" src="attachments/使用emoji-toobar-插入.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="使用Emoji Toobar 插入.svg" src="attachments/使用emoji-toobar-插入.svg?1770084682571#undefined" target="_self"></span></li>
+</ol></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">关于Emoji</div></div><div class="callout-content">
+<ol>
+<li data-line="1" dir="auto"><a data-tooltip-position="top" aria-label="https://emojipedia.org/" rel="noopener nofollow" class="external-link is-unresolved" href="https://emojipedia.org/" target="_self">emojipedia</a> 是最权威的 Emoji 网站</li>
+<li data-line="2" dir="auto"><code>:gear:</code> 这样的输入被称为短代码， Obsidian 不会自动转换成符号。复制、粘贴、点选是输入到 Obsidian 中的唯一办法</li>
+</ol>
+</div></div></div><div class="el-h2"><h2 data-heading="Clear unusend images" dir="auto" class="heading" id="Clear_unusend_images_0">Clear unusend images</h2></div><div class="el-p"><p dir="auto">有时候使用 <code>Clear unusend images</code> 清理图片的时候， 需要有些文件夹里面的文件被排除掉，这时候就需要建立一个文件夹把文件都放置进去，比如下面的 <code>HTML</code> 文件夹 ：   </p></div><div class="el-p"><p dir="auto"><span alt="Clear unused images 排除文件夹.svg" src="attachments/clear-unused-images-排除文件夹.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="Clear unused images 排除文件夹.svg" src="attachments/clear-unused-images-排除文件夹.svg?1769234873143#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">下面是一些配套的设置 ： </p></div><div class="el-p"><p dir="auto"><span alt="Clear unused images 排除文件夹设置.svg" src="attachments/clear-unused-images-排除文件夹设置.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="Clear unused images 排除文件夹设置.svg" src="attachments/clear-unused-images-排除文件夹设置.svg?1772432178614#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="图片大小" dir="auto" class="heading" id="图片大小_0">图片大小</h2></div><div class="el-p"><p dir="auto">可以利用下面语法来插入以像素数为单位的图片 ：  </p></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">代码</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">原尺寸</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">100px</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">200px</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><p dir="auto"><code>![[乔布斯照片.png|100]]</code> 关键代码是 <code>|100</code></p></div><div class="tabs-content"><p dir="auto"><span alt="乔布斯照片.png" src="attachments/乔布斯照片.png#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="乔布斯照片.png" src="attachments/乔布斯照片.png?1772025255661#undefined" target="_self"></span></p></div><div class="tabs-content"><p dir="auto"><span alt="乔布斯照片.png" src="attachments/乔布斯照片.png#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self" style="width: 100px; max-width: 100%;"><img alt="乔布斯照片.png" src="attachments/乔布斯照片.png?1772025255661#undefined" target="_self" style="width: 100px; max-width: 100%;"></span></p></div><div class="tabs-content"><p dir="auto"><span alt="乔布斯照片.png" src="attachments/乔布斯照片.png#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self" style="width: 200px; max-width: 100%;"><img alt="乔布斯照片.png" src="attachments/乔布斯照片.png?1772025255661#undefined" target="_self" style="width: 200px; max-width: 100%;"></span></p></div></div></div></div><div class="el-h1"><h1 data-heading="Diagrams" dir="auto" class="heading" id="Diagrams_0">Diagrams</h1></div><div class="el-p"><p dir="auto"><a data-tooltip-position="top" aria-label="https://github.com/zapthedingbat/drawio-obsidian" rel="noopener nofollow" class="external-link is-unresolved" href="https://github.com/zapthedingbat/drawio-obsidian" target="_self">Diagrams</a> 之前叫 <a data-tooltip-position="top" aria-label="https://app.diagrams.net/" rel="noopener nofollow" class="external-link is-unresolved" href="https://app.diagrams.net/" target="_self">draw.io</a>  它可以替代 viso， 是目前全球最流行的在线图形编辑软件之一。 它的发展史是一个关于 "<code>坚持开源</code>、<code>对抗订阅制</code>、<code>拥抱隐私优先</code>" 的成功案例。可以将其发展历程分为三个主要阶段： </p></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">起步阶段 2000s - 2011</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">成长阶段 2012 - 2020</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">转折点 2020 至今</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><ul>
+<li dir="auto">JGraph 技术积累 </li>
+<li dir="auto">draw.io 的核心技术源于 JGraph 开源项目。创始人为英国开发者 Baudis Gawron。最初是基于 Java 的图形库，后随 HTML5/SVG 演进转向 Web 端，旨在创建一个免费、跨平台的 Visio 替代方案。</li>
+</ul></div><div class="tabs-content"><ul>
+<li dir="auto">成长阶段：draw.io 品牌崛起 </li>
+<li dir="auto">2012年正式以 draw.io 域名面世。通过与 Google Drive 深度集成积累数百万用户。采用 "<code>前端核心代码开源</code> + <code>企业集成插件收费</code>" 的逻辑，使 mxGraph 生态快速扩张，诞生了无数第三方插件（如 Obsidian 插件）。</li>
+</ul></div><div class="tabs-content"><ul>
+<li dir="auto">转折点：域名迁移与隐私革命 </li>
+<li dir="auto">为规避 .io 域名风险及强调隐私安全，正式更名为 diagrams.net。提出 <code>你的数据属于你</code> 口号，数据仅在浏览器本地处理。目前核心库 mxGraph 已进入维护模式，团队正在探索更现代的架构。</li>
+</ul></div></div></div></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">总结</div></div><div class="callout-content">
+<p dir="auto">为什么 draw.io 能站稳脚跟?<br>
+<code>极度透明</code> ：不强制注册，无订阅费。<br>
+<code>全能兼容</code> ：支持导入 Visio、Lucidchart 等。<br>
+<code>无处不在</code> ：深度集成于 VS Code、GitHub、Obsidian 及 Confluence。</p>
+</div></div></div><div class="el-h2"><h2 data-heading="创建" dir="auto" class="heading" id="创建_0">创建</h2></div><div class="el-p"><p dir="auto">可以将 Diagrams 直接放在 <code>Attachments</code> 中， 并以 SVG 格式进行保存 ： </p></div><div class="el-p"><p dir="auto"><span alt="插入diagram.svg" src="attachments/插入diagram.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="插入diagram.svg" src="attachments/插入diagram.svg?1769228107336#undefined" target="_self"></span><br>
+还可以在自己期待的路径下，插入一个 diagram ：  </p></div><div class="el-p"><p dir="auto"><span alt="路径下插入diagram.svg" src="attachments/路径下插入diagram.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="路径下插入diagram.svg" src="attachments/路径下插入diagram.svg?1769225079290#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="引用" dir="auto" class="heading" id="引用_0">引用</h2></div><div class="el-p"><p dir="auto">使用 Diagrams 插件创建的文件是以 <code>.svg</code> 格式存在于硬盘， 可以直接引用到 Obsidian 中 ： </p></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded">![[文件名.svg]]
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-h2"><h2 data-heading="打开" dir="auto" class="heading" id="打开_0">打开</h2></div><div class="el-p"><p dir="auto">可以通过在 obsidian 中右击文件名，打开一个 svg 文件 ：<br>
+<span alt="打开一个diagrams.svg" src="attachments/打开一个diagrams.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="打开一个diagrams.svg" src="attachments/打开一个diagrams.svg?1769228107803#undefined" target="_self"></span></p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto">虽然都是 <code>文件.svg</code> 但是 Diagrams 只能识别出自己创建格式的 svg 文件</p>
+</div></div></div><div class="el-h2"><h2 data-heading="重命名" dir="auto" class="heading" id="重命名_0">重命名</h2></div><div class="el-p"><p dir="auto">右键点击一个 <code>svg</code> 文件， 有 <code>重命名</code> 选项， 修改完以后还会自动更新所有引用 ： </p></div><div class="el-p"><p dir="auto"><span alt="重命名一个diagram.svg" src="attachments/重命名一个diagram.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="重命名一个diagram.svg" src="attachments/重命名一个diagram.svg?1769228350695#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">如果一个文件被重命名以后， 依然在标题栏没有改变， 可以 ：  </p></div><div class="el-p"><p dir="auto"><span alt="刷新diagram的标题.svg" src="attachments/刷新diagram的标题.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="刷新diagram的标题.svg" src="attachments/刷新diagram的标题.svg?1769353434810#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="使用draw.io" dir="auto" class="heading" id="使用draw.io_0">使用draw.io</h2></div><div class="el-p"><p dir="auto">使用独立的绘图软件 draw.io 来绘制， 之后只需要保存成 <code>.svg</code> ， Diagrams 插件也可以打开 ：  </p></div><div class="el-p"><p dir="auto"><span alt="使用drawio绘制.svg" src="attachments/使用drawio绘制.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="使用drawio绘制.svg" src="attachments/使用drawio绘制.svg?1769353718574#undefined" target="_self"></span></p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto">有些功能在插件 Diagrams 中编辑存在问题， 可以在 draw.io 中编辑， 在 Diagrams 中渲染</p>
+</div></div></div><div class="el-h1"><h1 data-heading="标签" dir="auto" class="heading" id="标签_0">标签</h1></div><div class="el-p"><p dir="auto"><code>标签</code> 是笔记的属性， 右击一个笔记的标题栏可以给一个笔记增加标签属性 ：  </p></div><div class="el-p"><p dir="auto"><span alt="为笔记增加属性.svg" src="attachments/为笔记增加属性.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="为笔记增加属性.svg" src="attachments/为笔记增加属性.svg?1770084965066#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">可以在属性中创建标签，并给标签起名字 ：<br>
+<span alt="为笔记增加标签.svg" src="attachments/为笔记增加标签.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="为笔记增加标签.svg" src="attachments/为笔记增加标签.svg?1769870395027#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="查看标签" dir="auto" class="heading" id="查看标签_0">查看标签</h2></div><div class="el-p"><p dir="auto">可以在右侧标签窗口中查看 ：  </p></div><div class="el-p"><p dir="auto"><span alt="查看标签.svg" src="attachments/查看标签.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="查看标签.svg" src="attachments/查看标签.svg?1770085186835#undefined" target="_self"></span></p></div><div class="el-h1"><h1 data-heading="关系图谱" dir="auto" class="heading" id="关系图谱_0">关系图谱</h1></div><div class="el-p"><p dir="auto">打开关系图谱的快捷键是 <code>ctrl</code> + <code>G</code>， 关系图谱像下面这样 ：  </p></div><div class="el-p"><p dir="auto"><span alt="关系图谱.svg" src="attachments/关系图谱.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="关系图谱.svg" src="attachments/关系图谱.svg?1769336398626#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="箭头设置" dir="auto" class="heading" id="箭头设置_0">箭头设置</h2></div><div class="el-p"><p dir="auto">在关系图谱的显示页面， 有一个齿轮图标 <img draggable="false" class="emoji is-unresolved" alt="⚙️" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/72x72/2699.png" target="_self"> ，点击可以设置图标：</p></div><div class="el-p"><p dir="auto"><span alt="关系图谱箭头设置.svg" src="attachments/关系图谱箭头设置.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="关系图谱箭头设置.svg" src="attachments/关系图谱箭头设置.svg?1769250431266#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="孤立文件" dir="auto" class="heading" id="孤立文件_0">孤立文件</h2></div><div class="el-p"><p dir="auto">在关系图谱中，有很多 <code>README.md</code> 文件是孤立的，可以在关系图谱中不显示它们 ：  </p></div><div class="el-p"><p dir="auto"><span alt="关系图谱中的孤立文件.svg" src="attachments/关系图谱中的孤立文件.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="关系图谱中的孤立文件.svg" src="attachments/关系图谱中的孤立文件.svg?1769337388643#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="颜色" dir="auto" class="heading" id="颜色_0">颜色</h2></div><div class="el-p"><p dir="auto">下面建立一个颜色分组，给某类笔记加上颜色 ： </p></div><div class="el-p"><p dir="auto"><span alt="关系图谱进行颜色分组.svg" src="attachments/关系图谱进行颜色分组.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="关系图谱进行颜色分组.svg" src="attachments/关系图谱进行颜色分组.svg?1769339308161#undefined" target="_self"></span></p></div><div class="el-h1"><h1 data-heading="表格" dir="auto" class="heading" id="表格_0">表格</h1></div><div class="el-p"><p dir="auto">下面是一个表格范例 ：    </p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th align="center" dir="ltr">序号</th>
+<th align="left" dir="ltr">水果</th>
+<th align="left" dir="ltr">营养</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" dir="auto">1</td>
+<td align="left" dir="ltr">苹果</td>
+<td align="left" dir="ltr">维C</td>
+</tr>
+<tr>
+<td align="center" dir="auto">2</td>
+<td align="left" dir="ltr">菠萝</td>
+<td align="left" dir="ltr">果酸</td>
+</tr>
+<tr>
+<td align="center" dir="auto">3</td>
+<td align="left" dir="ltr">香蕉</td>
+<td align="left" dir="ltr">糖</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">源码如下 ：  </p></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded">| 序号  | 水果  | 营养  |
+| :-: | :- | :- |
+|  1  | 苹果  | 维C  |
+|  2  | 菠萝  | 果酸  |
+|  3  | 香蕉  | 糖   |
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto"><code>:-:</code> 是居中对齐<br>
+<code>:-</code> 是左对齐<br>
+<code>-:</code> 是右对齐 </p>
+</div></div></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">源码模式</div></div><div class="callout-content">
+<p dir="auto">在修改表格的时候，需要切换到 "源码模式"<br>
+<span alt="切换到源码模式.svg" src="attachments/切换到源码模式.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="切换到源码模式.svg" src="attachments/切换到源码模式.svg?1770085285862#undefined" target="_self"></span></p>
+</div></div></div><div class="el-h2"><h2 data-heading="强调文本" dir="auto" class="heading" id="强调文本_0">强调文本</h2></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th align="center" dir="ltr">序号</th>
+<th align="left" dir="ltr">语法</th>
+<th dir="ltr">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" dir="auto">1</td>
+<td align="left" dir="ltr"><code>**</code>强调的文本<code>**</code></td>
+<td dir="ltr"><strong>强调的文本</strong></td>
+</tr>
+<tr>
+<td align="center" dir="auto">2</td>
+<td align="left" dir="ltr"><code>*</code>斜文本<code>*</code></td>
+<td dir="ltr"><em>斜文本</em></td>
+</tr>
+<tr>
+<td align="center" dir="auto">3</td>
+<td align="left" dir="ltr"><code>***</code>强调并倾斜的文本<code>***</code></td>
+<td dir="ltr"><strong><em>强调并倾斜的文本</em></strong></td>
+</tr>
+<tr>
+<td align="center" dir="auto">4</td>
+<td align="left" dir="ltr"><code>==</code>高亮文本<code>==</code></td>
+<td dir="ltr"><mark>高亮文本</mark></td>
+</tr>
+<tr>
+<td align="center" dir="auto">5</td>
+<td align="left" dir="ltr"><code>~~</code>删除文本<code>~~</code></td>
+<td dir="ltr"><del>删除文本</del></td>
+</tr>
+<tr>
+<td align="center" dir="auto">6</td>
+<td align="left" dir="ltr"><code>&lt;u&gt;</code>下划线<code>&lt;/u&gt;</code></td>
+<td dir="ltr"><u>下划线</u></td>
+</tr>
+</tbody>
+</table></div><div class="el-h1"><h1 data-heading="增强表格" dir="auto" class="heading" id="增强表格_0">增强表格</h1></div><div class="el-p"><p dir="auto">需要安装增强插件 <a data-tooltip-position="top" aria-label="https://github.com/aidenlx/table-extended" rel="noopener nofollow" class="external-link is-unresolved" href="https://github.com/aidenlx/table-extended" target="_self">Tab Extended</a> 下面是它的核心功能 ：   </p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><code>跨列合并</code> 单元格可以横向跨越多个列</li>
+<li data-line="1" dir="auto"><code>跨行合并</code> 单元格可以纵向跨越多个行</li>
+<li data-line="2" dir="auto"><code>块级元素支</code> 在单元格内直接编写列表、代码块等</li>
+<li data-line="3" dir="auto"><code>多行表头</code> 支持定义多层表头</li>
+<li data-line="4" dir="auto"><code>表格标题</code> 可以为表格添加说明文字</li>
+<li data-line="5" dir="auto"><code>省略表头</code> 支持创建没有表头行的表格</li>
+</ul></div><div class="el-p"><p dir="auto">下面范例是它最基础的语法 ：   </p></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded"><span class="token code"><span class="token punctuation">```</span><span class="token code-language">tx</span>
+<span class="token code-block language-tx">|             |          第1组           || 
+标题1  | 标题2 | 标题3 | 
+ ------------ | :-----------: | -----------: | 
+内容       |          *长端元格*        || 
+内容       |   **单元格**    |       单元格 | 
+新节   |     更多      |         数据 | 
+更多示范      | 利用转义符 '\|'       || 
+[范例表格]</span>
+<span class="token punctuation">```</span></span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-pre"><div class="block-language-tx"><table>
+<caption>范例表格</caption>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center" colspan="2">第1组</th>
+</tr>
+<tr>
+<th>标题1</th>
+<th style="text-align:center">标题2</th>
+<th style="text-align:right">标题3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容</td>
+<td style="text-align:center" colspan="2"><em>跨行合并</em></td>
+</tr>
+<tr>
+<td>内容</td>
+<td style="text-align:center"><strong>单元格</strong></td>
+<td style="text-align:right">单元格</td>
+</tr>
+<tr>
+<td>新节</td>
+<td style="text-align:center">公式 <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mstyle><mjx-mfrac><mjx-frac type="d"><mjx-num><mjx-nstrut type="d"></mjx-nstrut><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44E TEX-I"></mjx-c></mjx-mi></mjx-num><mjx-dbox><mjx-dtable><mjx-line type="d"></mjx-line><mjx-row><mjx-den><mjx-dstrut type="d"></mjx-dstrut><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44F TEX-I"></mjx-c></mjx-mi></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-mstyle></mjx-math></mjx-container></span></td>
+<td style="text-align:right">数据</td>
+</tr>
+<tr>
+<td>更多示范</td>
+<td style="text-align:center" colspan="2">利用转义符 '|'</td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="el-h2"><h2 data-heading="多行" dir="auto" class="heading" id="多行_0">多行</h2></div><div class="el-p"><p dir="auto">多行指的是一个单元格里面有多个元素  ：   </p></div><div class="el-pre"><div class="block-language-tx"><table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Rendered HTML</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><pre><code>*Italic*
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></td>
+<td><em>Italic</em></td>
+</tr>
+<tr>
+<td><pre><code>- Item 1
+- Item 2
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></td>
+<td><ul>
+<li dir="auto">Item 1</li>
+<li dir="auto">Item 2</li>
+</ul></td>
+</tr>
+<tr>
+<td><pre><code>```python
+.1 + .2
+```
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></td>
+<td class="language-python"><pre class="language-python"><code class="language-python is-loaded"><span class="token number">.1</span> <span class="token operator">+</span> <span class="token number">.2</span>
+
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="el-p"><p dir="auto">在行后面加上 <em>\</em> 接下来的行就被合并了 ：  </p></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded"><span class="token code"><span class="token punctuation">```</span><span class="token code-language">tx</span>
+<span class="token code-block language-tx">|   Markdown   | Rendered HTML |
+|--------------| --------------- |
+|    *Italic*  | *Italic*      | \
+|              |               |
+|    - Item 1  | - Item 1      | \
+|    - Item 2  | - Item 2      |
+|    ```python | ```python       \
+|    .1 + .2   | .1 + .2         \
+|    ```       | ```           |</span>
+<span class="token punctuation">```</span></span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-h2"><h2 data-heading="渲染" dir="auto" class="heading" id="渲染_0">渲染</h2></div><div class="el-p"><p dir="auto">下面表格里的内容， 有的渲染了有的没渲染 ： </p></div><div class="el-pre"><div class="block-language-tx"><table>
+<thead>
+<tr>
+<th>标题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>渲染</strong></td>
+</tr>
+<tr>
+<td><strong>渲染</strong></td>
+</tr>
+<tr>
+<td><strong>渲染</strong></td>
+</tr>
+<tr>
+<td><strong>渲染</strong></td>
+</tr>
+<tr>
+<td><strong>渲染</strong></td>
+</tr>
+<tr>
+<td><strong>渲染</strong></td>
+</tr>
+<tr>
+<td><pre><code>**不渲染**
+**不渲染**
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></td>
+</tr>
+<tr>
+<td><pre><code>**不渲染**
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></td>
+</tr>
+<tr>
+<td><strong>渲染</strong><br>
+<strong>显示</strong></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="el-p"><p dir="auto">表格里面满足两点不渲染 ：  </p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">有换行符 <em>\</em></li>
+<li data-line="1" dir="auto">前面必须有4个空格(或更多)</li>
+</ul></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded"><span class="token code"><span class="token punctuation">```</span><span class="token code-language">tx</span>
+<span class="token code-block language-tx">|     标题   | 
+|--------------|
+|**渲染**  |
+| **渲染**  |
+|   **渲染** |
+|    **渲染** |
+|     **渲染** |
+|      **渲染** |
+|    **不渲染** | \
+|    **不渲染** |
+|    **不渲染** | \
+|   **不显示** |
+|  **渲染** | \
+|   **显示** |</span>
+<span class="token punctuation">```</span></span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-h2"><h2 data-heading="向上合并" dir="auto" class="heading" id="向上合并_0">向上合并</h2></div><div class="el-p"><p dir="auto"><code>^^</code> 符号让一个单元格向上合并 ：   </p></div><div class="el-pre"><div class="block-language-tx"><table>
+<thead>
+<tr>
+<th style="text-align:right">Stage</th>
+<th style="text-align:right">Direct Products</th>
+<th style="text-align:right">ATP Yields</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right" rowspan="2">Glycolysis</td>
+<td style="text-align:right" colspan="2">2 ATP</td>
+</tr>
+<tr>
+<td style="text-align:right">2 NADH</td>
+<td style="text-align:right">3--5 ATP</td>
+</tr>
+<tr>
+<td style="text-align:right">Pyruvaye oxidation</td>
+<td style="text-align:right">2 NADH</td>
+<td style="text-align:right">5 ATP</td>
+</tr>
+<tr>
+<td style="text-align:right" rowspan="3">Citric acid cycle</td>
+<td style="text-align:right" colspan="2">2 ATP</td>
+</tr>
+<tr>
+<td style="text-align:right">6 NADH</td>
+<td style="text-align:right" rowspan="2">15 ATP</td>
+</tr>
+<tr>
+<td style="text-align:right">2 FADH2</td>
+</tr>
+<tr>
+<td style="text-align:right" colspan="3"><strong>30--32</strong> ATP</td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="el-h2"><h2 data-heading="省略表头" dir="auto" class="heading" id="省略表头_0">省略表头</h2></div><div class="el-p"><p dir="auto">下面展示如何省略表头 ：  </p></div><div class="el-pre"><div class="block-language-tx"><table>
+<tbody>
+<tr>
+<td>♜</td>
+<td></td>
+<td>♝</td>
+<td>♛</td>
+<td>♚</td>
+<td>♝</td>
+<td>♞</td>
+<td>♜</td>
+</tr>
+<tr>
+<td></td>
+<td>♟</td>
+<td>♟</td>
+<td>♟</td>
+<td></td>
+<td>♟</td>
+<td>♟</td>
+<td>♟</td>
+</tr>
+<tr>
+<td>♟</td>
+<td></td>
+<td>♞</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>♗</td>
+<td></td>
+<td></td>
+<td>♟</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>♙</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>♘</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>♙</td>
+<td>♙</td>
+<td>♙</td>
+<td>♙</td>
+<td></td>
+<td>♙</td>
+<td>♙</td>
+<td>♙</td>
+</tr>
+<tr>
+<td>♖</td>
+<td>♘</td>
+<td>♗</td>
+<td>♕</td>
+<td>♔</td>
+<td></td>
+<td></td>
+<td>♖</td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="el-p"><p dir="auto">表头前面没有任何行就可以 ： </p></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded"><span class="token code"><span class="token punctuation">```</span><span class="token code-language">tx</span>
+<span class="token code-block language-tx">|--|--|--|--|--|--|--|--|
+|♜|  |♝|♛|♚|♝|♞|♜|
+|  |♟|♟|♟|  |♟|♟|♟|
+|♟|  |♞|  |  |  |  |  |
+|  |♗|  |  |♟|  |  |  |
+|  |  |  |  |♙|  |  |  |
+|  |  |  |  |  |♘|  |  |
+|♙|♙|♙|♙|  |♙|♙|♙|
+|♖|♘|♗|♕|♔|  |  |♖|</span>
+<span class="token punctuation">```</span></span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-h1"><h1 data-heading="Callout" dir="auto" class="heading" id="Callout_0">Callout</h1></div><div class="el-p"><p dir="auto">下面是一些 Callout 的展示，关键点在于先输入 <code>&gt;</code> 字符  </p></div><div class="el-h2"><h2 data-heading="NOTE 提示" dir="auto" class="heading" id="NOTE_提示_0">NOTE 提示</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="note" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-pencil"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"></path><path d="m15 5 4 4"></path></svg></div><div class="callout-title-inner">Note</div></div><div class="callout-content">
+<p dir="auto">这是一个笔记提示。<br>
+它可以包含<strong>粗体文字</strong>和 <a data-tooltip-position="top" aria-label="https://www.google.com" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.google.com" target="_self">链接</a>。</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [!NOTE]
+<span class="token blockquote punctuation">&gt;</span> 这是一个笔记提示。
+<span class="token blockquote punctuation">&gt;</span> 它可以包含<span class="token bold"><span class="token punctuation">**</span><span class="token content">粗体文字</span><span class="token punctuation">**</span></span>和 <span class="token url">[<span class="token content">链接</span>](<span class="token url">https://www.google.com</span>)</span>。
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h2"><h2 data-heading="Warning警告" dir="auto" class="heading" id="Warning警告_0">Warning警告</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="warning" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-alert-triangle"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">Warning</div></div><div class="callout-content">
+<p dir="auto">警告：<br>
+在修改系统设置前，请确保你已经备份了所有数据</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [!WARNING]  
+<span class="token blockquote punctuation">&gt;</span> 警告： 
+<span class="token blockquote punctuation">&gt;</span> 在修改系统设置前，请确保你已经备份了所有数据。
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h2"><h2 data-heading="TIP技巧" dir="auto" class="heading" id="TIP技巧_0">TIP技巧</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="tip" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-flame"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><div class="callout-title-inner">Tip</div></div><div class="callout-content">
+<p dir="auto"><strong>快捷键小技巧</strong>：<br>
+按下 <code>Ctrl + Shift + P</code> 可以打开命令面板。</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [!TIP]
+<span class="token blockquote punctuation">&gt;</span> <span class="token bold"><span class="token punctuation">**</span><span class="token content">快捷键小技巧</span><span class="token punctuation">**</span></span>：
+<span class="token blockquote punctuation">&gt;</span> 按下 <span class="token code-snippet code keyword">`Ctrl + Shift + P`</span> 可以打开命令面板。
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h2"><h2 data-heading="IMPORTANT重要" dir="auto" class="heading" id="IMPORTANT重要_0">IMPORTANT重要</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="important" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-flame"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><div class="callout-title-inner">Important</div></div><div class="callout-content">
+<p dir="auto"><strong>重要</strong>：<br>
+所有项目文件必须在今天下午五点前上传到共享文件夹。</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [!IMPORTANT]
+<span class="token blockquote punctuation">&gt;</span> <span class="token bold"><span class="token punctuation">**</span><span class="token content">重要</span><span class="token punctuation">**</span></span>：
+<span class="token blockquote punctuation">&gt;</span> 所有项目文件必须在今天下午五点前上传到共享文件夹。
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h2"><h2 data-heading="DANGER危险" dir="auto" class="heading" id="DANGER危险_0">DANGER危险</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="danger" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-zap"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg></div><div class="callout-title-inner">Danger</div></div><div class="callout-content">
+<p dir="auto">危险！<br>
+此操作将永久删除所有用户数据，且无法恢复！</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [!DANGER]
+<span class="token blockquote punctuation">&gt;</span> 危险！
+<span class="token blockquote punctuation">&gt;</span> 此操作将永久删除所有用户数据，且无法恢复！
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h2"><h2 data-heading="QUOTE引用" dir="auto" class="heading" id="QUOTE引用_0">QUOTE引用</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="quote" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-quote"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg></div><div class="callout-title-inner">Quote</div></div><div class="callout-content">
+<p dir="auto">“我思故我在。”<br>
+—— 笛卡尔</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [!QUOTE]
+<span class="token blockquote punctuation">&gt;</span> “我思故我在。”
+<span class="token blockquote punctuation">&gt;</span> —— 笛卡尔
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h2"><h2 data-heading="FAQ常见问题" dir="auto" class="heading" id="FAQ常见问题_0">FAQ常见问题</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="faq" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">Faq</div></div><div class="callout-content">
+<p dir="auto"><strong>问：如何在 Markdown 中创建表格？</strong><br>
+答：使用 <code>|</code> 和 <code>-</code> 字符来创建列和行。</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [!FAQ]
+<span class="token blockquote punctuation">&gt;</span> <span class="token bold"><span class="token punctuation">**</span><span class="token content">问：如何在 Markdown 中创建表格？</span><span class="token punctuation">**</span></span>
+<span class="token blockquote punctuation">&gt;</span> 答：使用 <span class="token code-snippet code keyword">`|`</span> 和 <span class="token code-snippet code keyword">`-`</span> 字符来创建列和行。
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h2"><h2 data-heading="HELP帮助" dir="auto" class="heading" id="HELP帮助_0">HELP帮助</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="help" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">Help</div></div><div class="callout-content">
+<p dir="auto">如果你遇到问题，请参考我们的 <a data-tooltip-position="top" aria-label="https://example.com/help" rel="noopener nofollow" class="external-link is-unresolved" href="https://example.com/help" target="_self">帮助文档</a>。</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [!HELP]
+<span class="token blockquote punctuation">&gt;</span> 如果你遇到问题，请参考我们的 <span class="token url">[<span class="token content">帮助文档</span>](<span class="token url">https://example.com/help</span>)</span>。
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h2"><h2 data-heading="BUG错误" dir="auto" class="heading" id="BUG错误_0">BUG错误</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="bug" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-bug"><path d="M12 20v-9"></path><path d="M14 7a4 4 0 0 1 4 4v3a6 6 0 0 1-12 0v-3a4 4 0 0 1 4-4z"></path><path d="M14.12 3.88 16 2"></path><path d="M21 21a4 4 0 0 0-3.81-4"></path><path d="M21 5a4 4 0 0 1-3.55 3.97"></path><path d="M22 13h-4"></path><path d="M3 21a4 4 0 0 1 3.81-4"></path><path d="M3 5a4 4 0 0 0 3.55 3.97"></path><path d="M6 13H2"></path><path d="m8 2 1.88 1.88"></path><path d="M9 7.13V6a3 3 0 1 1 6 0v1.13"></path></svg></div><div class="callout-title-inner">Bug</div></div><div class="callout-content">
+<p dir="auto"><strong>发现一个 Bug</strong><br>
+当输入超过 200 个字符时，文本框会出现卡顿现象。</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [!BUG]
+<span class="token blockquote punctuation">&gt;</span> <span class="token bold"><span class="token punctuation">**</span><span class="token content">发现一个 Bug</span><span class="token punctuation">**</span></span>
+<span class="token blockquote punctuation">&gt;</span> 当输入超过 200 个字符时，文本框会出现卡顿现象。
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h2"><h2 data-heading="自由文字" dir="auto" class="heading" id="自由文字_0">自由文字</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">外观</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><div data-callout-metadata="" data-callout-fold="" data-callout="静夜思" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-pencil"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"></path><path d="m15 5 4 4"></path></svg></div><div class="callout-title-inner">静夜思</div></div><div class="callout-content">
+<p dir="auto">窗前明月光，疑似地上霜<br>
+举头望明月，低头思故乡</p>
+</div></div></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token blockquote punctuation">&gt;</span> [! 静夜思]
+<span class="token blockquote punctuation">&gt;</span> 窗前明月光，疑似地上霜
+<span class="token blockquote punctuation">&gt;</span> 举头望明月，低头思故乡
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h1"><h1 data-heading="按键指示" dir="auto" class="heading" id="按键指示_0">按键指示</h1></div><div class="el-p"><p dir="auto">如果你想引导用户输入某个按键，可以用下面语法，比如 <strong>复制</strong> ： </p></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded"><span class="token code-snippet code keyword">``Ctrl + C``</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="效果" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-pencil"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"></path><path d="m15 5 4 4"></path></svg></div><div class="callout-title-inner">效果</div></div><div class="callout-content">
+<p dir="auto"><code>Ctrl + C</code></p>
+</div></div></div><div class="el-p"><p dir="auto">下面是单个按键 W ：</p></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded"><span class="token code-snippet code keyword">`W`</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="效果" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-pencil"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"></path><path d="m15 5 4 4"></path></svg></div><div class="callout-title-inner">效果</div></div><div class="callout-content">
+<p dir="auto"><code>W</code></p>
+</div></div></div><div class="el-h1"><h1 data-heading="列表" dir="auto" class="heading" id="列表_0">列表</h1></div><div class="el-p"><p dir="auto">列表是像下面一样的一些内容罗列，语法是 <code>1. 空格</code> 或者 <code>- 空格</code> ： </p></div><div class="el-pre"><div class="block-language-tx"><table>
+<thead>
+<tr>
+<th>有序列表</th>
+<th>无序列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><ol>
+<li dir="auto">第一行</li>
+<li dir="auto">第二行</li>
+</ol></td>
+<td><ul>
+<li dir="auto">第一行</li>
+<li dir="auto">第二行</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="el-p"><p dir="auto">Minimal 主题还带了一些自己的列表 ：   </p></div><div class="el-pre"><div class="block-language-tx"><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>描述</th>
+<th style="text-align:center">效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>- [ ]</code></td>
+<td>to-do</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="" class="task-list-item" dir="auto"><input type="checkbox" class="task-list-item-checkbox">待办</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [/]</code></td>
+<td>incomplete</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="/" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">未完成</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [x]</code></td>
+<td>done</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="x" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">已完成</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [-]</code></td>
+<td>canceled</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="-" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">已取消</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [&gt;]</code></td>
+<td>forwarded</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="&gt;" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">已转发</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [&lt;]</code></td>
+<td>scheduling</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="&lt;" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">已计划</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [?]</code></td>
+<td>question</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="?" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">疑问</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [!]</code></td>
+<td>important</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="!" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">重要</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [*]</code></td>
+<td>star</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="*" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">星标</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- ["]</code></td>
+<td>quote</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="&quot;" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">引用</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [l]</code></td>
+<td>location</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="l" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">位置</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [b]</code></td>
+<td>bookmark</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="b" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">书签</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [i]</code></td>
+<td>information</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="i" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">信息</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [S]</code></td>
+<td>savings</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="S" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">储蓄</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [I]</code></td>
+<td>idea</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="I" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">灵感</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [p]</code></td>
+<td>pros</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="p" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">优点</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [c]</code></td>
+<td>cons</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="c" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">缺点</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [f]</code></td>
+<td>fire</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="f" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">紧急</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [k]</code></td>
+<td>key</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="k" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">关键</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [w]</code></td>
+<td>win</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="w" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">胜利</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [u]</code></td>
+<td>up</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="u" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">上升</li>
+</ul></td>
+</tr>
+<tr>
+<td><code>- [d]</code></td>
+<td>down</td>
+<td style="text-align:center" class="contains-task-list"><ul class="contains-task-list">
+<li data-task="d" class="task-list-item is-checked" dir="auto"><input checked="" type="checkbox" class="task-list-item-checkbox">下降</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="el-h2"><h2 data-heading="智能列表" dir="auto" class="heading" id="智能列表_0">智能列表</h2></div><div class="el-p"><p dir="auto">开启了智能列表， Obsidian 将自动调整列表编号 : </p></div><div class="el-p"><p dir="auto"><span alt="智能列表启用和禁用效果对比.svg" src="attachments/智能列表启用和禁用效果对比.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="智能列表启用和禁用效果对比.svg" src="attachments/智能列表启用和禁用效果对比.svg?1771394192205#undefined" target="_self"></span></p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto">建议<strong>关闭</strong>，行为很难预测</p>
+</div></div></div><div class="el-h2"><h2 data-heading="多级列表" dir="auto" class="heading" id="多级列表_0">多级列表</h2></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>第一步
+<ol>
+<li data-line="1" dir="auto">开启设备</li>
+<li data-line="2" dir="auto">等待温度升高</li>
+<li data-line="3" dir="auto">关闭设备</li>
+</ol>
+</li>
+<li data-line="4" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>第二步
+<ul>
+<li data-line="5" dir="auto">启动电脑</li>
+<li data-line="6" dir="auto">启动空调</li>
+<li data-line="7" dir="auto">关闭油烟机</li>
+</ul>
+</li>
+<li data-line="8" dir="auto">第三步<br>
+通过旅游提高幸福度</li>
+</ol></div><div class="el-p"><p dir="auto">上面是使用 <code>Tab</code> 和 <code>shift + Tab</code> 完成的操作，注意要 <code>禁用智能列表</code> 。 </p></div><div class="el-h2"><h2 data-heading="换行" dir="auto" class="heading" id="换行_0">换行</h2></div><div class="el-p"><p dir="auto">如果要写一个图文的长段落， 是需要换行的 ：</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto">《静夜思》<br>
+床前明月光，疑似地上霜。<br>
+举头望明月，低头思故乡。</li>
+<li data-line="3" dir="auto">《登鹳雀楼》<br>
+白日依山尽，黄河入海流。<br>
+欲穷千里目，更上一层楼。</li>
+</ol></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">输入方法</div></div><div class="callout-content">
+<p dir="auto">1.<code>空格</code>《静夜思》<code>回车</code><br>
+<code>Tab</code> 窗前明月光，疑似地上霜。<code>回车</code><br>
+<code>Tab</code> 举头望明月，低头思故乡。<code>回车</code><br>
+2.<code>空格</code> 《登鹳雀楼》<code>shift + Tab</code> <code>回车</code><br>
+...</p>
+</div></div></div><div class="el-p"><p dir="auto">利用 <code>shift+回车</code> 进行段内换行 ，利用 <code>回车</code> 开始新的一段</p></div><div class="el-h1"><h1 data-heading="图表工具" dir="auto" class="heading" id="图表工具_0">图表工具</h1></div><div class="el-p"><p dir="auto">如果需要展示一些简单的图表，可以使用插件 <a data-href="Mermaid" href="mermaid/mermaid.html#undefined" class="internal-link" target="_self" rel="noopener nofollow">Mermaid</a></p></div><div class="el-h1"><h1 data-heading="嵌入页面" dir="auto" class="heading" id="嵌入页面_0">嵌入页面</h1></div><div class="el-p"><p dir="auto">下面展示了如何在 Obsidian 中嵌入一个页面 ：   </p></div><div class="el-iframe"><iframe style="width:100%; height:400px" src="https://mszturc.github.io/obsidian-advanced-slides/examples/minml/" sandbox="allow-forms allow-presentation allow-same-origin allow-scripts allow-modals" loading="lazy" target="_self" class="is-unresolved"> </iframe></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded">
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>iframe</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://mszturc.github.io/obsidian-advanced-slides/examples/minml/<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span><span class="token number">100</span><span class="token unit">%</span><span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span><span class="token number">400</span><span class="token unit">px</span></span><span class="token punctuation">"</span></span></span> <span class="token punctuation">&gt;</span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>iframe</span><span class="token punctuation">&gt;</span></span>
+
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="tip" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-flame"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto">如果要嵌入本地 HTML页面，可以先将页面在浏览器中打开，再复制链接。</p>
+</div></div></div><div class="el-h2"><h2 data-heading="WEB服务器" dir="auto" class="heading" id="WEB服务器_0">WEB服务器</h2></div><div class="el-p"><p dir="auto">导出的 HTML 文件，双击在浏览器中打开会存在两个问题 ：  </p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto">有时候 Obsidian 利用 file:// 协议嵌入会失败</li>
+<li data-line="1" dir="auto">谷歌浏览器对 file:// 协议限制， 搜索、链接、侧边栏交互都存在问题</li>
+</ol></div><div class="el-p"><p dir="auto">这样可以使用 python 提供的 web 服务器 ：</p></div><div class="el-p"><p dir="auto"><a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.python.org/downloads/" target="_self">https://www.python.org/downloads/</a></p></div><div class="el-p"><p dir="auto">我使用的是 Python3 ， 在 <code>导出页面的文件夹</code> 下面运行终端， 然后输入命令：  </p></div><div class="el-pre"><pre class="language-powershell"><code data-line="0" class="language-powershell is-loaded">python <span class="token operator">-</span>m http<span class="token punctuation">.</span>server 8000
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-p"><p dir="auto">在浏览器中输入网址打开界面 ：   </p></div><div class="el-p"><p dir="auto">http://localhost:8000/</p></div><div class="el-p"><p dir="auto">通常这个 URL 会默认打开 <code>index.html</code>  页面，下面的 <code>index.html</code> 会自动跳转 ：   </p></div><div class="el-pre"><pre class="language-html"><code data-line="0" class="language-html is-loaded"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>zh-CN<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>自动跳转中...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>正在跳转到新页面...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>如果浏览器没有自动跳转，请点击<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>想跳转到的页面.html<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>这里<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+        <span class="token comment">// 这行代码会在页面加载后立即执行</span>
+        <span class="token comment">// 将 "another_page.html" 替换成你想要跳转的目标页面地址</span>
+        <span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token property-access">location</span><span class="token punctuation">.</span><span class="token property-access">href</span> <span class="token operator">=</span> <span class="token string">"想跳转到的页面.html"</span><span class="token punctuation">;</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-h2"><h2 data-heading="Relative Iframe插件" dir="auto" class="heading" id="Relative_Iframe插件_0">Relative Iframe插件</h2></div><div class="el-p"><p dir="auto">这个插件在 <code>{VaultFolder}\.obsidian\plugins\Relative-Iframe</code> 文件夹下。可以将本地页面直接嵌入到 Obsidian 中：  </p></div><div class="el-pre"><div class="block-language-iframe"><div class="relative-iframe-container" style="padding: 1rem; background-color: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 8px; margin: 1rem 0px; overflow: hidden;"><iframe src="attachments/html/dirichlet核函数-content.html?yRange=20.00&amp;nValue=330#undefined" sandbox="allow-scripts allow-same-origin allow-popups" style="width: 100%; height: 400px; border: none; border-radius: 4px;" loading="lazy" target="_self"></iframe><div style="display: flex; align-items: center; margin-top: 0.5rem; font-size: 0.875rem; color: var(--text-muted);"><span style="flex: 1 1 0%;"><div class="relative-iframe-title"><p dir="auto">Dirichlet 核函数</p></div></span><button style="padding: 0.25rem 0.75rem; background-color: var(--interactive-accent); color: var(--text-on-accent); border: none; border-radius: 4px; cursor: pointer; font-size: 0.875rem;" onclick="
+							const iframe = this.closest('.relative-iframe-container').querySelector('iframe');
+							const src = iframe.getAttribute('src');
+							if (src) {
+								// Create a temporary link and click it to open in new window
+								const tempLink = document.createElement('a');
+								tempLink.href = src;
+								tempLink.target = '_blank';
+								tempLink.rel = 'noopener noreferrer';
+								document.body.appendChild(tempLink);
+								tempLink.click();
+								document.body.removeChild(tempLink);
+							}
+						">在浏览器中打开</button></div></div></div></div><div class="el-p"><p dir="auto"> Relative-Iframe插件的语法，其中 <code>400px</code> 是窗口高度，<code>Dirichlet 核函数</code> 是标题栏名称 ：  </p></div><div class="el-pre"><div class="relative-iframe-container" style="padding: 1rem; background-color: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 8px; margin: 1rem 0px; overflow: hidden;"><iframe src="attachments/html/dirichlet核函数-content.html?yRange=20.00&amp;nValue=330#undefined" sandbox="allow-scripts allow-same-origin allow-popups" style="width: 100%; height: 400px; border: none; border-radius: 4px;" loading="lazy" target="_self"></iframe><div style="display: flex; align-items: center; margin-top: 0.5rem; font-size: 0.875rem; color: var(--text-muted);"><span style="flex: 1 1 0%;"><div class="relative-iframe-title"><p dir="auto">Dirichlet核函数</p></div></span><button style="padding: 0.25rem 0.75rem; background-color: var(--interactive-accent); color: var(--text-on-accent); border: none; border-radius: 4px; cursor: pointer; font-size: 0.875rem;" onclick="
+							const iframe = this.closest('.relative-iframe-container').querySelector('iframe');
+							const src = iframe.getAttribute('src');
+							if (src) {
+								// Create a temporary link and click it to open in new window
+								const tempLink = document.createElement('a');
+								tempLink.href = src;
+								tempLink.target = '_blank';
+								tempLink.rel = 'noopener noreferrer';
+								document.body.appendChild(tempLink);
+								tempLink.click();
+								document.body.removeChild(tempLink);
+							}
+						">在浏览器中打开</button></div></div></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto">为了清理图片的时候 <code>本地页面.html</code> 不被清除掉， 需要注意 <a data-href="#Clear unusend images" href="obsidian关键思路.html#Clear_unusend_images_0" class="internal-link" target="_self" rel="noopener nofollow">Clear unusend images</a></p>
+</div></div></div><div class="el-h1"><h1 data-heading="幻灯片" dir="auto" class="heading" id="幻灯片_0">幻灯片</h1></div><div class="el-p"><p dir="auto">使用 Obsidian 制作幻灯片需要使用插件 ：<a data-tooltip-position="top" aria-label="Advanced Slides幻灯片插件" data-href="Advanced Slides幻灯片插件" href="advanced-slides幻灯片插件.html#undefined" class="internal-link" target="_self" rel="noopener nofollow">Advanced Slides</a> 。</p></div><div class="el-h1"><h1 data-heading="Tabs 插件" dir="auto" class="heading" id="Tabs_插件_0">Tabs 插件</h1></div><div class="el-p"><p dir="auto">使用该插件， 可以像下面这样， 添加几个可以切换的 "标签" ：</p></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">python</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">javascript</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><pre class="language-python"><code class="language-python is-loaded"><span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Hello Tabs"</span><span class="token punctuation">)</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="tabs-content"><pre class="language-javascript"><code class="language-javascript is-loaded"><span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span><span class="token string">'Hello Tabs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-p"><p dir="auto">下面是插件的语法 ： </p></div><div class="el-pre"><pre><code data-line="0">~~~tabs
+tab: python
+```python
+print("Hello Tabs")
+```
+
+tab: javascript
+```javascript
+console.log('Hello Tabs');
+```
+~~~
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-h1"><h1 data-heading="文字颜色" dir="auto" class="heading" id="文字颜色_0">文字颜色</h1></div><div class="el-p"><p dir="auto">可以利用下面 HTML 代码来使文字具有某种颜色 ： </p></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">效果</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><p dir="auto"><span style="color:rgb(0, 0, 255);">一段蓝色文字</span></p></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">color</span><span class="token punctuation">:</span><span class="token color"><span class="token function">rgb</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">255</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">&gt;</span></span>具有某种颜色的文字<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h1"><h1 data-heading="气泡提示" dir="auto" class="heading" id="气泡提示_0">气泡提示</h1></div><div class="el-p"><p dir="auto">利用下面语法可以实现气泡提示 ：  </p></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">效果</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><p dir="auto"><abbr title="气泡里的文字">触碰我，会有提示</abbr></p></div><div class="tabs-content"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>abbr</span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>气泡里的文字<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>表面文字<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>abbr</span><span class="token punctuation">&gt;</span></span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div></div><div class="el-h1"><h1 data-heading="Tree 插件" dir="auto" class="heading" id="Tree_插件_0">Tree 插件</h1></div><div class="el-p"><p dir="auto">下面展示了一个 "树" ， 需要安装插件 <code>ASCII Tree Generator</code> ：   </p></div><div class="el-h2"><h2 data-heading="语法1" dir="auto" class="heading" id="语法1_0">语法1</h2></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">效果</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token code"><span class="token punctuation">```</span><span class="token code-language">tree</span>
+<span class="token code-block language-tree">Project
+- Documentation
+  - README.md
+  - Changelog.md
+- Source
+  - Frontend
+    - Components
+      - Header
+      - Footer
+  - Backend
+    - API
+      - User
+      - Product
+- Tests
+  - Unit
+  - Integration</span>
+<span class="token punctuation">```</span></span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="tabs-content"><div class="block-language-tree"><pre><code>Project
+├── Documentation
+├── README.md
+├── Changelog.md
+├── Source
+├── Frontend
+│   ├── Components
+│   ├── Header
+│   └── Footer
+├── Backend
+│   ├── API
+│   ├── User
+│   └── Product
+├── Tests
+├── Unit
+└── Integration</code></pre></div></div></div></div></div><div class="el-h2"><h2 data-heading="语法2" dir="auto" class="heading" id="语法2_0">语法2</h2></div><div class="el-p"><p dir="auto">更容易看清除层级关系的语法 ： </p></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">效果</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><pre class="language-markdown"><code class="language-markdown is-loaded"><span class="token code"><span class="token punctuation">```</span><span class="token code-language">tree</span>
+<span class="token code-block language-tree">Project
+=Documentation
+==README.md
+==Changelog.md
+=Source
+==Frontend
+===Components
+====Header
+====Footer
+==Backend
+===API
+====User
+====Product
+=Tests
+==Unit
+==Integration</span>
+<span class="token punctuation">```</span></span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="tabs-content"><div class="block-language-tree"><pre><code>Project
+├── Documentation
+│   ├── README.md
+│   └── Changelog.md
+├── Source
+│   ├── Frontend
+│   │   └── Components
+│   │       ├── Header
+│   │       └── Footer
+│   └── Backend
+│       └── API
+│           ├── User
+│           └── Product
+└── Tests
+    ├── Unit
+    └── Integration</code></pre></div></div></div></div></div><div class="el-h1"><h1 data-heading="3D模型" dir="auto" class="heading" id="3D模型_0">3D模型</h1></div><div class="el-p"><p dir="auto">安装插件 <code>Model Viewer</code> ：   </p></div><div class="el-pre"><div class="tabs-container tabs-innertabs tabs-border-always tabs-nav-top tabs-nav-one" style="--tabs-border-color: #e0e0e0; --tabs-max-height: none;"><div class="tabs-nav tabs-nav-title-limited"><div class="tabs-nav-item-wrapper"><div class="tabs-nav-item tabs-nav-item-active" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">语法</p></div></div><div class="tabs-nav-item" draggable="true"><div class="tabs-nav-item-md"><p dir="auto">效果</p></div></div></div></div><div class="tabs-contents" style="--tabs-contents-padding: 1em 2em;"><div class="tabs-content tabs-content-active"><pre class="language-markdown"><code class="language-markdown is-loaded">![[鱼.glb]]
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="tabs-content"><p dir="auto"><span alt="鱼.glb &gt; height=400" src="attachments/鱼.glb#height=400" class="internal-embed model-viewer-embed is-loaded" target="_self"><model-viewer camera-controls="true" interaction-prompt="none" ar-status="not-presenting" style="aspect-ratio: 1 / 1; height: 400px;" src="attachments/鱼.glb#height=400" target="_self"></model-viewer></span></p></div></div></div></div><div class="el-h1"><h1 data-heading="缩略图" dir="auto" class="heading" id="缩略图_0">缩略图</h1></div><div class="el-p"><p dir="auto">在目录里，如果想缩略查看段落，可以按住 <code>ctrl</code> 键鼠标触碰 ：  </p></div><div class="el-p"><p dir="auto"><span alt="如何使用缩略图查看.svg" src="attachments/如何使用缩略图查看.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="如何使用缩略图查看.svg" src="attachments/如何使用缩略图查看.svg?1769496961822#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="锚点" dir="auto" class="heading" id="锚点_0">锚点</h2></div><div class="el-p"><p dir="auto">除了标题还可以缩略到任何 <code>锚点</code> ， 使用 <code>^</code> 给任意段落加锚点 ：   </p></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded">
+需要跳转，缩略的段落
+
+^your-unique-id
+
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="tip" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-flame"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto">如果需要跳转， 使用语法 ：</p>
+<p dir="auto"><code>[[文章#^your-unique-id|显示的内容]]</code></p>
+</div></div></div><div class="el-h1"><h1 data-heading="打开文件" dir="auto" class="heading" id="打开文件_0">打开文件</h1></div><div class="el-p"><p dir="auto">假设有一个文件， 叫 <code>滕王阁序.txt</code> 。希望点击 <a class="internal-link" data-href="Attachments/滕王阁序.txt" href="attachments/滕王阁序.html#undefined" target="_self" rel="noopener nofollow">滕王阁序</a> 打开这个文件 ：  </p></div><div class="el-pre"><pre class="language-markdown"><code data-line="0" class="language-markdown is-loaded"><span class="token url">[<span class="token content">滕王阁序</span>](<span class="token url">Attachments/滕王阁序.txt</span>)</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-p"><p dir="auto">阅读模式下 Obsidian 会自动调用 Windows 的默认程序把这个文件打开， 编辑模式下按住 Ctrl 然后再点击 ：  </p></div><div class="el-p"><p dir="auto"><span alt="编辑模式下如何打开一个文件.svg" src="attachments/编辑模式下如何打开一个文件.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="编辑模式下如何打开一个文件.svg" src="attachments/编辑模式下如何打开一个文件.svg?1772453101996#undefined" target="_self"></span></p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">注意</div></div><div class="callout-content">
+<p dir="auto">文件名里面有空格，需要用 <code>%20</code> 代替， 建议文件名里不要有空格</p>
+</div></div></div><div class="el-h1"><h1 data-heading="自定义插件" dir="auto" class="heading" id="自定义插件_0">自定义插件</h1></div><div class="el-p"><p dir="auto">自己编写的插件， 建立一个文件夹，名字是 <code>my_plugins</code> ：   </p></div><div class="el-pre"><div class="block-language-tree"><pre><code>工程
+└── .obsidian
+    └── plugins
+        └── my_plugins</code></pre></div></div><div class="el-p"><p dir="auto">将编程好的插件拷贝到文件夹下就可以了 ：<br>
+<span alt="拷贝插件到文件夹下.svg" src="attachments/拷贝插件到文件夹下.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="拷贝插件到文件夹下.svg" src="attachments/拷贝插件到文件夹下.svg?1769500195978#undefined" target="_self"></span></p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto">当然需要在 <code>设置</code> &gt; <code>第三方插件</code> 里面启用</p>
+</div></div></div><div class="el-h2"><h2 data-heading="调试" dir="auto" class="heading" id="调试_0">调试</h2></div><div class="el-p"><p dir="auto">自己在编写插件的时候， 会遇到调试问题 。 此时就需要在 obsidian 中调出控制台， 查看错误日志 ： </p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">快捷键</div></div><div class="callout-content">
+<p dir="auto">ctrl + shift + i<br>
+打开/关闭都使用相同的快捷键</p>
+</div></div></div><div class="el-p"><p dir="auto"><span alt="打开调试面板.svg" src="attachments/打开调试面板.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="打开调试面板.svg" src="attachments/打开调试面板.svg?1769500659784#undefined" target="_self"></span></p></div><div class="el-h1"><h1 data-heading="白板 CANVAS" dir="auto" class="heading" id="白板_CANVAS_0">白板 CANVAS</h1></div><div class="el-p"><p dir="auto">下面连接是官方介绍链接  ： <a data-tooltip-position="top" aria-label="https://obsidian.md/zh/canvas" rel="noopener nofollow" class="external-link is-unresolved" href="https://obsidian.md/zh/canvas" target="_self">https://obsidian.md/canvas</a></p></div><div class="el-p"><p dir="auto">笔记、图片、PDF、视频、音频、网页，无限空间，交织一起， 用于头脑风暴。 </p></div><div class="el-h1"><h1 data-heading="导出HTML页面" dir="auto" class="heading" id="导出HTML页面_0">导出HTML页面</h1></div><div class="el-p"><p dir="auto">不要使用 <code>相对标题链接</code> 因为它会导致生成的页面大纲无法跳转 ： </p></div><div class="el-p"><p dir="auto"><span alt="不使用相对标题链接.svg" src="attachments/不使用相对标题链接.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="不使用相对标题链接.svg" src="attachments/不使用相对标题链接.svg?1770087317892#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="保存配置" dir="auto" class="heading" id="保存配置_0">保存配置</h2></div><div class="el-p"><p dir="auto">有两个位置可以 <code>导出为HTML</code> 一个是在 <code>文件列表</code>， 另外一个是在 <code>功能区</code> ： </p></div><div class="el-p"><p dir="auto"><span alt="导出为HTML方法.svg" src="attachments/导出为html方法.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="导出为HTML方法.svg" src="attachments/导出为html方法.svg?1769876118396#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">但是在 <code>功能区</code> 的 <code>导出为HTML</code> 是记忆之前的导出设置，但是需要进行保存 ： </p></div><div class="el-p"><p dir="auto"><span alt="保存导出为HTML参数.svg" src="attachments/保存导出为html参数.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="保存导出为HTML参数.svg" src="attachments/保存导出为html参数.svg?1769876306637#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="添加页面标题" dir="auto" class="heading" id="添加页面标题_0">添加页面标题</h2></div><div class="el-p"><p dir="auto">将文件名添加到导出的HTML页面最上方 ： </p></div><div class="el-p"><p dir="auto"><span alt="添加页面标题.svg" src="attachments/添加页面标题.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="添加页面标题.svg" src="attachments/添加页面标题.svg?1769877389929#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="摆放位置" dir="auto" class="heading" id="摆放位置_0">摆放位置</h2></div><div class="el-p"><p dir="auto">下面是 <code>图形视图</code> 和 <code>大纲</code> 的不同摆放位置 ：  </p></div><div class="el-p"><p dir="auto"><span alt="导出HTML不同元素的摆放位置.svg" src="attachments/导出html不同元素的摆放位置.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="导出HTML不同元素的摆放位置.svg" src="attachments/导出html不同元素的摆放位置.svg?1769878205946#undefined" target="_self"></span></p></div><div class="el-p"><p dir="auto">他们两个设置了相同的容器， 一个在 <code>start</code> 另外一个在 <code>end</code> ： </p></div><div class="el-p"><p dir="auto"><span alt="导出HTML摆放位置设置.svg" src="attachments/导出html摆放位置设置.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="导出HTML摆放位置设置.svg" src="attachments/导出html摆放位置设置.svg?1769878645642#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="亮暗切换" dir="auto" class="heading" id="亮暗切换_0">亮暗切换</h2></div><div class="el-p"><p dir="auto">下面是亮暗切换的设置，禁用后导出页面没有亮暗切换按钮 ： </p></div><div class="el-p"><p dir="auto"><span alt="Webpage HTML Export 主题切换.svg" src="attachments/webpage-html-export-主题切换.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="Webpage HTML Export 主题切换.svg" src="attachments/webpage-html-export-主题切换.svg?1770092871488#undefined" target="_self"></span></p></div><div class="el-h2"><h2 data-heading="页面宽度" dir="auto" class="heading" id="页面宽度_0">页面宽度</h2></div><div class="el-p"><p dir="auto">页面宽度可以设置的宽一些，如果屏幕尺寸不够大会自动换行 ： </p></div><div class="el-p"><p dir="auto"><span alt="Webpage HTML Export文档宽度.svg" src="attachments/webpage-html-export文档宽度.svg#undefined" class="internal-embed media-embed image-embed is-loaded" target="_self"><img alt="Webpage HTML Export文档宽度.svg" src="attachments/webpage-html-export文档宽度.svg?1770095206965#undefined" target="_self"></span></p></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">提示</div></div><div class="callout-content">
+<p dir="auto">100em 就是 100 个字的宽度</p>
+</div></div></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div class="markdown-embed-content node-insert-event" style="display: none;"></div><div class="markdown-embed-link" aria-label="打开链接"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-maximize-2"><path d="M15 3h6v6"></path><path d="m21 3-7 7"></path><path d="m3 21 7-7"></path><path d="M9 21H3v-6"></path></svg></div></div></div><div class="canvas-node-label">Minimal主题</div></div><div class="canvas-node" style="z-index: 4; transform: translate(860px, -140px); width: 1180px; height: 540px; --canvas-node-width: 1180px; --canvas-node-height: 540px;"><div class="canvas-node-container"><div class="canvas-node-content-blocker"></div><div class="canvas-node-content"><webview partition="persist:vault-6331cb016f10aeb5" class="canvas-link is-unresolved" allowpopups="" useragent="" src="https://obsidian.md/zh/canvas" style="width: 100%; height: 100%;" target="_self"></webview><iframe src="https://obsidian.md/zh/canvas" class="canvas-link is-unresolved" style="border:none; width:100%; height:100%;" title="Canvas card with embedded webpage: https://obsidian.md/zh/canvas" loading="lazy" target="_self"></iframe></div></div><div class="canvas-node-label">Obsidian Canvas - 可视化你的想法</div></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">目录</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>

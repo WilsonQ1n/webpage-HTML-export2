@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Dirichlet核函数绘制</title>
+<style>
+    body {
+        margin: 0;
+        background: #f2f2f2;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        color: #333;
+        overflow: hidden; 
+    }
+
+    .controls {
+        padding: 8px;
+        background: #e6e6e6;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .controls input[type="number"] {
+        width: 80px;
+        padding: 2px 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    .help-btn {
+        margin-left: auto;
+        width: 24px; height: 24px;
+        background: #ff4d4d; color: white;
+        border: none; border-radius: 50%;
+        cursor: pointer; font-weight: bold;
+        display: flex; align-items: center; justify-content: center;
+    }
+
+    .plot-container {
+        width: 95%;
+        margin: 10px auto 0 auto;
+    }
+
+    .math-formula-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Times New Roman", serif;
+        font-style: italic;
+        font-size: 16px;
+        margin-bottom: 10px;
+        gap: 8px;
+    }
+    .formula-item { display: flex; align-items: center; }
+    .fraction {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: middle;
+        padding: 0 5px;
+    }
+    .numerator { border-bottom: 2px solid currentColor; padding-bottom: 2px; }
+    .denominator { padding-top: 2px; }
+    
+    .blue-text { color: #0078d7; }
+    .green-text { color: #4cae4c; }
+
+    canvas {
+        display: block;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    }
+
+    .modal {
+        display: none; position: fixed; z-index: 100;
+        left: 0; top: 0; width: 100%; height: 100%;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .modal-content {
+        background-color: #fff; margin: 15% auto; padding: 20px;
+        border-radius: 8px; width: 320px; position: relative;
+    }
+</style>
+</head>
+<body>
+
+<div class="controls">
+    Y 范围 <input id="yRange" type="number" value="8.00" step="0.1">
+    n <input id="nValue" type="number" value="5" step="1">
+    <button class="help-btn" id="openHelp">?</button>
+</div>
+
+<div class="plot-container">
+    <div class="math-formula-header blue-text">
+        <div class="formula-item">
+            <div class="fraction">
+                <span class="numerator">sin((n + ½)x)</span>
+                <span class="denominator">2 sin(x/2)</span>
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+</div>
+
+<div id="helpModal" class="modal">
+    <div class="modal-content">
+        <span style="position:absolute;right:15px;cursor:pointer;font-size:20px" id="closeHelp">&times;</span>
+        <h3>说明</h3>
+        <ul style="padding-left: 20px; line-height: 1.6; font-size:14px;">
+            <li><b class="blue-text">蓝色曲线</b>：D<sub>n</sub>(x) = sin((n + ½)x) / (2 sin(x/2))。</li>
+            <li>这是Dirichlet核函数，用于傅里叶级数部分和的表达。</li>
+            <li>x范围：[0, π]。</li>
+            <li>滚轮操作：在输入框上滚动可微调数值。</li>
+        </ul>
+    </div>
+</div>
+
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+const yRangeInput = document.getElementById('yRange');
+const nInput = document.getElementById('nValue');
+
+const inputs = [yRangeInput, nInput];
+
+const modal = document.getElementById('helpModal');
+document.getElementById('openHelp').onclick = () => modal.style.display = 'block';
+document.getElementById('closeHelp').onclick = () => modal.style.display = 'none';
+
+function resizeCanvas() {
+    const container = document.querySelector('.plot-container');
+    canvas.width = container.clientWidth;
+    canvas.height = window.innerHeight - 170;
+    draw();
+}
+
+function draw() {
+    let yRange = +yRangeInput.value;
+    let n = +nInput.value;
+
+    let yMax = yRange;
+    let yMin = -yRange;
+    let xAxisY = 0;
+
+    if (yRange <= 0) { yRange = 0.1; yRangeInput.value = yRange.toFixed(2); yMax = yRange; yMin = -yRange; }
+    if (n < 0) { n = 0; nInput.value = n; }
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const padding = 60;
+    const plotW = canvas.width - padding * 2;
+    const plotH = canvas.height - padding * 2;
+
+    const yRangeVal = yMax - yMin;
+    const unitPerPixel = yRangeVal / plotH;
+    const xRange = plotW * unitPerPixel;
+    const xMin = 0;
+    const xMax = Math.PI;
+
+    const yToPx = y => padding + (yMax - y) / yRangeVal * plotH;
+    const xAxisPxY = yToPx(xAxisY);
+    const yAxisPxX = padding;
+
+    const xToPx = x => padding + (x - xMin) / (xMax - xMin) * plotW;
+
+    // 1. 坐标框
+    ctx.strokeStyle = '#888';
+    ctx.lineWidth = 1;
+    ctx.strokeRect(padding, padding, plotW, plotH);
+
+    // 2. 坐标轴线
+    ctx.strokeStyle = '#333';
+    ctx.beginPath();
+    ctx.moveTo(yAxisPxX, padding); ctx.lineTo(yAxisPxX, padding + plotH);
+    ctx.stroke();
+    
+    ctx.strokeStyle = '#4cae4c';
+    ctx.beginPath();
+    ctx.moveTo(padding, xAxisPxY); ctx.lineTo(padding + plotW, xAxisPxY);
+    ctx.stroke();
+
+    // 曲线绘制函数
+    function drawCurve(color) {
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        let first = true;
+        for (let px = 0; px <= plotW; px++) {
+            const x = xMin + (px / plotW) * (xMax - xMin);
+            let yVal;
+            
+            if (Math.abs(x) < 1e-6) {
+                yVal = (n + 0.5);
+            } else {
+                yVal = Math.sin((n + 0.5) * x) / (2 * Math.sin(x / 2));
+            }
+
+            const py = yToPx(yVal);
+            if (py >= padding && py <= padding + plotH) {
+                if (first) { ctx.moveTo(padding + px, py); first = false; }
+                else { ctx.lineTo(padding + px, py); }
+            } else { first = true; }
+        }
+        ctx.stroke();
+    }
+
+    drawCurve('#0078d7');
+
+    // --- 文字对齐部分 ---
+    ctx.fillStyle = '#4cae4c';
+    ctx.font = '14px Consolas';
+    ctx.textBaseline = 'top'; 
+
+    // 顶部数值
+    ctx.textAlign = 'center';
+    ctx.fillText(yMax.toFixed(3), yAxisPxX, padding - 20);
+
+    // 统一底部基线高度
+    const bottomLabelY = padding + plotH + 8;
+
+    // 底部 Y 轴数值
+    ctx.textAlign = 'center';
+    ctx.fillText(yMin.toFixed(3), yAxisPxX, bottomLabelY);
+
+    // X 轴两端数值
+    ctx.fillStyle = '#4cae4c';
+    ctx.textAlign = 'right';
+    ctx.fillText('0', padding - 6, xAxisPxY - 7);
+    ctx.textAlign = 'left';
+    ctx.fillText('π', padding + plotW + 6, xAxisPxY - 7);
+
+    // 轴标注对齐
+    ctx.fillStyle = '#4cae4c';
+    ctx.font = 'italic 16px "Times New Roman"';
+    ctx.textAlign = 'right';
+    ctx.fillText('x轴', padding + plotW, bottomLabelY);
+
+    ctx.save();
+    ctx.translate(padding + plotW + 20, padding); 
+    ctx.rotate(Math.PI / 2); 
+    ctx.textAlign = 'left';
+    ctx.fillText('纵轴', 0, 0);
+    ctx.restore();
+}
+
+// URL参数处理
+function getURLParams() {
+    const params = new URLSearchParams(window.location.search);
+    const result = {};
+    params.forEach((value, key) => {
+        result[key] = value;
+    });
+    return result;
+}
+
+// 从URL参数初始化控件值
+function initFromURLParams() {
+    const params = getURLParams();
+    
+    // 数值参数
+    if (params.yRange !== undefined) {
+        const yRangeVal = parseFloat(params.yRange).toFixed(2);
+        yRangeInput.value = yRangeVal;
+    }
+    if (params.nValue !== undefined) {
+        const nValueVal = parseFloat(params.nValue).toFixed(0);
+        nInput.value = nValueVal;
+    }
+    
+    draw();
+}
+
+// 当控件值变化时更新URL参数
+function updateURLParams() {
+    const params = new URLSearchParams();
+    
+    params.set('yRange', yRangeInput.value);
+    params.set('nValue', nInput.value);
+    
+    const newURL = `${window.location.pathname}?${params.toString()}`;
+    window.history.replaceState({}, document.title, newURL);
+}
+
+// 事件绑定
+inputs.forEach(input => {
+    input.addEventListener('input', () => {
+        draw();
+        updateURLParams();
+    });
+    input.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const step = parseFloat(input.step) || 1;
+        const current = parseFloat(input.value) || 0;
+        let newValue = e.deltaY < 0 ? current + step : current - step;
+        if (input.id === 'nValue' && newValue < 0) newValue = 0;
+        input.value = newValue.toFixed(input.id === 'nValue' ? 0 : 2);
+        draw();
+        updateURLParams();
+    });
+});
+window.addEventListener('resize', resizeCanvas);
+
+// 初始化
+initFromURLParams();
+resizeCanvas();
+</script>
+
+</body>
+</html>
